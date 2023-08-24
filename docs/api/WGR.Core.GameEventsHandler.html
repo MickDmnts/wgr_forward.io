@@ -1,0 +1,1334 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GameEventsHandler
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GameEventsHandler
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Redefined/new/main/apiSpec/new?filename=WGR_Core_GameEventsHandler.md&amp;value=---%0Auid%3A%20WGR.Core.GameEventsHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGR.Core.GameEventsHandler">
+
+
+
+  <h1 id="WGR_Core_GameEventsHandler" data-uid="WGR.Core.GameEventsHandler" class="text-break">
+    Class GameEventsHandler
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GameEventsHandler</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">GameEventsHandler</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="WGR_Core_GameEventsHandler__ctor_" data-uid="WGR.Core.GameEventsHandler.#ctor*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler__ctor" data-uid="WGR.Core.GameEventsHandler.#ctor">
+  GameEventsHandler()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameEventsHandler()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGR_Core_GameEventsHandler_CameraShakeOnEnemyDeath_" data-uid="WGR.Core.GameEventsHandler.CameraShakeOnEnemyDeath*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_CameraShakeOnEnemyDeath_System_Single_System_Single_" data-uid="WGR.Core.GameEventsHandler.CameraShakeOnEnemyDeath(System.Single,System.Single)">
+  CameraShakeOnEnemyDeath(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CameraShakeOnEnemyDeath(float lenght, float power)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lenght</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>power</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnAbilityEnd_" data-uid="WGR.Core.GameEventsHandler.OnAbilityEnd*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnAbilityEnd" data-uid="WGR.Core.GameEventsHandler.OnAbilityEnd">
+  OnAbilityEnd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAbilityEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnAbilityUse_" data-uid="WGR.Core.GameEventsHandler.OnAbilityUse*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnAbilityUse_System_Single_System_Single_System_Boolean_" data-uid="WGR.Core.GameEventsHandler.OnAbilityUse(System.Single,System.Single,System.Boolean)">
+  OnAbilityUse(float, float, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAbilityUse(float newSpeed, float newRotSpeed, bool isFrozen)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newRotSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>isFrozen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnBossLevelEnemyDeath_" data-uid="WGR.Core.GameEventsHandler.OnBossLevelEnemyDeath*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnBossLevelEnemyDeath" data-uid="WGR.Core.GameEventsHandler.OnBossLevelEnemyDeath">
+  OnBossLevelEnemyDeath()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBossLevelEnemyDeath()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnBossStunnedPhase_" data-uid="WGR.Core.GameEventsHandler.OnBossStunnedPhase*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnBossStunnedPhase" data-uid="WGR.Core.GameEventsHandler.OnBossStunnedPhase">
+  OnBossStunnedPhase()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBossStunnedPhase()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnBulletSpeedChange_" data-uid="WGR.Core.GameEventsHandler.OnBulletSpeedChange*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnBulletSpeedChange_System_Single_" data-uid="WGR.Core.GameEventsHandler.OnBulletSpeedChange(System.Single)">
+  OnBulletSpeedChange(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBulletSpeedChange(float newSpeed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnEnemyDeath_" data-uid="WGR.Core.GameEventsHandler.OnEnemyDeath*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnEnemyDeath" data-uid="WGR.Core.GameEventsHandler.OnEnemyDeath">
+  OnEnemyDeath()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEnemyDeath()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnGamePaused_" data-uid="WGR.Core.GameEventsHandler.OnGamePaused*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnGamePaused" data-uid="WGR.Core.GameEventsHandler.OnGamePaused">
+  OnGamePaused()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnGamePaused()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnGameResumed_" data-uid="WGR.Core.GameEventsHandler.OnGameResumed*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnGameResumed" data-uid="WGR.Core.GameEventsHandler.OnGameResumed">
+  OnGameResumed()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnGameResumed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnLevelPassed_" data-uid="WGR.Core.GameEventsHandler.OnLevelPassed*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnLevelPassed_WGR_Core_GameScenes_" data-uid="WGR.Core.GameEventsHandler.OnLevelPassed(WGR.Core.GameScenes)">
+  OnLevelPassed(GameScenes)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnLevelPassed(GameScenes currentScene)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentScene</code> <a class="xref" href="WGR.Core.GameScenes.html">GameScenes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnPlayerDeath_" data-uid="WGR.Core.GameEventsHandler.OnPlayerDeath*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnPlayerDeath" data-uid="WGR.Core.GameEventsHandler.OnPlayerDeath">
+  OnPlayerDeath()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerDeath()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnPlayerRewind_" data-uid="WGR.Core.GameEventsHandler.OnPlayerRewind*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnPlayerRewind_System_Boolean_" data-uid="WGR.Core.GameEventsHandler.OnPlayerRewind(System.Boolean)">
+  OnPlayerRewind(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerRewind(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnPlayerShootEnd_" data-uid="WGR.Core.GameEventsHandler.OnPlayerShootEnd*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnPlayerShootEnd" data-uid="WGR.Core.GameEventsHandler.OnPlayerShootEnd">
+  OnPlayerShootEnd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerShootEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnPlayerShootStart_" data-uid="WGR.Core.GameEventsHandler.OnPlayerShootStart*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnPlayerShootStart" data-uid="WGR.Core.GameEventsHandler.OnPlayerShootStart">
+  OnPlayerShootStart()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerShootStart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnPlayerSpawn_" data-uid="WGR.Core.GameEventsHandler.OnPlayerSpawn*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnPlayerSpawn_UnityEngine_Vector3_" data-uid="WGR.Core.GameEventsHandler.OnPlayerSpawn(UnityEngine.Vector3)">
+  OnPlayerSpawn(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerSpawn(Vector3 levelPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>levelPoint</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnSaveOvewrite_" data-uid="WGR.Core.GameEventsHandler.OnSaveOvewrite*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnSaveOvewrite" data-uid="WGR.Core.GameEventsHandler.OnSaveOvewrite">
+  OnSaveOvewrite()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSaveOvewrite()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnSceneChanged_" data-uid="WGR.Core.GameEventsHandler.OnSceneChanged*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnSceneChanged_WGR_Core_GameScenes_" data-uid="WGR.Core.GameEventsHandler.OnSceneChanged(WGR.Core.GameScenes)">
+  OnSceneChanged(GameScenes)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSceneChanged(GameScenes activeScene)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>activeScene</code> <a class="xref" href="WGR.Core.GameScenes.html">GameScenes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnSceneUnloaded_" data-uid="WGR.Core.GameEventsHandler.OnSceneUnloaded*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnSceneUnloaded_WGR_Core_GameScenes_" data-uid="WGR.Core.GameEventsHandler.OnSceneUnloaded(WGR.Core.GameScenes)">
+  OnSceneUnloaded(GameScenes)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSceneUnloaded(GameScenes unloadedScene)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unloadedScene</code> <a class="xref" href="WGR.Core.GameScenes.html">GameScenes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_Core_GameEventsHandler_OnWeaponPickup_" data-uid="WGR.Core.GameEventsHandler.OnWeaponPickup*"></a>
+
+  <h3 id="WGR_Core_GameEventsHandler_OnWeaponPickup" data-uid="WGR.Core.GameEventsHandler.OnWeaponPickup">
+  OnWeaponPickup()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnWeaponPickup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_cameraShakeOnEnemyDeath" data-uid="WGR.Core.GameEventsHandler.cameraShakeOnEnemyDeath">
+  cameraShakeOnEnemyDeath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever an enemy dies to initiate the camera shake behaviour
+and passes the length and the power of the shake.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;float, float&gt; cameraShakeOnEnemyDeath</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onAbilityEnd" data-uid="WGR.Core.GameEventsHandler.onAbilityEnd">
+  onAbilityEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from Player abilities to notify every subbed method that an ability behaviour has finished.
+Mainly used in ThrowableEntity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onAbilityEnd</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onAbilityUse" data-uid="WGR.Core.GameEventsHandler.onAbilityUse">
+  onAbilityUse
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from player abilities and used from ThrowableEntities to change their speed and rotation speed in runtime.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;float, float, bool&gt; onAbilityUse</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onBossLevelEnemyDeath" data-uid="WGR.Core.GameEventsHandler.onBossLevelEnemyDeath">
+  onBossLevelEnemyDeath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from EnemyEntity script whenever a LEVEL 5 enemy dies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onBossLevelEnemyDeath</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onBossStunnedPhase" data-uid="WGR.Core.GameEventsHandler.onBossStunnedPhase">
+  onBossStunnedPhase
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from BossEntity script when he arrives at his stunned position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onBossStunnedPhase</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onBulletSpeedChange" data-uid="WGR.Core.GameEventsHandler.onBulletSpeedChange">
+  onBulletSpeedChange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever the CurrentSpeed of the BulletStatics script is changed to update every FIRED bullet speed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;float&gt; onBulletSpeedChange</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onEnemyDeath" data-uid="WGR.Core.GameEventsHandler.onEnemyDeath">
+  onEnemyDeath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever an enemy dies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onEnemyDeath</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onGamePause" data-uid="WGR.Core.GameEventsHandler.onGamePause">
+  onGamePause
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever the game pauses</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onGamePause</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onGameResumed" data-uid="WGR.Core.GameEventsHandler.onGameResumed">
+  onGameResumed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever the game un-pauses</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onGameResumed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onLevelPassed" data-uid="WGR.Core.GameEventsHandler.onLevelPassed">
+  onLevelPassed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever the player WINS a level.
+Used for skill point aquisition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;GameScenes&gt; onLevelPassed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="WGR.Core.GameScenes.html">GameScenes</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onPlayerDeath" data-uid="WGR.Core.GameEventsHandler.onPlayerDeath">
+  onPlayerDeath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever the player dies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onPlayerDeath</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onPlayerRewind" data-uid="WGR.Core.GameEventsHandler.onPlayerRewind">
+  onPlayerRewind
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever the player starts going back in his previous positions, not when the rewind ability gets used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;bool&gt; onPlayerRewind</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onPlayerShootEnd" data-uid="WGR.Core.GameEventsHandler.onPlayerShootEnd">
+  onPlayerShootEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from PlayerAttack to notify every subbed method that the player stopped firing a gun.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onPlayerShootEnd</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onPlayerShootStart" data-uid="WGR.Core.GameEventsHandler.onPlayerShootStart">
+  onPlayerShootStart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from PlayerAttack to notify every subbed method that the player fired a gun.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onPlayerShootStart</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onPlayerSpawn" data-uid="WGR.Core.GameEventsHandler.onPlayerSpawn">
+  onPlayerSpawn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called whenever a new scene is loaded to move the player to a specific spot.
+Called from MoveToStart script.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Vector3&gt; onPlayerSpawn</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">Vector3</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onSaveOverwrite" data-uid="WGR.Core.GameEventsHandler.onSaveOverwrite">
+  onSaveOverwrite
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onSaveOverwrite</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onSceneChanged" data-uid="WGR.Core.GameEventsHandler.onSceneChanged">
+  onSceneChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called after the NEW SCENE is LOADED and passes the new scene to its subscribers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;GameScenes&gt; onSceneChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="WGR.Core.GameScenes.html">GameScenes</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onSceneUnloaded" data-uid="WGR.Core.GameEventsHandler.onSceneUnloaded">
+  onSceneUnloaded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;GameScenes&gt; onSceneUnloaded</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="WGR.Core.GameScenes.html">GameScenes</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_Core_GameEventsHandler_onWeaponPickup" data-uid="WGR.Core.GameEventsHandler.onWeaponPickup">
+  onWeaponPickup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the player picks up the bat prefab in the intro scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onWeaponPickup</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Redefined/blob/main/Assets/_Scripts/_Core/Managers/GameWideManagers/GameEventsHandler.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
