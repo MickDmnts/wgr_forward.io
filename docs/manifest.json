@@ -1,8 +1,26 @@
 {
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://mickdmnts.github.io/wgr_redefined.io/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://mickdmnts.github.io/wgr_redefined.io/",
+    "changefreq": "weekly"
+  },
   "homepages": [],
   "source_base_path": "C:/Users/micha/Desktop/Repos/DocFxPages/WGR_DocFx",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/RetroAesthetics.CombineMeshes.yml",
@@ -1309,6 +1327,36 @@
       "output": {
         ".html": {
           "relative_path": "api/WGR.Gameplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.InspectorButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.InspectorButtonAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.html"
         }
       },
       "version": ""

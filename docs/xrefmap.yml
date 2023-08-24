@@ -341,6 +341,9 @@ references:
   commentId: F:RetroAesthetics.UVScroller.textureName
   fullName: RetroAesthetics.UVScroller.textureName
   nameWithType: UVScroller.textureName
+- uid: WGR
+  name: ''
+  href: api/WGR.html
 - uid: WGR.Core
   name: WGR.Core
   href: api/WGR.Core.html
@@ -9491,3 +9494,75 @@ references:
   commentId: T:WGR.Gameplay.LevelWinHandler
   fullName: WGR.Gameplay.LevelWinHandler
   nameWithType: LevelWinHandler
+- uid: WGR.InspectorButtonAttribute
+  name: InspectorButtonAttribute
+  href: api/WGR.InspectorButtonAttribute.html
+  commentId: T:WGR.InspectorButtonAttribute
+  fullName: InspectorButtonAttribute
+  nameWithType: InspectorButtonAttribute
+- uid: WGR.InspectorButtonAttribute.#ctor(System.String)
+  name: InspectorButtonAttribute(string)
+  href: api/WGR.InspectorButtonAttribute.html#WGR_InspectorButtonAttribute__ctor_System_String_
+  commentId: M:WGR.InspectorButtonAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: InspectorButtonAttribute.InspectorButtonAttribute(string)
+  fullName.vb: InspectorButtonAttribute.New(String)
+  nameWithType: InspectorButtonAttribute.InspectorButtonAttribute(string)
+  nameWithType.vb: InspectorButtonAttribute.New(String)
+- uid: WGR.InspectorButtonAttribute.#ctor*
+  name: InspectorButtonAttribute
+  href: api/WGR.InspectorButtonAttribute.html#WGR_InspectorButtonAttribute__ctor_
+  commentId: Overload:WGR.InspectorButtonAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: InspectorButtonAttribute.InspectorButtonAttribute
+  fullName.vb: InspectorButtonAttribute.New
+  nameWithType: InspectorButtonAttribute.InspectorButtonAttribute
+  nameWithType.vb: InspectorButtonAttribute.New
+- uid: WGR.InspectorButtonAttribute.ButtonWidth
+  name: ButtonWidth
+  href: api/WGR.InspectorButtonAttribute.html#WGR_InspectorButtonAttribute_ButtonWidth
+  commentId: P:WGR.InspectorButtonAttribute.ButtonWidth
+  fullName: InspectorButtonAttribute.ButtonWidth
+  nameWithType: InspectorButtonAttribute.ButtonWidth
+- uid: WGR.InspectorButtonAttribute.ButtonWidth*
+  name: ButtonWidth
+  href: api/WGR.InspectorButtonAttribute.html#WGR_InspectorButtonAttribute_ButtonWidth_
+  commentId: Overload:WGR.InspectorButtonAttribute.ButtonWidth
+  isSpec: "True"
+  fullName: InspectorButtonAttribute.ButtonWidth
+  nameWithType: InspectorButtonAttribute.ButtonWidth
+- uid: WGR.InspectorButtonAttribute.MethodName
+  name: MethodName
+  href: api/WGR.InspectorButtonAttribute.html#WGR_InspectorButtonAttribute_MethodName
+  commentId: F:WGR.InspectorButtonAttribute.MethodName
+  fullName: InspectorButtonAttribute.MethodName
+  nameWithType: InspectorButtonAttribute.MethodName
+- uid: WGR.InspectorButtonAttribute.kDefaultButtonWidth
+  name: kDefaultButtonWidth
+  href: api/WGR.InspectorButtonAttribute.html#WGR_InspectorButtonAttribute_kDefaultButtonWidth
+  commentId: F:WGR.InspectorButtonAttribute.kDefaultButtonWidth
+  fullName: InspectorButtonAttribute.kDefaultButtonWidth
+  nameWithType: InspectorButtonAttribute.kDefaultButtonWidth
+- uid: WGR.Utils
+  name: Utils
+  href: api/WGR.Utils.html
+  commentId: T:WGR.Utils
+  fullName: Utils
+  nameWithType: Utils
+- uid: WGR.Utils.MissingComponent(System.String,System.Object,System.String,System.Int32)
+  name: MissingComponent(string, object, string, int)
+  href: api/WGR.Utils.html#WGR_Utils_MissingComponent_System_String_System_Object_System_String_System_Int32_
+  commentId: M:WGR.Utils.MissingComponent(System.String,System.Object,System.String,System.Int32)
+  name.vb: MissingComponent(String, Object, String, Integer)
+  fullName: Utils.MissingComponent(string, object, string, int)
+  fullName.vb: Utils.MissingComponent(String, Object, String, Integer)
+  nameWithType: Utils.MissingComponent(string, object, string, int)
+  nameWithType.vb: Utils.MissingComponent(String, Object, String, Integer)
+- uid: WGR.Utils.MissingComponent*
+  name: MissingComponent
+  href: api/WGR.Utils.html#WGR_Utils_MissingComponent_
+  commentId: Overload:WGR.Utils.MissingComponent
+  isSpec: "True"
+  fullName: Utils.MissingComponent
+  nameWithType: Utils.MissingComponent
