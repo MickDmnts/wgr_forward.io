@@ -1,6 +1,10 @@
 {
     "items": [
         {
+            "name": "Github Repository",
+            "href": "https://github.com/MickDmnts/WakeGrindRewind_Redefined"
+        },
+        {
             "name": "Api Documentation",
             "href": "api/index.html",
             "tocHref": "api/toc.html",
