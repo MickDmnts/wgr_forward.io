@@ -92,7 +92,7 @@
   "api/WGR.AI.Entities.Hostile.Boss.html": {
     "href": "api/WGR.AI.Entities.Hostile.Boss.html",
     "title": "Namespace WGR.AI.Entities.Hostile.Boss | Wake Grind Rewind: Redefined Official API",
-    "keywords": "Namespace WGR.AI.Entities.Hostile.Boss Classes BossAnimations BossBTHandler BossEntity BossEntrySequence BossWeapon BulletDetector Enums BossPhase All the available boss phases."
+    "keywords": "Namespace WGR.AI.Entities.Hostile.Boss Classes BossAnimations BossBTHandler BossEntity BossWeapon BulletDetector Enums BossPhase All the available boss phases."
   },
   "api/WGR.AI.Entities.Hostile.Generic.EnemyAnimations.html": {
     "href": "api/WGR.AI.Entities.Hostile.Generic.EnemyAnimations.html",
@@ -269,6 +269,116 @@
     "title": "Namespace WGR.AI.Nodes | Wake Grind Rewind: Redefined Official API",
     "keywords": "Namespace WGR.AI.Nodes Classes AttackTargetAction BehaviourTree BossNodeData BossPhaseSelector BossPhaseUpdater BossStunnedPhase ChaseAttackSelector ChaseTargetActivator CheckIfDead CheckIfStunned EnemyNodeData IdleNode IdleOnArrival IdlePatrolChaseActivator NavToOriginalPos NavToRoom NavToTarget PatrolCheckDistance PatrolNavToActivator PatrolNavigateTo PatrolNode StunedAction Interfaces INode Interface used for Behaviour Tree traversing INodeData Base interface for AI Node Data classes"
   },
+  "api/WGR.Abilities.Ability.html": {
+    "href": "api/WGR.Abilities.Ability.html",
+    "title": "Class Ability | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Ability Namespace WGR.Abilities Assembly Assembly-CSharp.dll public abstract class Ability Inheritance object Ability Derived RewindTime SlowDownTime StopTime Fields AbilityDescription public string AbilityDescription Field Value string AbilityName public string AbilityName Field Value string AbilitySprite public Sprite AbilitySprite Field Value Sprite AbilityTier public int AbilityTier Field Value int ActiveTime public int ActiveTime Field Value int MaxAbilityTier public int MaxAbilityTier Field Value int UsesPerLevel public int UsesPerLevel Field Value int cachedUses protected int cachedUses Field Value int timer protected float timer Field Value float Properties CanActivate public bool CanActivate { get; protected set; } Property Value bool IsUnlocked public bool IsUnlocked { get; set; } Property Value bool Methods AbilityInfoFullReset() public abstract void AbilityInfoFullReset() Compare(Ability, Ability) public virtual bool Compare(Ability ability, Ability otherAbility) Parameters ability Ability otherAbility Ability Returns bool DisableBehaviourOnSceneChange(GameScenes) public abstract void DisableBehaviourOnSceneChange(GameScenes scene) Parameters scene GameScenes EnableAbility() Call to set IsUnlocked and CanActivate to true. protected abstract void EnableAbility() GetCachedUses() public abstract int GetCachedUses() Returns int GetPointsForUpgrade() Returns the SkillPointsPerTier() value. public abstract int GetPointsForUpgrade() Returns int OnAbilityFinished() Call when the ability behaviour is finished to revert back any changes. protected abstract void OnAbilityFinished() PlayAbilitySound() protected abstract void PlayAbilitySound() ResetAbilityUses() Call to reset the ability uses back to maxAbilityUses. public abstract void ResetAbilityUses() SkillPointsPerTier() Returns the skill points needed for ability tier up. protected abstract int SkillPointsPerTier() Returns int Start(Action) Call to fire off the ability initiation. public abstract void Start(Action callback) Parameters callback Action TryActivate() Call to Enable the ability behaviour. public abstract bool TryActivate() Returns bool UpdateAbilityTick() Call to update the ability info per frame (Used in MonoBehaviour Update()). The passed method gets called when the ability pre-requisites are met. public abstract void UpdateAbilityTick() UpdateStatsPerTier() Call to update the current ability stats based on its current tier. public abstract void UpdateStatsPerTier() UpgradeAbility() Call to increase the ability tier by 1. public abstract void UpgradeAbility()"
+  },
+  "api/WGR.Abilities.IRewindable.html": {
+    "href": "api/WGR.Abilities.IRewindable.html",
+    "title": "Interface IRewindable | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Interface IRewindable Namespace WGR.Abilities Assembly Assembly-CSharp.dll This interface can be attached to any gameObject to make it rewindable with the Rewind ability. public interface IRewindable Methods GetPosition() Vector3 GetPosition() Returns Vector3 SetPosition(Vector3) void SetPosition(Vector3 newPos) Parameters newPos Vector3"
+  },
+  "api/WGR.Abilities.RewindTime.html": {
+    "href": "api/WGR.Abilities.RewindTime.html",
+    "title": "Class RewindTime | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class RewindTime Namespace WGR.Abilities Assembly Assembly-CSharp.dll public class RewindTime : Ability Inheritance object Ability RewindTime Inherited Members Ability.IsUnlocked Ability.CanActivate Ability.AbilitySprite Ability.AbilityName Ability.AbilityDescription Ability.AbilityTier Ability.MaxAbilityTier Ability.ActiveTime Ability.UsesPerLevel Ability.cachedUses Ability.timer Ability.Compare(Ability, Ability) Constructors RewindTime(string, int, Sprite, bool, Rewinder) public RewindTime(string name, int tier, Sprite abilitySprite, bool isUnlocked, Rewinder rewinder) Parameters name string tier int abilitySprite Sprite isUnlocked bool rewinder Rewinder Methods AbilityInfoFullReset() public override void AbilityInfoFullReset() DisableBehaviourOnSceneChange(GameScenes) public override void DisableBehaviourOnSceneChange(GameScenes scene) Parameters scene GameScenes EnableAbility() Call to set IsUnlocked and CanActivate to true. protected override void EnableAbility() GetCachedUses() public override int GetCachedUses() Returns int GetPointsForUpgrade() Returns the SkillPointsPerTier() value. public override int GetPointsForUpgrade() Returns int OnAbilityFinished() Call to reset the bullet speed and enemy behaviour, then call the OnRewindEnd() of the PlayerEntity. Sets canActivate to true. protected override void OnAbilityFinished() PlayAbilitySound() protected override void PlayAbilitySound() ResetAbilityUses() Call to Reset the ability uses per level. Called on PlayerHub return. public override void ResetAbilityUses() SkillPointsPerTier() Call to get the needed points to update the skill to the next tier. protected override int SkillPointsPerTier() Returns int An int representing the skill points needed to upgrade. Start(Action) Call to startup any basic ability behaviour Sets the stats based on the abiltiy tier, caches the uses per level and sets canActivate to true. public override void Start(Action callback) Parameters callback Action TryActivate() Call to Activate public override bool TryActivate() Returns bool UpdateAbilityTick() Call to update the ability info per frame (Used in MonoBehaviour Update()). The passed method gets called when the ability pre-requisites are met. public override void UpdateAbilityTick() UpdateStatsPerTier() Call after the construction of the Ability to set the ActiveTime and UsesPerLevel based on the ability tier. public override void UpdateStatsPerTier() UpgradeAbility() Call to increase the AbilityTier by 1 level only if the current AbilityTier is smaller than MaxAbilityTier. public override void UpgradeAbility()"
+  },
+  "api/WGR.Abilities.Rewinder.html": {
+    "href": "api/WGR.Abilities.Rewinder.html",
+    "title": "Class Rewinder | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Rewinder Namespace WGR.Abilities Assembly Assembly-CSharp.dll public class Rewinder : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour Rewinder Properties CanRecord public bool CanRecord { get; set; } Property Value bool Methods RecordEntity(IRewindable, float) Call to start the entity position storing. Stores the entity passed. public void RecordEntity(IRewindable entity, float abilityRecordDuration) Parameters entity IRewindable The gameObject to store. abilityRecordDuration float How long does the storing lasts. ResetRewinderBehaviour() Call to set CanRecord to true. public void ResetRewinderBehaviour() RewindEntity(IRewindable, Action) Call to move the passed entity back to its original position. public void RewindEntity(IRewindable entity, Action externalCallback) Parameters entity IRewindable The entity to move externalCallback Action The method to call when the rewind ends."
+  },
+  "api/WGR.Abilities.SlowDownTime.html": {
+    "href": "api/WGR.Abilities.SlowDownTime.html",
+    "title": "Class SlowDownTime | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class SlowDownTime Namespace WGR.Abilities Assembly Assembly-CSharp.dll public class SlowDownTime : Ability Inheritance object Ability SlowDownTime Inherited Members Ability.IsUnlocked Ability.CanActivate Ability.AbilitySprite Ability.AbilityName Ability.AbilityDescription Ability.AbilityTier Ability.MaxAbilityTier Ability.ActiveTime Ability.UsesPerLevel Ability.cachedUses Ability.timer Ability.Compare(Ability, Ability) Constructors SlowDownTime(string, int, Sprite, bool) public SlowDownTime(string name, int tier, Sprite abilitySprite, bool isUnlocked) Parameters name string tier int abilitySprite Sprite isUnlocked bool Methods AbilityInfoFullReset() public override void AbilityInfoFullReset() DisableBehaviourOnSceneChange(GameScenes) public override void DisableBehaviourOnSceneChange(GameScenes scene) Parameters scene GameScenes EnableAbility() Call to set IsUnlocked and CanActivate to true. protected override void EnableAbility() GetCachedUses() public override int GetCachedUses() Returns int GetPointsForUpgrade() Returns the SkillPointsPerTier() value. public override int GetPointsForUpgrade() Returns int OnAbilityFinished() Called when the ability timer has reached zero to revert back any changes the abiltiy has made. protected override void OnAbilityFinished() PlayAbilitySound() protected override void PlayAbilitySound() ResetAbilityUses() Call to Reset the ability uses per level. Called on PlayerHub return. public override void ResetAbilityUses() SkillPointsPerTier() Call to get the needed points to update the skill to the next tier. protected override int SkillPointsPerTier() Returns int An int representing the skill points needed to upgrade. Start(Action) Call to startup any basic ability behaviour Sets the stats based on the abiltiy tier, caches the uses per level and sets canActivate to true. public override void Start(Action callback) Parameters callback Action TryActivate() Call to Activate the ability behaviour. public override bool TryActivate() Returns bool UpdateAbilityTick() Call to update the tick of the ability script, just like running an Update() from MonoBehaviour. public override void UpdateAbilityTick() UpdateStatsPerTier() Call after the construction of the Ability to set the ActiveTime and UsesPerLevel based on the ability tier. public override void UpdateStatsPerTier() UpgradeAbility() Call to increase the AbilityTier by 1 level only if the current AbilityTier is smaller than MaxAbilityTier. public override void UpgradeAbility()"
+  },
+  "api/WGR.Abilities.StopTime.html": {
+    "href": "api/WGR.Abilities.StopTime.html",
+    "title": "Class StopTime | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class StopTime Namespace WGR.Abilities Assembly Assembly-CSharp.dll public class StopTime : Ability Inheritance object Ability StopTime Inherited Members Ability.IsUnlocked Ability.CanActivate Ability.AbilitySprite Ability.AbilityName Ability.AbilityDescription Ability.AbilityTier Ability.MaxAbilityTier Ability.ActiveTime Ability.UsesPerLevel Ability.cachedUses Ability.timer Ability.Compare(Ability, Ability) Constructors StopTime(string, int, Sprite, bool) public StopTime(string name, int tier, Sprite abilitySprite, bool isUnlocked) Parameters name string tier int abilitySprite Sprite isUnlocked bool Methods AbilityInfoFullReset() public override void AbilityInfoFullReset() DisableBehaviourOnSceneChange(GameScenes) public override void DisableBehaviourOnSceneChange(GameScenes scene) Parameters scene GameScenes EnableAbility() Call to set IsUnlocked and CanActivate to true. protected override void EnableAbility() GetCachedUses() public override int GetCachedUses() Returns int GetPointsForUpgrade() Returns the SkillPointsPerTier() value. public override int GetPointsForUpgrade() Returns int OnAbilityFinished() Called when the ability timer has reached zero to revert back any changes the abiltiy has made. protected override void OnAbilityFinished() PlayAbilitySound() protected override void PlayAbilitySound() ResetAbilityUses() Call to Reset the ability uses per level. Called on PlayerHub return. public override void ResetAbilityUses() SkillPointsPerTier() Call to get the needed points to update the skill to the next tier. protected override int SkillPointsPerTier() Returns int An int representing the skill points needed to upgrade. Start(Action) Call to startup any basic ability behaviour Sets the stats based on the abiltiy tier, caches the uses per level and sets canActivate to true. public override void Start(Action callback) Parameters callback Action TryActivate() Call to Activate the ability behaviour. public override bool TryActivate() Returns bool UpdateAbilityTick() Call to update the tick of the ability script, just like running an Update() from MonoBehaviour. public override void UpdateAbilityTick() UpdateStatsPerTier() Call after the construction of the Ability to set the ActiveTime and UsesPerLevel based on the ability tier. public override void UpdateStatsPerTier() UpgradeAbility() Call to increase the AbilityTier by 1 level only if the current AbilityTier is smaller than MaxAbilityTier. public override void UpgradeAbility()"
+  },
+  "api/WGR.Abilities.html": {
+    "href": "api/WGR.Abilities.html",
+    "title": "Namespace WGR.Abilities | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.Abilities Classes Ability RewindTime Rewinder SlowDownTime StopTime Interfaces IRewindable This interface can be attached to any gameObject to make it rewindable with the Rewind ability."
+  },
+  "api/WGR.BattleSystem.BloodFXController.html": {
+    "href": "api/WGR.BattleSystem.BloodFXController.html",
+    "title": "Class BloodFXController | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class BloodFXController Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll public class BloodFXController : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour BloodFXController"
+  },
+  "api/WGR.BattleSystem.Bullet.html": {
+    "href": "api/WGR.BattleSystem.Bullet.html",
+    "title": "Class Bullet | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Bullet Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll public class Bullet : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour Bullet Methods ChangeSpeed(float) Subsrcibed to the GameEventsHandler.onBulletSpeedChange event Call to set THIS bullets' current speed. public void ChangeSpeed(float newSpeed) Parameters newSpeed float SetBulletType(BulletType) Call to set THIS bullet instances' bullet type. Bullet type of: Enemy: Collides with the player and not with AIEntities. Player: Collides with the AIEntities and not the player. public void SetBulletType(BulletType type) Parameters type BulletType"
+  },
+  "api/WGR.BattleSystem.BulletStatics.html": {
+    "href": "api/WGR.BattleSystem.BulletStatics.html",
+    "title": "Class BulletStatics | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class BulletStatics Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll public static class BulletStatics Inheritance object BulletStatics Fields StopTimeSpeed public static float StopTimeSpeed Field Value float Properties CurrentSpeed When set the value passed gets passed through the GameEventHandler.OnBulletSpeedChange(...) event to update every bullet speed. public static float CurrentSpeed { get; set; } Property Value float SlowDownSpeed public static float SlowDownSpeed { get; set; } Property Value float StartingSpeed public static float StartingSpeed { get; set; } Property Value float"
+  },
+  "api/WGR.BattleSystem.Entities.IThrowable.html": {
+    "href": "api/WGR.BattleSystem.Entities.IThrowable.html",
+    "title": "Interface IThrowable | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Interface IThrowable Namespace WGR.BattleSystem.Entities Assembly Assembly-CSharp.dll An interface that can be attached to any object we want to be throwable. Handled through polymorphism and implemented from ThrowableEntity class. public interface IThrowable Methods GetThrowSpeed() float GetThrowSpeed() Returns float InitiateThrow() void InitiateThrow() ResetSpeedAndRotation() void ResetSpeedAndRotation()"
+  },
+  "api/WGR.BattleSystem.Entities.Shooter.html": {
+    "href": "api/WGR.BattleSystem.Entities.Shooter.html",
+    "title": "Class Shooter | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Shooter Namespace WGR.BattleSystem.Entities Assembly Assembly-CSharp.dll public abstract class Shooter : MonoBehaviour, IShooter Inheritance object Object Component Behaviour MonoBehaviour Shooter Implements IShooter Derived AIEntityWeapon PlayerAttack Fields accuracyIncreaseRate protected float accuracyIncreaseRate Field Value float bulletSpreadRate protected float bulletSpreadRate Field Value float bulletsLeft protected int bulletsLeft Field Value int canShoot protected bool canShoot Field Value bool equipedWeapon public Weapon equipedWeapon Field Value Weapon firePoint protected Transform firePoint Field Value Transform isShooting protected bool isShooting Field Value bool maxBulletSpread protected float maxBulletSpread Field Value float meleeDetectionLayers protected LayerMask meleeDetectionLayers Field Value LayerMask meleeLinecastLayers protected LayerMask meleeLinecastLayers Field Value LayerMask shootDoneTime protected float shootDoneTime Field Value float shootInterval protected float shootInterval Field Value float Methods SetWeaponInfo(Weapon, int) Call to set the required Shooter fields based on the passed Weapon Scriptable Object. cachedBulletCountMust be set only in the PlayerWeapon. public abstract void SetWeaponInfo(Weapon weapon, int cachedBulletCount = -1) Parameters weapon Weapon cachedBulletCount int Shoot() public abstract void Shoot()"
+  },
+  "api/WGR.BattleSystem.Entities.ThrowableEntity.html": {
+    "href": "api/WGR.BattleSystem.Entities.ThrowableEntity.html",
+    "title": "Class ThrowableEntity | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class ThrowableEntity Namespace WGR.BattleSystem.Entities Assembly Assembly-CSharp.dll public class ThrowableEntity : MonoBehaviour, IThrowable Inheritance object Object Component Behaviour MonoBehaviour ThrowableEntity Implements IThrowable Methods GetThrowSpeed() Call to get THIS throwables throw speed. public float GetThrowSpeed() Returns float InitiateThrow() Call to start the throwing weapon sequence by setting the wasThrown to true. Sets throwTimer to throwForSeconds public void InitiateThrow() ResetSpeedAndRotation() Call to set the rotation speed to 5, and the throwSpeedCache to throwSpeed; public void ResetSpeedAndRotation()"
+  },
+  "api/WGR.BattleSystem.Entities.html": {
+    "href": "api/WGR.BattleSystem.Entities.html",
+    "title": "Namespace WGR.BattleSystem.Entities | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.BattleSystem.Entities Classes Shooter ThrowableEntity Interfaces IThrowable An interface that can be attached to any object we want to be throwable. Handled through polymorphism and implemented from ThrowableEntity class."
+  },
+  "api/WGR.BattleSystem.IShooter.html": {
+    "href": "api/WGR.BattleSystem.IShooter.html",
+    "title": "Interface IShooter | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Interface IShooter Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll public interface IShooter Methods SetWeaponInfo(Weapon, int) Call to set the required Shooter fields based on the passed Weapon Scriptable Object. cachedBulletCountMust be set only in the PlayerWeapon. void SetWeaponInfo(Weapon weapon, int cachedBulletCount = -1) Parameters weapon Weapon cachedBulletCount int Shoot() void Shoot()"
+  },
+  "api/WGR.BattleSystem.ProjectileLayers.html": {
+    "href": "api/WGR.BattleSystem.ProjectileLayers.html",
+    "title": "Enum ProjectileLayers | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum ProjectileLayers Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll The layers every bullet gameObject can exist on. public enum ProjectileLayers Fields EnemyProjectile = 13 PlayerProjectile = 12"
+  },
+  "api/WGR.BattleSystem.ThrowableSpeeds.html": {
+    "href": "api/WGR.BattleSystem.ThrowableSpeeds.html",
+    "title": "Class ThrowableSpeeds | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class ThrowableSpeeds Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll A static class containing every speed a throwable can use. public static class ThrowableSpeeds Inheritance object ThrowableSpeeds Fields RewindTimeRotation public static readonly float RewindTimeRotation Field Value float RewindTimeSpeed public static readonly float RewindTimeSpeed Field Value float SlowDownRotation public static readonly float SlowDownRotation Field Value float SlowDownSpeed public static readonly float SlowDownSpeed Field Value float StopTimeRotation public static readonly float StopTimeRotation Field Value float StopTimeSpeed public static readonly float StopTimeSpeed Field Value float"
+  },
+  "api/WGR.BattleSystem.Weapon.html": {
+    "href": "api/WGR.BattleSystem.Weapon.html",
+    "title": "Class Weapon | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Weapon Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll public class Weapon : ScriptableObject Inheritance object Object ScriptableObject Weapon Fields DefaultMagazine public int DefaultMagazine Field Value int IntervalBetweenShots public float IntervalBetweenShots Field Value float MaxBulletSpread public float MaxBulletSpread Field Value float MinShootDistance public float MinShootDistance Field Value float WeaponCategory public WeaponCategory WeaponCategory Field Value WeaponCategory WeaponName public string WeaponName Field Value string WeaponSprite public Sprite WeaponSprite Field Value Sprite WeaponType public WeaponType WeaponType Field Value WeaponType gunEmptySound public GameAudioClip gunEmptySound Field Value GameAudioClip gunShootSound public GameAudioClip[] gunShootSound Field Value GameAudioClip[] weaponAmmoSprite public Sprite weaponAmmoSprite Field Value Sprite weaponEquipedSprite public Sprite weaponEquipedSprite Field Value Sprite weaponGrayedSprite public Sprite weaponGrayedSprite Field Value Sprite"
+  },
+  "api/WGR.BattleSystem.WeaponCategory.html": {
+    "href": "api/WGR.BattleSystem.WeaponCategory.html",
+    "title": "Enum WeaponCategory | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum WeaponCategory Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll Every weapon category in the game public enum WeaponCategory Fields Melee = 1 Ranged = 2 Unarmed = 0"
+  },
+  "api/WGR.BattleSystem.WeaponPickup.html": {
+    "href": "api/WGR.BattleSystem.WeaponPickup.html",
+    "title": "Class WeaponPickup | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class WeaponPickup Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll public class WeaponPickup : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour WeaponPickup Fields weaponData public Weapon weaponData Field Value Weapon Methods GetCachedWeaponBullets() Call to get the dropped weapon bullet count. public int GetCachedWeaponBullets() Returns int SetWeaponBullets(int) Call to set the dropped weapon bullet count. public void SetWeaponBullets(int bullets) Parameters bullets int"
+  },
+  "api/WGR.BattleSystem.WeaponType.html": {
+    "href": "api/WGR.BattleSystem.WeaponType.html",
+    "title": "Enum WeaponType | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum WeaponType Namespace WGR.BattleSystem Assembly Assembly-CSharp.dll Every weapon type in the game public enum WeaponType Fields BaseballBat = 1 Knife = 0 Pistol = 3 Punch = 2 SemiAutomatic = 4 Shotgun = 5 _NaN = -1"
+  },
+  "api/WGR.BattleSystem.html": {
+    "href": "api/WGR.BattleSystem.html",
+    "title": "Namespace WGR.BattleSystem | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.BattleSystem Classes BloodFXController Bullet BulletStatics ThrowableSpeeds A static class containing every speed a throwable can use. Weapon WeaponPickup Interfaces IShooter Enums ProjectileLayers The layers every bullet gameObject can exist on. WeaponCategory Every weapon category in the game WeaponType Every weapon type in the game"
+  },
   "api/WGR.Core.AIEntityManager.html": {
     "href": "api/WGR.Core.AIEntityManager.html",
     "title": "Class AIEntityManager | Wake Grind Rewind: Redefined Official API",
@@ -424,6 +534,121 @@
     "title": "Class MainMenuManager | Wake Grind Rewind: Redefined Official API",
     "keywords": "Class MainMenuManager Namespace WGR.Core Assembly Assembly-CSharp.dll public class MainMenuManager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour MainMenuManager"
   },
+  "api/WGR.Core.Managers.AIEntityManager.html": {
+    "href": "api/WGR.Core.Managers.AIEntityManager.html",
+    "title": "Class AIEntityManager | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class AIEntityManager Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class AIEntityManager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour AIEntityManager Methods ActivateBossPlayerDetectors() public void ActivateBossPlayerDetectors() ActivateDetectors() public void ActivateDetectors() AddEntityReference(AIEntity) Called from each enemy in the level when it loads. public void AddEntityReference(AIEntity entity) Parameters entity AIEntity GetEnemyEntityRefs() Call to get a reference to the EnemyEntity list. public List<AIEntity> GetEnemyEntityRefs() Returns List<AIEntity> GetEnemyRefCount() Call to get an EnemyEntity list count. public int GetEnemyRefCount() Returns int KillAllEnemiesInLevel() public void KillAllEnemiesInLevel() SetAgentBehaviourUpdate(bool) public void SetAgentBehaviourUpdate(bool value) Parameters value bool SetBossDetectors(AIEntityFOVManager) public void SetBossDetectors(AIEntityFOVManager bossFOVManager) Parameters bossFOVManager AIEntityFOVManager"
+  },
+  "api/WGR.Core.Managers.AbilityManager.html": {
+    "href": "api/WGR.Core.Managers.AbilityManager.html",
+    "title": "Class AbilityManager | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class AbilityManager Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class AbilityManager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour AbilityManager Properties AbilitiesCanActivate When set to true abilities are shown and enabled, if false then abilities are neither drawn or can be used. public bool AbilitiesCanActivate { get; set; } Property Value bool AbilitiesCanCycle public bool AbilitiesCanCycle { get; } Property Value bool ActiveAbilityIndex Active ability index can be used from the UI to visualize the currently selected ability. public int ActiveAbilityIndex { get; } Property Value int Methods CanRewind(bool) Call to check if the rewind ability UsesPerLevel is greater than 0. If yes, then return true, false otherwise. public bool CanRewind(bool subtractOneUse) Parameters subtractOneUse bool If set to true and the above evaluation results to true too, then subtract one use from the rewind ability UsesPerLevel value. Returns bool EnableAbilities() Call to cycle through all the abilities and reset their ability uses. public void EnableAbilities() GetAbilityCurrentTier(AbilityType) This method is used from the HandleAbilityPanel script to update the PlayerHub ability panel texts. public int GetAbilityCurrentTier(AbilityType type) Parameters type AbilityType The ability you want to display. Returns int The passed ability tier number. GetAbilityDescription(AbilityType) public string GetAbilityDescription(AbilityType type) Parameters type AbilityType Returns string GetCurrentSelectedAbility() Call to get the current selected ability index. public int GetCurrentSelectedAbility() Returns int GetPointsNeeded(AbilityType) This method is used from the UI to display the skill points needed for each tier update. public int GetPointsNeeded(AbilityType type) Parameters type AbilityType The ability you want to display. Returns int The points for tier update. UpdateAbilityTier(AbilityType) This method is added as a listener to the Ability update button in the PlayerHub. public void UpdateAbilityTier(AbilityType type) Parameters type AbilityType The ability type you want to update."
+  },
+  "api/WGR.Core.Managers.AbilityType.html": {
+    "href": "api/WGR.Core.Managers.AbilityType.html",
+    "title": "Enum AbilityType | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum AbilityType Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll All the available abilities the player has. public enum AbilityType Fields RewindTime = 1 Slowtime = 0 StopTime = 2"
+  },
+  "api/WGR.Core.Managers.BulletPool.html": {
+    "href": "api/WGR.Core.Managers.BulletPool.html",
+    "title": "Class BulletPool | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class BulletPool Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class BulletPool : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour BulletPool Methods CacheBullet(Bullet, BulletType) Call to cache the passed Bullet gameObject back to its appropriate Queue based on the bulletType. public void CacheBullet(Bullet bullet, BulletType bulletType) Parameters bullet Bullet The bullet script attached to the gameObject. bulletType BulletType GetPooledBulletByType(BulletType) Call to get a Bullet Gameobject reference based on the passed type. Returns null in case the pool is empty. public GameObject GetPooledBulletByType(BulletType bulletType) Parameters bulletType BulletType Returns GameObject"
+  },
+  "api/WGR.Core.Managers.BulletType.html": {
+    "href": "api/WGR.Core.Managers.BulletType.html",
+    "title": "Enum BulletType | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum BulletType Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll Every available bullet type in the game. public enum BulletType Fields Enemy = 0 Player = 1"
+  },
+  "api/WGR.Core.Managers.GameAudioClip.html": {
+    "href": "api/WGR.Core.Managers.GameAudioClip.html",
+    "title": "Enum GameAudioClip | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum GameAudioClip Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public enum GameAudioClip Fields DoorKick = 4 DoorOpen = 31 ElevatorArrival = 3 EmptyGunSound = 0 Hit = 6 Hit1 = 7 Hit2 = 8 Hit3 = 9 KnifeCut1 = 10 KnifeCut2 = 11 Pause = 22 PressPlay = 24 PressRewind = 25 PressStop = 26 Punch = 12 PunchSound = 1 PunchSwing1 = 13 PunchSwing2 = 14 Rewind = 27 ShootSound = 2 Shotgun = 30 StaticVHS = 16 StopActivate = 28 Unpause = 23 Uzi = 29 VHSClose = 17 VHSOpen = 18 VHSSlideIn = 19 VHSSlideOut = 20 VHSStatic = 21 WeaponPickUp = 5 WeaponThrow = 15"
+  },
+  "api/WGR.Core.Managers.GameEventsHandler.html": {
+    "href": "api/WGR.Core.Managers.GameEventsHandler.html",
+    "title": "Class GameEventsHandler | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class GameEventsHandler Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class GameEventsHandler Inheritance object GameEventsHandler Constructors GameEventsHandler() public GameEventsHandler() Methods CameraShakeOnEnemyDeath(float, float) public void CameraShakeOnEnemyDeath(float lenght, float power) Parameters lenght float power float OnAbilityEnd() public void OnAbilityEnd() OnAbilityUse(float, float, bool) public void OnAbilityUse(float newSpeed, float newRotSpeed, bool isFrozen) Parameters newSpeed float newRotSpeed float isFrozen bool OnBossLevelEnemyDeath() public void OnBossLevelEnemyDeath() OnBossStunnedPhase() public void OnBossStunnedPhase() OnBulletSpeedChange(float) public void OnBulletSpeedChange(float newSpeed) Parameters newSpeed float OnEnemyDeath() public void OnEnemyDeath() OnGamePaused() public void OnGamePaused() OnGameResumed() public void OnGameResumed() OnLevelPassed(GameScenes) public void OnLevelPassed(GameScenes currentScene) Parameters currentScene GameScenes OnPlayerDeath() public void OnPlayerDeath() OnPlayerRewind(bool) public void OnPlayerRewind(bool value) Parameters value bool OnPlayerShootEnd() public void OnPlayerShootEnd() OnPlayerShootStart() public void OnPlayerShootStart() OnPlayerSpawn(Vector3) public void OnPlayerSpawn(Vector3 levelPoint) Parameters levelPoint Vector3 OnSaveOvewrite() public void OnSaveOvewrite() OnSceneChanged(GameScenes) public void OnSceneChanged(GameScenes activeScene) Parameters activeScene GameScenes OnSceneUnloaded(GameScenes) public void OnSceneUnloaded(GameScenes unloadedScene) Parameters unloadedScene GameScenes OnWeaponPickup() public void OnWeaponPickup() Events cameraShakeOnEnemyDeath Called whenever an enemy dies to initiate the camera shake behaviour and passes the length and the power of the shake. public event Action<float, float> cameraShakeOnEnemyDeath Event Type Action<float, float> onAbilityEnd Called from Player abilities to notify every subbed method that an ability behaviour has finished. Mainly used in ThrowableEntity. public event Action onAbilityEnd Event Type Action onAbilityUse Called from player abilities and used from ThrowableEntities to change their speed and rotation speed in runtime. public event Action<float, float, bool> onAbilityUse Event Type Action<float, float, bool> onBossLevelEnemyDeath Called from EnemyEntity script whenever a LEVEL 5 enemy dies. public event Action onBossLevelEnemyDeath Event Type Action onBossStunnedPhase Called from BossEntity script when he arrives at his stunned position. public event Action onBossStunnedPhase Event Type Action onBulletSpeedChange Called whenever the CurrentSpeed of the BulletStatics script is changed to update every FIRED bullet speed. public event Action<float> onBulletSpeedChange Event Type Action<float> onEnemyDeath Called whenever an enemy dies. public event Action onEnemyDeath Event Type Action onGamePause Called whenever the game pauses public event Action onGamePause Event Type Action onGameResumed Called whenever the game un-pauses public event Action onGameResumed Event Type Action onLevelPassed Called whenever the player WINS a level. Used for skill point aquisition. public event Action<GameScenes> onLevelPassed Event Type Action<GameScenes> onPlayerDeath Called whenever the player dies. public event Action onPlayerDeath Event Type Action onPlayerRewind Called whenever the player starts going back in his previous positions, not when the rewind ability gets used. public event Action<bool> onPlayerRewind Event Type Action<bool> onPlayerShootEnd Called from PlayerAttack to notify every subbed method that the player stopped firing a gun. public event Action onPlayerShootEnd Event Type Action onPlayerShootStart Called from PlayerAttack to notify every subbed method that the player fired a gun. public event Action onPlayerShootStart Event Type Action onPlayerSpawn Called whenever a new scene is loaded to move the player to a specific spot. Called from MoveToStart script. public event Action<Vector3> onPlayerSpawn Event Type Action<Vector3> onSaveOverwrite public event Action onSaveOverwrite Event Type Action onSceneChanged Called after the NEW SCENE is LOADED and passes the new scene to its subscribers. public event Action<GameScenes> onSceneChanged Event Type Action<GameScenes> onSceneUnloaded public event Action<GameScenes> onSceneUnloaded Event Type Action<GameScenes> onWeaponPickup Called when the player picks up the bat prefab in the intro scene. public event Action onWeaponPickup Event Type Action"
+  },
+  "api/WGR.Core.Managers.GameManager.html": {
+    "href": "api/WGR.Core.Managers.GameManager.html",
+    "title": "Class GameManager | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class GameManager Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class GameManager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour GameManager Fields S public static GameManager S Field Value GameManager Properties AIEntityManager public AIEntityManager AIEntityManager { get; } Property Value AIEntityManager AbilityManager public AbilityManager AbilityManager { get; } Property Value AbilityManager BulletPool public BulletPool BulletPool { get; } Property Value BulletPool GameEventHandler public GameEventsHandler GameEventHandler { get; } Property Value GameEventsHandler GameSoundsHandler public GameSoundsHandler GameSoundsHandler { get; } Property Value GameSoundsHandler HUDHandler public UserHUDHandler HUDHandler { get; } Property Value UserHUDHandler LevelManager public LevelManager LevelManager { get; } Property Value LevelManager PlayerDeaths public int PlayerDeaths { get; set; } Property Value int PlayerEntity public PlayerEntity PlayerEntity { get; } Property Value PlayerEntity SaveDataHandler public SaveDataHandler SaveDataHandler { get; } Property Value SaveDataHandler SkillPointHandle public SkillPointHandle SkillPointHandle { get; } Property Value SkillPointHandle UIManager public UI_Manager UIManager { get; } Property Value UI_Manager WeaponManager public WeaponManager WeaponManager { get; } Property Value WeaponManager WeaponSelectionUIHandler public WeaponSelectionUI WeaponSelectionUIHandler { get; } Property Value WeaponSelectionUI Methods SetHUDHandler(UserHUDHandler) Call to set the UserHUDHandler field to the passed reference. Called from UserHUDHandler in runtime. public void SetHUDHandler(UserHUDHandler hudHandler) Parameters hudHandler UserHUDHandler SetPlayerEntity(PlayerEntity) Call to set the PlayerEntity field to the passed reference. Called from PlayerEntity in runtime. public void SetPlayerEntity(PlayerEntity player) Parameters player PlayerEntity SetWeaponSelectionUIHandler(WeaponSelectionUI) Call to set the WeaponSelectionUI field to the passed reference. Called from WeaponSelectionUI in runtime. public void SetWeaponSelectionUIHandler(WeaponSelectionUI weaponSelectionUI) Parameters weaponSelectionUI WeaponSelectionUI"
+  },
+  "api/WGR.Core.Managers.GameScenes.html": {
+    "href": "api/WGR.Core.Managers.GameScenes.html",
+    "title": "Enum GameScenes | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum GameScenes Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll All the game scenes enumerated for ease of access, the index MUST be the same as the build index. public enum GameScenes Fields AbilitiesTutorial = 6 AnyScene = -1 GameEntryScene = 0 Level1 = 7 Level2 = 8 Level3 = 9 Level4 = 10 Level5 = 11 MainMenu = 1 NewGameIntro = 4 PlayerHub = 5 PlayerScene = 3 UI_Scene = 2"
+  },
+  "api/WGR.Core.Managers.GameSoundsHandler.html": {
+    "href": "api/WGR.Core.Managers.GameSoundsHandler.html",
+    "title": "Class GameSoundsHandler | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class GameSoundsHandler Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class GameSoundsHandler : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour GameSoundsHandler Fields mainAudioSource public AudioSource mainAudioSource Field Value AudioSource sfxSource public AudioSource sfxSource Field Value AudioSource Methods ChangeSoundPitch(float) public void ChangeSoundPitch(float value) Parameters value float DecreaseVolumeByPoint1() public void DecreaseVolumeByPoint1() ForceAmbienceSFX() public void ForceAmbienceSFX() ForcePlayBossMusic() public void ForcePlayBossMusic() ForcePlayBossStunnedMusic() public void ForcePlayBossStunnedMusic() IncreaseVolumeByPoint1() public void IncreaseVolumeByPoint1() PlayOneShot(GameAudioClip) public void PlayOneShot(GameAudioClip clip) Parameters clip GameAudioClip SetGameWideSoundtrackState(bool) public void SetGameWideSoundtrackState(bool pause) Parameters pause bool SetSoundReferences(Slider) public void SetSoundReferences(Slider musicSlider) Parameters musicSlider Slider SetVolume(float) public void SetVolume(float value) Parameters value float"
+  },
+  "api/WGR.Core.Managers.LevelLoadPacket.html": {
+    "href": "api/WGR.Core.Managers.LevelLoadPacket.html",
+    "title": "Class LevelLoadPacket | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class LevelLoadPacket Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class LevelLoadPacket : ScriptableObject Inheritance object Object ScriptableObject LevelLoadPacket Fields PacketIndex public int PacketIndex Field Value int PacketMainScene public GameScenes PacketMainScene Field Value GameScenes ScenesToLoad public GameScenes[] ScenesToLoad Field Value GameScenes[] ScenesToUnload public GameScenes[] ScenesToUnload Field Value GameScenes[]"
+  },
+  "api/WGR.Core.Managers.LevelManager.html": {
+    "href": "api/WGR.Core.Managers.LevelManager.html",
+    "title": "Class LevelManager | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class LevelManager Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class LevelManager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour LevelManager Properties ActiveScene public GameScenes[] ActiveScene { get; } Property Value GameScenes[] FocusedScene public GameScenes FocusedScene { get; } Property Value GameScenes Methods ForceLoad(int) Call to forcefully load a level, mainly used when the player dies to get back to the playerHub. public void ForceLoad(int levelPacketIndex) Parameters levelPacketIndex int The packet index to load LoadGameScene() public void LoadGameScene() LoadNext(bool, int) Call to load the next scene load packet (order set from inspector). If fromForceLoad is true then a packet index must be passed so the packet indexer can automatically set itself in the correct List index. public void LoadNext(bool fromForceLoad, int packetIndex = 0) Parameters fromForceLoad bool packetIndex int SetFaderReference(SceneFader) public void SetFaderReference(SceneFader fader) Parameters fader SceneFader StartNewGameScene() public void StartNewGameScene() TransitToAbilitiesTests() public void TransitToAbilitiesTests() TransitToPlayerHub() public void TransitToPlayerHub()"
+  },
+  "api/WGR.Core.Managers.LevelWinHandler.html": {
+    "href": "api/WGR.Core.Managers.LevelWinHandler.html",
+    "title": "Class LevelWinHandler | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class LevelWinHandler Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class LevelWinHandler : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour LevelWinHandler"
+  },
+  "api/WGR.Core.Managers.MainMenuManager.html": {
+    "href": "api/WGR.Core.Managers.MainMenuManager.html",
+    "title": "Class MainMenuManager | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class MainMenuManager Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class MainMenuManager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour MainMenuManager"
+  },
+  "api/WGR.Core.Managers.SaveDataHandler.html": {
+    "href": "api/WGR.Core.Managers.SaveDataHandler.html",
+    "title": "Class SaveDataHandler | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class SaveDataHandler Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class SaveDataHandler : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour SaveDataHandler Methods GetSaveFileInfo() Call to get the currently saveData value. public SaveDataInfo GetSaveFileInfo() Returns SaveDataInfo HasSavedBefore() Returns the hasSaved value. public bool HasSavedBefore() Returns bool OverwriteSaveFile() Call to delete the save data file in the users documents. Invokes GameEventHandler.OnSaveOvewrite() and sets saveData field to null. public void OverwriteSaveFile() SaveGame() Call to read the appropriate in-game values, populate the SaveDataInfo class and then write the json string into the save data file. public void SaveGame()"
+  },
+  "api/WGR.Core.Managers.SaveDataInfo.html": {
+    "href": "api/WGR.Core.Managers.SaveDataInfo.html",
+    "title": "Class SaveDataInfo | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class SaveDataInfo Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class SaveDataInfo Inheritance object SaveDataInfo Fields AbilityTiersInOrder public int[] AbilityTiersInOrder Field Value int[] GunKillsInOrder public int[] GunKillsInOrder Field Value int[] PlayerDeaths public int PlayerDeaths Field Value int RemainingSkillPoints public int RemainingSkillPoints Field Value int"
+  },
+  "api/WGR.Core.Managers.SkillPointHandle.html": {
+    "href": "api/WGR.Core.Managers.SkillPointHandle.html",
+    "title": "Class SkillPointHandle | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class SkillPointHandle Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class SkillPointHandle : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour SkillPointHandle Methods DecreaseSkillPoints(int) Call to Decrease the skill point value by the passed value. Called from each player ability when they succesfully update. public void DecreaseSkillPoints(int value) Parameters value int RemainingSkillPoints() Call to get the availableSkillPoints count. public int RemainingSkillPoints() Returns int SetSkillPoints(int) Call to set the availableSkillPoints to the passed value. To-be-used with json loading. public void SetSkillPoints(int value) Parameters value int"
+  },
+  "api/WGR.Core.Managers.UIPanel.html": {
+    "href": "api/WGR.Core.Managers.UIPanel.html",
+    "title": "Enum UIPanel | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Enum UIPanel Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll All the available in-game UI panels that can be activated. public enum UIPanel Fields AbilitiesPanel = 4 AchievementsPanel = 6 DialogueBox = 7 MainMenuPanel = 0 PauseMenu = 1 PlayerInfo = 2 SaveDeletion = 8 StartWeaponPanel = 5 VisualsPanel = 3"
+  },
+  "api/WGR.Core.Managers.UI_Manager.html": {
+    "href": "api/WGR.Core.Managers.UI_Manager.html",
+    "title": "Class UI_Manager | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class UI_Manager Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class UI_Manager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour UI_Manager Properties IsPaused public bool IsPaused { get; } Property Value bool PlayerHubPanelActive public bool PlayerHubPanelActive { get; set; } Property Value bool UserUIHandle public HandleAbilityUpdatePanel UserUIHandle { get; set; } Property Value HandleAbilityUpdatePanel Methods DisablePanel(UIPanel) Call to disable the passed UI panel. public void DisablePanel(UIPanel panel) Parameters panel UIPanel EnablePanel(UIPanel) Call to enable the passed UI panel. public void EnablePanel(UIPanel panel) Parameters panel UIPanel GetInfoTextBoxPanel() public GameObject GetInfoTextBoxPanel() Returns GameObject SetContinueFromPauseScreenButton(Button) public void SetContinueFromPauseScreenButton(Button button) Parameters button Button SetQuitFromPauseScreenButton(Button) Call to set the quitGameFromPause button to the passed reference. public void SetQuitFromPauseScreenButton(Button button) Parameters button Button SetUIPanels(List<GameObject>) Call to set the uiPanels list to the passed reference. public void SetUIPanels(List<GameObject> panels) Parameters panels List<GameObject>"
+  },
+  "api/WGR.Core.Managers.WeaponKillCount.html": {
+    "href": "api/WGR.Core.Managers.WeaponKillCount.html",
+    "title": "Class WeaponKillCount | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class WeaponKillCount Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class WeaponKillCount : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour WeaponKillCount Methods AddKillToWeapon(WeaponType) Call to add a kill to the passed weapon type. Weapon types are unique per weapon. public void AddKillToWeapon(WeaponType weaponType) Parameters weaponType WeaponType GetWeaponUnlockDataDict() Call to get the weapon pair dictionary. public Dictionary<WeaponType, WeaponUnlockData> GetWeaponUnlockDataDict() Returns Dictionary<WeaponType, WeaponUnlockData> IsWeaponUnlocked(WeaponType) Call to check if the passed weapon type is unlocked in the dictionary. public bool IsWeaponUnlocked(WeaponType type) Parameters type WeaponType Returns bool True if the passed weapon is unlocked, false if otherwise."
+  },
+  "api/WGR.Core.Managers.WeaponManager.html": {
+    "href": "api/WGR.Core.Managers.WeaponManager.html",
+    "title": "Class WeaponManager | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class WeaponManager Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll public class WeaponManager : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour WeaponManager Properties WeaponKillCount public WeaponKillCount WeaponKillCount { get; } Property Value WeaponKillCount Methods CacheWeaponByType(WeaponType, GameObject) Call to cache the used weapon back in the appropriate Queue based on it's weaponType public void CacheWeaponByType(WeaponType type, GameObject weapon) Parameters type WeaponType weapon GameObject GetWeaponByType(WeaponType, int) Call to get a weapon prefab based on its weapon type public GameObject GetWeaponByType(WeaponType type, int playerBulletsLeft = -1) Parameters type WeaponType Which weapon prefab you want playerBulletsLeft int Returns GameObject A weapon prefab of the passed type GetWeaponSOsList() Call to get the weaponsToBeCounted list. public List<Weapon> GetWeaponSOsList() Returns List<Weapon> SetStartingWeaponOnPlayer(WeaponType) Call to find and invoke the PlayerEntity.PlayerShooting.SetWeaponInfo(...) method to set the equiped weapon to the passed weapon type. Called from a WeaponRepresenter instance when the player presses a weapon select button. public void SetStartingWeaponOnPlayer(WeaponType type) Parameters type WeaponType"
+  },
+  "api/WGR.Core.Managers.WeaponUnlockData.html": {
+    "href": "api/WGR.Core.Managers.WeaponUnlockData.html",
+    "title": "Struct WeaponUnlockData | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Struct WeaponUnlockData Namespace WGR.Core.Managers Assembly Assembly-CSharp.dll This struct is used to store weapon kill counts and weapon types tied together. public struct WeaponUnlockData Constructors WeaponUnlockData(WeaponType) public WeaponUnlockData(WeaponType type) Parameters type WeaponType Fields IsUnlocked public bool IsUnlocked Field Value bool KillCount public int KillCount Field Value int WeaponType public WeaponType WeaponType Field Value WeaponType"
+  },
+  "api/WGR.Core.Managers.html": {
+    "href": "api/WGR.Core.Managers.html",
+    "title": "Namespace WGR.Core.Managers | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.Core.Managers Classes AIEntityManager AbilityManager BulletPool GameEventsHandler GameManager GameSoundsHandler LevelLoadPacket LevelManager LevelWinHandler MainMenuManager SaveDataHandler SaveDataInfo SkillPointHandle UI_Manager WeaponKillCount WeaponManager Structs WeaponUnlockData This struct is used to store weapon kill counts and weapon types tied together. Enums AbilityType All the available abilities the player has. BulletType Every available bullet type in the game. GameAudioClip GameScenes All the game scenes enumerated for ease of access, the index MUST be the same as the build index. UIPanel All the available in-game UI panels that can be activated."
+  },
   "api/WGR.Core.MoveToStart.html": {
     "href": "api/WGR.Core.MoveToStart.html",
     "title": "Class MoveToStart | Wake Grind Rewind: Redefined Official API",
@@ -567,7 +792,92 @@
   "api/WGR.Core.html": {
     "href": "api/WGR.Core.html",
     "title": "Namespace WGR.Core | Wake Grind Rewind: Redefined Official API",
-    "keywords": "Namespace WGR.Core Classes AIEntityManager Ability AbilityManager AbilityTVActivator ActivateAbilityTest BossStunnedSequence ButtonPrompt CameraBehaviour DialogueController DialogueOnTriggerEnter DisplayTooltip DoorKickable DynamicCrosshair EnemyKickable Entity GameEventsHandler GameManager GameSoundsHandler HandleAbilityUpdatePanel HubPanelActivator IntroSceneSequencer KickableEntity LevelLoadPacket LevelManager MainMenuManager MoveToStart MurderPlayerSequencer OnMouseHover PanelReferences PlayerAnimations PlayerController PlayerEntity PlayerKick RewindTime Rewinder SaveDataHandler SaveDataInfo SceneFader ScriptedSequence This class is used for better sentence-icon handling in the inspector. SkillPointHandle SlowDownTime Stat<T> StopTime ThrowWeaponSequence ThrowableSpeeds A static class containing every speed a throwable can use. TransitLevel UI_Manager UpdateSoundUIReferences UserHUDHandler WeaponManager WeaponRepresenter WeaponSelectionUI Interfaces IInteractable IKickable IRewindable This interface can be attached to any gameObject to make it rewindable with the Rewind ability. Enums AbilityType All the available abilities the player has. GameAudioClip GameScenes All the game scenes enumerated for ease of access, the index MUST be the same as the build index. UIPanel All the available in-game UI panels that can be activated."
+    "keywords": "Namespace WGR.Core Classes Ability RewindTime Rewinder SlowDownTime StopTime Interfaces IRewindable This interface can be attached to any gameObject to make it rewindable with the Rewind ability."
+  },
+  "api/WGR.Entities.BattleSystem.IThrowable.html": {
+    "href": "api/WGR.Entities.BattleSystem.IThrowable.html",
+    "title": "Interface IThrowable | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Interface IThrowable Namespace WGR.Entities.BattleSystem Assembly Assembly-CSharp.dll An interface that can be attached to any object we want to be throwable. Handled through polymorphism and implemented from ThrowableEntity class. public interface IThrowable Methods GetThrowSpeed() float GetThrowSpeed() Returns float InitiateThrow() void InitiateThrow() ResetSpeedAndRotation() void ResetSpeedAndRotation()"
+  },
+  "api/WGR.Entities.BattleSystem.Shooter.html": {
+    "href": "api/WGR.Entities.BattleSystem.Shooter.html",
+    "title": "Class Shooter | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Shooter Namespace WGR.Entities.BattleSystem Assembly Assembly-CSharp.dll public abstract class Shooter : MonoBehaviour, IShooter Inheritance object Object Component Behaviour MonoBehaviour Shooter Implements IShooter Derived AIEntityWeapon PlayerAttack Fields accuracyIncreaseRate protected float accuracyIncreaseRate Field Value float bulletSpreadRate protected float bulletSpreadRate Field Value float bulletsLeft protected int bulletsLeft Field Value int canShoot protected bool canShoot Field Value bool equipedWeapon public Weapon equipedWeapon Field Value Weapon firePoint protected Transform firePoint Field Value Transform isShooting protected bool isShooting Field Value bool maxBulletSpread protected float maxBulletSpread Field Value float meleeDetectionLayers protected LayerMask meleeDetectionLayers Field Value LayerMask meleeLinecastLayers protected LayerMask meleeLinecastLayers Field Value LayerMask shootDoneTime protected float shootDoneTime Field Value float shootInterval protected float shootInterval Field Value float Methods SetWeaponInfo(Weapon, int) Call to set the required Shooter fields based on the passed Weapon Scriptable Object. cachedBulletCountMust be set only in the PlayerWeapon. public abstract void SetWeaponInfo(Weapon weapon, int cachedBulletCount = -1) Parameters weapon Weapon cachedBulletCount int Shoot() public abstract void Shoot()"
+  },
+  "api/WGR.Entities.BattleSystem.ThrowableEntity.html": {
+    "href": "api/WGR.Entities.BattleSystem.ThrowableEntity.html",
+    "title": "Class ThrowableEntity | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class ThrowableEntity Namespace WGR.Entities.BattleSystem Assembly Assembly-CSharp.dll public class ThrowableEntity : MonoBehaviour, IThrowable Inheritance object Object Component Behaviour MonoBehaviour ThrowableEntity Implements IThrowable Methods GetThrowSpeed() Call to get THIS throwables throw speed. public float GetThrowSpeed() Returns float InitiateThrow() Call to start the throwing weapon sequence by setting the wasThrown to true. Sets throwTimer to throwForSeconds public void InitiateThrow() ResetSpeedAndRotation() Call to set the rotation speed to 5, and the throwSpeedCache to throwSpeed; public void ResetSpeedAndRotation()"
+  },
+  "api/WGR.Entities.BattleSystem.html": {
+    "href": "api/WGR.Entities.BattleSystem.html",
+    "title": "Namespace WGR.Entities.BattleSystem | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.Entities.BattleSystem Classes Shooter ThrowableEntity Interfaces IThrowable An interface that can be attached to any object we want to be throwable. Handled through polymorphism and implemented from ThrowableEntity class."
+  },
+  "api/WGR.Entities.DoorKickable.html": {
+    "href": "api/WGR.Entities.DoorKickable.html",
+    "title": "Class DoorKickable | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class DoorKickable Namespace WGR.Entities Assembly Assembly-CSharp.dll public class DoorKickable : KickableEntity, IKickable Inheritance object Object Component Behaviour MonoBehaviour KickableEntity DoorKickable Implements IKickable Inherited Members KickableEntity.kickForce KickableEntity.stunOnCollision KickableEntity.entityRB KickableEntity.kicked KickableEntity.oppositeDir KickableEntity.stunTimer KickableEntity.stunTimerCache KickableEntity.canStun Methods External_UnlockDoor() Call to make the door gameObject interactable and open-able. public void External_UnlockDoor() SimulateKnockback(Vector3) Call to push the door gameObject to the opposite of the incoming direction and set kicked and canStun to true. If neverUnlock is set to true or the door is in the NonCollidable DoorLayer nothing happens. public override void SimulateKnockback(Vector3 incomingDir) Parameters incomingDir Vector3 Update() protected void Update()"
+  },
+  "api/WGR.Entities.EnemyKickable.html": {
+    "href": "api/WGR.Entities.EnemyKickable.html",
+    "title": "Class EnemyKickable | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class EnemyKickable Namespace WGR.Entities Assembly Assembly-CSharp.dll public class EnemyKickable : KickableEntity, IKickable Inheritance object Object Component Behaviour MonoBehaviour KickableEntity EnemyKickable Implements IKickable Inherited Members KickableEntity.kickForce KickableEntity.stunOnCollision KickableEntity.entityRB KickableEntity.kicked KickableEntity.oppositeDir KickableEntity.stunTimer KickableEntity.stunTimerCache KickableEntity.canStun Methods SimulateKnockback(Vector3) Call to push the enemy gameobject to the opposite of the passed vector. public override void SimulateKnockback(Vector3 incomingDir) Parameters incomingDir Vector3 Update() protected void Update()"
+  },
+  "api/WGR.Entities.Entity.html": {
+    "href": "api/WGR.Entities.Entity.html",
+    "title": "Class Entity | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Entity Namespace WGR.Entities Assembly Assembly-CSharp.dll public abstract class Entity : MonoBehaviour, IInteractable Inheritance object Object Component Behaviour MonoBehaviour Entity Implements IInteractable Derived AIEntity PlayerEntity Fields entityLife protected Stat<float> entityLife Field Value Stat<float> entityName protected Stat<string> entityName Field Value Stat<string> Methods AttackInteraction() Call to initiate the attack interaction behaviour of any Entity GameObject public abstract void AttackInteraction() StunInteraction() Call to initiate the stun interaction of any Entity GameObject public abstract void StunInteraction()"
+  },
+  "api/WGR.Entities.KickableEntity.html": {
+    "href": "api/WGR.Entities.KickableEntity.html",
+    "title": "Class KickableEntity | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class KickableEntity Namespace WGR.Entities Assembly Assembly-CSharp.dll public class KickableEntity : MonoBehaviour, IKickable Inheritance object Object Component Behaviour MonoBehaviour KickableEntity Implements IKickable Derived DoorKickable EnemyKickable Fields canStun protected bool canStun Field Value bool entityRB protected Rigidbody entityRB Field Value Rigidbody kickForce protected float kickForce Field Value float kicked protected bool kicked Field Value bool oppositeDir protected Vector3 oppositeDir Field Value Vector3 stunOnCollision protected bool stunOnCollision Field Value bool stunTimer protected float stunTimer Field Value float stunTimerCache protected float stunTimerCache Field Value float Methods SimulateKnockback(Vector3) Call to start a knockback simulation on the gameObject that THIS script is attached to. Knockback force is set from the inpsector (kickForce) public virtual void SimulateKnockback(Vector3 incomingDir) Parameters incomingDir Vector3 The transform of the Kicker"
+  },
+  "api/WGR.Entities.Player.CameraBehaviour.html": {
+    "href": "api/WGR.Entities.Player.CameraBehaviour.html",
+    "title": "Class CameraBehaviour | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class CameraBehaviour Namespace WGR.Entities.Player Assembly Assembly-CSharp.dll public class CameraBehaviour : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour CameraBehaviour Fields maxZoomIn public float maxZoomIn Field Value float maxZoomOut public float maxZoomOut Field Value float zoomForce public float zoomForce Field Value float Methods StartShakeSequence(float, float) Call to initiate the camera shake sequence. Calls the SimulateShake() method Sets isShaking to true public void StartShakeSequence(float length, float power) Parameters length float power float"
+  },
+  "api/WGR.Entities.Player.PlayerAnimations.html": {
+    "href": "api/WGR.Entities.Player.PlayerAnimations.html",
+    "title": "Class PlayerAnimations | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class PlayerAnimations Namespace WGR.Entities.Player Assembly Assembly-CSharp.dll public class PlayerAnimations : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour PlayerAnimations Methods GetAnimator() Call to get a player animator reference. public Animator GetAnimator() Returns Animator PlayDeathAnimation() Call to play the player death animation. public void PlayDeathAnimation() PlayKickAnimation() Call to play the player kick animation. public void PlayKickAnimation() PlayMeleeWeaponAnimation(WeaponType) Call to play the respective player melee animation based on the weaponType passed. Also disables WeaponHolding stance by calling SetRangedWeaponAnimation(...) public void PlayMeleeWeaponAnimation(WeaponType weaponType) Parameters weaponType WeaponType PlayThrowAnimation() Call to play the player throw animation. public void PlayThrowAnimation() PlayWakeUpAnimation() Call to play the player wake up animation. public void PlayWakeUpAnimation() SetRangedWeaponAnimation(bool) Call to set the isHoldingGun animator boolean value to the passed value. If the passed value is true, then force play the isHolding gun animation so we miss no frames. public void SetRangedWeaponAnimation(bool state) Parameters state bool SetWalkAnimationState(bool) Call to set the isWalking animator bool value to the passed value. public void SetWalkAnimationState(bool state) Parameters state bool ThrowAnimationEnd() ANIMATION EVENT Called when the player throw animation is finished to reset the animation boolean. public void ThrowAnimationEnd()"
+  },
+  "api/WGR.Entities.Player.PlayerAttack.html": {
+    "href": "api/WGR.Entities.Player.PlayerAttack.html",
+    "title": "Class PlayerAttack | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class PlayerAttack Namespace WGR.Entities.Player Assembly Assembly-CSharp.dll public class PlayerAttack : Shooter, IShooter Inheritance object Object Component Behaviour MonoBehaviour Shooter PlayerAttack Implements IShooter Inherited Members Shooter.meleeDetectionLayers Shooter.meleeLinecastLayers Shooter.firePoint Shooter.bulletSpreadRate Shooter.accuracyIncreaseRate Shooter.equipedWeapon Shooter.bulletsLeft Shooter.maxBulletSpread Shooter.canShoot Shooter.isShooting Shooter.shootInterval Shooter.shootDoneTime Fields IsAttackActive public bool IsAttackActive Field Value bool Methods DropEquipedWeapon() Call to transfer a weapon gameObject instance from the WeaponManager.GetWeaponByType(...) based on the equiped player weapon and place it in front of the player. Early exits if the equiped weapon is null OR is of Unarmed weaponCategory. Calls ClearWeaponsUI() public void DropEquipedWeapon() SetWeaponInfo(Weapon, int) Call to set the player weapon to the passed weapon type and values. Calls UpdateWeaponsUI(...) public override void SetWeaponInfo(Weapon weapon, int cachedBulletCount = -1) Parameters weapon Weapon cachedBulletCount int Leave to default when passing a non ranged weapon so the bullet count does not get printed in the UI. Used to transfer the bullets left between the equiped weapon and the picked up weapon. Shoot() Call to initiate the player specific attacking sequence. Sets isShooting to true. Changes the bullets left UI element. public override void Shoot()"
+  },
+  "api/WGR.Entities.Player.PlayerController.html": {
+    "href": "api/WGR.Entities.Player.PlayerController.html",
+    "title": "Class PlayerController | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class PlayerController Namespace WGR.Entities.Player Assembly Assembly-CSharp.dll public class PlayerController : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour PlayerController"
+  },
+  "api/WGR.Entities.Player.PlayerEntity.html": {
+    "href": "api/WGR.Entities.Player.PlayerEntity.html",
+    "title": "Class PlayerEntity | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class PlayerEntity Namespace WGR.Entities.Player Assembly Assembly-CSharp.dll public class PlayerEntity : Entity, IInteractable, IRewindable Inheritance object Object Component Behaviour MonoBehaviour Entity PlayerEntity Implements IInteractable IRewindable Inherited Members Entity.entityName Entity.entityLife Properties IsActive Everytime the value is set the OnPlayerDeactivate event gets invoked and passes the passed value. public bool IsActive { get; set; } Property Value bool IsDead If true adds +1 to the playe death value in the GameManager. public bool IsDead { get; set; } Property Value bool PlayerAnimations public PlayerAnimations PlayerAnimations { get; set; } Property Value PlayerAnimations PlayerController public PlayerController PlayerController { get; set; } Property Value PlayerController PlayerKick public PlayerKick PlayerKick { get; set; } Property Value PlayerKick PlayerShooting public PlayerAttack PlayerShooting { get; set; } Property Value PlayerAttack Methods AttackInteraction() Call to initiate the attack interaction of the player. If the player is marked dead then return. If there are rewind ability uses and the player dies then a rewind sequence gets initiated. If there are not, then the player dies and gets back to the player hub. public override void AttackInteraction() EnableUserControlOfPlayer() ANIMATION EVENT Called when the wake up animation finishes playing to reactivate the player controls. public void EnableUserControlOfPlayer() GetPosition() Call to get the current position of the player. public Vector3 GetPosition() Returns Vector3 OnPlayerStateChange(bool) public void OnPlayerStateChange(bool value) Parameters value bool SetPosition(Vector3) Call to set the current position of the player. If the player is marked dead, then return. public void SetPosition(Vector3 newPos) Parameters newPos Vector3 StunInteraction() Call to initiate the stun interaction of the entity. public override void StunInteraction() Events onPlayerStateChange PLAYER SYSTEM USE ONLY Subscribe to this event to get notified with the current player entity active state when it changes. public event Action<bool> onPlayerStateChange Event Type Action<bool>"
+  },
+  "api/WGR.Entities.Player.PlayerKick.html": {
+    "href": "api/WGR.Entities.Player.PlayerKick.html",
+    "title": "Class PlayerKick | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class PlayerKick Namespace WGR.Entities.Player Assembly Assembly-CSharp.dll public class PlayerKick : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour PlayerKick Properties IsKicking public bool IsKicking { get; set; } Property Value bool"
+  },
+  "api/WGR.Entities.Player.html": {
+    "href": "api/WGR.Entities.Player.html",
+    "title": "Namespace WGR.Entities.Player | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.Entities.Player Classes CameraBehaviour PlayerAnimations PlayerAttack PlayerController PlayerEntity PlayerKick"
+  },
+  "api/WGR.Entities.Stat-1.html": {
+    "href": "api/WGR.Entities.Stat-1.html",
+    "title": "Class Stat<T> | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class Stat<T> Namespace WGR.Entities Assembly Assembly-CSharp.dll public class Stat<T> Type Parameters T Inheritance object Stat<T> Methods GetValue() public T GetValue() Returns T SetValue(T) public void SetValue(T value) Parameters value T ToString() public override string ToString() Returns string"
+  },
+  "api/WGR.Entities.html": {
+    "href": "api/WGR.Entities.html",
+    "title": "Namespace WGR.Entities | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.Entities Classes DoorKickable EnemyKickable Entity KickableEntity Stat<T>"
   },
   "api/WGR.Gameplay.AI.AIEntity.html": {
     "href": "api/WGR.Gameplay.AI.AIEntity.html",
@@ -792,7 +1102,7 @@
   "api/WGR.Gameplay.AI.html": {
     "href": "api/WGR.Gameplay.AI.html",
     "title": "Namespace WGR.Gameplay.AI | Wake Grind Rewind: Redefined Official API",
-    "keywords": "Namespace WGR.Gameplay.AI Classes BossLevelEnemyCounter EnemySpawnHandler"
+    "keywords": "Namespace WGR.Gameplay.AI Classes BossLevelEnemyCounter"
   },
   "api/WGR.Gameplay.BattleSystem.BloodFXController.html": {
     "href": "api/WGR.Gameplay.BattleSystem.BloodFXController.html",
@@ -898,6 +1208,161 @@
     "href": "api/WGR.InspectorButtonAttribute.html",
     "title": "Class InspectorButtonAttribute | Wake Grind Rewind: Redefined Official API",
     "keywords": "Class InspectorButtonAttribute Namespace WGR Assembly Assembly-CSharp.dll This attribute can only be applied to fields because its associated PropertyDrawer only operates on fields (either public or tagged with the [SerializeField] attribute) in the target MonoBehaviour. public class InspectorButtonAttribute : PropertyAttribute Inheritance object Attribute PropertyAttribute InspectorButtonAttribute Constructors InspectorButtonAttribute(string) public InspectorButtonAttribute(string MethodName) Parameters MethodName string Fields MethodName public readonly string MethodName Field Value string kDefaultButtonWidth public static float kDefaultButtonWidth Field Value float Properties ButtonWidth public float ButtonWidth { get; set; } Property Value float"
+  },
+  "api/WGR.Interactions.IInteractable.html": {
+    "href": "api/WGR.Interactions.IInteractable.html",
+    "title": "Interface IInteractable | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Interface IInteractable Namespace WGR.Interactions Assembly Assembly-CSharp.dll public interface IInteractable Methods AttackInteraction() void AttackInteraction() StunInteraction() void StunInteraction()"
+  },
+  "api/WGR.Interactions.IKickable.html": {
+    "href": "api/WGR.Interactions.IKickable.html",
+    "title": "Interface IKickable | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Interface IKickable Namespace WGR.Interactions Assembly Assembly-CSharp.dll public interface IKickable Methods SimulateKnockback(Vector3) void SimulateKnockback(Vector3 incomingDir) Parameters incomingDir Vector3"
+  },
+  "api/WGR.Interactions.html": {
+    "href": "api/WGR.Interactions.html",
+    "title": "Namespace WGR.Interactions | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.Interactions Interfaces IInteractable IKickable"
+  },
+  "api/WGR.Scripted.AbilityTVActivator.html": {
+    "href": "api/WGR.Scripted.AbilityTVActivator.html",
+    "title": "Class AbilityTVActivator | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class AbilityTVActivator Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class AbilityTVActivator : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour AbilityTVActivator"
+  },
+  "api/WGR.Scripted.ActivateAbilityTest.html": {
+    "href": "api/WGR.Scripted.ActivateAbilityTest.html",
+    "title": "Class ActivateAbilityTest | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class ActivateAbilityTest Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class ActivateAbilityTest : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour ActivateAbilityTest"
+  },
+  "api/WGR.Scripted.BossEntrySequence.html": {
+    "href": "api/WGR.Scripted.BossEntrySequence.html",
+    "title": "Class BossEntrySequence | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class BossEntrySequence Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class BossEntrySequence : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour BossEntrySequence"
+  },
+  "api/WGR.Scripted.BossLevelEnemyCounter.html": {
+    "href": "api/WGR.Scripted.BossLevelEnemyCounter.html",
+    "title": "Class BossLevelEnemyCounter | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class BossLevelEnemyCounter Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class BossLevelEnemyCounter : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour BossLevelEnemyCounter"
+  },
+  "api/WGR.Scripted.BossStunnedSequence.html": {
+    "href": "api/WGR.Scripted.BossStunnedSequence.html",
+    "title": "Class BossStunnedSequence | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class BossStunnedSequence Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class BossStunnedSequence : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour BossStunnedSequence Methods Ending_KillBossAndContinue() Call to start the bad ending sequence. Call to display one last dialogue before moving the player to the player hub. public void Ending_KillBossAndContinue()"
+  },
+  "api/WGR.Scripted.DialogueOnTriggerEnter.html": {
+    "href": "api/WGR.Scripted.DialogueOnTriggerEnter.html",
+    "title": "Class DialogueOnTriggerEnter | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class DialogueOnTriggerEnter Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class DialogueOnTriggerEnter : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour DialogueOnTriggerEnter Methods OnTriggerEnter(Collider) public void OnTriggerEnter(Collider collision) Parameters collision Collider"
+  },
+  "api/WGR.Scripted.EnemySpawnHandler.html": {
+    "href": "api/WGR.Scripted.EnemySpawnHandler.html",
+    "title": "Class EnemySpawnHandler | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class EnemySpawnHandler Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class EnemySpawnHandler : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour EnemySpawnHandler Methods EnableFinalBossRoom() Call to reveal the final boss room. public void EnableFinalBossRoom() SpawnBoss() Call to move the boss in the bossEntryPosition transform. public void SpawnBoss() SpawnEnemyWave() Call to move and activate the boss minions in front of the elevator. Reveals the first boss hiding room. public void SpawnEnemyWave()"
+  },
+  "api/WGR.Scripted.IntroSceneSequencer.html": {
+    "href": "api/WGR.Scripted.IntroSceneSequencer.html",
+    "title": "Class IntroSceneSequencer | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class IntroSceneSequencer Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class IntroSceneSequencer : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour IntroSceneSequencer"
+  },
+  "api/WGR.Scripted.MoveToStart.html": {
+    "href": "api/WGR.Scripted.MoveToStart.html",
+    "title": "Class MoveToStart | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class MoveToStart Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class MoveToStart : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour MoveToStart"
+  },
+  "api/WGR.Scripted.MurderPlayerSequencer.html": {
+    "href": "api/WGR.Scripted.MurderPlayerSequencer.html",
+    "title": "Class MurderPlayerSequencer | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class MurderPlayerSequencer Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class MurderPlayerSequencer : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour MurderPlayerSequencer"
+  },
+  "api/WGR.Scripted.ScriptedSequence.html": {
+    "href": "api/WGR.Scripted.ScriptedSequence.html",
+    "title": "Class ScriptedSequence | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class ScriptedSequence Namespace WGR.Scripted Assembly Assembly-CSharp.dll This class is used for better sentence-icon handling in the inspector. public class ScriptedSequence Inheritance object ScriptedSequence Fields imagePerSentence public List<Sprite> imagePerSentence Field Value List<Sprite> sentences public List<string> sentences Field Value List<string>"
+  },
+  "api/WGR.Scripted.ThrowWeaponSequence.html": {
+    "href": "api/WGR.Scripted.ThrowWeaponSequence.html",
+    "title": "Class ThrowWeaponSequence | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class ThrowWeaponSequence Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class ThrowWeaponSequence : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour ThrowWeaponSequence"
+  },
+  "api/WGR.Scripted.TransitLevel.html": {
+    "href": "api/WGR.Scripted.TransitLevel.html",
+    "title": "Class TransitLevel | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class TransitLevel Namespace WGR.Scripted Assembly Assembly-CSharp.dll public class TransitLevel : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour TransitLevel Methods EnableLevelTransition() Call to disable the elevator blocker sprite (if enabled), play the ambience music and the elevator SFX. Sets canTransit to true. Does not work in LEVEL5 because level transitioning is activated by BossStunnedSequence script. public void EnableLevelTransition()"
+  },
+  "api/WGR.Scripted.html": {
+    "href": "api/WGR.Scripted.html",
+    "title": "Namespace WGR.Scripted | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.Scripted Classes AbilityTVActivator ActivateAbilityTest BossEntrySequence BossLevelEnemyCounter BossStunnedSequence DialogueOnTriggerEnter EnemySpawnHandler IntroSceneSequencer MoveToStart MurderPlayerSequencer ScriptedSequence This class is used for better sentence-icon handling in the inspector. ThrowWeaponSequence TransitLevel"
+  },
+  "api/WGR.UI.ButtonPrompt.html": {
+    "href": "api/WGR.UI.ButtonPrompt.html",
+    "title": "Class ButtonPrompt | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class ButtonPrompt Namespace WGR.UI Assembly Assembly-CSharp.dll public class ButtonPrompt : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour ButtonPrompt Methods DisableInteraction() Cal to make the canvas non-interactable and invisible. public void DisableInteraction()"
+  },
+  "api/WGR.UI.DialogueController.html": {
+    "href": "api/WGR.UI.DialogueController.html",
+    "title": "Class DialogueController | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class DialogueController Namespace WGR.UI Assembly Assembly-CSharp.dll public class DialogueController : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour DialogueController Methods TypeSentence(string, Action, float, bool, bool) Display the given sentence letter by letter in the given text box with a small interval and then call the passed callbackMethod. dontShowButtonPrompt -If true then the sentence gets displayed automatically. public IEnumerator TypeSentence(string sentenceToType, Action callbackMethod, float typeSpeed, bool waitForInput, bool dontShowButtonPrompt = false) Parameters sentenceToType string callbackMethod Action typeSpeed float waitForInput bool dontShowButtonPrompt bool Returns IEnumerator TypeSentence(string, float, bool, bool) Display the given sentence letter by letter in the given text box with a small interval. public IEnumerator TypeSentence(string sentenceToType, float typeSpeed, bool waitForInput, bool dontShowButtonPrompt = false) Parameters sentenceToType string typeSpeed float waitForInput bool dontShowButtonPrompt bool Returns IEnumerator TypeSentenceSequences(Action, float, List<string>, List<Sprite>, bool) Display the given list of sentences along with their icons letter by letter in the text box with a small interval and then call the passed callbackMethod. dontShowButtonPrompt -If true then the sentence gets displayed automatically. public IEnumerator TypeSentenceSequences(Action callbackMethod, float typeSpeed, List<string> sentenceToType, List<Sprite> imagePerSentence, bool dontShowPrompt = false) Parameters callbackMethod Action typeSpeed float sentenceToType List<string> imagePerSentence List<Sprite> dontShowPrompt bool Returns IEnumerator"
+  },
+  "api/WGR.UI.DisplayTooltip.html": {
+    "href": "api/WGR.UI.DisplayTooltip.html",
+    "title": "Class DisplayTooltip | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class DisplayTooltip Namespace WGR.UI Assembly Assembly-CSharp.dll public class DisplayTooltip : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour DisplayTooltip Methods OnPointerEnter(PointerEventData) Use this callback to detect pointer enter events public void OnPointerEnter(PointerEventData eventData) Parameters eventData PointerEventData OnPointerExit(PointerEventData) Use this callback to detect pointer exit events public void OnPointerExit(PointerEventData eventData) Parameters eventData PointerEventData"
+  },
+  "api/WGR.UI.DynamicCrosshair.html": {
+    "href": "api/WGR.UI.DynamicCrosshair.html",
+    "title": "Class DynamicCrosshair | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class DynamicCrosshair Namespace WGR.UI Assembly Assembly-CSharp.dll public class DynamicCrosshair : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour DynamicCrosshair"
+  },
+  "api/WGR.UI.HandleAbilityUpdatePanel.html": {
+    "href": "api/WGR.UI.HandleAbilityUpdatePanel.html",
+    "title": "Class HandleAbilityUpdatePanel | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class HandleAbilityUpdatePanel Namespace WGR.UI Assembly Assembly-CSharp.dll public class HandleAbilityUpdatePanel : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour HandleAbilityUpdatePanel Methods ClearDescriptionText() Call to set the description text string to String.Empty. Calls RefreshAbilityUI(). public void ClearDescriptionText() RefreshUISceneChanged(GameScenes) Called whenever the scene gets changed to refresh the UI. public void RefreshUISceneChanged(GameScenes scene) Parameters scene GameScenes UpdateAbility(AbilityType) Call to update the passed type ability. Updates the description and refreshes the UI. (UpdateDescription() - RefreshAbilityUI()) public void UpdateAbility(AbilityType type) Parameters type AbilityType UpdateDescription(string) Call to set the description text to the passed value. public void UpdateDescription(string text) Parameters text string UpdateDescription(AbilityType) Call to update the abilities UI description based on the ability type passed. Refreshes the UI. (RefreshAbilityUI()) public void UpdateDescription(AbilityType type) Parameters type AbilityType"
+  },
+  "api/WGR.UI.HubPanelActivator.html": {
+    "href": "api/WGR.UI.HubPanelActivator.html",
+    "title": "Class HubPanelActivator | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class HubPanelActivator Namespace WGR.UI Assembly Assembly-CSharp.dll public class HubPanelActivator : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour HubPanelActivator Methods SetCanActivate(bool) Call to set the ability to activate this panel when the user presses the prompted button. public void SetCanActivate(bool state) Parameters state bool"
+  },
+  "api/WGR.UI.OnMouseHover.html": {
+    "href": "api/WGR.UI.OnMouseHover.html",
+    "title": "Class OnMouseHover | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class OnMouseHover Namespace WGR.UI Assembly Assembly-CSharp.dll public class OnMouseHover : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour OnMouseHover Fields type public AbilityType type Field Value AbilityType Methods OnPointerClick(PointerEventData) Called whenever the cursor gets pressed and isHovering is true FOR THIS SCRIPT INSTANCE. public void OnPointerClick(PointerEventData eventData) Parameters eventData PointerEventData OnPointerEnter(PointerEventData) Called whenever the cursor enters the assigned buttons' area to update the ability description based on the selected ability type from the inspector. Sets isHovering to true. public void OnPointerEnter(PointerEventData eventData) Parameters eventData PointerEventData OnPointerExit(PointerEventData) Called whenever the cursor leaves the assigned buttons' area to clear the ability description text. Sets isHovering to false. public void OnPointerExit(PointerEventData eventData) Parameters eventData PointerEventData"
+  },
+  "api/WGR.UI.PanelReferences.html": {
+    "href": "api/WGR.UI.PanelReferences.html",
+    "title": "Class PanelReferences | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class PanelReferences Namespace WGR.UI Assembly Assembly-CSharp.dll public class PanelReferences : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour PanelReferences"
+  },
+  "api/WGR.UI.SceneFader.html": {
+    "href": "api/WGR.UI.SceneFader.html",
+    "title": "Class SceneFader | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class SceneFader Namespace WGR.UI Assembly Assembly-CSharp.dll public class SceneFader : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour SceneFader Methods FadeIn() Call to play the FadeIn fader animation. public void FadeIn() FadeOut() Call to play the FadeOut fader animation. public void FadeOut()"
+  },
+  "api/WGR.UI.UpdateSoundUIReferences.html": {
+    "href": "api/WGR.UI.UpdateSoundUIReferences.html",
+    "title": "Class UpdateSoundUIReferences | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class UpdateSoundUIReferences Namespace WGR.UI Assembly Assembly-CSharp.dll public class UpdateSoundUIReferences : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour UpdateSoundUIReferences"
+  },
+  "api/WGR.UI.UserHUDHandler.html": {
+    "href": "api/WGR.UI.UserHUDHandler.html",
+    "title": "Class UserHUDHandler | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class UserHUDHandler Namespace WGR.UI Assembly Assembly-CSharp.dll public class UserHUDHandler : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour UserHUDHandler Methods ChangeBulletsLeft(string) Call to set the remainingBullets text to the passed value. public void ChangeBulletsLeft(string bulletsLeft) Parameters bulletsLeft string ChangeSelectedAbilityIcon(Sprite, int, bool) Call to change all the sprites of the selectedAbilityIcons list to the passed abilityIcon sprite. Invokes SetPreviousAndNextAbilityIcons(...) to visualise the ability circle based on the current selected ability. public void ChangeSelectedAbilityIcon(Sprite abilityIcon, int currentAbilityIndex, bool unlocked) Parameters abilityIcon Sprite The selected ability icon. currentAbilityIndex int The selected ability index (based on AbilityManager indexing) unlocked bool The IsUnlocked ability field. ChangeWeaponInfo(Sprite) Call to set the bulletTypeImage to the passed ammoSprite. If ammoSprite is left to null then the sprites' alpha value is set to 0. public void ChangeWeaponInfo(Sprite ammoSprite = null) Parameters ammoSprite Sprite UpdateRemainingTimeIcon(float, float) Call to set the fill amount of the abilityCountdownSpriteIndex sprite inside the selectedAbilityIcons list to a value ratioed between 0-1 based on the remaing and total uses of an ability. public void UpdateRemainingTimeIcon(float remainingTime, float maxTime) Parameters remainingTime float maxTime float UpdateRemainingUsesIcon(int, int) Call to set the fill amount of the abilityFillSpriteIndex sprite inside the selectedAbilityIcons list to a value ratioed between 0-1 based on the remaing and total uses of an ability. public void UpdateRemainingUsesIcon(int remainingUses, int totalUses) Parameters remainingUses int totalUses int"
+  },
+  "api/WGR.UI.WeaponRepresenter.html": {
+    "href": "api/WGR.UI.WeaponRepresenter.html",
+    "title": "Class WeaponRepresenter | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class WeaponRepresenter Namespace WGR.UI Assembly Assembly-CSharp.dll public class WeaponRepresenter : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour WeaponRepresenter Methods DeselectWeaponButton(Button) public void DeselectWeaponButton(Button selectedButton) Parameters selectedButton Button SetButtonWeaponType(WeaponType) Call to set the buttonType value of this scripts instance to the passed value. public void SetButtonWeaponType(WeaponType type) Parameters type WeaponType"
+  },
+  "api/WGR.UI.WeaponSelectionUI.html": {
+    "href": "api/WGR.UI.WeaponSelectionUI.html",
+    "title": "Class WeaponSelectionUI | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Class WeaponSelectionUI Namespace WGR.UI Assembly Assembly-CSharp.dll public class WeaponSelectionUI : MonoBehaviour Inheritance object Object Component Behaviour MonoBehaviour WeaponSelectionUI Methods DeselectAllButtonsButSelected(Button) Call to iterate throughout the weaponButtons list and call the DeselectWeaponButton(...) of each WeaponRepresenter instance. Passes the passed selectedButton value to the DeselectWeaponButton method parameter. public void DeselectAllButtonsButSelected(Button selectedButton) Parameters selectedButton Button SetStartingWeapon(WeaponType) Call to check if the currently passed weapon type is unlocked. If true, then calls the WeaponManager.SetStartingWeaponOnPlayer(...) and passes the passed weapon type. public void SetStartingWeapon(WeaponType type) Parameters type WeaponType The weapon type to check for."
+  },
+  "api/WGR.UI.html": {
+    "href": "api/WGR.UI.html",
+    "title": "Namespace WGR.UI | Wake Grind Rewind: Redefined Official API",
+    "keywords": "Namespace WGR.UI Classes ButtonPrompt DialogueController DisplayTooltip DynamicCrosshair HandleAbilityUpdatePanel HubPanelActivator OnMouseHover PanelReferences SceneFader UpdateSoundUIReferences UserHUDHandler WeaponRepresenter WeaponSelectionUI"
   },
   "api/WGR.Utils.html": {
     "href": "api/WGR.Utils.html",

@@ -563,6 +563,226 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Abilities.Ability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Abilities.Ability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Abilities.IRewindable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Abilities.IRewindable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Abilities.RewindTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Abilities.RewindTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Abilities.Rewinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Abilities.Rewinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Abilities.SlowDownTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Abilities.SlowDownTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Abilities.StopTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Abilities.StopTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Abilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Abilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.BloodFXController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.BloodFXController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.Bullet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.Bullet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.BulletStatics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.BulletStatics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.Entities.IThrowable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.Entities.IThrowable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.Entities.Shooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.Entities.Shooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.Entities.ThrowableEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.Entities.ThrowableEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.IShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.IShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.ProjectileLayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.ProjectileLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.ThrowableSpeeds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.ThrowableSpeeds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.Weapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.WeaponCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.WeaponCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.WeaponPickup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.WeaponPickup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.WeaponType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.WeaponType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.BattleSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.BattleSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGR.Core.AIEntityManager.yml",
       "output": {
         ".html": {
@@ -873,6 +1093,236 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.AIEntityManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.AIEntityManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.AbilityManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.AbilityManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.AbilityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.AbilityType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.BulletPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.BulletPool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.BulletType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.BulletType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.GameAudioClip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.GameAudioClip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.GameEventsHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.GameEventsHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.GameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.GameScenes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.GameScenes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.GameSoundsHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.GameSoundsHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.LevelLoadPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.LevelLoadPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.LevelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.LevelManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.LevelWinHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.LevelWinHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.MainMenuManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.MainMenuManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.SaveDataHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.SaveDataHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.SaveDataInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.SaveDataInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.SkillPointHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.SkillPointHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.UIPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.UIPanel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.UI_Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.UI_Manager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.WeaponKillCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.WeaponKillCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.WeaponManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.WeaponManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.WeaponUnlockData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.WeaponUnlockData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Core.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Core.Managers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGR.Core.MoveToStart.yml",
       "output": {
         ".html": {
@@ -1157,6 +1607,176 @@
       "output": {
         ".html": {
           "relative_path": "api/WGR.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.BattleSystem.IThrowable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.BattleSystem.IThrowable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.BattleSystem.Shooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.BattleSystem.Shooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.BattleSystem.ThrowableEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.BattleSystem.ThrowableEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.BattleSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.BattleSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.DoorKickable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.DoorKickable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.EnemyKickable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.EnemyKickable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Entity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.KickableEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.KickableEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Player.CameraBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Player.CameraBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Player.PlayerAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Player.PlayerAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Player.PlayerAttack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Player.PlayerAttack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Player.PlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Player.PlayerController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Player.PlayerEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Player.PlayerEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Player.PlayerKick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Player.PlayerKick.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.Stat-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.Stat-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Entities.html"
         }
       },
       "version": ""
@@ -1817,6 +2437,316 @@
       "output": {
         ".html": {
           "relative_path": "api/WGR.InspectorButtonAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Interactions.IInteractable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Interactions.IInteractable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Interactions.IKickable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Interactions.IKickable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Interactions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Interactions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.AbilityTVActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.AbilityTVActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.ActivateAbilityTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.ActivateAbilityTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.BossEntrySequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.BossEntrySequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.BossLevelEnemyCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.BossLevelEnemyCounter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.BossStunnedSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.BossStunnedSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.DialogueOnTriggerEnter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.DialogueOnTriggerEnter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.EnemySpawnHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.EnemySpawnHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.IntroSceneSequencer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.IntroSceneSequencer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.MoveToStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.MoveToStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.MurderPlayerSequencer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.MurderPlayerSequencer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.ScriptedSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.ScriptedSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.ThrowWeaponSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.ThrowWeaponSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.TransitLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.TransitLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.Scripted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.Scripted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.ButtonPrompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.ButtonPrompt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.DialogueController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.DialogueController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.DisplayTooltip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.DisplayTooltip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.DynamicCrosshair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.DynamicCrosshair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.HandleAbilityUpdatePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.HandleAbilityUpdatePanel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.HubPanelActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.HubPanelActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.OnMouseHover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.OnMouseHover.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.PanelReferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.PanelReferences.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.SceneFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.SceneFader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.UpdateSoundUIReferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.UpdateSoundUIReferences.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.UserHUDHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.UserHUDHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.WeaponRepresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.WeaponRepresenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.WeaponSelectionUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.WeaponSelectionUI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGR.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGR.UI.html"
         }
       },
       "version": ""
