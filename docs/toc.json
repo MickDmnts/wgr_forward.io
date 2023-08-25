@@ -1,9 +1,8 @@
 {
     "items": [
         {
-            "name": "Home",
-            "href": "index.html",
-            "homepage": "index.html"
+            "name": "Landing Page",
+            "href": "index.html"
         },
         {
             "name": "Git Repository",
