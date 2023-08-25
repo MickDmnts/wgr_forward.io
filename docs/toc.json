@@ -2,7 +2,10 @@
     "items": [
         {
             "name": "Landing Page",
-            "href": "index.html"
+            "href": "index.html",
+            "tocHref": "toc.html",
+            "topicHref": "index.html",
+            "homepage": "index.html"
         },
         {
             "name": "Git Repository",
