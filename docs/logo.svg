@@ -1,28 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <rect id="home-a" width="2" height="6"/>
-    <path id="home-c" d="M14,19 L17,19 L17,11 C17,10.4477153 17.4477153,10 18,10 L18.5857864,10 L11,2.41421356 L3.41421356,10 L4,10 C4.55228475,10 5,10.4477153 5,11 L5,19 L8,19 L8,13 C8,11.8954305 8.8954305,11 10,11 L12,11 C13.1045695,11 14,11.8954305 14,13 L14,19 Z M3.00145774,12 L1.00182217,12 C0.11107966,12 -0.335005833,10.9228581 0.294844238,10.2928932 L10.2930221,0.292893219 C10.6834752,-0.0976310729 11.3165248,-0.0976310729 11.7069779,0.292893219 L21.7051558,10.2928932 C22.3350058,10.9228581 21.8889203,12 20.9981778,12 L18.9985423,12 L18.9985423,20 C18.9985423,20.5522847 18.5509086,21 17.9987245,21 L4.00127552,21 C3.44909141,21 3.00145774,20.5522847 3.00145774,20 L3.00145774,12 Z M10,13 L10,19 L12,19 L12,13 L10,13 Z"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <g transform="translate(11 14)">
-      <mask id="home-b" fill="#ffffff">
-        <use xlink:href="#home-a"/>
-      </mask>
-      <use fill="#D8D8D8" xlink:href="#home-a"/>
-      <g fill="#FFA0A0" mask="url(#home-b)">
-        <rect width="24" height="24" transform="translate(-11 -14)"/>
-      </g>
-    </g>
-    <g transform="translate(1 1)">
-      <mask id="home-d" fill="#ffffff">
-        <use xlink:href="#home-c"/>
-      </mask>
-      <use fill="#000000" fill-rule="nonzero" xlink:href="#home-c"/>
-      <g fill="#7600FF" mask="url(#home-d)">
-        <rect width="24" height="24" transform="translate(-1 -1)"/>
-      </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<image id="image7" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAa0lEQVRYhe3OvQmAMBRF4RMVC3srxT0cJHO4iZO4h3v4U9lbSDA2DiAhCOL94JX3cUBERETk70zo0O9NTb62ABzVaIppiVb1KMCl1rvU32dD/yQxoxSggE8GZMHLs58x2wCAL2foYjWJvOsCsVsYH6Spd9YAAAAASUVORK5CYII="/>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<use xlink:href="#image7"/>
   </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="32" height="32"/>
+</clipPath>
+<g id="surface6" clip-path="url(#clip1)">
+<rect x="0" y="0" width="32" height="32" style="fill:rgb(100%,62.745098%,62.745098%);fill-opacity:1;stroke:none;"/>
+</g>
+<image id="image13" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABrklEQVRYhe2Vz0oCURjFr46YLiICNQhaZlMvELj1AaLFbCJa+AYuFIQKwnZCi5a+gSaYmyBauBDcuxCNNoKFrhuh4l47LUYd495J519S+MEHw9w75/zO3OEbQv5qoZn1g3YuQftZNLP+BZgf34JJAJMAun+Hp+TKYsx/E0IzVyq68dGL1mMIpeLacfDJD/r4CO/hvbcNdvLs6pswMp+suwkxy9xViHnNXYHQzBPlec2/Q0x/mBYgrJrrEPdRyxB2zW1BOGVuCcJpc1MQ/IQLDkFjGaj5iG0ANR8BjWXAgkPDiQm6ds7NdiYB9LplG4BetcXaG2eEEOLVtq1/Cp/2JGU+kRwGTZfAogNdMDoAPb3Bay3Ea6R2xGibQ120WvOBNuJgkgImKaCd+licT5QuCRNpXeT2TxJ36rp+I45qzScGI4SABQqGAJPkiS6YVNQ60dXu7aqGACxQMDQ0B8CnHYHM2C8G8M5N5VItAZYACwcwHgajApMU8UJ7C0xWxtfEI/+830xNzwHn2swcQO/RdgpO8034YxMfQTl0QQ5zdeJJrTpjnlNJ2ffgiNa/qy/DEdNlGnIwLAAAAABJRU5ErkJggg=="/>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<use xlink:href="#image13"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="32" height="32"/>
+</clipPath>
+<g id="surface12" clip-path="url(#clip2)">
+<rect x="0" y="0" width="32" height="32" style="fill:rgb(46.27451%,0%,100%);fill-opacity:1;stroke:none;"/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(84.705882%,84.705882%,84.705882%);fill-opacity:1;" d="M 14.667969 18.667969 L 17.332031 18.667969 L 17.332031 26.667969 L 14.667969 26.667969 Z M 14.667969 18.667969 "/>
+<use xlink:href="#surface6" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 20 26.667969 L 24 26.667969 L 24 16 C 24 15.261719 24.597656 14.667969 25.332031 14.667969 L 26.113281 14.667969 L 16 4.550781 L 5.886719 14.667969 L 6.667969 14.667969 C 7.402344 14.667969 8 15.261719 8 16 L 8 26.667969 L 12 26.667969 L 12 18.667969 C 12 17.195312 13.195312 16 14.667969 16 L 17.332031 16 C 18.804688 16 20 17.195312 20 18.667969 Z M 5.335938 17.332031 L 2.667969 17.332031 C 1.480469 17.332031 0.886719 15.898438 1.726562 15.058594 L 15.058594 1.722656 C 15.578125 1.203125 16.421875 1.203125 16.941406 1.722656 L 30.273438 15.058594 C 31.113281 15.898438 30.519531 17.332031 29.332031 17.332031 L 26.664062 17.332031 L 26.664062 28 C 26.664062 28.738281 26.066406 29.332031 25.332031 29.332031 L 6.667969 29.332031 C 5.933594 29.332031 5.335938 28.738281 5.335938 28 Z M 14.667969 18.667969 L 14.667969 26.667969 L 17.332031 26.667969 L 17.332031 18.667969 Z M 14.667969 18.667969 "/>
+<use xlink:href="#surface12" mask="url(#mask1)"/>
+</g>
 </svg>
