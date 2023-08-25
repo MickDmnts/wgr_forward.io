@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Entity
+      <title>Class AIEntityBTHandler
  | Wake Grind Rewind: Redefined Official API </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Entity
+      <meta name="title" content="Class AIEntityBTHandler
  | Wake Grind Rewind: Redefined Official API ">
       
       <link rel="icon" href="../favicon.ico">
@@ -77,17 +77,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGR.Core.Entity">
+        <article data-uid="WGR.AI.Entities.AIEntityBTHandler">
 
 
 
-  <h1 id="WGR_Core_Entity" data-uid="WGR.Core.Entity" class="text-break">
-    Class Entity
+  <h1 id="WGR_AI_Entities_AIEntityBTHandler" data-uid="WGR.AI.Entities.AIEntityBTHandler" class="text-break">
+    Class AIEntityBTHandler
   
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.Core.html">Core</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.AI.html">AI</a>.<a class="xref" href="WGR.AI.Entities.html">Entities</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
@@ -95,7 +95,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Entity : MonoBehaviour, IInteractable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AIEntityBTHandler</code></pre>
   </div>
 
 
@@ -105,92 +105,18 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Object</span></div>
-      <div><span class="xref">Component</span></div>
-      <div><span class="xref">Behaviour</span></div>
-      <div><span class="xref">MonoBehaviour</span></div>
-      <div><span class="xref">Entity</span></div>
+      <div><span class="xref">AIEntityBTHandler</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="WGR.Core.IInteractable.html">IInteractable</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
-      <div><a class="xref" href="WGR.AI.Entities.AIEntity.html">AIEntity</a></div>
-      <div><a class="xref" href="WGR.Core.PlayerEntity.html">PlayerEntity</a></div>
+      <div><a class="xref" href="WGR.AI.Entities.Hostile.Boss.BossBTHandler.html">BossBTHandler</a></div>
+      <div><a class="xref" href="WGR.AI.Entities.Hostile.Generic.EnemyBTHandler.html">EnemyBTHandler</a></div>
     </dd>
   </dl>
-
-
-
-
-
-
-
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="WGR_Core_Entity_entityLife" data-uid="WGR.Core.Entity.entityLife">
-  entityLife
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Stat&lt;float&gt; entityLife</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="WGR.Core.Stat-1.html">Stat</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="WGR_Core_Entity_entityName" data-uid="WGR.Core.Entity.entityName">
-  entityName
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Stat&lt;string&gt; entityName</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="WGR.Core.Stat-1.html">Stat</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
 
 
 
@@ -202,19 +128,19 @@
 </h2>
 
 
-  <a id="WGR_Core_Entity_AttackInteraction_" data-uid="WGR.Core.Entity.AttackInteraction*"></a>
+  <a id="WGR_AI_Entities_AIEntityBTHandler_CreateBehaviourTree_" data-uid="WGR.AI.Entities.AIEntityBTHandler.CreateBehaviourTree*"></a>
 
-  <h3 id="WGR_Core_Entity_AttackInteraction" data-uid="WGR.Core.Entity.AttackInteraction">
-  AttackInteraction()
+  <h3 id="WGR_AI_Entities_AIEntityBTHandler_CreateBehaviourTree" data-uid="WGR.AI.Entities.AIEntityBTHandler.CreateBehaviourTree">
+  CreateBehaviourTree()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to initiate the attack interaction behaviour of any Entity GameObject</p>
+  <div class="markdown level1 summary"><p>Call to start this agents' Behaviour Tree creation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void AttackInteraction()</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void CreateBehaviourTree()</code></pre>
   </div>
 
 
@@ -229,19 +155,19 @@
 
 
 
-  <a id="WGR_Core_Entity_StunInteraction_" data-uid="WGR.Core.Entity.StunInteraction*"></a>
+  <a id="WGR_AI_Entities_AIEntityBTHandler_UpdateBT_" data-uid="WGR.AI.Entities.AIEntityBTHandler.UpdateBT*"></a>
 
-  <h3 id="WGR_Core_Entity_StunInteraction" data-uid="WGR.Core.Entity.StunInteraction">
-  StunInteraction()
+  <h3 id="WGR_AI_Entities_AIEntityBTHandler_UpdateBT" data-uid="WGR.AI.Entities.AIEntityBTHandler.UpdateBT">
+  UpdateBT()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to initiate the stun interaction of any Entity GameObject</p>
+  <div class="markdown level1 summary"><p>Call to update the agent Behaviour Tree from its root.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void StunInteraction()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void UpdateBT()</code></pre>
   </div>
 
 

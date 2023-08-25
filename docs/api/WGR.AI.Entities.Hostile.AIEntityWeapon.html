@@ -1,0 +1,834 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AIEntityWeapon
+ | Wake Grind Rewind: Redefined Official API </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AIEntityWeapon
+ | Wake Grind Rewind: Redefined Official API ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon">
+
+
+
+  <h1 id="WGR_AI_Entities_Hostile_AIEntityWeapon" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon" class="text-break">
+    Class AIEntityWeapon
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.AI.html">AI</a>.<a class="xref" href="WGR.AI.Entities.html">Entities</a>.<a class="xref" href="WGR.AI.Entities.Hostile.html">Hostile</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class AIEntityWeapon : Shooter, IShooter</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html">Shooter</a></div>
+      <div><span class="xref">AIEntityWeapon</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WGR.Gameplay.BattleSystem.IShooter.html">IShooter</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="WGR.AI.Entities.Hostile.Boss.BossWeapon.html">BossWeapon</a></div>
+      <div><a class="xref" href="WGR.AI.Entities.Hostile.Generic.EnemyWeapon.html">EnemyWeapon</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_meleeDetectionLayers">Shooter.meleeDetectionLayers</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_meleeLinecastLayers">Shooter.meleeLinecastLayers</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_firePoint">Shooter.firePoint</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_bulletSpreadRate">Shooter.bulletSpreadRate</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_accuracyIncreaseRate">Shooter.accuracyIncreaseRate</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_equipedWeapon">Shooter.equipedWeapon</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_bulletsLeft">Shooter.bulletsLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_maxBulletSpread">Shooter.maxBulletSpread</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_canShoot">Shooter.canShoot</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_isShooting">Shooter.isShooting</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_shootInterval">Shooter.shootInterval</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Gameplay.BattleSystem.Shooter.html#WGR_Gameplay_BattleSystem_Shooter_shootDoneTime">Shooter.shootDoneTime</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_burstTimerCache" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.burstTimerCache">
+  burstTimerCache
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float burstTimerCache</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_enemyWeaponRenderer" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.enemyWeaponRenderer">
+  enemyWeaponRenderer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SpriteRenderer enemyWeaponRenderer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SpriteRenderer</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_onCooldown" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.onCooldown">
+  onCooldown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool onCooldown</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_projectilePerShotCache" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.projectilePerShotCache">
+  projectilePerShotCache
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int projectilePerShotCache</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_projectilesPerShot" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.projectilesPerShot">
+  projectilesPerShot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int projectilesPerShot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_shotBurstTimer" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.shotBurstTimer">
+  shotBurstTimer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float shotBurstTimer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_shotCooldownInterval" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.shotCooldownInterval">
+  shotCooldownInterval
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float shotCooldownInterval</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_totalBulletSpread" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.totalBulletSpread">
+  totalBulletSpread
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float totalBulletSpread</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_CanShoot_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.CanShoot*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_CanShoot" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.CanShoot">
+  CanShoot()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract bool CanShoot()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_ClearWeaponSprite_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.ClearWeaponSprite*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_ClearWeaponSprite" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.ClearWeaponSprite">
+  ClearWeaponSprite()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the weaponSprite to null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ClearWeaponSprite()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_DecreaseSpread_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.DecreaseSpread*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_DecreaseSpread" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.DecreaseSpread">
+  DecreaseSpread()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to decrease totalBulletSpread by accuracyIncreaseRate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void DecreaseSpread()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_GetAIEntity_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.GetAIEntity*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_GetAIEntity" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.GetAIEntity">
+  GetAIEntity()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the AIEntity of THIS EnemyWeapon script.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract AIEntity GetAIEntity()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.Entities.AIEntity.html">AIEntity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_GetFirepointTransform_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.GetFirepointTransform*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_GetFirepointTransform" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.GetFirepointTransform">
+  GetFirepointTransform()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the firePoint transform of THIS enemy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Transform GetFirepointTransform()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_GetWeaponRange_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.GetWeaponRange*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_GetWeaponRange" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.GetWeaponRange">
+  GetWeaponRange()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the equipedWeapon minimum shoot distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract float GetWeaponRange()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_OnShootReset_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.OnShootReset*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_OnShootReset" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.OnShootReset">
+  OnShootReset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to reset the shooting specific variables</p>
+<p>(shootDoneTime + canShoot)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnShootReset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_SetIsShooting_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.SetIsShooting*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_SetIsShooting_System_Boolean_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.SetIsShooting(System.Boolean)">
+  SetIsShooting(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set isShooting to the passed value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SetIsShooting(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>bool state</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_SetStartDefaults_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.SetStartDefaults*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_SetStartDefaults" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.SetStartDefaults">
+  SetStartDefaults()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called in start to set weapon management defaults.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void SetStartDefaults()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_SetWeaponInfo_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_SetWeaponInfo_WGR_Gameplay_BattleSystem_Weapon_System_Int32_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGR.Gameplay.BattleSystem.Weapon,System.Int32)">
+  SetWeaponInfo(Weapon, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the required Shooter fields based on the passed Weapon Scriptable Object.</p>
+<p><code class="paramref">cachedBulletCount</code>Must be set only in the PlayerWeapon.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override abstract void SetWeaponInfo(Weapon weapon, int cachedBulletCount = -1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>weapon</code> <a class="xref" href="WGR.Gameplay.BattleSystem.Weapon.html">Weapon</a></dt>
+    <dd></dd>
+    <dt><code>cachedBulletCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_Shoot_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.Shoot*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_Shoot" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.Shoot">
+  Shoot()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override abstract void Shoot()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_ShootSequence_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.ShootSequence*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_ShootSequence" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.ShootSequence">
+  ShootSequence()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ShootSequence()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_AIEntityWeapon_TypeBasedAttack_" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.TypeBasedAttack*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_AIEntityWeapon_TypeBasedAttack" data-uid="WGR.AI.Entities.Hostile.AIEntityWeapon.TypeBasedAttack">
+  TypeBasedAttack()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to initiate an attack sequence based on the equiped weapon
+WeaponCategory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void TypeBasedAttack()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Wake Grind Rewind: Redefined Official API
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

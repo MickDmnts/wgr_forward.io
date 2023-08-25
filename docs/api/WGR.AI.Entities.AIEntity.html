@@ -1,0 +1,987 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AIEntity
+ | Wake Grind Rewind: Redefined Official API </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AIEntity
+ | Wake Grind Rewind: Redefined Official API ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGR.AI.Entities.AIEntity">
+
+
+
+  <h1 id="WGR_AI_Entities_AIEntity" data-uid="WGR.AI.Entities.AIEntity" class="text-break">
+    Class AIEntity
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.AI.html">AI</a>.<a class="xref" href="WGR.AI.Entities.html">Entities</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class AIEntity : Entity, IInteractable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="WGR.Core.Entity.html">Entity</a></div>
+      <div><span class="xref">AIEntity</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WGR.Core.IInteractable.html">IInteractable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="WGR.AI.Entities.Hostile.Boss.BossEntity.html">BossEntity</a></div>
+      <div><a class="xref" href="WGR.AI.Entities.Hostile.Generic.EnemyEntity.html">EnemyEntity</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="WGR.Core.Entity.html#WGR_Core_Entity_entityName">Entity.entityName</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Core.Entity.html#WGR_Core_Entity_entityLife">Entity.entityLife</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Core.Entity.html#WGR_Core_Entity_AttackInteraction">Entity.AttackInteraction()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Core.Entity.html#WGR_Core_Entity_StunInteraction">Entity.StunInteraction()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_agent" data-uid="WGR.AI.Entities.AIEntity.agent">
+  agent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NavMeshAgent agent</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">NavMeshAgent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_aiEntityWeapon" data-uid="WGR.AI.Entities.AIEntity.aiEntityWeapon">
+  aiEntityWeapon
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AIEntityWeapon aiEntityWeapon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.Entities.Hostile.AIEntityWeapon.html">AIEntityWeapon</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_attackTarget" data-uid="WGR.AI.Entities.AIEntity.attackTarget">
+  attackTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform attackTarget</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_enemyRB" data-uid="WGR.AI.Entities.AIEntity.enemyRB">
+  enemyRB
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Rigidbody enemyRB</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Rigidbody</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_fovManager" data-uid="WGR.AI.Entities.AIEntity.fovManager">
+  fovManager
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AIEntityFOVManager fovManager</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.FOV.AIEntityFOVManager.html">AIEntityFOVManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_isAgentActive" data-uid="WGR.AI.Entities.AIEntity.isAgentActive">
+  isAgentActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool isAgentActive</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_layerOnDeath" data-uid="WGR.AI.Entities.AIEntity.layerOnDeath">
+  layerOnDeath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EnemyLayer layerOnDeath</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.Entities.EnemyLayer.html">EnemyLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_occlusionLayers" data-uid="WGR.AI.Entities.AIEntity.occlusionLayers">
+  occlusionLayers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask occlusionLayers</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerMask</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="WGR_AI_Entities_AIEntity_AIEntityWeapon_" data-uid="WGR.AI.Entities.AIEntity.AIEntityWeapon*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_AIEntityWeapon" data-uid="WGR.AI.Entities.AIEntity.AIEntityWeapon">
+  AIEntityWeapon
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AIEntityWeapon AIEntityWeapon { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.Entities.Hostile.AIEntityWeapon.html">AIEntityWeapon</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_FOVManager_" data-uid="WGR.AI.Entities.AIEntity.FOVManager*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_FOVManager" data-uid="WGR.AI.Entities.AIEntity.FOVManager">
+  FOVManager
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AIEntityFOVManager FOVManager { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.FOV.AIEntityFOVManager.html">AIEntityFOVManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGR_AI_Entities_AIEntity_CacheComponents_" data-uid="WGR.AI.Entities.AIEntity.CacheComponents*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_CacheComponents" data-uid="WGR.AI.Entities.AIEntity.CacheComponents">
+  CacheComponents()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to cache the necessary entity components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void CacheComponents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_CheckIfDead_" data-uid="WGR.AI.Entities.AIEntity.CheckIfDead*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_CheckIfDead" data-uid="WGR.AI.Entities.AIEntity.CheckIfDead">
+  CheckIfDead()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract bool CheckIfDead()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_CreateBTHandler_" data-uid="WGR.AI.Entities.AIEntity.CreateBTHandler*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_CreateBTHandler" data-uid="WGR.AI.Entities.AIEntity.CreateBTHandler">
+  CreateBTHandler()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void CreateBTHandler()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_CreateNodeData_" data-uid="WGR.AI.Entities.AIEntity.CreateNodeData*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_CreateNodeData" data-uid="WGR.AI.Entities.AIEntity.CreateNodeData">
+  CreateNodeData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void CreateNodeData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_GetAgent_" data-uid="WGR.AI.Entities.AIEntity.GetAgent*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_GetAgent" data-uid="WGR.AI.Entities.AIEntity.GetAgent">
+  GetAgent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract NavMeshAgent GetAgent()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">NavMeshAgent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_GetEntityNodeData_" data-uid="WGR.AI.Entities.AIEntity.GetEntityNodeData*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_GetEntityNodeData" data-uid="WGR.AI.Entities.AIEntity.GetEntityNodeData">
+  GetEntityNodeData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract INodeData GetEntityNodeData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.Nodes.INodeData.html">INodeData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_GetIsAgentActive_" data-uid="WGR.AI.Entities.AIEntity.GetIsAgentActive*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_GetIsAgentActive" data-uid="WGR.AI.Entities.AIEntity.GetIsAgentActive">
+  GetIsAgentActive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool GetIsAgentActive()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_GetIsDead_" data-uid="WGR.AI.Entities.AIEntity.GetIsDead*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_GetIsDead" data-uid="WGR.AI.Entities.AIEntity.GetIsDead">
+  GetIsDead()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool GetIsDead()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_OnObserverDeath_" data-uid="WGR.AI.Entities.AIEntity.OnObserverDeath*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_OnObserverDeath" data-uid="WGR.AI.Entities.AIEntity.OnObserverDeath">
+  OnObserverDeath()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnObserverDeath()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_OnPlayerFound_" data-uid="WGR.AI.Entities.AIEntity.OnPlayerFound*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_OnPlayerFound" data-uid="WGR.AI.Entities.AIEntity.OnPlayerFound">
+  OnPlayerFound()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerFound()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_SetAttackTarget_" data-uid="WGR.AI.Entities.AIEntity.SetAttackTarget*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_SetAttackTarget_UnityEngine_Transform_" data-uid="WGR.AI.Entities.AIEntity.SetAttackTarget(UnityEngine.Transform)">
+  SetAttackTarget(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SetAttackTarget(Transform target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_SetHealth_" data-uid="WGR.AI.Entities.AIEntity.SetHealth*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_SetHealth_System_Single_" data-uid="WGR.AI.Entities.AIEntity.SetHealth(System.Single)">
+  SetHealth(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void SetHealth(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_SetIsAgentActive_" data-uid="WGR.AI.Entities.AIEntity.SetIsAgentActive*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_SetIsAgentActive_System_Boolean_" data-uid="WGR.AI.Entities.AIEntity.SetIsAgentActive(System.Boolean)">
+  SetIsAgentActive(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SetIsAgentActive(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_SetupNodeDataFields_" data-uid="WGR.AI.Entities.AIEntity.SetupNodeDataFields*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_SetupNodeDataFields" data-uid="WGR.AI.Entities.AIEntity.SetupNodeDataFields">
+  SetupNodeDataFields()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void SetupNodeDataFields()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_AIEntity_TargetFound_" data-uid="WGR.AI.Entities.AIEntity.TargetFound*"></a>
+
+  <h3 id="WGR_AI_Entities_AIEntity_TargetFound" data-uid="WGR.AI.Entities.AIEntity.TargetFound">
+  TargetFound()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void TargetFound()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_onObserverDeath" data-uid="WGR.AI.Entities.AIEntity.onObserverDeath">
+  onObserverDeath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onObserverDeath</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="WGR_AI_Entities_AIEntity_onPlayerFound" data-uid="WGR.AI.Entities.AIEntity.onPlayerFound">
+  onPlayerFound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onPlayerFound</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Wake Grind Rewind: Redefined Official API
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

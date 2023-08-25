@@ -1,0 +1,785 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BossEntity
+ | Wake Grind Rewind: Redefined Official API </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BossEntity
+ | Wake Grind Rewind: Redefined Official API ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity">
+
+
+
+  <h1 id="WGR_AI_Entities_Hostile_Boss_BossEntity" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity" class="text-break">
+    Class BossEntity
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.AI.html">AI</a>.<a class="xref" href="WGR.AI.Entities.html">Entities</a>.<a class="xref" href="WGR.AI.Entities.Hostile.html">Hostile</a>.<a class="xref" href="WGR.AI.Entities.Hostile.Boss.html">Boss</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BossEntity : AIEntity, IInteractable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="WGR.Core.Entity.html">Entity</a></div>
+      <div><a class="xref" href="WGR.AI.Entities.AIEntity.html">AIEntity</a></div>
+      <div><span class="xref">BossEntity</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WGR.Core.IInteractable.html">IInteractable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_occlusionLayers">AIEntity.occlusionLayers</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_layerOnDeath">AIEntity.layerOnDeath</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_isAgentActive">AIEntity.isAgentActive</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_attackTarget">AIEntity.attackTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_enemyRB">AIEntity.enemyRB</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_agent">AIEntity.agent</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_fovManager">AIEntity.fovManager</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_FOVManager">AIEntity.FOVManager</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_aiEntityWeapon">AIEntity.aiEntityWeapon</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_AIEntityWeapon">AIEntity.AIEntityWeapon</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_onPlayerFound">AIEntity.onPlayerFound</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_OnPlayerFound">AIEntity.OnPlayerFound()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_onObserverDeath">AIEntity.onObserverDeath</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.AI.Entities.AIEntity.html#WGR_AI_Entities_AIEntity_OnObserverDeath">AIEntity.OnObserverDeath()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Core.Entity.html#WGR_Core_Entity_entityName">Entity.entityName</a>
+    </div>
+    <div>
+      <a class="xref" href="WGR.Core.Entity.html#WGR_Core_Entity_entityLife">Entity.entityLife</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_BossAnimations_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.BossAnimations*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_BossAnimations" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.BossAnimations">
+  BossAnimations
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BossAnimations BossAnimations { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.Entities.Hostile.Boss.BossAnimations.html">BossAnimations</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_IsDead_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.IsDead*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_IsDead" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.IsDead">
+  IsDead
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_AttackInteraction_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.AttackInteraction*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_AttackInteraction" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.AttackInteraction">
+  AttackInteraction()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to decrease the boss health by one and increase his boss phase to the next phase.</p>
+<p>Moves the boss to his next phase hiding room and freezes the player.</p>
+<p>If the boss is stunned and gets attacked the bad ending sequence gets initiated.</p>
+<p>All enemies are killed if the boss enters his stunned state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AttackInteraction()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_CacheComponents_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CacheComponents*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_CacheComponents" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CacheComponents">
+  CacheComponents()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to cache the necessary entity components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CacheComponents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_CheckIfDead_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CheckIfDead*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_CheckIfDead" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CheckIfDead">
+  CheckIfDead()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to check the entity life value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool CheckIfDead()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if entityLife is smaller than 0, false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_CreateBTHandler_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CreateBTHandler*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_CreateBTHandler" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CreateBTHandler">
+  CreateBTHandler()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to create an instance of BossBTHandler and assign it to the btHandler varable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CreateBTHandler()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_CreateNodeData_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CreateNodeData*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_CreateNodeData" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.CreateNodeData">
+  CreateNodeData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to create the behaviour tree data container for THIS enemy entity.</p>
+<p>Creates a new BossNodeData instance and assigns it in the bossNodeData variable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CreateNodeData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_EnableBossEntryAttacking_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.EnableBossEntryAttacking*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_EnableBossEntryAttacking" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.EnableBossEntryAttacking">
+  EnableBossEntryAttacking()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to enable the boss attack behvaiour.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableBossEntryAttacking()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetAgent_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetAgent*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetAgent" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetAgent">
+  GetAgent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the NavMeshAgent component reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override NavMeshAgent GetAgent()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">NavMeshAgent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetEntityNodeData_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetEntityNodeData*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetEntityNodeData" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetEntityNodeData">
+  GetEntityNodeData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the node data of THIS entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override INodeData GetEntityNodeData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGR.AI.Nodes.INodeData.html">INodeData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetIsAgentActive_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetIsAgentActive*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetIsAgentActive" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetIsAgentActive">
+  GetIsAgentActive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the agents' current state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetIsAgentActive()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetIsDead_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetIsDead*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_GetIsDead" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.GetIsDead">
+  GetIsDead()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the agents' is dead value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetIsDead()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_OnBossStunEnd_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.OnBossStunEnd*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_OnBossStunEnd" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.OnBossStunEnd">
+  OnBossStunEnd()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to disable the boss behaviour and invoke the:</p>
+<p>GameEventHandler.OnBossStunnedPhase event</p>
+<p>GameSoundsHandler.ForcePlayBossStunnedMusic method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBossStunEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetAttackTarget_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetAttackTarget*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetAttackTarget_UnityEngine_Transform_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetAttackTarget(UnityEngine.Transform)">
+  SetAttackTarget(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the EnemyEntityManager at startup to update the target of THIS enemy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetAttackTarget(Transform target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetHealth_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetHealth*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetHealth_System_Single_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetHealth(System.Single)">
+  SetHealth(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the entityLife to the passed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SetHealth(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetIsAgentActive_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetIsAgentActive*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetIsAgentActive_System_Boolean_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetIsAgentActive(System.Boolean)">
+  SetIsAgentActive(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the agent is active to the passed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetIsAgentActive(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetupNodeDataFields_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetupNodeDataFields*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_SetupNodeDataFields" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.SetupNodeDataFields">
+  SetupNodeDataFields()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set up the needed node data fields for correct startup agent behaviour.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SetupNodeDataFields()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_StunInteraction_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.StunInteraction*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_StunInteraction" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.StunInteraction">
+  StunInteraction()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Boss is not stunable, nothing happens.</p>
+Call to play a punch SFX.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void StunInteraction()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_Entities_Hostile_Boss_BossEntity_TargetFound_" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.TargetFound*"></a>
+
+  <h3 id="WGR_AI_Entities_Hostile_Boss_BossEntity_TargetFound" data-uid="WGR.AI.Entities.Hostile.Boss.BossEntity.TargetFound">
+  TargetFound()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the agent node data target found value to true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void TargetFound()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Wake Grind Rewind: Redefined Official API
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

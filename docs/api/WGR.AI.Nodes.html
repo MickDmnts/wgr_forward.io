@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace WGR.Gameplay.AI
+      <title>Namespace WGR.AI.Nodes
  | Wake Grind Rewind: Redefined Official API </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace WGR.Gameplay.AI
+      <meta name="title" content="Namespace WGR.AI.Nodes
  | Wake Grind Rewind: Redefined Official API ">
       
       <link rel="icon" href="../favicon.ico">
@@ -77,9 +77,9 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGR.Gameplay.AI">
+        <article data-uid="WGR.AI.Nodes">
 
-  <h1 id="WGR_Gameplay_AI" data-uid="WGR.Gameplay.AI" class="text-break">Namespace WGR.Gameplay.AI
+  <h1 id="WGR_AI_Nodes" data-uid="WGR.AI.Nodes" class="text-break">Namespace WGR.AI.Nodes
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -89,12 +89,105 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="WGR.Gameplay.AI.BossLevelEnemyCounter.html">BossLevelEnemyCounter</a></dt>
+      <dt><a class="xref" href="WGR.AI.Nodes.AttackTargetAction.html">AttackTargetAction</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="WGR.Gameplay.AI.EnemySpawnHandler.html">EnemySpawnHandler</a></dt>
+      <dt><a class="xref" href="WGR.AI.Nodes.BehaviourTree.html">BehaviourTree</a></dt>
       <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.BossNodeData.html">BossNodeData</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.BossPhaseSelector.html">BossPhaseSelector</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.BossPhaseUpdater.html">BossPhaseUpdater</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.BossStunnedPhase.html">BossStunnedPhase</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.ChaseAttackSelector.html">ChaseAttackSelector</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.ChaseTargetActivator.html">ChaseTargetActivator</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.CheckIfDead.html">CheckIfDead</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.CheckIfStunned.html">CheckIfStunned</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.EnemyNodeData.html">EnemyNodeData</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.IdleNode.html">IdleNode</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.IdleOnArrival.html">IdleOnArrival</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.IdlePatrolChaseActivator.html">IdlePatrolChaseActivator</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.NavToOriginalPos.html">NavToOriginalPos</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.NavToRoom.html">NavToRoom</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.NavToTarget.html">NavToTarget</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.PatrolCheckDistance.html">PatrolCheckDistance</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.PatrolNavToActivator.html">PatrolNavToActivator</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.PatrolNavigateTo.html">PatrolNavigateTo</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.PatrolNode.html">PatrolNode</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.StunedAction.html">StunedAction</a></dt>
+      <dd></dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.INode.html">INode</a></dt>
+      <dd><p>Interface used for Behaviour Tree traversing</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="WGR.AI.Nodes.INodeData.html">INodeData</a></dt>
+      <dd><p>Base interface for AI Node Data classes</p>
+</dd>
     </dl>
 
 

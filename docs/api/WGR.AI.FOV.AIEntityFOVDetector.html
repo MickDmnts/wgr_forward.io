@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Entity
+      <title>Class AIEntityFOVDetector
  | Wake Grind Rewind: Redefined Official API </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Entity
+      <meta name="title" content="Class AIEntityFOVDetector
  | Wake Grind Rewind: Redefined Official API ">
       
       <link rel="icon" href="../favicon.ico">
@@ -77,17 +77,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGR.Core.Entity">
+        <article data-uid="WGR.AI.FOV.AIEntityFOVDetector">
 
 
 
-  <h1 id="WGR_Core_Entity" data-uid="WGR.Core.Entity" class="text-break">
-    Class Entity
+  <h1 id="WGR_AI_FOV_AIEntityFOVDetector" data-uid="WGR.AI.FOV.AIEntityFOVDetector" class="text-break">
+    Class AIEntityFOVDetector
   
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.Core.html">Core</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGR.html">WGR</a>.<a class="xref" href="WGR.AI.html">AI</a>.<a class="xref" href="WGR.AI.FOV.html">FOV</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
@@ -95,7 +95,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Entity : MonoBehaviour, IInteractable</code></pre>
+    <pre><code class="lang-csharp hljs">public class AIEntityFOVDetector</code></pre>
   </div>
 
 
@@ -105,26 +105,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Object</span></div>
-      <div><span class="xref">Component</span></div>
-      <div><span class="xref">Behaviour</span></div>
-      <div><span class="xref">MonoBehaviour</span></div>
-      <div><span class="xref">Entity</span></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="WGR.Core.IInteractable.html">IInteractable</a></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="WGR.AI.Entities.AIEntity.html">AIEntity</a></div>
-      <div><a class="xref" href="WGR.Core.PlayerEntity.html">PlayerEntity</a></div>
+      <div><span class="xref">AIEntityFOVDetector</span></div>
     </dd>
   </dl>
 
@@ -134,61 +115,54 @@
 
 
 
-  <h2 class="section" id="fields">Fields
+
+
+  <h2 class="section" id="constructors">Constructors
 </h2>
 
 
+  <a id="WGR_AI_FOV_AIEntityFOVDetector__ctor_" data-uid="WGR.AI.FOV.AIEntityFOVDetector.#ctor*"></a>
 
-  <h3 id="WGR_Core_Entity_entityLife" data-uid="WGR.Core.Entity.entityLife">
-  entityLife
+  <h3 id="WGR_AI_FOV_AIEntityFOVDetector__ctor_WGR_AI_FOV_AIEntityFOVManager_UnityEngine_Transform_UnityEngine_Color_UnityEngine_Color_System_Single_System_Single_UnityEngine_Vector3_" data-uid="WGR.AI.FOV.AIEntityFOVDetector.#ctor(WGR.AI.FOV.AIEntityFOVManager,UnityEngine.Transform,UnityEngine.Color,UnityEngine.Color,System.Single,System.Single,UnityEngine.Vector3)">
+  AIEntityFOVDetector(AIEntityFOVManager, Transform, Color, Color, float, float, Vector3)
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Call to construct an AI Detector.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Stat&lt;float&gt; entityLife</code></pre>
+    <pre><code class="lang-csharp hljs">public AIEntityFOVDetector(AIEntityFOVManager enemyFOVManager, Transform origin, Color radiusColor, Color frustrumColor, float maxAngle, float maxRadious, Vector3 rotation)</code></pre>
   </div>
 
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGR.Core.Stat-1.html">Stat</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
-    <dd></dd>
+    <dt><code>enemyFOVManager</code> <a class="xref" href="WGR.AI.FOV.AIEntityFOVManager.html">AIEntityFOVManager</a></dt>
+    <dd><p>This detectors' manager.</p>
+</dd>
+    <dt><code>origin</code> <span class="xref">Transform</span></dt>
+    <dd><p>The center of the detector</p>
+</dd>
+    <dt><code>radiusColor</code> <span class="xref">Color</span></dt>
+    <dd><p>The detectors' radius color. (Alpha set to 255f)</p>
+</dd>
+    <dt><code>frustrumColor</code> <span class="xref">Color</span></dt>
+    <dd><p>The detectors' drustrum color. (Alpha set to 255f)</p>
+</dd>
+    <dt><code>maxAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The detectors' max frustrum angle (ie. 45 = 90 degrees.)</p>
+</dd>
+    <dt><code>maxRadious</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The detectors' radius.</p>
+</dd>
+    <dt><code>rotation</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The detector's facing direction.</p>
+</dd>
   </dl>
 
 
 
-
-
-
-
-
-
-
-  <h3 id="WGR_Core_Entity_entityName" data-uid="WGR.Core.Entity.entityName">
-  entityName
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Stat&lt;string&gt; entityName</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="WGR.Core.Stat-1.html">Stat</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -202,21 +176,26 @@
 </h2>
 
 
-  <a id="WGR_Core_Entity_AttackInteraction_" data-uid="WGR.Core.Entity.AttackInteraction*"></a>
+  <a id="WGR_AI_FOV_AIEntityFOVDetector_IsEnabled_" data-uid="WGR.AI.FOV.AIEntityFOVDetector.IsEnabled*"></a>
 
-  <h3 id="WGR_Core_Entity_AttackInteraction" data-uid="WGR.Core.Entity.AttackInteraction">
-  AttackInteraction()
+  <h3 id="WGR_AI_FOV_AIEntityFOVDetector_IsEnabled_System_Boolean_" data-uid="WGR.AI.FOV.AIEntityFOVDetector.IsEnabled(System.Boolean)">
+  IsEnabled(bool)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to initiate the attack interaction behaviour of any Entity GameObject</p>
+  <div class="markdown level1 summary"><p>Call to set the detector active state to the passed value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void AttackInteraction()</code></pre>
+    <pre><code class="lang-csharp hljs">public void IsEnabled(bool state)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -229,19 +208,50 @@
 
 
 
-  <a id="WGR_Core_Entity_StunInteraction_" data-uid="WGR.Core.Entity.StunInteraction*"></a>
+  <a id="WGR_AI_FOV_AIEntityFOVDetector_SetTarget_" data-uid="WGR.AI.FOV.AIEntityFOVDetector.SetTarget*"></a>
 
-  <h3 id="WGR_Core_Entity_StunInteraction" data-uid="WGR.Core.Entity.StunInteraction">
-  StunInteraction()
+  <h3 id="WGR_AI_FOV_AIEntityFOVDetector_SetTarget_UnityEngine_Transform_" data-uid="WGR.AI.FOV.AIEntityFOVDetector.SetTarget(UnityEngine.Transform)">
+  SetTarget(Transform)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to initiate the stun interaction of any Entity GameObject</p>
+  <div class="markdown level1 summary"><p>Call to set THIS detectors' target.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void StunInteraction()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetTarget(Transform target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGR_AI_FOV_AIEntityFOVDetector_Update_" data-uid="WGR.AI.FOV.AIEntityFOVDetector.Update*"></a>
+
+  <h3 id="WGR_AI_FOV_AIEntityFOVDetector_Update" data-uid="WGR.AI.FOV.AIEntityFOVDetector.Update">
+  Update()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
   </div>
 
 
