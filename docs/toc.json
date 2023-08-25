@@ -1,2 +1,15 @@
-
-{"items":[{"name":"Articles","href":"articles/intro.html","tocHref":"articles/toc.html","topicHref":"articles/intro.html"},{"name":"Api Documentation","href":"api/index.html","tocHref":"api/toc.html","topicHref":"api/index.html","homepage":"api/index.html"}]}
+{
+    "items": [
+        {
+            "name": "Git Repository",
+            "href": "https://github.com/MickDmnts/WakeGrindRewind_Redefined"
+        },
+        {
+            "name": "Api Documentation",
+            "href": "api/index.html",
+            "tocHref": "api/toc.html",
+            "topicHref": "api/index.html",
+            "homepage": "api/index.html"
+        }
+    ]
+}

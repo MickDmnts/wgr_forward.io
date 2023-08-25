@@ -1,2 +1,872 @@
-
-{"items":[{"name":"","href":"WGR.html","topicHref":"WGR.html","topicUid":"WGR","items":[{"name":"InspectorButtonAttribute","href":"WGR.InspectorButtonAttribute.html","topicHref":"WGR.InspectorButtonAttribute.html","topicUid":"WGR.InspectorButtonAttribute"},{"name":"Utils","href":"WGR.Utils.html","topicHref":"WGR.Utils.html","topicUid":"WGR.Utils"}]},{"name":"WGR.AI.Entities","href":"WGR.AI.Entities.html","topicHref":"WGR.AI.Entities.html","topicUid":"WGR.AI.Entities","items":[{"name":"AIEntity","href":"WGR.AI.Entities.AIEntity.html","topicHref":"WGR.AI.Entities.AIEntity.html","topicUid":"WGR.AI.Entities.AIEntity"},{"name":"AIEntityAnimations","href":"WGR.AI.Entities.AIEntityAnimations.html","topicHref":"WGR.AI.Entities.AIEntityAnimations.html","topicUid":"WGR.AI.Entities.AIEntityAnimations"},{"name":"AIEntityBTHandler","href":"WGR.AI.Entities.AIEntityBTHandler.html","topicHref":"WGR.AI.Entities.AIEntityBTHandler.html","topicUid":"WGR.AI.Entities.AIEntityBTHandler"},{"name":"EnemyLayer","href":"WGR.AI.Entities.EnemyLayer.html","topicHref":"WGR.AI.Entities.EnemyLayer.html","topicUid":"WGR.AI.Entities.EnemyLayer"}]},{"name":"WGR.AI.Entities.Hostile","href":"WGR.AI.Entities.Hostile.html","topicHref":"WGR.AI.Entities.Hostile.html","topicUid":"WGR.AI.Entities.Hostile","items":[{"name":"AIEntityWeapon","href":"WGR.AI.Entities.Hostile.AIEntityWeapon.html","topicHref":"WGR.AI.Entities.Hostile.AIEntityWeapon.html","topicUid":"WGR.AI.Entities.Hostile.AIEntityWeapon"}]},{"name":"WGR.AI.Entities.Hostile.Boss","href":"WGR.AI.Entities.Hostile.Boss.html","topicHref":"WGR.AI.Entities.Hostile.Boss.html","topicUid":"WGR.AI.Entities.Hostile.Boss","items":[{"name":"BossAnimations","href":"WGR.AI.Entities.Hostile.Boss.BossAnimations.html","topicHref":"WGR.AI.Entities.Hostile.Boss.BossAnimations.html","topicUid":"WGR.AI.Entities.Hostile.Boss.BossAnimations"},{"name":"BossBTHandler","href":"WGR.AI.Entities.Hostile.Boss.BossBTHandler.html","topicHref":"WGR.AI.Entities.Hostile.Boss.BossBTHandler.html","topicUid":"WGR.AI.Entities.Hostile.Boss.BossBTHandler"},{"name":"BossEntity","href":"WGR.AI.Entities.Hostile.Boss.BossEntity.html","topicHref":"WGR.AI.Entities.Hostile.Boss.BossEntity.html","topicUid":"WGR.AI.Entities.Hostile.Boss.BossEntity"},{"name":"BossPhase","href":"WGR.AI.Entities.Hostile.Boss.BossPhase.html","topicHref":"WGR.AI.Entities.Hostile.Boss.BossPhase.html","topicUid":"WGR.AI.Entities.Hostile.Boss.BossPhase"},{"name":"BossWeapon","href":"WGR.AI.Entities.Hostile.Boss.BossWeapon.html","topicHref":"WGR.AI.Entities.Hostile.Boss.BossWeapon.html","topicUid":"WGR.AI.Entities.Hostile.Boss.BossWeapon"},{"name":"BulletDetector","href":"WGR.AI.Entities.Hostile.Boss.BulletDetector.html","topicHref":"WGR.AI.Entities.Hostile.Boss.BulletDetector.html","topicUid":"WGR.AI.Entities.Hostile.Boss.BulletDetector"}]},{"name":"WGR.AI.Entities.Hostile.Generic","href":"WGR.AI.Entities.Hostile.Generic.html","topicHref":"WGR.AI.Entities.Hostile.Generic.html","topicUid":"WGR.AI.Entities.Hostile.Generic","items":[{"name":"EnemyAnimations","href":"WGR.AI.Entities.Hostile.Generic.EnemyAnimations.html","topicHref":"WGR.AI.Entities.Hostile.Generic.EnemyAnimations.html","topicUid":"WGR.AI.Entities.Hostile.Generic.EnemyAnimations"},{"name":"EnemyBTHandler","href":"WGR.AI.Entities.Hostile.Generic.EnemyBTHandler.html","topicHref":"WGR.AI.Entities.Hostile.Generic.EnemyBTHandler.html","topicUid":"WGR.AI.Entities.Hostile.Generic.EnemyBTHandler"},{"name":"EnemyEntity","href":"WGR.AI.Entities.Hostile.Generic.EnemyEntity.html","topicHref":"WGR.AI.Entities.Hostile.Generic.EnemyEntity.html","topicUid":"WGR.AI.Entities.Hostile.Generic.EnemyEntity"},{"name":"EnemyWeapon","href":"WGR.AI.Entities.Hostile.Generic.EnemyWeapon.html","topicHref":"WGR.AI.Entities.Hostile.Generic.EnemyWeapon.html","topicUid":"WGR.AI.Entities.Hostile.Generic.EnemyWeapon"}]},{"name":"WGR.AI.FOV","href":"WGR.AI.FOV.html","topicHref":"WGR.AI.FOV.html","topicUid":"WGR.AI.FOV","items":[{"name":"AIEntityFOVDetector","href":"WGR.AI.FOV.AIEntityFOVDetector.html","topicHref":"WGR.AI.FOV.AIEntityFOVDetector.html","topicUid":"WGR.AI.FOV.AIEntityFOVDetector"},{"name":"AIEntityFOVManager","href":"WGR.AI.FOV.AIEntityFOVManager.html","topicHref":"WGR.AI.FOV.AIEntityFOVManager.html","topicUid":"WGR.AI.FOV.AIEntityFOVManager"}]},{"name":"WGR.AI.Nodes","href":"WGR.AI.Nodes.html","topicHref":"WGR.AI.Nodes.html","topicUid":"WGR.AI.Nodes","items":[{"name":"AttackTargetAction","href":"WGR.AI.Nodes.AttackTargetAction.html","topicHref":"WGR.AI.Nodes.AttackTargetAction.html","topicUid":"WGR.AI.Nodes.AttackTargetAction"},{"name":"BehaviourTree","href":"WGR.AI.Nodes.BehaviourTree.html","topicHref":"WGR.AI.Nodes.BehaviourTree.html","topicUid":"WGR.AI.Nodes.BehaviourTree"},{"name":"BossNodeData","href":"WGR.AI.Nodes.BossNodeData.html","topicHref":"WGR.AI.Nodes.BossNodeData.html","topicUid":"WGR.AI.Nodes.BossNodeData"},{"name":"BossPhaseSelector","href":"WGR.AI.Nodes.BossPhaseSelector.html","topicHref":"WGR.AI.Nodes.BossPhaseSelector.html","topicUid":"WGR.AI.Nodes.BossPhaseSelector"},{"name":"BossPhaseUpdater","href":"WGR.AI.Nodes.BossPhaseUpdater.html","topicHref":"WGR.AI.Nodes.BossPhaseUpdater.html","topicUid":"WGR.AI.Nodes.BossPhaseUpdater"},{"name":"BossStunnedPhase","href":"WGR.AI.Nodes.BossStunnedPhase.html","topicHref":"WGR.AI.Nodes.BossStunnedPhase.html","topicUid":"WGR.AI.Nodes.BossStunnedPhase"},{"name":"ChaseAttackSelector","href":"WGR.AI.Nodes.ChaseAttackSelector.html","topicHref":"WGR.AI.Nodes.ChaseAttackSelector.html","topicUid":"WGR.AI.Nodes.ChaseAttackSelector"},{"name":"ChaseTargetActivator","href":"WGR.AI.Nodes.ChaseTargetActivator.html","topicHref":"WGR.AI.Nodes.ChaseTargetActivator.html","topicUid":"WGR.AI.Nodes.ChaseTargetActivator"},{"name":"CheckIfDead","href":"WGR.AI.Nodes.CheckIfDead.html","topicHref":"WGR.AI.Nodes.CheckIfDead.html","topicUid":"WGR.AI.Nodes.CheckIfDead"},{"name":"CheckIfStunned","href":"WGR.AI.Nodes.CheckIfStunned.html","topicHref":"WGR.AI.Nodes.CheckIfStunned.html","topicUid":"WGR.AI.Nodes.CheckIfStunned"},{"name":"EnemyNodeData","href":"WGR.AI.Nodes.EnemyNodeData.html","topicHref":"WGR.AI.Nodes.EnemyNodeData.html","topicUid":"WGR.AI.Nodes.EnemyNodeData"},{"name":"INode","href":"WGR.AI.Nodes.INode.html","topicHref":"WGR.AI.Nodes.INode.html","topicUid":"WGR.AI.Nodes.INode"},{"name":"INodeData","href":"WGR.AI.Nodes.INodeData.html","topicHref":"WGR.AI.Nodes.INodeData.html","topicUid":"WGR.AI.Nodes.INodeData"},{"name":"IdleNode","href":"WGR.AI.Nodes.IdleNode.html","topicHref":"WGR.AI.Nodes.IdleNode.html","topicUid":"WGR.AI.Nodes.IdleNode"},{"name":"IdleOnArrival","href":"WGR.AI.Nodes.IdleOnArrival.html","topicHref":"WGR.AI.Nodes.IdleOnArrival.html","topicUid":"WGR.AI.Nodes.IdleOnArrival"},{"name":"IdlePatrolChaseActivator","href":"WGR.AI.Nodes.IdlePatrolChaseActivator.html","topicHref":"WGR.AI.Nodes.IdlePatrolChaseActivator.html","topicUid":"WGR.AI.Nodes.IdlePatrolChaseActivator"},{"name":"NavToOriginalPos","href":"WGR.AI.Nodes.NavToOriginalPos.html","topicHref":"WGR.AI.Nodes.NavToOriginalPos.html","topicUid":"WGR.AI.Nodes.NavToOriginalPos"},{"name":"NavToRoom","href":"WGR.AI.Nodes.NavToRoom.html","topicHref":"WGR.AI.Nodes.NavToRoom.html","topicUid":"WGR.AI.Nodes.NavToRoom"},{"name":"NavToTarget","href":"WGR.AI.Nodes.NavToTarget.html","topicHref":"WGR.AI.Nodes.NavToTarget.html","topicUid":"WGR.AI.Nodes.NavToTarget"},{"name":"PatrolCheckDistance","href":"WGR.AI.Nodes.PatrolCheckDistance.html","topicHref":"WGR.AI.Nodes.PatrolCheckDistance.html","topicUid":"WGR.AI.Nodes.PatrolCheckDistance"},{"name":"PatrolNavToActivator","href":"WGR.AI.Nodes.PatrolNavToActivator.html","topicHref":"WGR.AI.Nodes.PatrolNavToActivator.html","topicUid":"WGR.AI.Nodes.PatrolNavToActivator"},{"name":"PatrolNavigateTo","href":"WGR.AI.Nodes.PatrolNavigateTo.html","topicHref":"WGR.AI.Nodes.PatrolNavigateTo.html","topicUid":"WGR.AI.Nodes.PatrolNavigateTo"},{"name":"PatrolNode","href":"WGR.AI.Nodes.PatrolNode.html","topicHref":"WGR.AI.Nodes.PatrolNode.html","topicUid":"WGR.AI.Nodes.PatrolNode"},{"name":"StunedAction","href":"WGR.AI.Nodes.StunedAction.html","topicHref":"WGR.AI.Nodes.StunedAction.html","topicUid":"WGR.AI.Nodes.StunedAction"}]},{"name":"WGR.Abilities","href":"WGR.Abilities.html","topicHref":"WGR.Abilities.html","topicUid":"WGR.Abilities","items":[{"name":"Ability","href":"WGR.Abilities.Ability.html","topicHref":"WGR.Abilities.Ability.html","topicUid":"WGR.Abilities.Ability"},{"name":"IRewindable","href":"WGR.Abilities.IRewindable.html","topicHref":"WGR.Abilities.IRewindable.html","topicUid":"WGR.Abilities.IRewindable"},{"name":"RewindTime","href":"WGR.Abilities.RewindTime.html","topicHref":"WGR.Abilities.RewindTime.html","topicUid":"WGR.Abilities.RewindTime"},{"name":"Rewinder","href":"WGR.Abilities.Rewinder.html","topicHref":"WGR.Abilities.Rewinder.html","topicUid":"WGR.Abilities.Rewinder"},{"name":"SlowDownTime","href":"WGR.Abilities.SlowDownTime.html","topicHref":"WGR.Abilities.SlowDownTime.html","topicUid":"WGR.Abilities.SlowDownTime"},{"name":"StopTime","href":"WGR.Abilities.StopTime.html","topicHref":"WGR.Abilities.StopTime.html","topicUid":"WGR.Abilities.StopTime"}]},{"name":"WGR.BattleSystem","href":"WGR.BattleSystem.html","topicHref":"WGR.BattleSystem.html","topicUid":"WGR.BattleSystem","items":[{"name":"BloodFXController","href":"WGR.BattleSystem.BloodFXController.html","topicHref":"WGR.BattleSystem.BloodFXController.html","topicUid":"WGR.BattleSystem.BloodFXController"},{"name":"Bullet","href":"WGR.BattleSystem.Bullet.html","topicHref":"WGR.BattleSystem.Bullet.html","topicUid":"WGR.BattleSystem.Bullet"},{"name":"BulletStatics","href":"WGR.BattleSystem.BulletStatics.html","topicHref":"WGR.BattleSystem.BulletStatics.html","topicUid":"WGR.BattleSystem.BulletStatics"},{"name":"IShooter","href":"WGR.BattleSystem.IShooter.html","topicHref":"WGR.BattleSystem.IShooter.html","topicUid":"WGR.BattleSystem.IShooter"},{"name":"ProjectileLayers","href":"WGR.BattleSystem.ProjectileLayers.html","topicHref":"WGR.BattleSystem.ProjectileLayers.html","topicUid":"WGR.BattleSystem.ProjectileLayers"},{"name":"ThrowableSpeeds","href":"WGR.BattleSystem.ThrowableSpeeds.html","topicHref":"WGR.BattleSystem.ThrowableSpeeds.html","topicUid":"WGR.BattleSystem.ThrowableSpeeds"},{"name":"Weapon","href":"WGR.BattleSystem.Weapon.html","topicHref":"WGR.BattleSystem.Weapon.html","topicUid":"WGR.BattleSystem.Weapon"},{"name":"WeaponCategory","href":"WGR.BattleSystem.WeaponCategory.html","topicHref":"WGR.BattleSystem.WeaponCategory.html","topicUid":"WGR.BattleSystem.WeaponCategory"},{"name":"WeaponPickup","href":"WGR.BattleSystem.WeaponPickup.html","topicHref":"WGR.BattleSystem.WeaponPickup.html","topicUid":"WGR.BattleSystem.WeaponPickup"},{"name":"WeaponType","href":"WGR.BattleSystem.WeaponType.html","topicHref":"WGR.BattleSystem.WeaponType.html","topicUid":"WGR.BattleSystem.WeaponType"}]},{"name":"WGR.Core.Managers","href":"WGR.Core.Managers.html","topicHref":"WGR.Core.Managers.html","topicUid":"WGR.Core.Managers","items":[{"name":"AIEntityManager","href":"WGR.Core.Managers.AIEntityManager.html","topicHref":"WGR.Core.Managers.AIEntityManager.html","topicUid":"WGR.Core.Managers.AIEntityManager"},{"name":"AbilityManager","href":"WGR.Core.Managers.AbilityManager.html","topicHref":"WGR.Core.Managers.AbilityManager.html","topicUid":"WGR.Core.Managers.AbilityManager"},{"name":"AbilityType","href":"WGR.Core.Managers.AbilityType.html","topicHref":"WGR.Core.Managers.AbilityType.html","topicUid":"WGR.Core.Managers.AbilityType"},{"name":"BulletPool","href":"WGR.Core.Managers.BulletPool.html","topicHref":"WGR.Core.Managers.BulletPool.html","topicUid":"WGR.Core.Managers.BulletPool"},{"name":"BulletType","href":"WGR.Core.Managers.BulletType.html","topicHref":"WGR.Core.Managers.BulletType.html","topicUid":"WGR.Core.Managers.BulletType"},{"name":"GameAudioClip","href":"WGR.Core.Managers.GameAudioClip.html","topicHref":"WGR.Core.Managers.GameAudioClip.html","topicUid":"WGR.Core.Managers.GameAudioClip"},{"name":"GameEventsHandler","href":"WGR.Core.Managers.GameEventsHandler.html","topicHref":"WGR.Core.Managers.GameEventsHandler.html","topicUid":"WGR.Core.Managers.GameEventsHandler"},{"name":"GameManager","href":"WGR.Core.Managers.GameManager.html","topicHref":"WGR.Core.Managers.GameManager.html","topicUid":"WGR.Core.Managers.GameManager"},{"name":"GameScenes","href":"WGR.Core.Managers.GameScenes.html","topicHref":"WGR.Core.Managers.GameScenes.html","topicUid":"WGR.Core.Managers.GameScenes"},{"name":"GameSoundsHandler","href":"WGR.Core.Managers.GameSoundsHandler.html","topicHref":"WGR.Core.Managers.GameSoundsHandler.html","topicUid":"WGR.Core.Managers.GameSoundsHandler"},{"name":"LevelLoadPacket","href":"WGR.Core.Managers.LevelLoadPacket.html","topicHref":"WGR.Core.Managers.LevelLoadPacket.html","topicUid":"WGR.Core.Managers.LevelLoadPacket"},{"name":"LevelManager","href":"WGR.Core.Managers.LevelManager.html","topicHref":"WGR.Core.Managers.LevelManager.html","topicUid":"WGR.Core.Managers.LevelManager"},{"name":"LevelWinHandler","href":"WGR.Core.Managers.LevelWinHandler.html","topicHref":"WGR.Core.Managers.LevelWinHandler.html","topicUid":"WGR.Core.Managers.LevelWinHandler"},{"name":"MainMenuManager","href":"WGR.Core.Managers.MainMenuManager.html","topicHref":"WGR.Core.Managers.MainMenuManager.html","topicUid":"WGR.Core.Managers.MainMenuManager"},{"name":"SaveDataHandler","href":"WGR.Core.Managers.SaveDataHandler.html","topicHref":"WGR.Core.Managers.SaveDataHandler.html","topicUid":"WGR.Core.Managers.SaveDataHandler"},{"name":"SaveDataInfo","href":"WGR.Core.Managers.SaveDataInfo.html","topicHref":"WGR.Core.Managers.SaveDataInfo.html","topicUid":"WGR.Core.Managers.SaveDataInfo"},{"name":"SkillPointHandle","href":"WGR.Core.Managers.SkillPointHandle.html","topicHref":"WGR.Core.Managers.SkillPointHandle.html","topicUid":"WGR.Core.Managers.SkillPointHandle"},{"name":"UIPanel","href":"WGR.Core.Managers.UIPanel.html","topicHref":"WGR.Core.Managers.UIPanel.html","topicUid":"WGR.Core.Managers.UIPanel"},{"name":"UI_Manager","href":"WGR.Core.Managers.UI_Manager.html","topicHref":"WGR.Core.Managers.UI_Manager.html","topicUid":"WGR.Core.Managers.UI_Manager"},{"name":"WeaponKillCount","href":"WGR.Core.Managers.WeaponKillCount.html","topicHref":"WGR.Core.Managers.WeaponKillCount.html","topicUid":"WGR.Core.Managers.WeaponKillCount"},{"name":"WeaponManager","href":"WGR.Core.Managers.WeaponManager.html","topicHref":"WGR.Core.Managers.WeaponManager.html","topicUid":"WGR.Core.Managers.WeaponManager"},{"name":"WeaponUnlockData","href":"WGR.Core.Managers.WeaponUnlockData.html","topicHref":"WGR.Core.Managers.WeaponUnlockData.html","topicUid":"WGR.Core.Managers.WeaponUnlockData"}]},{"name":"WGR.Entities","href":"WGR.Entities.html","topicHref":"WGR.Entities.html","topicUid":"WGR.Entities","items":[{"name":"DoorKickable","href":"WGR.Entities.DoorKickable.html","topicHref":"WGR.Entities.DoorKickable.html","topicUid":"WGR.Entities.DoorKickable"},{"name":"EnemyKickable","href":"WGR.Entities.EnemyKickable.html","topicHref":"WGR.Entities.EnemyKickable.html","topicUid":"WGR.Entities.EnemyKickable"},{"name":"Entity","href":"WGR.Entities.Entity.html","topicHref":"WGR.Entities.Entity.html","topicUid":"WGR.Entities.Entity"},{"name":"KickableEntity","href":"WGR.Entities.KickableEntity.html","topicHref":"WGR.Entities.KickableEntity.html","topicUid":"WGR.Entities.KickableEntity"},{"name":"Stat<T>","href":"WGR.Entities.Stat-1.html","topicHref":"WGR.Entities.Stat-1.html","topicUid":"WGR.Entities.Stat`1","name.vb":"Stat(Of T)"}]},{"name":"WGR.Entities.BattleSystem","href":"WGR.Entities.BattleSystem.html","topicHref":"WGR.Entities.BattleSystem.html","topicUid":"WGR.Entities.BattleSystem","items":[{"name":"IThrowable","href":"WGR.Entities.BattleSystem.IThrowable.html","topicHref":"WGR.Entities.BattleSystem.IThrowable.html","topicUid":"WGR.Entities.BattleSystem.IThrowable"},{"name":"Shooter","href":"WGR.Entities.BattleSystem.Shooter.html","topicHref":"WGR.Entities.BattleSystem.Shooter.html","topicUid":"WGR.Entities.BattleSystem.Shooter"},{"name":"ThrowableEntity","href":"WGR.Entities.BattleSystem.ThrowableEntity.html","topicHref":"WGR.Entities.BattleSystem.ThrowableEntity.html","topicUid":"WGR.Entities.BattleSystem.ThrowableEntity"}]},{"name":"WGR.Entities.Player","href":"WGR.Entities.Player.html","topicHref":"WGR.Entities.Player.html","topicUid":"WGR.Entities.Player","items":[{"name":"CameraBehaviour","href":"WGR.Entities.Player.CameraBehaviour.html","topicHref":"WGR.Entities.Player.CameraBehaviour.html","topicUid":"WGR.Entities.Player.CameraBehaviour"},{"name":"PlayerAnimations","href":"WGR.Entities.Player.PlayerAnimations.html","topicHref":"WGR.Entities.Player.PlayerAnimations.html","topicUid":"WGR.Entities.Player.PlayerAnimations"},{"name":"PlayerAttack","href":"WGR.Entities.Player.PlayerAttack.html","topicHref":"WGR.Entities.Player.PlayerAttack.html","topicUid":"WGR.Entities.Player.PlayerAttack"},{"name":"PlayerController","href":"WGR.Entities.Player.PlayerController.html","topicHref":"WGR.Entities.Player.PlayerController.html","topicUid":"WGR.Entities.Player.PlayerController"},{"name":"PlayerEntity","href":"WGR.Entities.Player.PlayerEntity.html","topicHref":"WGR.Entities.Player.PlayerEntity.html","topicUid":"WGR.Entities.Player.PlayerEntity"},{"name":"PlayerKick","href":"WGR.Entities.Player.PlayerKick.html","topicHref":"WGR.Entities.Player.PlayerKick.html","topicUid":"WGR.Entities.Player.PlayerKick"}]},{"name":"WGR.Interactions","href":"WGR.Interactions.html","topicHref":"WGR.Interactions.html","topicUid":"WGR.Interactions","items":[{"name":"IInteractable","href":"WGR.Interactions.IInteractable.html","topicHref":"WGR.Interactions.IInteractable.html","topicUid":"WGR.Interactions.IInteractable"},{"name":"IKickable","href":"WGR.Interactions.IKickable.html","topicHref":"WGR.Interactions.IKickable.html","topicUid":"WGR.Interactions.IKickable"}]},{"name":"WGR.Scripted","href":"WGR.Scripted.html","topicHref":"WGR.Scripted.html","topicUid":"WGR.Scripted","items":[{"name":"AbilityTVActivator","href":"WGR.Scripted.AbilityTVActivator.html","topicHref":"WGR.Scripted.AbilityTVActivator.html","topicUid":"WGR.Scripted.AbilityTVActivator"},{"name":"ActivateAbilityTest","href":"WGR.Scripted.ActivateAbilityTest.html","topicHref":"WGR.Scripted.ActivateAbilityTest.html","topicUid":"WGR.Scripted.ActivateAbilityTest"},{"name":"BossEntrySequence","href":"WGR.Scripted.BossEntrySequence.html","topicHref":"WGR.Scripted.BossEntrySequence.html","topicUid":"WGR.Scripted.BossEntrySequence"},{"name":"BossLevelEnemyCounter","href":"WGR.Scripted.BossLevelEnemyCounter.html","topicHref":"WGR.Scripted.BossLevelEnemyCounter.html","topicUid":"WGR.Scripted.BossLevelEnemyCounter"},{"name":"BossStunnedSequence","href":"WGR.Scripted.BossStunnedSequence.html","topicHref":"WGR.Scripted.BossStunnedSequence.html","topicUid":"WGR.Scripted.BossStunnedSequence"},{"name":"DialogueOnTriggerEnter","href":"WGR.Scripted.DialogueOnTriggerEnter.html","topicHref":"WGR.Scripted.DialogueOnTriggerEnter.html","topicUid":"WGR.Scripted.DialogueOnTriggerEnter"},{"name":"EnemySpawnHandler","href":"WGR.Scripted.EnemySpawnHandler.html","topicHref":"WGR.Scripted.EnemySpawnHandler.html","topicUid":"WGR.Scripted.EnemySpawnHandler"},{"name":"IntroSceneSequencer","href":"WGR.Scripted.IntroSceneSequencer.html","topicHref":"WGR.Scripted.IntroSceneSequencer.html","topicUid":"WGR.Scripted.IntroSceneSequencer"},{"name":"MoveToStart","href":"WGR.Scripted.MoveToStart.html","topicHref":"WGR.Scripted.MoveToStart.html","topicUid":"WGR.Scripted.MoveToStart"},{"name":"MurderPlayerSequencer","href":"WGR.Scripted.MurderPlayerSequencer.html","topicHref":"WGR.Scripted.MurderPlayerSequencer.html","topicUid":"WGR.Scripted.MurderPlayerSequencer"},{"name":"ScriptedSequence","href":"WGR.Scripted.ScriptedSequence.html","topicHref":"WGR.Scripted.ScriptedSequence.html","topicUid":"WGR.Scripted.ScriptedSequence"},{"name":"ThrowWeaponSequence","href":"WGR.Scripted.ThrowWeaponSequence.html","topicHref":"WGR.Scripted.ThrowWeaponSequence.html","topicUid":"WGR.Scripted.ThrowWeaponSequence"},{"name":"TransitLevel","href":"WGR.Scripted.TransitLevel.html","topicHref":"WGR.Scripted.TransitLevel.html","topicUid":"WGR.Scripted.TransitLevel"}]},{"name":"WGR.UI","href":"WGR.UI.html","topicHref":"WGR.UI.html","topicUid":"WGR.UI","items":[{"name":"ButtonPrompt","href":"WGR.UI.ButtonPrompt.html","topicHref":"WGR.UI.ButtonPrompt.html","topicUid":"WGR.UI.ButtonPrompt"},{"name":"DialogueController","href":"WGR.UI.DialogueController.html","topicHref":"WGR.UI.DialogueController.html","topicUid":"WGR.UI.DialogueController"},{"name":"DisplayTooltip","href":"WGR.UI.DisplayTooltip.html","topicHref":"WGR.UI.DisplayTooltip.html","topicUid":"WGR.UI.DisplayTooltip"},{"name":"DynamicCrosshair","href":"WGR.UI.DynamicCrosshair.html","topicHref":"WGR.UI.DynamicCrosshair.html","topicUid":"WGR.UI.DynamicCrosshair"},{"name":"HandleAbilityUpdatePanel","href":"WGR.UI.HandleAbilityUpdatePanel.html","topicHref":"WGR.UI.HandleAbilityUpdatePanel.html","topicUid":"WGR.UI.HandleAbilityUpdatePanel"},{"name":"HubPanelActivator","href":"WGR.UI.HubPanelActivator.html","topicHref":"WGR.UI.HubPanelActivator.html","topicUid":"WGR.UI.HubPanelActivator"},{"name":"OnMouseHover","href":"WGR.UI.OnMouseHover.html","topicHref":"WGR.UI.OnMouseHover.html","topicUid":"WGR.UI.OnMouseHover"},{"name":"PanelReferences","href":"WGR.UI.PanelReferences.html","topicHref":"WGR.UI.PanelReferences.html","topicUid":"WGR.UI.PanelReferences"},{"name":"SceneFader","href":"WGR.UI.SceneFader.html","topicHref":"WGR.UI.SceneFader.html","topicUid":"WGR.UI.SceneFader"},{"name":"UpdateSoundUIReferences","href":"WGR.UI.UpdateSoundUIReferences.html","topicHref":"WGR.UI.UpdateSoundUIReferences.html","topicUid":"WGR.UI.UpdateSoundUIReferences"},{"name":"UserHUDHandler","href":"WGR.UI.UserHUDHandler.html","topicHref":"WGR.UI.UserHUDHandler.html","topicUid":"WGR.UI.UserHUDHandler"},{"name":"WeaponRepresenter","href":"WGR.UI.WeaponRepresenter.html","topicHref":"WGR.UI.WeaponRepresenter.html","topicUid":"WGR.UI.WeaponRepresenter"},{"name":"WeaponSelectionUI","href":"WGR.UI.WeaponSelectionUI.html","topicHref":"WGR.UI.WeaponSelectionUI.html","topicUid":"WGR.UI.WeaponSelectionUI"}]}],"memberLayout":"SamePage"}
+{
+    "items": [
+        {
+            "name": "",
+            "href": "WGR.html",
+            "topicHref": "WGR.html",
+            "topicUid": "WGR",
+            "items": [
+                {
+                    "name": "InspectorButtonAttribute",
+                    "href": "WGR.InspectorButtonAttribute.html",
+                    "topicHref": "WGR.InspectorButtonAttribute.html",
+                    "topicUid": "WGR.InspectorButtonAttribute"
+                },
+                {
+                    "name": "Utils",
+                    "href": "WGR.Utils.html",
+                    "topicHref": "WGR.Utils.html",
+                    "topicUid": "WGR.Utils"
+                }
+            ]
+        },
+        {
+            "name": "WGR.AI.Entities",
+            "href": "WGR.AI.Entities.html",
+            "topicHref": "WGR.AI.Entities.html",
+            "topicUid": "WGR.AI.Entities",
+            "items": [
+                {
+                    "name": "AIEntity",
+                    "href": "WGR.AI.Entities.AIEntity.html",
+                    "topicHref": "WGR.AI.Entities.AIEntity.html",
+                    "topicUid": "WGR.AI.Entities.AIEntity"
+                },
+                {
+                    "name": "AIEntityAnimations",
+                    "href": "WGR.AI.Entities.AIEntityAnimations.html",
+                    "topicHref": "WGR.AI.Entities.AIEntityAnimations.html",
+                    "topicUid": "WGR.AI.Entities.AIEntityAnimations"
+                },
+                {
+                    "name": "AIEntityBTHandler",
+                    "href": "WGR.AI.Entities.AIEntityBTHandler.html",
+                    "topicHref": "WGR.AI.Entities.AIEntityBTHandler.html",
+                    "topicUid": "WGR.AI.Entities.AIEntityBTHandler"
+                },
+                {
+                    "name": "EnemyLayer",
+                    "href": "WGR.AI.Entities.EnemyLayer.html",
+                    "topicHref": "WGR.AI.Entities.EnemyLayer.html",
+                    "topicUid": "WGR.AI.Entities.EnemyLayer"
+                }
+            ]
+        },
+        {
+            "name": "WGR.AI.Entities.Hostile",
+            "href": "WGR.AI.Entities.Hostile.html",
+            "topicHref": "WGR.AI.Entities.Hostile.html",
+            "topicUid": "WGR.AI.Entities.Hostile",
+            "items": [
+                {
+                    "name": "AIEntityWeapon",
+                    "href": "WGR.AI.Entities.Hostile.AIEntityWeapon.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.AIEntityWeapon.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.AIEntityWeapon"
+                }
+            ]
+        },
+        {
+            "name": "WGR.AI.Entities.Hostile.Boss",
+            "href": "WGR.AI.Entities.Hostile.Boss.html",
+            "topicHref": "WGR.AI.Entities.Hostile.Boss.html",
+            "topicUid": "WGR.AI.Entities.Hostile.Boss",
+            "items": [
+                {
+                    "name": "BossAnimations",
+                    "href": "WGR.AI.Entities.Hostile.Boss.BossAnimations.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Boss.BossAnimations.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Boss.BossAnimations"
+                },
+                {
+                    "name": "BossBTHandler",
+                    "href": "WGR.AI.Entities.Hostile.Boss.BossBTHandler.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Boss.BossBTHandler.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Boss.BossBTHandler"
+                },
+                {
+                    "name": "BossEntity",
+                    "href": "WGR.AI.Entities.Hostile.Boss.BossEntity.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Boss.BossEntity.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Boss.BossEntity"
+                },
+                {
+                    "name": "BossPhase",
+                    "href": "WGR.AI.Entities.Hostile.Boss.BossPhase.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Boss.BossPhase.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Boss.BossPhase"
+                },
+                {
+                    "name": "BossWeapon",
+                    "href": "WGR.AI.Entities.Hostile.Boss.BossWeapon.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Boss.BossWeapon.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Boss.BossWeapon"
+                },
+                {
+                    "name": "BulletDetector",
+                    "href": "WGR.AI.Entities.Hostile.Boss.BulletDetector.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Boss.BulletDetector.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Boss.BulletDetector"
+                }
+            ]
+        },
+        {
+            "name": "WGR.AI.Entities.Hostile.Generic",
+            "href": "WGR.AI.Entities.Hostile.Generic.html",
+            "topicHref": "WGR.AI.Entities.Hostile.Generic.html",
+            "topicUid": "WGR.AI.Entities.Hostile.Generic",
+            "items": [
+                {
+                    "name": "EnemyAnimations",
+                    "href": "WGR.AI.Entities.Hostile.Generic.EnemyAnimations.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Generic.EnemyAnimations.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Generic.EnemyAnimations"
+                },
+                {
+                    "name": "EnemyBTHandler",
+                    "href": "WGR.AI.Entities.Hostile.Generic.EnemyBTHandler.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Generic.EnemyBTHandler.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Generic.EnemyBTHandler"
+                },
+                {
+                    "name": "EnemyEntity",
+                    "href": "WGR.AI.Entities.Hostile.Generic.EnemyEntity.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Generic.EnemyEntity.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Generic.EnemyEntity"
+                },
+                {
+                    "name": "EnemyWeapon",
+                    "href": "WGR.AI.Entities.Hostile.Generic.EnemyWeapon.html",
+                    "topicHref": "WGR.AI.Entities.Hostile.Generic.EnemyWeapon.html",
+                    "topicUid": "WGR.AI.Entities.Hostile.Generic.EnemyWeapon"
+                }
+            ]
+        },
+        {
+            "name": "WGR.AI.FOV",
+            "href": "WGR.AI.FOV.html",
+            "topicHref": "WGR.AI.FOV.html",
+            "topicUid": "WGR.AI.FOV",
+            "items": [
+                {
+                    "name": "AIEntityFOVDetector",
+                    "href": "WGR.AI.FOV.AIEntityFOVDetector.html",
+                    "topicHref": "WGR.AI.FOV.AIEntityFOVDetector.html",
+                    "topicUid": "WGR.AI.FOV.AIEntityFOVDetector"
+                },
+                {
+                    "name": "AIEntityFOVManager",
+                    "href": "WGR.AI.FOV.AIEntityFOVManager.html",
+                    "topicHref": "WGR.AI.FOV.AIEntityFOVManager.html",
+                    "topicUid": "WGR.AI.FOV.AIEntityFOVManager"
+                }
+            ]
+        },
+        {
+            "name": "WGR.AI.Nodes",
+            "href": "WGR.AI.Nodes.html",
+            "topicHref": "WGR.AI.Nodes.html",
+            "topicUid": "WGR.AI.Nodes",
+            "items": [
+                {
+                    "name": "AttackTargetAction",
+                    "href": "WGR.AI.Nodes.AttackTargetAction.html",
+                    "topicHref": "WGR.AI.Nodes.AttackTargetAction.html",
+                    "topicUid": "WGR.AI.Nodes.AttackTargetAction"
+                },
+                {
+                    "name": "BehaviourTree",
+                    "href": "WGR.AI.Nodes.BehaviourTree.html",
+                    "topicHref": "WGR.AI.Nodes.BehaviourTree.html",
+                    "topicUid": "WGR.AI.Nodes.BehaviourTree"
+                },
+                {
+                    "name": "BossNodeData",
+                    "href": "WGR.AI.Nodes.BossNodeData.html",
+                    "topicHref": "WGR.AI.Nodes.BossNodeData.html",
+                    "topicUid": "WGR.AI.Nodes.BossNodeData"
+                },
+                {
+                    "name": "BossPhaseSelector",
+                    "href": "WGR.AI.Nodes.BossPhaseSelector.html",
+                    "topicHref": "WGR.AI.Nodes.BossPhaseSelector.html",
+                    "topicUid": "WGR.AI.Nodes.BossPhaseSelector"
+                },
+                {
+                    "name": "BossPhaseUpdater",
+                    "href": "WGR.AI.Nodes.BossPhaseUpdater.html",
+                    "topicHref": "WGR.AI.Nodes.BossPhaseUpdater.html",
+                    "topicUid": "WGR.AI.Nodes.BossPhaseUpdater"
+                },
+                {
+                    "name": "BossStunnedPhase",
+                    "href": "WGR.AI.Nodes.BossStunnedPhase.html",
+                    "topicHref": "WGR.AI.Nodes.BossStunnedPhase.html",
+                    "topicUid": "WGR.AI.Nodes.BossStunnedPhase"
+                },
+                {
+                    "name": "ChaseAttackSelector",
+                    "href": "WGR.AI.Nodes.ChaseAttackSelector.html",
+                    "topicHref": "WGR.AI.Nodes.ChaseAttackSelector.html",
+                    "topicUid": "WGR.AI.Nodes.ChaseAttackSelector"
+                },
+                {
+                    "name": "ChaseTargetActivator",
+                    "href": "WGR.AI.Nodes.ChaseTargetActivator.html",
+                    "topicHref": "WGR.AI.Nodes.ChaseTargetActivator.html",
+                    "topicUid": "WGR.AI.Nodes.ChaseTargetActivator"
+                },
+                {
+                    "name": "CheckIfDead",
+                    "href": "WGR.AI.Nodes.CheckIfDead.html",
+                    "topicHref": "WGR.AI.Nodes.CheckIfDead.html",
+                    "topicUid": "WGR.AI.Nodes.CheckIfDead"
+                },
+                {
+                    "name": "CheckIfStunned",
+                    "href": "WGR.AI.Nodes.CheckIfStunned.html",
+                    "topicHref": "WGR.AI.Nodes.CheckIfStunned.html",
+                    "topicUid": "WGR.AI.Nodes.CheckIfStunned"
+                },
+                {
+                    "name": "EnemyNodeData",
+                    "href": "WGR.AI.Nodes.EnemyNodeData.html",
+                    "topicHref": "WGR.AI.Nodes.EnemyNodeData.html",
+                    "topicUid": "WGR.AI.Nodes.EnemyNodeData"
+                },
+                {
+                    "name": "INode",
+                    "href": "WGR.AI.Nodes.INode.html",
+                    "topicHref": "WGR.AI.Nodes.INode.html",
+                    "topicUid": "WGR.AI.Nodes.INode"
+                },
+                {
+                    "name": "INodeData",
+                    "href": "WGR.AI.Nodes.INodeData.html",
+                    "topicHref": "WGR.AI.Nodes.INodeData.html",
+                    "topicUid": "WGR.AI.Nodes.INodeData"
+                },
+                {
+                    "name": "IdleNode",
+                    "href": "WGR.AI.Nodes.IdleNode.html",
+                    "topicHref": "WGR.AI.Nodes.IdleNode.html",
+                    "topicUid": "WGR.AI.Nodes.IdleNode"
+                },
+                {
+                    "name": "IdleOnArrival",
+                    "href": "WGR.AI.Nodes.IdleOnArrival.html",
+                    "topicHref": "WGR.AI.Nodes.IdleOnArrival.html",
+                    "topicUid": "WGR.AI.Nodes.IdleOnArrival"
+                },
+                {
+                    "name": "IdlePatrolChaseActivator",
+                    "href": "WGR.AI.Nodes.IdlePatrolChaseActivator.html",
+                    "topicHref": "WGR.AI.Nodes.IdlePatrolChaseActivator.html",
+                    "topicUid": "WGR.AI.Nodes.IdlePatrolChaseActivator"
+                },
+                {
+                    "name": "NavToOriginalPos",
+                    "href": "WGR.AI.Nodes.NavToOriginalPos.html",
+                    "topicHref": "WGR.AI.Nodes.NavToOriginalPos.html",
+                    "topicUid": "WGR.AI.Nodes.NavToOriginalPos"
+                },
+                {
+                    "name": "NavToRoom",
+                    "href": "WGR.AI.Nodes.NavToRoom.html",
+                    "topicHref": "WGR.AI.Nodes.NavToRoom.html",
+                    "topicUid": "WGR.AI.Nodes.NavToRoom"
+                },
+                {
+                    "name": "NavToTarget",
+                    "href": "WGR.AI.Nodes.NavToTarget.html",
+                    "topicHref": "WGR.AI.Nodes.NavToTarget.html",
+                    "topicUid": "WGR.AI.Nodes.NavToTarget"
+                },
+                {
+                    "name": "PatrolCheckDistance",
+                    "href": "WGR.AI.Nodes.PatrolCheckDistance.html",
+                    "topicHref": "WGR.AI.Nodes.PatrolCheckDistance.html",
+                    "topicUid": "WGR.AI.Nodes.PatrolCheckDistance"
+                },
+                {
+                    "name": "PatrolNavToActivator",
+                    "href": "WGR.AI.Nodes.PatrolNavToActivator.html",
+                    "topicHref": "WGR.AI.Nodes.PatrolNavToActivator.html",
+                    "topicUid": "WGR.AI.Nodes.PatrolNavToActivator"
+                },
+                {
+                    "name": "PatrolNavigateTo",
+                    "href": "WGR.AI.Nodes.PatrolNavigateTo.html",
+                    "topicHref": "WGR.AI.Nodes.PatrolNavigateTo.html",
+                    "topicUid": "WGR.AI.Nodes.PatrolNavigateTo"
+                },
+                {
+                    "name": "PatrolNode",
+                    "href": "WGR.AI.Nodes.PatrolNode.html",
+                    "topicHref": "WGR.AI.Nodes.PatrolNode.html",
+                    "topicUid": "WGR.AI.Nodes.PatrolNode"
+                },
+                {
+                    "name": "StunedAction",
+                    "href": "WGR.AI.Nodes.StunedAction.html",
+                    "topicHref": "WGR.AI.Nodes.StunedAction.html",
+                    "topicUid": "WGR.AI.Nodes.StunedAction"
+                }
+            ]
+        },
+        {
+            "name": "WGR.Abilities",
+            "href": "WGR.Abilities.html",
+            "topicHref": "WGR.Abilities.html",
+            "topicUid": "WGR.Abilities",
+            "items": [
+                {
+                    "name": "Ability",
+                    "href": "WGR.Abilities.Ability.html",
+                    "topicHref": "WGR.Abilities.Ability.html",
+                    "topicUid": "WGR.Abilities.Ability"
+                },
+                {
+                    "name": "IRewindable",
+                    "href": "WGR.Abilities.IRewindable.html",
+                    "topicHref": "WGR.Abilities.IRewindable.html",
+                    "topicUid": "WGR.Abilities.IRewindable"
+                },
+                {
+                    "name": "RewindTime",
+                    "href": "WGR.Abilities.RewindTime.html",
+                    "topicHref": "WGR.Abilities.RewindTime.html",
+                    "topicUid": "WGR.Abilities.RewindTime"
+                },
+                {
+                    "name": "Rewinder",
+                    "href": "WGR.Abilities.Rewinder.html",
+                    "topicHref": "WGR.Abilities.Rewinder.html",
+                    "topicUid": "WGR.Abilities.Rewinder"
+                },
+                {
+                    "name": "SlowDownTime",
+                    "href": "WGR.Abilities.SlowDownTime.html",
+                    "topicHref": "WGR.Abilities.SlowDownTime.html",
+                    "topicUid": "WGR.Abilities.SlowDownTime"
+                },
+                {
+                    "name": "StopTime",
+                    "href": "WGR.Abilities.StopTime.html",
+                    "topicHref": "WGR.Abilities.StopTime.html",
+                    "topicUid": "WGR.Abilities.StopTime"
+                }
+            ]
+        },
+        {
+            "name": "WGR.BattleSystem",
+            "href": "WGR.BattleSystem.html",
+            "topicHref": "WGR.BattleSystem.html",
+            "topicUid": "WGR.BattleSystem",
+            "items": [
+                {
+                    "name": "BloodFXController",
+                    "href": "WGR.BattleSystem.BloodFXController.html",
+                    "topicHref": "WGR.BattleSystem.BloodFXController.html",
+                    "topicUid": "WGR.BattleSystem.BloodFXController"
+                },
+                {
+                    "name": "Bullet",
+                    "href": "WGR.BattleSystem.Bullet.html",
+                    "topicHref": "WGR.BattleSystem.Bullet.html",
+                    "topicUid": "WGR.BattleSystem.Bullet"
+                },
+                {
+                    "name": "BulletStatics",
+                    "href": "WGR.BattleSystem.BulletStatics.html",
+                    "topicHref": "WGR.BattleSystem.BulletStatics.html",
+                    "topicUid": "WGR.BattleSystem.BulletStatics"
+                },
+                {
+                    "name": "IShooter",
+                    "href": "WGR.BattleSystem.IShooter.html",
+                    "topicHref": "WGR.BattleSystem.IShooter.html",
+                    "topicUid": "WGR.BattleSystem.IShooter"
+                },
+                {
+                    "name": "ProjectileLayers",
+                    "href": "WGR.BattleSystem.ProjectileLayers.html",
+                    "topicHref": "WGR.BattleSystem.ProjectileLayers.html",
+                    "topicUid": "WGR.BattleSystem.ProjectileLayers"
+                },
+                {
+                    "name": "ThrowableSpeeds",
+                    "href": "WGR.BattleSystem.ThrowableSpeeds.html",
+                    "topicHref": "WGR.BattleSystem.ThrowableSpeeds.html",
+                    "topicUid": "WGR.BattleSystem.ThrowableSpeeds"
+                },
+                {
+                    "name": "Weapon",
+                    "href": "WGR.BattleSystem.Weapon.html",
+                    "topicHref": "WGR.BattleSystem.Weapon.html",
+                    "topicUid": "WGR.BattleSystem.Weapon"
+                },
+                {
+                    "name": "WeaponCategory",
+                    "href": "WGR.BattleSystem.WeaponCategory.html",
+                    "topicHref": "WGR.BattleSystem.WeaponCategory.html",
+                    "topicUid": "WGR.BattleSystem.WeaponCategory"
+                },
+                {
+                    "name": "WeaponPickup",
+                    "href": "WGR.BattleSystem.WeaponPickup.html",
+                    "topicHref": "WGR.BattleSystem.WeaponPickup.html",
+                    "topicUid": "WGR.BattleSystem.WeaponPickup"
+                },
+                {
+                    "name": "WeaponType",
+                    "href": "WGR.BattleSystem.WeaponType.html",
+                    "topicHref": "WGR.BattleSystem.WeaponType.html",
+                    "topicUid": "WGR.BattleSystem.WeaponType"
+                }
+            ]
+        },
+        {
+            "name": "WGR.Core.Managers",
+            "href": "WGR.Core.Managers.html",
+            "topicHref": "WGR.Core.Managers.html",
+            "topicUid": "WGR.Core.Managers",
+            "items": [
+                {
+                    "name": "AIEntityManager",
+                    "href": "WGR.Core.Managers.AIEntityManager.html",
+                    "topicHref": "WGR.Core.Managers.AIEntityManager.html",
+                    "topicUid": "WGR.Core.Managers.AIEntityManager"
+                },
+                {
+                    "name": "AbilityManager",
+                    "href": "WGR.Core.Managers.AbilityManager.html",
+                    "topicHref": "WGR.Core.Managers.AbilityManager.html",
+                    "topicUid": "WGR.Core.Managers.AbilityManager"
+                },
+                {
+                    "name": "AbilityType",
+                    "href": "WGR.Core.Managers.AbilityType.html",
+                    "topicHref": "WGR.Core.Managers.AbilityType.html",
+                    "topicUid": "WGR.Core.Managers.AbilityType"
+                },
+                {
+                    "name": "BulletPool",
+                    "href": "WGR.Core.Managers.BulletPool.html",
+                    "topicHref": "WGR.Core.Managers.BulletPool.html",
+                    "topicUid": "WGR.Core.Managers.BulletPool"
+                },
+                {
+                    "name": "BulletType",
+                    "href": "WGR.Core.Managers.BulletType.html",
+                    "topicHref": "WGR.Core.Managers.BulletType.html",
+                    "topicUid": "WGR.Core.Managers.BulletType"
+                },
+                {
+                    "name": "GameAudioClip",
+                    "href": "WGR.Core.Managers.GameAudioClip.html",
+                    "topicHref": "WGR.Core.Managers.GameAudioClip.html",
+                    "topicUid": "WGR.Core.Managers.GameAudioClip"
+                },
+                {
+                    "name": "GameEventsHandler",
+                    "href": "WGR.Core.Managers.GameEventsHandler.html",
+                    "topicHref": "WGR.Core.Managers.GameEventsHandler.html",
+                    "topicUid": "WGR.Core.Managers.GameEventsHandler"
+                },
+                {
+                    "name": "GameManager",
+                    "href": "WGR.Core.Managers.GameManager.html",
+                    "topicHref": "WGR.Core.Managers.GameManager.html",
+                    "topicUid": "WGR.Core.Managers.GameManager"
+                },
+                {
+                    "name": "GameScenes",
+                    "href": "WGR.Core.Managers.GameScenes.html",
+                    "topicHref": "WGR.Core.Managers.GameScenes.html",
+                    "topicUid": "WGR.Core.Managers.GameScenes"
+                },
+                {
+                    "name": "GameSoundsHandler",
+                    "href": "WGR.Core.Managers.GameSoundsHandler.html",
+                    "topicHref": "WGR.Core.Managers.GameSoundsHandler.html",
+                    "topicUid": "WGR.Core.Managers.GameSoundsHandler"
+                },
+                {
+                    "name": "LevelLoadPacket",
+                    "href": "WGR.Core.Managers.LevelLoadPacket.html",
+                    "topicHref": "WGR.Core.Managers.LevelLoadPacket.html",
+                    "topicUid": "WGR.Core.Managers.LevelLoadPacket"
+                },
+                {
+                    "name": "LevelManager",
+                    "href": "WGR.Core.Managers.LevelManager.html",
+                    "topicHref": "WGR.Core.Managers.LevelManager.html",
+                    "topicUid": "WGR.Core.Managers.LevelManager"
+                },
+                {
+                    "name": "LevelWinHandler",
+                    "href": "WGR.Core.Managers.LevelWinHandler.html",
+                    "topicHref": "WGR.Core.Managers.LevelWinHandler.html",
+                    "topicUid": "WGR.Core.Managers.LevelWinHandler"
+                },
+                {
+                    "name": "MainMenuManager",
+                    "href": "WGR.Core.Managers.MainMenuManager.html",
+                    "topicHref": "WGR.Core.Managers.MainMenuManager.html",
+                    "topicUid": "WGR.Core.Managers.MainMenuManager"
+                },
+                {
+                    "name": "SaveDataHandler",
+                    "href": "WGR.Core.Managers.SaveDataHandler.html",
+                    "topicHref": "WGR.Core.Managers.SaveDataHandler.html",
+                    "topicUid": "WGR.Core.Managers.SaveDataHandler"
+                },
+                {
+                    "name": "SaveDataInfo",
+                    "href": "WGR.Core.Managers.SaveDataInfo.html",
+                    "topicHref": "WGR.Core.Managers.SaveDataInfo.html",
+                    "topicUid": "WGR.Core.Managers.SaveDataInfo"
+                },
+                {
+                    "name": "SkillPointHandle",
+                    "href": "WGR.Core.Managers.SkillPointHandle.html",
+                    "topicHref": "WGR.Core.Managers.SkillPointHandle.html",
+                    "topicUid": "WGR.Core.Managers.SkillPointHandle"
+                },
+                {
+                    "name": "UIPanel",
+                    "href": "WGR.Core.Managers.UIPanel.html",
+                    "topicHref": "WGR.Core.Managers.UIPanel.html",
+                    "topicUid": "WGR.Core.Managers.UIPanel"
+                },
+                {
+                    "name": "UI_Manager",
+                    "href": "WGR.Core.Managers.UI_Manager.html",
+                    "topicHref": "WGR.Core.Managers.UI_Manager.html",
+                    "topicUid": "WGR.Core.Managers.UI_Manager"
+                },
+                {
+                    "name": "WeaponKillCount",
+                    "href": "WGR.Core.Managers.WeaponKillCount.html",
+                    "topicHref": "WGR.Core.Managers.WeaponKillCount.html",
+                    "topicUid": "WGR.Core.Managers.WeaponKillCount"
+                },
+                {
+                    "name": "WeaponManager",
+                    "href": "WGR.Core.Managers.WeaponManager.html",
+                    "topicHref": "WGR.Core.Managers.WeaponManager.html",
+                    "topicUid": "WGR.Core.Managers.WeaponManager"
+                },
+                {
+                    "name": "WeaponUnlockData",
+                    "href": "WGR.Core.Managers.WeaponUnlockData.html",
+                    "topicHref": "WGR.Core.Managers.WeaponUnlockData.html",
+                    "topicUid": "WGR.Core.Managers.WeaponUnlockData"
+                }
+            ]
+        },
+        {
+            "name": "WGR.Entities",
+            "href": "WGR.Entities.html",
+            "topicHref": "WGR.Entities.html",
+            "topicUid": "WGR.Entities",
+            "items": [
+                {
+                    "name": "DoorKickable",
+                    "href": "WGR.Entities.DoorKickable.html",
+                    "topicHref": "WGR.Entities.DoorKickable.html",
+                    "topicUid": "WGR.Entities.DoorKickable"
+                },
+                {
+                    "name": "EnemyKickable",
+                    "href": "WGR.Entities.EnemyKickable.html",
+                    "topicHref": "WGR.Entities.EnemyKickable.html",
+                    "topicUid": "WGR.Entities.EnemyKickable"
+                },
+                {
+                    "name": "Entity",
+                    "href": "WGR.Entities.Entity.html",
+                    "topicHref": "WGR.Entities.Entity.html",
+                    "topicUid": "WGR.Entities.Entity"
+                },
+                {
+                    "name": "KickableEntity",
+                    "href": "WGR.Entities.KickableEntity.html",
+                    "topicHref": "WGR.Entities.KickableEntity.html",
+                    "topicUid": "WGR.Entities.KickableEntity"
+                },
+                {
+                    "name": "Stat<T>",
+                    "href": "WGR.Entities.Stat-1.html",
+                    "topicHref": "WGR.Entities.Stat-1.html",
+                    "topicUid": "WGR.Entities.Stat`1",
+                    "name.vb": "Stat(Of T)"
+                }
+            ]
+        },
+        {
+            "name": "WGR.Entities.BattleSystem",
+            "href": "WGR.Entities.BattleSystem.html",
+            "topicHref": "WGR.Entities.BattleSystem.html",
+            "topicUid": "WGR.Entities.BattleSystem",
+            "items": [
+                {
+                    "name": "IThrowable",
+                    "href": "WGR.Entities.BattleSystem.IThrowable.html",
+                    "topicHref": "WGR.Entities.BattleSystem.IThrowable.html",
+                    "topicUid": "WGR.Entities.BattleSystem.IThrowable"
+                },
+                {
+                    "name": "Shooter",
+                    "href": "WGR.Entities.BattleSystem.Shooter.html",
+                    "topicHref": "WGR.Entities.BattleSystem.Shooter.html",
+                    "topicUid": "WGR.Entities.BattleSystem.Shooter"
+                },
+                {
+                    "name": "ThrowableEntity",
+                    "href": "WGR.Entities.BattleSystem.ThrowableEntity.html",
+                    "topicHref": "WGR.Entities.BattleSystem.ThrowableEntity.html",
+                    "topicUid": "WGR.Entities.BattleSystem.ThrowableEntity"
+                }
+            ]
+        },
+        {
+            "name": "WGR.Entities.Player",
+            "href": "WGR.Entities.Player.html",
+            "topicHref": "WGR.Entities.Player.html",
+            "topicUid": "WGR.Entities.Player",
+            "items": [
+                {
+                    "name": "CameraBehaviour",
+                    "href": "WGR.Entities.Player.CameraBehaviour.html",
+                    "topicHref": "WGR.Entities.Player.CameraBehaviour.html",
+                    "topicUid": "WGR.Entities.Player.CameraBehaviour"
+                },
+                {
+                    "name": "PlayerAnimations",
+                    "href": "WGR.Entities.Player.PlayerAnimations.html",
+                    "topicHref": "WGR.Entities.Player.PlayerAnimations.html",
+                    "topicUid": "WGR.Entities.Player.PlayerAnimations"
+                },
+                {
+                    "name": "PlayerAttack",
+                    "href": "WGR.Entities.Player.PlayerAttack.html",
+                    "topicHref": "WGR.Entities.Player.PlayerAttack.html",
+                    "topicUid": "WGR.Entities.Player.PlayerAttack"
+                },
+                {
+                    "name": "PlayerController",
+                    "href": "WGR.Entities.Player.PlayerController.html",
+                    "topicHref": "WGR.Entities.Player.PlayerController.html",
+                    "topicUid": "WGR.Entities.Player.PlayerController"
+                },
+                {
+                    "name": "PlayerEntity",
+                    "href": "WGR.Entities.Player.PlayerEntity.html",
+                    "topicHref": "WGR.Entities.Player.PlayerEntity.html",
+                    "topicUid": "WGR.Entities.Player.PlayerEntity"
+                },
+                {
+                    "name": "PlayerKick",
+                    "href": "WGR.Entities.Player.PlayerKick.html",
+                    "topicHref": "WGR.Entities.Player.PlayerKick.html",
+                    "topicUid": "WGR.Entities.Player.PlayerKick"
+                }
+            ]
+        },
+        {
+            "name": "WGR.Interactions",
+            "href": "WGR.Interactions.html",
+            "topicHref": "WGR.Interactions.html",
+            "topicUid": "WGR.Interactions",
+            "items": [
+                {
+                    "name": "IInteractable",
+                    "href": "WGR.Interactions.IInteractable.html",
+                    "topicHref": "WGR.Interactions.IInteractable.html",
+                    "topicUid": "WGR.Interactions.IInteractable"
+                },
+                {
+                    "name": "IKickable",
+                    "href": "WGR.Interactions.IKickable.html",
+                    "topicHref": "WGR.Interactions.IKickable.html",
+                    "topicUid": "WGR.Interactions.IKickable"
+                }
+            ]
+        },
+        {
+            "name": "WGR.Scripted",
+            "href": "WGR.Scripted.html",
+            "topicHref": "WGR.Scripted.html",
+            "topicUid": "WGR.Scripted",
+            "items": [
+                {
+                    "name": "AbilityTVActivator",
+                    "href": "WGR.Scripted.AbilityTVActivator.html",
+                    "topicHref": "WGR.Scripted.AbilityTVActivator.html",
+                    "topicUid": "WGR.Scripted.AbilityTVActivator"
+                },
+                {
+                    "name": "ActivateAbilityTest",
+                    "href": "WGR.Scripted.ActivateAbilityTest.html",
+                    "topicHref": "WGR.Scripted.ActivateAbilityTest.html",
+                    "topicUid": "WGR.Scripted.ActivateAbilityTest"
+                },
+                {
+                    "name": "BossEntrySequence",
+                    "href": "WGR.Scripted.BossEntrySequence.html",
+                    "topicHref": "WGR.Scripted.BossEntrySequence.html",
+                    "topicUid": "WGR.Scripted.BossEntrySequence"
+                },
+                {
+                    "name": "BossLevelEnemyCounter",
+                    "href": "WGR.Scripted.BossLevelEnemyCounter.html",
+                    "topicHref": "WGR.Scripted.BossLevelEnemyCounter.html",
+                    "topicUid": "WGR.Scripted.BossLevelEnemyCounter"
+                },
+                {
+                    "name": "BossStunnedSequence",
+                    "href": "WGR.Scripted.BossStunnedSequence.html",
+                    "topicHref": "WGR.Scripted.BossStunnedSequence.html",
+                    "topicUid": "WGR.Scripted.BossStunnedSequence"
+                },
+                {
+                    "name": "DialogueOnTriggerEnter",
+                    "href": "WGR.Scripted.DialogueOnTriggerEnter.html",
+                    "topicHref": "WGR.Scripted.DialogueOnTriggerEnter.html",
+                    "topicUid": "WGR.Scripted.DialogueOnTriggerEnter"
+                },
+                {
+                    "name": "EnemySpawnHandler",
+                    "href": "WGR.Scripted.EnemySpawnHandler.html",
+                    "topicHref": "WGR.Scripted.EnemySpawnHandler.html",
+                    "topicUid": "WGR.Scripted.EnemySpawnHandler"
+                },
+                {
+                    "name": "IntroSceneSequencer",
+                    "href": "WGR.Scripted.IntroSceneSequencer.html",
+                    "topicHref": "WGR.Scripted.IntroSceneSequencer.html",
+                    "topicUid": "WGR.Scripted.IntroSceneSequencer"
+                },
+                {
+                    "name": "MoveToStart",
+                    "href": "WGR.Scripted.MoveToStart.html",
+                    "topicHref": "WGR.Scripted.MoveToStart.html",
+                    "topicUid": "WGR.Scripted.MoveToStart"
+                },
+                {
+                    "name": "MurderPlayerSequencer",
+                    "href": "WGR.Scripted.MurderPlayerSequencer.html",
+                    "topicHref": "WGR.Scripted.MurderPlayerSequencer.html",
+                    "topicUid": "WGR.Scripted.MurderPlayerSequencer"
+                },
+                {
+                    "name": "ScriptedSequence",
+                    "href": "WGR.Scripted.ScriptedSequence.html",
+                    "topicHref": "WGR.Scripted.ScriptedSequence.html",
+                    "topicUid": "WGR.Scripted.ScriptedSequence"
+                },
+                {
+                    "name": "ThrowWeaponSequence",
+                    "href": "WGR.Scripted.ThrowWeaponSequence.html",
+                    "topicHref": "WGR.Scripted.ThrowWeaponSequence.html",
+                    "topicUid": "WGR.Scripted.ThrowWeaponSequence"
+                },
+                {
+                    "name": "TransitLevel",
+                    "href": "WGR.Scripted.TransitLevel.html",
+                    "topicHref": "WGR.Scripted.TransitLevel.html",
+                    "topicUid": "WGR.Scripted.TransitLevel"
+                }
+            ]
+        },
+        {
+            "name": "WGR.UI",
+            "href": "WGR.UI.html",
+            "topicHref": "WGR.UI.html",
+            "topicUid": "WGR.UI",
+            "items": [
+                {
+                    "name": "ButtonPrompt",
+                    "href": "WGR.UI.ButtonPrompt.html",
+                    "topicHref": "WGR.UI.ButtonPrompt.html",
+                    "topicUid": "WGR.UI.ButtonPrompt"
+                },
+                {
+                    "name": "DialogueController",
+                    "href": "WGR.UI.DialogueController.html",
+                    "topicHref": "WGR.UI.DialogueController.html",
+                    "topicUid": "WGR.UI.DialogueController"
+                },
+                {
+                    "name": "DisplayTooltip",
+                    "href": "WGR.UI.DisplayTooltip.html",
+                    "topicHref": "WGR.UI.DisplayTooltip.html",
+                    "topicUid": "WGR.UI.DisplayTooltip"
+                },
+                {
+                    "name": "DynamicCrosshair",
+                    "href": "WGR.UI.DynamicCrosshair.html",
+                    "topicHref": "WGR.UI.DynamicCrosshair.html",
+                    "topicUid": "WGR.UI.DynamicCrosshair"
+                },
+                {
+                    "name": "HandleAbilityUpdatePanel",
+                    "href": "WGR.UI.HandleAbilityUpdatePanel.html",
+                    "topicHref": "WGR.UI.HandleAbilityUpdatePanel.html",
+                    "topicUid": "WGR.UI.HandleAbilityUpdatePanel"
+                },
+                {
+                    "name": "HubPanelActivator",
+                    "href": "WGR.UI.HubPanelActivator.html",
+                    "topicHref": "WGR.UI.HubPanelActivator.html",
+                    "topicUid": "WGR.UI.HubPanelActivator"
+                },
+                {
+                    "name": "OnMouseHover",
+                    "href": "WGR.UI.OnMouseHover.html",
+                    "topicHref": "WGR.UI.OnMouseHover.html",
+                    "topicUid": "WGR.UI.OnMouseHover"
+                },
+                {
+                    "name": "PanelReferences",
+                    "href": "WGR.UI.PanelReferences.html",
+                    "topicHref": "WGR.UI.PanelReferences.html",
+                    "topicUid": "WGR.UI.PanelReferences"
+                },
+                {
+                    "name": "SceneFader",
+                    "href": "WGR.UI.SceneFader.html",
+                    "topicHref": "WGR.UI.SceneFader.html",
+                    "topicUid": "WGR.UI.SceneFader"
+                },
+                {
+                    "name": "UpdateSoundUIReferences",
+                    "href": "WGR.UI.UpdateSoundUIReferences.html",
+                    "topicHref": "WGR.UI.UpdateSoundUIReferences.html",
+                    "topicUid": "WGR.UI.UpdateSoundUIReferences"
+                },
+                {
+                    "name": "UserHUDHandler",
+                    "href": "WGR.UI.UserHUDHandler.html",
+                    "topicHref": "WGR.UI.UserHUDHandler.html",
+                    "topicUid": "WGR.UI.UserHUDHandler"
+                },
+                {
+                    "name": "WeaponRepresenter",
+                    "href": "WGR.UI.WeaponRepresenter.html",
+                    "topicHref": "WGR.UI.WeaponRepresenter.html",
+                    "topicUid": "WGR.UI.WeaponRepresenter"
+                },
+                {
+                    "name": "WeaponSelectionUI",
+                    "href": "WGR.UI.WeaponSelectionUI.html",
+                    "topicHref": "WGR.UI.WeaponSelectionUI.html",
+                    "topicUid": "WGR.UI.WeaponSelectionUI"
+                }
+            ]
+        }
+    ],
+    "memberLayout": "SamePage"
+}
