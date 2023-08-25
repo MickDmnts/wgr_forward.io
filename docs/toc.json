@@ -5,6 +5,11 @@
             "href": "https://github.com/MickDmnts/WakeGrindRewind_Redefined"
         },
         {
+            "name": "Home",
+            "href": "index.html",
+            "homepage": "index.html"
+        },
+        {
             "name": "Api Documentation",
             "href": "api/index.html",
             "tocHref": "api/toc.html",
