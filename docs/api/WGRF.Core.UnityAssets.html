@@ -1,0 +1,507 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UnityAssets
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UnityAssets
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGRF.Core.UnityAssets">
+
+
+
+  <h1 id="WGRF_Core_UnityAssets" data-uid="WGRF.Core.UnityAssets" class="text-break">
+    Class UnityAssets
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A class containing every bit of logic about Addressable asset/scene loading.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class UnityAssets</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">UnityAssets</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="WGRF_Core_UnityAssets_dScene" data-uid="WGRF.Core.UnityAssets.dScene">
+  dScene
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Holds the addressable paths of the loaded scene assets.
+Note: This list is cleaned every time a new scene is loaded unless the automatic scene assets release flag is cleared
+when the LoadSceneAsync method is called. In that case the ReleaseSceneAssets method should be called manualy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, AsyncOperationHandle&gt; dScene</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">AsyncOperationHandle</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGRF_Core_UnityAssets_hGlobal" data-uid="WGRF.Core.UnityAssets.hGlobal">
+  hGlobal
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Holds the addressable paths of the globaly loaded assets. Note: Global assets are released from memory on the termination of the application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HashSet&lt;string&gt; hGlobal</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGRF_Core_UnityAssets_Load_" data-uid="WGRF.Core.UnityAssets.Load*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_Load_System_String_System_Boolean_" data-uid="WGRF.Core.UnityAssets.Load(System.String,System.Boolean)">
+  Load(string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads a GameObject asset from a given addressables path synchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Load(string path, bool global)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>global</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_UnityAssets_LoadAsync_" data-uid="WGRF.Core.UnityAssets.LoadAsync*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_LoadAsync_System_String_System_Boolean_" data-uid="WGRF.Core.UnityAssets.LoadAsync(System.String,System.Boolean)">
+  LoadAsync(string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads a GameObject asset from a given addressables path asynchronusly and returns an AsyncGameObjectLoaderHandle with the asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AsyncGameObjectLoaderHandle LoadAsync(string path, bool global)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>global</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGRF.Core.AsyncGameObjectLoaderHandle.html">AsyncGameObjectLoaderHandle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_UnityAssets_LoadAsync_" data-uid="WGRF.Core.UnityAssets.LoadAsync*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_LoadAsync_System_String_System_Boolean_System_Action_UnityEngine_GameObject__" data-uid="WGRF.Core.UnityAssets.LoadAsync(System.String,System.Boolean,System.Action{UnityEngine.GameObject})">
+  LoadAsync(string, bool, Action&lt;GameObject&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads a GameObject asset from a given addressables path asynchronusly and calls a callback that contains the asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadAsync(string path, bool global, Action&lt;GameObject&gt; cb)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The addressables path of the target asset.</p>
+</dd>
+    <dt><code>global</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>States whether the loaded asset should be preserved in memory
+for the life of the application or the scene. Note: In case of the former,
+the asset should be disposed manualy from the memory.</p>
+</dd>
+    <dt><code>cb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">GameObject</span>&gt;</dt>
+    <dd><p>The callback method of this operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_UnityAssets_LoadSceneAsync_" data-uid="WGRF.Core.UnityAssets.LoadSceneAsync*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_LoadSceneAsync_System_String_System_Int32_System_Boolean_System_Action_UnityEngine_ResourceManagement_ResourceProviders_SceneInstance__" data-uid="WGRF.Core.UnityAssets.LoadSceneAsync(System.String,System.Int32,System.Boolean,System.Action{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})">
+  LoadSceneAsync(string, int, bool, Action&lt;SceneInstance&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads a scene from a given addressables path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadSceneAsync(string path, int delay = 0, bool asar = true, Action&lt;SceneInstance&gt; cb = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The addressables path of the scene.</p>
+</dd>
+    <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The time delay before loading the desired scene in seconds(s).</p>
+</dd>
+    <dt><code>asar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>The automatic scene assets release flag.</p>
+</dd>
+    <dt><code>cb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">SceneInstance</span>&gt;</dt>
+    <dd><p>The callback function that holds the scene instance.
+Note: If the callback is not set then a scene is automaticaly loaded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_UnityAssets_PathExists_" data-uid="WGRF.Core.UnityAssets.PathExists*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_PathExists_System_Object_" data-uid="WGRF.Core.UnityAssets.PathExists(System.Object)">
+  PathExists(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if a given addressabled path exists within the asset bundles.
+Note: This method should be used with care due to the performance impact.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PathExists(object key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_UnityAssets_RegisterAsset_" data-uid="WGRF.Core.UnityAssets.RegisterAsset*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_RegisterAsset_System_String_System_Boolean_UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_" data-uid="WGRF.Core.UnityAssets.RegisterAsset(System.String,System.Boolean,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)">
+  RegisterAsset(string, bool, AsyncOperationHandle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs the registration process of a newly added asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterAsset(string path, bool global, AsyncOperationHandle obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>global</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>obj</code> <span class="xref">AsyncOperationHandle</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_UnityAssets_ReleaseAsset_" data-uid="WGRF.Core.UnityAssets.ReleaseAsset*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_ReleaseAsset_System_String_" data-uid="WGRF.Core.UnityAssets.ReleaseAsset(System.String)">
+  ReleaseAsset(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Releases a registered scene asset from the memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ReleaseAsset(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_UnityAssets_ReleaseSceneAssets_" data-uid="WGRF.Core.UnityAssets.ReleaseSceneAssets*"></a>
+
+  <h3 id="WGRF_Core_UnityAssets_ReleaseSceneAssets" data-uid="WGRF.Core.UnityAssets.ReleaseSceneAssets">
+  ReleaseSceneAssets()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Releases all the currently loaded scene assets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ReleaseSceneAssets()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
