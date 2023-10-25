@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ManagerHub
+      <title>Class Database
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ManagerHub
+      <meta name="title" content="Class Database
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -73,17 +73,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.Core.ManagerHub">
+        <article data-uid="WGRF.Bus.Database">
 
 
 
-  <h1 id="WGRF_Core_ManagerHub" data-uid="WGRF.Core.ManagerHub" class="text-break">
-    Class ManagerHub
+  <h1 id="WGRF_Bus_Database" data-uid="WGRF.Bus.Database" class="text-break">
+    Class Database
   
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Core.html">Core</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Bus.html">Bus</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
@@ -91,7 +91,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ManagerHub : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Database</code></pre>
   </div>
 
 
@@ -101,11 +101,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Object</span></div>
-      <div><span class="xref">Component</span></div>
-      <div><span class="xref">Behaviour</span></div>
-      <div><span class="xref">MonoBehaviour</span></div>
-      <div><span class="xref">ManagerHub</span></div>
+      <div><span class="xref">Database</span></div>
     </dd>
   </dl>
 
@@ -117,32 +113,27 @@
 
 
 
-  <h2 class="section" id="fields">Fields
+  <h2 class="section" id="constructors">Constructors
 </h2>
 
 
+  <a id="WGRF_Bus_Database__ctor_" data-uid="WGRF.Bus.Database.#ctor*"></a>
 
-  <h3 id="WGRF_Core_ManagerHub_S" data-uid="WGRF.Core.ManagerHub.S">
-  S
+  <h3 id="WGRF_Bus_Database__ctor" data-uid="WGRF.Bus.Database.#ctor">
+  Database()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Manager Hub reference</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ManagerHub S</code></pre>
+    <pre><code class="lang-csharp hljs">public Database()</code></pre>
   </div>
 
 
 
 
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Core.ManagerHub.html">ManagerHub</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -156,19 +147,19 @@
 </h2>
 
 
-  <a id="WGRF_Core_ManagerHub_Database_" data-uid="WGRF.Core.ManagerHub.Database*"></a>
+  <a id="WGRF_Bus_Database_AppDataPath_" data-uid="WGRF.Bus.Database.AppDataPath*"></a>
 
-  <h3 id="WGRF_Core_ManagerHub_Database" data-uid="WGRF.Core.ManagerHub.Database">
-  Database
+  <h3 id="WGRF_Bus_Database_AppDataPath" data-uid="WGRF.Bus.Database.AppDataPath">
+  AppDataPath
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the Database handler reference</p>
+  <div class="markdown level1 summary"><p>Returns the App Data folder absolute path of the app</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Database Database { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string AppDataPath { get; }</code></pre>
   </div>
 
 
@@ -177,7 +168,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Bus.Database.html">Database</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -188,19 +179,19 @@
 
 
 
-  <a id="WGRF_Core_ManagerHub_GameEventHandler_" data-uid="WGRF.Core.ManagerHub.GameEventHandler*"></a>
+  <a id="WGRF_Bus_Database_DatabasePath_" data-uid="WGRF.Bus.Database.DatabasePath*"></a>
 
-  <h3 id="WGRF_Core_ManagerHub_GameEventHandler" data-uid="WGRF.Core.ManagerHub.GameEventHandler">
-  GameEventHandler
+  <h3 id="WGRF_Bus_Database_DatabasePath" data-uid="WGRF.Bus.Database.DatabasePath">
+  DatabasePath
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the GameEventsHandler reference</p>
+  <div class="markdown level1 summary"><p>Returns the app database absolute path</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameEventsHandler GameEventHandler { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string DatabasePath { get; }</code></pre>
   </div>
 
 
@@ -209,7 +200,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Core.GameEventsHandler.html">GameEventsHandler</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -220,30 +211,72 @@
 
 
 
-  <a id="WGRF_Core_ManagerHub_LevelManager_" data-uid="WGRF.Core.ManagerHub.LevelManager*"></a>
+  <h2 class="section" id="methods">Methods
+</h2>
 
-  <h3 id="WGRF_Core_ManagerHub_LevelManager" data-uid="WGRF.Core.ManagerHub.LevelManager">
-  LevelManager
+
+  <a id="WGRF_Bus_Database_AddLoggerEntry_" data-uid="WGRF.Bus.Database.AddLoggerEntry*"></a>
+
+  <h3 id="WGRF_Bus_Database_AddLoggerEntry_System_String_" data-uid="WGRF.Bus.Database.AddLoggerEntry(System.String)">
+  AddLoggerEntry(string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the LevelManager reference</p>
+  <div class="markdown level1 summary"><p>Call to add the passed string to the logger table of the database.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LevelManager LevelManager { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddLoggerEntry(string log)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Core.LevelManager.html">LevelManager</a></dt>
+    <dt><code>log</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Bus_Database_AddPlayerRecord_" data-uid="WGRF.Bus.Database.AddPlayerRecord*"></a>
+
+  <h3 id="WGRF_Bus_Database_AddPlayerRecord_WGRF_Bus_PlayerRecord_" data-uid="WGRF.Bus.Database.AddPlayerRecord(WGRF.Bus.PlayerRecord)">
+  AddPlayerRecord(PlayerRecord)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a new player record information to the database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddPlayerRecord(PlayerRecord record)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>record</code> <a class="xref" href="WGRF.Bus.PlayerRecord.html">PlayerRecord</a></dt>
+    <dd><p>The externally created player record.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

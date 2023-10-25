@@ -45,6 +45,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Bus.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Bus.Database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Bus.PlayerRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Bus.PlayerRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Bus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Bus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.AsyncGameObjectLoaderHandle.yml",
       "output": {
         ".html": {
@@ -69,16 +99,6 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Core.CoreBehaviour.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/WGRF.Core.Database.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/WGRF.Core.Database.html"
         }
       },
       "version": ""

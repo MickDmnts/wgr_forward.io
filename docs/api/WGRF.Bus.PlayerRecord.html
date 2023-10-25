@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ManagerHub
+      <title>Struct PlayerRecord
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ManagerHub
+      <meta name="title" content="Struct PlayerRecord
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -73,41 +73,74 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.Core.ManagerHub">
+        <article data-uid="WGRF.Bus.PlayerRecord">
 
 
 
-  <h1 id="WGRF_Core_ManagerHub" data-uid="WGRF.Core.ManagerHub" class="text-break">
-    Class ManagerHub
+  <h1 id="WGRF_Bus_PlayerRecord" data-uid="WGRF.Bus.PlayerRecord" class="text-break">
+    Struct PlayerRecord
   
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Core.html">Core</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Bus.html">Bus</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>A struct in a database digestible format for database rows.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ManagerHub : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public struct PlayerRecord</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Object</span></div>
-      <div><span class="xref">Component</span></div>
-      <div><span class="xref">Behaviour</span></div>
-      <div><span class="xref">MonoBehaviour</span></div>
-      <div><span class="xref">ManagerHub</span></div>
-    </dd>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="WGRF_Bus_PlayerRecord__ctor_" data-uid="WGRF.Bus.PlayerRecord.#ctor*"></a>
+
+  <h3 id="WGRF_Bus_PlayerRecord__ctor_System_Int32_System_String_System_Int32_" data-uid="WGRF.Bus.PlayerRecord.#ctor(System.Int32,System.String,System.Int32)">
+  PlayerRecord(int, string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Constructs a new player record instance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerRecord(int rank, string name, int score)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rank</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Player's rank</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Player's name</p>
+</dd>
+    <dt><code>score</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Player's score</p>
+</dd>
   </dl>
+
+
+
 
 
 
@@ -122,17 +155,17 @@
 
 
 
-  <h3 id="WGRF_Core_ManagerHub_S" data-uid="WGRF.Core.ManagerHub.S">
-  S
+  <h3 id="WGRF_Bus_PlayerRecord_Name" data-uid="WGRF.Bus.PlayerRecord.Name">
+  Name
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Manager Hub reference</p>
+  <div class="markdown level1 summary"><p>Player's name</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ManagerHub S</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name</code></pre>
   </div>
 
 
@@ -140,7 +173,7 @@
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Core.ManagerHub.html">ManagerHub</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -152,32 +185,26 @@
 
 
 
-  <h2 class="section" id="properties">Properties
-</h2>
 
-
-  <a id="WGRF_Core_ManagerHub_Database_" data-uid="WGRF.Core.ManagerHub.Database*"></a>
-
-  <h3 id="WGRF_Core_ManagerHub_Database" data-uid="WGRF.Core.ManagerHub.Database">
-  Database
+  <h3 id="WGRF_Bus_PlayerRecord_Rank" data-uid="WGRF.Bus.PlayerRecord.Rank">
+  Rank
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the Database handler reference</p>
+  <div class="markdown level1 summary"><p>Player's rank</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Database Database { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Rank</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Bus.Database.html">Database</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -188,62 +215,30 @@
 
 
 
-  <a id="WGRF_Core_ManagerHub_GameEventHandler_" data-uid="WGRF.Core.ManagerHub.GameEventHandler*"></a>
 
-  <h3 id="WGRF_Core_ManagerHub_GameEventHandler" data-uid="WGRF.Core.ManagerHub.GameEventHandler">
-  GameEventHandler
+
+  <h3 id="WGRF_Bus_PlayerRecord_Score" data-uid="WGRF.Bus.PlayerRecord.Score">
+  Score
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the GameEventsHandler reference</p>
+  <div class="markdown level1 summary"><p>Player's score</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameEventsHandler GameEventHandler { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Score</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Core.GameEventsHandler.html">GameEventsHandler</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
-
-
-
-
-
-
-
-  <a id="WGRF_Core_ManagerHub_LevelManager_" data-uid="WGRF.Core.ManagerHub.LevelManager*"></a>
-
-  <h3 id="WGRF_Core_ManagerHub_LevelManager" data-uid="WGRF.Core.ManagerHub.LevelManager">
-  LevelManager
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns the LevelManager reference</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LevelManager LevelManager { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Core.LevelManager.html">LevelManager</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

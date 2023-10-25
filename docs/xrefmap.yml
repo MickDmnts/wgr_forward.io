@@ -666,6 +666,135 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.StopTime.UpgradeAbility
   nameWithType: StopTime.UpgradeAbility
+- uid: WGRF.Bus
+  name: WGRF.Bus
+  href: api/WGRF.Bus.html
+  commentId: N:WGRF.Bus
+  fullName: WGRF.Bus
+  nameWithType: WGRF.Bus
+- uid: WGRF.Bus.Database
+  name: Database
+  href: api/WGRF.Bus.Database.html
+  commentId: T:WGRF.Bus.Database
+  fullName: WGRF.Bus.Database
+  nameWithType: Database
+- uid: WGRF.Bus.Database.#ctor
+  name: Database()
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database__ctor
+  commentId: M:WGRF.Bus.Database.#ctor
+  name.vb: New()
+  fullName: WGRF.Bus.Database.Database()
+  fullName.vb: WGRF.Bus.Database.New()
+  nameWithType: Database.Database()
+  nameWithType.vb: Database.New()
+- uid: WGRF.Bus.Database.#ctor*
+  name: Database
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database__ctor_
+  commentId: Overload:WGRF.Bus.Database.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Bus.Database.Database
+  fullName.vb: WGRF.Bus.Database.New
+  nameWithType: Database.Database
+  nameWithType.vb: Database.New
+- uid: WGRF.Bus.Database.AddLoggerEntry(System.String)
+  name: AddLoggerEntry(string)
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AddLoggerEntry_System_String_
+  commentId: M:WGRF.Bus.Database.AddLoggerEntry(System.String)
+  name.vb: AddLoggerEntry(String)
+  fullName: WGRF.Bus.Database.AddLoggerEntry(string)
+  fullName.vb: WGRF.Bus.Database.AddLoggerEntry(String)
+  nameWithType: Database.AddLoggerEntry(string)
+  nameWithType.vb: Database.AddLoggerEntry(String)
+- uid: WGRF.Bus.Database.AddLoggerEntry*
+  name: AddLoggerEntry
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AddLoggerEntry_
+  commentId: Overload:WGRF.Bus.Database.AddLoggerEntry
+  isSpec: "True"
+  fullName: WGRF.Bus.Database.AddLoggerEntry
+  nameWithType: Database.AddLoggerEntry
+- uid: WGRF.Bus.Database.AddPlayerRecord(WGRF.Bus.PlayerRecord)
+  name: AddPlayerRecord(PlayerRecord)
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AddPlayerRecord_WGRF_Bus_PlayerRecord_
+  commentId: M:WGRF.Bus.Database.AddPlayerRecord(WGRF.Bus.PlayerRecord)
+  fullName: WGRF.Bus.Database.AddPlayerRecord(WGRF.Bus.PlayerRecord)
+  nameWithType: Database.AddPlayerRecord(PlayerRecord)
+- uid: WGRF.Bus.Database.AddPlayerRecord*
+  name: AddPlayerRecord
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AddPlayerRecord_
+  commentId: Overload:WGRF.Bus.Database.AddPlayerRecord
+  isSpec: "True"
+  fullName: WGRF.Bus.Database.AddPlayerRecord
+  nameWithType: Database.AddPlayerRecord
+- uid: WGRF.Bus.Database.AppDataPath
+  name: AppDataPath
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AppDataPath
+  commentId: P:WGRF.Bus.Database.AppDataPath
+  fullName: WGRF.Bus.Database.AppDataPath
+  nameWithType: Database.AppDataPath
+- uid: WGRF.Bus.Database.AppDataPath*
+  name: AppDataPath
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AppDataPath_
+  commentId: Overload:WGRF.Bus.Database.AppDataPath
+  isSpec: "True"
+  fullName: WGRF.Bus.Database.AppDataPath
+  nameWithType: Database.AppDataPath
+- uid: WGRF.Bus.Database.DatabasePath
+  name: DatabasePath
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_DatabasePath
+  commentId: P:WGRF.Bus.Database.DatabasePath
+  fullName: WGRF.Bus.Database.DatabasePath
+  nameWithType: Database.DatabasePath
+- uid: WGRF.Bus.Database.DatabasePath*
+  name: DatabasePath
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_DatabasePath_
+  commentId: Overload:WGRF.Bus.Database.DatabasePath
+  isSpec: "True"
+  fullName: WGRF.Bus.Database.DatabasePath
+  nameWithType: Database.DatabasePath
+- uid: WGRF.Bus.PlayerRecord
+  name: PlayerRecord
+  href: api/WGRF.Bus.PlayerRecord.html
+  commentId: T:WGRF.Bus.PlayerRecord
+  fullName: WGRF.Bus.PlayerRecord
+  nameWithType: PlayerRecord
+- uid: WGRF.Bus.PlayerRecord.#ctor(System.Int32,System.String,System.Int32)
+  name: PlayerRecord(int, string, int)
+  href: api/WGRF.Bus.PlayerRecord.html#WGRF_Bus_PlayerRecord__ctor_System_Int32_System_String_System_Int32_
+  commentId: M:WGRF.Bus.PlayerRecord.#ctor(System.Int32,System.String,System.Int32)
+  name.vb: New(Integer, String, Integer)
+  fullName: WGRF.Bus.PlayerRecord.PlayerRecord(int, string, int)
+  fullName.vb: WGRF.Bus.PlayerRecord.New(Integer, String, Integer)
+  nameWithType: PlayerRecord.PlayerRecord(int, string, int)
+  nameWithType.vb: PlayerRecord.New(Integer, String, Integer)
+- uid: WGRF.Bus.PlayerRecord.#ctor*
+  name: PlayerRecord
+  href: api/WGRF.Bus.PlayerRecord.html#WGRF_Bus_PlayerRecord__ctor_
+  commentId: Overload:WGRF.Bus.PlayerRecord.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Bus.PlayerRecord.PlayerRecord
+  fullName.vb: WGRF.Bus.PlayerRecord.New
+  nameWithType: PlayerRecord.PlayerRecord
+  nameWithType.vb: PlayerRecord.New
+- uid: WGRF.Bus.PlayerRecord.Name
+  name: Name
+  href: api/WGRF.Bus.PlayerRecord.html#WGRF_Bus_PlayerRecord_Name
+  commentId: F:WGRF.Bus.PlayerRecord.Name
+  fullName: WGRF.Bus.PlayerRecord.Name
+  nameWithType: PlayerRecord.Name
+- uid: WGRF.Bus.PlayerRecord.Rank
+  name: Rank
+  href: api/WGRF.Bus.PlayerRecord.html#WGRF_Bus_PlayerRecord_Rank
+  commentId: F:WGRF.Bus.PlayerRecord.Rank
+  fullName: WGRF.Bus.PlayerRecord.Rank
+  nameWithType: PlayerRecord.Rank
+- uid: WGRF.Bus.PlayerRecord.Score
+  name: Score
+  href: api/WGRF.Bus.PlayerRecord.html#WGRF_Bus_PlayerRecord_Score
+  commentId: F:WGRF.Bus.PlayerRecord.Score
+  fullName: WGRF.Bus.PlayerRecord.Score
+  nameWithType: PlayerRecord.Score
 - uid: WGRF.Core
   name: WGRF.Core
   href: api/WGRF.Core.html
@@ -921,12 +1050,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.CoreBehaviour.SetID
   nameWithType: CoreBehaviour.SetID
-- uid: WGRF.Core.Database
-  name: Database
-  href: api/WGRF.Core.Database.html
-  commentId: T:WGRF.Core.Database
-  fullName: WGRF.Core.Database
-  nameWithType: Database
 - uid: WGRF.Core.GameEventsHandler
   name: GameEventsHandler
   href: api/WGRF.Core.GameEventsHandler.html
@@ -1505,6 +1628,19 @@ references:
   commentId: T:WGRF.Core.ManagerHub
   fullName: WGRF.Core.ManagerHub
   nameWithType: ManagerHub
+- uid: WGRF.Core.ManagerHub.Database
+  name: Database
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_Database
+  commentId: P:WGRF.Core.ManagerHub.Database
+  fullName: WGRF.Core.ManagerHub.Database
+  nameWithType: ManagerHub.Database
+- uid: WGRF.Core.ManagerHub.Database*
+  name: Database
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_Database_
+  commentId: Overload:WGRF.Core.ManagerHub.Database
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.Database
+  nameWithType: ManagerHub.Database
 - uid: WGRF.Core.ManagerHub.GameEventHandler
   name: GameEventHandler
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_GameEventHandler
