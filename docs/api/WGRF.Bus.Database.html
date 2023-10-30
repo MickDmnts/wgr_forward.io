@@ -147,38 +147,6 @@
 </h2>
 
 
-  <a id="WGRF_Bus_Database_AppDataPath_" data-uid="WGRF.Bus.Database.AppDataPath*"></a>
-
-  <h3 id="WGRF_Bus_Database_AppDataPath" data-uid="WGRF.Bus.Database.AppDataPath">
-  AppDataPath
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns the App Data folder absolute path of the app</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AppDataPath { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="WGRF_Bus_Database_DatabasePath_" data-uid="WGRF.Bus.Database.DatabasePath*"></a>
 
   <h3 id="WGRF_Bus_Database_DatabasePath" data-uid="WGRF.Bus.Database.DatabasePath">
@@ -259,7 +227,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AddPlayerRecord(PlayerRecord record)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; AddPlayerRecord(PlayerRecord record)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -271,7 +239,164 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Bus_Database_DeletePlayerRecord_" data-uid="WGRF.Bus.Database.DeletePlayerRecord*"></a>
+
+  <h3 id="WGRF_Bus_Database_DeletePlayerRecord_System_Int32_" data-uid="WGRF.Bus.Database.DeletePlayerRecord(System.Int32)">
+  DeletePlayerRecord(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes an existing player record information from the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; DeletePlayerRecord(int recordRank)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recordRank</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Bus_Database_DeletePlayerRecord_" data-uid="WGRF.Bus.Database.DeletePlayerRecord*"></a>
+
+  <h3 id="WGRF_Bus_Database_DeletePlayerRecord_System_String_" data-uid="WGRF.Bus.Database.DeletePlayerRecord(System.String)">
+  DeletePlayerRecord(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes an existing player record information from the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; DeletePlayerRecord(string recordName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recordName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The player record name to delete from the database.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Bus_Database_UpdatePlayerRecord_" data-uid="WGRF.Bus.Database.UpdatePlayerRecord*"></a>
+
+  <h3 id="WGRF_Bus_Database_UpdatePlayerRecord_System_Int32_WGRF_Bus_PlayerRecord_" data-uid="WGRF.Bus.Database.UpdatePlayerRecord(System.Int32,WGRF.Bus.PlayerRecord)">
+  UpdatePlayerRecord(int, PlayerRecord)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an existing player record information to the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdatePlayerRecord(int recordRank, PlayerRecord record)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recordRank</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The existing player of X rank to update the information</p>
+</dd>
+    <dt><code>record</code> <a class="xref" href="WGRF.Bus.PlayerRecord.html">PlayerRecord</a></dt>
+    <dd><p>The player record containing the new player information.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Bus_Database_UpdatePlayerRecord_" data-uid="WGRF.Bus.Database.UpdatePlayerRecord*"></a>
+
+  <h3 id="WGRF_Bus_Database_UpdatePlayerRecord_System_String_WGRF_Bus_PlayerRecord_" data-uid="WGRF.Bus.Database.UpdatePlayerRecord(System.String,WGRF.Bus.PlayerRecord)">
+  UpdatePlayerRecord(string, PlayerRecord)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an existing player record information to the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdatePlayerRecord(string recordName, PlayerRecord record)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recordName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The existing player database entry to update.</p>
+</dd>
+    <dt><code>record</code> <a class="xref" href="WGRF.Bus.PlayerRecord.html">PlayerRecord</a></dt>
+    <dd><p>The player record containing the new player information.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
     <dd></dd>
   </dl>
 

@@ -726,19 +726,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Bus.Database.AddPlayerRecord
   nameWithType: Database.AddPlayerRecord
-- uid: WGRF.Bus.Database.AppDataPath
-  name: AppDataPath
-  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AppDataPath
-  commentId: P:WGRF.Bus.Database.AppDataPath
-  fullName: WGRF.Bus.Database.AppDataPath
-  nameWithType: Database.AppDataPath
-- uid: WGRF.Bus.Database.AppDataPath*
-  name: AppDataPath
-  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_AppDataPath_
-  commentId: Overload:WGRF.Bus.Database.AppDataPath
-  isSpec: "True"
-  fullName: WGRF.Bus.Database.AppDataPath
-  nameWithType: Database.AppDataPath
 - uid: WGRF.Bus.Database.DatabasePath
   name: DatabasePath
   href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_DatabasePath
@@ -752,6 +739,56 @@ references:
   isSpec: "True"
   fullName: WGRF.Bus.Database.DatabasePath
   nameWithType: Database.DatabasePath
+- uid: WGRF.Bus.Database.DeletePlayerRecord(System.Int32)
+  name: DeletePlayerRecord(int)
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_DeletePlayerRecord_System_Int32_
+  commentId: M:WGRF.Bus.Database.DeletePlayerRecord(System.Int32)
+  name.vb: DeletePlayerRecord(Integer)
+  fullName: WGRF.Bus.Database.DeletePlayerRecord(int)
+  fullName.vb: WGRF.Bus.Database.DeletePlayerRecord(Integer)
+  nameWithType: Database.DeletePlayerRecord(int)
+  nameWithType.vb: Database.DeletePlayerRecord(Integer)
+- uid: WGRF.Bus.Database.DeletePlayerRecord(System.String)
+  name: DeletePlayerRecord(string)
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_DeletePlayerRecord_System_String_
+  commentId: M:WGRF.Bus.Database.DeletePlayerRecord(System.String)
+  name.vb: DeletePlayerRecord(String)
+  fullName: WGRF.Bus.Database.DeletePlayerRecord(string)
+  fullName.vb: WGRF.Bus.Database.DeletePlayerRecord(String)
+  nameWithType: Database.DeletePlayerRecord(string)
+  nameWithType.vb: Database.DeletePlayerRecord(String)
+- uid: WGRF.Bus.Database.DeletePlayerRecord*
+  name: DeletePlayerRecord
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_DeletePlayerRecord_
+  commentId: Overload:WGRF.Bus.Database.DeletePlayerRecord
+  isSpec: "True"
+  fullName: WGRF.Bus.Database.DeletePlayerRecord
+  nameWithType: Database.DeletePlayerRecord
+- uid: WGRF.Bus.Database.UpdatePlayerRecord(System.Int32,WGRF.Bus.PlayerRecord)
+  name: UpdatePlayerRecord(int, PlayerRecord)
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_UpdatePlayerRecord_System_Int32_WGRF_Bus_PlayerRecord_
+  commentId: M:WGRF.Bus.Database.UpdatePlayerRecord(System.Int32,WGRF.Bus.PlayerRecord)
+  name.vb: UpdatePlayerRecord(Integer, PlayerRecord)
+  fullName: WGRF.Bus.Database.UpdatePlayerRecord(int, WGRF.Bus.PlayerRecord)
+  fullName.vb: WGRF.Bus.Database.UpdatePlayerRecord(Integer, WGRF.Bus.PlayerRecord)
+  nameWithType: Database.UpdatePlayerRecord(int, PlayerRecord)
+  nameWithType.vb: Database.UpdatePlayerRecord(Integer, PlayerRecord)
+- uid: WGRF.Bus.Database.UpdatePlayerRecord(System.String,WGRF.Bus.PlayerRecord)
+  name: UpdatePlayerRecord(string, PlayerRecord)
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_UpdatePlayerRecord_System_String_WGRF_Bus_PlayerRecord_
+  commentId: M:WGRF.Bus.Database.UpdatePlayerRecord(System.String,WGRF.Bus.PlayerRecord)
+  name.vb: UpdatePlayerRecord(String, PlayerRecord)
+  fullName: WGRF.Bus.Database.UpdatePlayerRecord(string, WGRF.Bus.PlayerRecord)
+  fullName.vb: WGRF.Bus.Database.UpdatePlayerRecord(String, WGRF.Bus.PlayerRecord)
+  nameWithType: Database.UpdatePlayerRecord(string, PlayerRecord)
+  nameWithType.vb: Database.UpdatePlayerRecord(String, PlayerRecord)
+- uid: WGRF.Bus.Database.UpdatePlayerRecord*
+  name: UpdatePlayerRecord
+  href: api/WGRF.Bus.Database.html#WGRF_Bus_Database_UpdatePlayerRecord_
+  commentId: Overload:WGRF.Bus.Database.UpdatePlayerRecord
+  isSpec: "True"
+  fullName: WGRF.Bus.Database.UpdatePlayerRecord
+  nameWithType: Database.UpdatePlayerRecord
 - uid: WGRF.Bus.PlayerRecord
   name: PlayerRecord
   href: api/WGRF.Bus.PlayerRecord.html
@@ -1050,6 +1087,60 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.CoreBehaviour.SetID
   nameWithType: CoreBehaviour.SetID
+- uid: WGRF.Core.CursorHandler
+  name: CursorHandler
+  href: api/WGRF.Core.CursorHandler.html
+  commentId: T:WGRF.Core.CursorHandler
+  fullName: WGRF.Core.CursorHandler
+  nameWithType: CursorHandler
+- uid: WGRF.Core.CursorHandler.#ctor
+  name: CursorHandler()
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler__ctor
+  commentId: M:WGRF.Core.CursorHandler.#ctor
+  name.vb: New()
+  fullName: WGRF.Core.CursorHandler.CursorHandler()
+  fullName.vb: WGRF.Core.CursorHandler.New()
+  nameWithType: CursorHandler.CursorHandler()
+  nameWithType.vb: CursorHandler.New()
+- uid: WGRF.Core.CursorHandler.#ctor*
+  name: CursorHandler
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler__ctor_
+  commentId: Overload:WGRF.Core.CursorHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Core.CursorHandler.CursorHandler
+  fullName.vb: WGRF.Core.CursorHandler.New
+  nameWithType: CursorHandler.CursorHandler
+  nameWithType.vb: CursorHandler.New
+- uid: WGRF.Core.CursorHandler.SetCursorLockMode(UnityEngine.CursorLockMode)
+  name: SetCursorLockMode(CursorLockMode)
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler_SetCursorLockMode_UnityEngine_CursorLockMode_
+  commentId: M:WGRF.Core.CursorHandler.SetCursorLockMode(UnityEngine.CursorLockMode)
+  fullName: WGRF.Core.CursorHandler.SetCursorLockMode(UnityEngine.CursorLockMode)
+  nameWithType: CursorHandler.SetCursorLockMode(CursorLockMode)
+- uid: WGRF.Core.CursorHandler.SetCursorLockMode*
+  name: SetCursorLockMode
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler_SetCursorLockMode_
+  commentId: Overload:WGRF.Core.CursorHandler.SetCursorLockMode
+  isSpec: "True"
+  fullName: WGRF.Core.CursorHandler.SetCursorLockMode
+  nameWithType: CursorHandler.SetCursorLockMode
+- uid: WGRF.Core.CursorHandler.SetCursorVisible(System.Boolean)
+  name: SetCursorVisible(bool)
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler_SetCursorVisible_System_Boolean_
+  commentId: M:WGRF.Core.CursorHandler.SetCursorVisible(System.Boolean)
+  name.vb: SetCursorVisible(Boolean)
+  fullName: WGRF.Core.CursorHandler.SetCursorVisible(bool)
+  fullName.vb: WGRF.Core.CursorHandler.SetCursorVisible(Boolean)
+  nameWithType: CursorHandler.SetCursorVisible(bool)
+  nameWithType.vb: CursorHandler.SetCursorVisible(Boolean)
+- uid: WGRF.Core.CursorHandler.SetCursorVisible*
+  name: SetCursorVisible
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler_SetCursorVisible_
+  commentId: Overload:WGRF.Core.CursorHandler.SetCursorVisible
+  isSpec: "True"
+  fullName: WGRF.Core.CursorHandler.SetCursorVisible
+  nameWithType: CursorHandler.SetCursorVisible
 - uid: WGRF.Core.GameEventsHandler
   name: GameEventsHandler
   href: api/WGRF.Core.GameEventsHandler.html
@@ -1483,6 +1574,44 @@ references:
   commentId: F:WGRF.Core.GameScenes.UI_Scene
   fullName: WGRF.Core.GameScenes.UI_Scene
   nameWithType: GameScenes.UI_Scene
+- uid: WGRF.Core.Globals
+  name: Globals
+  href: api/WGRF.Core.Globals.html
+  commentId: T:WGRF.Core.Globals
+  fullName: WGRF.Core.Globals
+  nameWithType: Globals
+- uid: WGRF.Core.Globals.#ctor
+  name: Globals()
+  href: api/WGRF.Core.Globals.html#WGRF_Core_Globals__ctor
+  commentId: M:WGRF.Core.Globals.#ctor
+  name.vb: New()
+  fullName: WGRF.Core.Globals.Globals()
+  fullName.vb: WGRF.Core.Globals.New()
+  nameWithType: Globals.Globals()
+  nameWithType.vb: Globals.New()
+- uid: WGRF.Core.Globals.#ctor*
+  name: Globals
+  href: api/WGRF.Core.Globals.html#WGRF_Core_Globals__ctor_
+  commentId: Overload:WGRF.Core.Globals.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Core.Globals.Globals
+  fullName.vb: WGRF.Core.Globals.New
+  nameWithType: Globals.Globals
+  nameWithType.vb: Globals.New
+- uid: WGRF.Core.Globals.AppDataPath
+  name: AppDataPath
+  href: api/WGRF.Core.Globals.html#WGRF_Core_Globals_AppDataPath
+  commentId: P:WGRF.Core.Globals.AppDataPath
+  fullName: WGRF.Core.Globals.AppDataPath
+  nameWithType: Globals.AppDataPath
+- uid: WGRF.Core.Globals.AppDataPath*
+  name: AppDataPath
+  href: api/WGRF.Core.Globals.html#WGRF_Core_Globals_AppDataPath_
+  commentId: Overload:WGRF.Core.Globals.AppDataPath
+  isSpec: "True"
+  fullName: WGRF.Core.Globals.AppDataPath
+  nameWithType: Globals.AppDataPath
 - uid: WGRF.Core.Hub
   name: Hub
   href: api/WGRF.Core.Hub.html
@@ -1628,6 +1757,19 @@ references:
   commentId: T:WGRF.Core.ManagerHub
   fullName: WGRF.Core.ManagerHub
   nameWithType: ManagerHub
+- uid: WGRF.Core.ManagerHub.CursorHandler
+  name: CursorHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_CursorHandler
+  commentId: P:WGRF.Core.ManagerHub.CursorHandler
+  fullName: WGRF.Core.ManagerHub.CursorHandler
+  nameWithType: ManagerHub.CursorHandler
+- uid: WGRF.Core.ManagerHub.CursorHandler*
+  name: CursorHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_CursorHandler_
+  commentId: Overload:WGRF.Core.ManagerHub.CursorHandler
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.CursorHandler
+  nameWithType: ManagerHub.CursorHandler
 - uid: WGRF.Core.ManagerHub.Database
   name: Database
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_Database
@@ -1654,6 +1796,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.GameEventHandler
   nameWithType: ManagerHub.GameEventHandler
+- uid: WGRF.Core.ManagerHub.Globals
+  name: Globals
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_Globals
+  commentId: P:WGRF.Core.ManagerHub.Globals
+  fullName: WGRF.Core.ManagerHub.Globals
+  nameWithType: ManagerHub.Globals
+- uid: WGRF.Core.ManagerHub.Globals*
+  name: Globals
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_Globals_
+  commentId: Overload:WGRF.Core.ManagerHub.Globals
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.Globals
+  nameWithType: ManagerHub.Globals
 - uid: WGRF.Core.ManagerHub.LevelManager
   name: LevelManager
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_LevelManager
@@ -1673,6 +1828,96 @@ references:
   commentId: F:WGRF.Core.ManagerHub.S
   fullName: WGRF.Core.ManagerHub.S
   nameWithType: ManagerHub.S
+- uid: WGRF.Core.ManagerHub.SettingsHandler
+  name: SettingsHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SettingsHandler
+  commentId: P:WGRF.Core.ManagerHub.SettingsHandler
+  fullName: WGRF.Core.ManagerHub.SettingsHandler
+  nameWithType: ManagerHub.SettingsHandler
+- uid: WGRF.Core.ManagerHub.SettingsHandler*
+  name: SettingsHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SettingsHandler_
+  commentId: Overload:WGRF.Core.ManagerHub.SettingsHandler
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.SettingsHandler
+  nameWithType: ManagerHub.SettingsHandler
+- uid: WGRF.Core.SettingsHandler
+  name: SettingsHandler
+  href: api/WGRF.Core.SettingsHandler.html
+  commentId: T:WGRF.Core.SettingsHandler
+  fullName: WGRF.Core.SettingsHandler
+  nameWithType: SettingsHandler
+- uid: WGRF.Core.SettingsHandler.#ctor
+  name: SettingsHandler()
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler__ctor
+  commentId: M:WGRF.Core.SettingsHandler.#ctor
+  name.vb: New()
+  fullName: WGRF.Core.SettingsHandler.SettingsHandler()
+  fullName.vb: WGRF.Core.SettingsHandler.New()
+  nameWithType: SettingsHandler.SettingsHandler()
+  nameWithType.vb: SettingsHandler.New()
+- uid: WGRF.Core.SettingsHandler.#ctor*
+  name: SettingsHandler
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler__ctor_
+  commentId: Overload:WGRF.Core.SettingsHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Core.SettingsHandler.SettingsHandler
+  fullName.vb: WGRF.Core.SettingsHandler.New
+  nameWithType: SettingsHandler.SettingsHandler
+  nameWithType.vb: SettingsHandler.New
+- uid: WGRF.Core.SettingsHandler.SettingsFilePath
+  name: SettingsFilePath
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_SettingsFilePath
+  commentId: P:WGRF.Core.SettingsHandler.SettingsFilePath
+  fullName: WGRF.Core.SettingsHandler.SettingsFilePath
+  nameWithType: SettingsHandler.SettingsFilePath
+- uid: WGRF.Core.SettingsHandler.SettingsFilePath*
+  name: SettingsFilePath
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_SettingsFilePath_
+  commentId: Overload:WGRF.Core.SettingsHandler.SettingsFilePath
+  isSpec: "True"
+  fullName: WGRF.Core.SettingsHandler.SettingsFilePath
+  nameWithType: SettingsHandler.SettingsFilePath
+- uid: WGRF.Core.SettingsHandler.SettingsFolderPath
+  name: SettingsFolderPath
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_SettingsFolderPath
+  commentId: P:WGRF.Core.SettingsHandler.SettingsFolderPath
+  fullName: WGRF.Core.SettingsHandler.SettingsFolderPath
+  nameWithType: SettingsHandler.SettingsFolderPath
+- uid: WGRF.Core.SettingsHandler.SettingsFolderPath*
+  name: SettingsFolderPath
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_SettingsFolderPath_
+  commentId: Overload:WGRF.Core.SettingsHandler.SettingsFolderPath
+  isSpec: "True"
+  fullName: WGRF.Core.SettingsHandler.SettingsFolderPath
+  nameWithType: SettingsHandler.SettingsFolderPath
+- uid: WGRF.Core.SettingsHandler.UpdateUserSettings(WGRF.Core.UserSettings)
+  name: UpdateUserSettings(UserSettings)
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_UpdateUserSettings_WGRF_Core_UserSettings_
+  commentId: M:WGRF.Core.SettingsHandler.UpdateUserSettings(WGRF.Core.UserSettings)
+  fullName: WGRF.Core.SettingsHandler.UpdateUserSettings(WGRF.Core.UserSettings)
+  nameWithType: SettingsHandler.UpdateUserSettings(UserSettings)
+- uid: WGRF.Core.SettingsHandler.UpdateUserSettings*
+  name: UpdateUserSettings
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_UpdateUserSettings_
+  commentId: Overload:WGRF.Core.SettingsHandler.UpdateUserSettings
+  isSpec: "True"
+  fullName: WGRF.Core.SettingsHandler.UpdateUserSettings
+  nameWithType: SettingsHandler.UpdateUserSettings
+- uid: WGRF.Core.SettingsHandler.UserSettings
+  name: UserSettings
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_UserSettings
+  commentId: P:WGRF.Core.SettingsHandler.UserSettings
+  fullName: WGRF.Core.SettingsHandler.UserSettings
+  nameWithType: SettingsHandler.UserSettings
+- uid: WGRF.Core.SettingsHandler.UserSettings*
+  name: UserSettings
+  href: api/WGRF.Core.SettingsHandler.html#WGRF_Core_SettingsHandler_UserSettings_
+  commentId: Overload:WGRF.Core.SettingsHandler.UserSettings
+  isSpec: "True"
+  fullName: WGRF.Core.SettingsHandler.UserSettings
+  nameWithType: SettingsHandler.UserSettings
 - uid: WGRF.Core.UnityAssets
   name: UnityAssets
   href: api/WGRF.Core.UnityAssets.html
@@ -1809,6 +2054,36 @@ references:
   commentId: F:WGRF.Core.UnityAssets.hGlobal
   fullName: WGRF.Core.UnityAssets.hGlobal
   nameWithType: UnityAssets.hGlobal
+- uid: WGRF.Core.UserSettings
+  name: UserSettings
+  href: api/WGRF.Core.UserSettings.html
+  commentId: T:WGRF.Core.UserSettings
+  fullName: WGRF.Core.UserSettings
+  nameWithType: UserSettings
+- uid: WGRF.Core.UserSettings.goreVFX
+  name: goreVFX
+  href: api/WGRF.Core.UserSettings.html#WGRF_Core_UserSettings_goreVFX
+  commentId: F:WGRF.Core.UserSettings.goreVFX
+  fullName: WGRF.Core.UserSettings.goreVFX
+  nameWithType: UserSettings.goreVFX
+- uid: WGRF.Core.UserSettings.masterVolume
+  name: masterVolume
+  href: api/WGRF.Core.UserSettings.html#WGRF_Core_UserSettings_masterVolume
+  commentId: F:WGRF.Core.UserSettings.masterVolume
+  fullName: WGRF.Core.UserSettings.masterVolume
+  nameWithType: UserSettings.masterVolume
+- uid: WGRF.Core.UserSettings.ostVolume
+  name: ostVolume
+  href: api/WGRF.Core.UserSettings.html#WGRF_Core_UserSettings_ostVolume
+  commentId: F:WGRF.Core.UserSettings.ostVolume
+  fullName: WGRF.Core.UserSettings.ostVolume
+  nameWithType: UserSettings.ostVolume
+- uid: WGRF.Core.UserSettings.sfxVolume
+  name: sfxVolume
+  href: api/WGRF.Core.UserSettings.html#WGRF_Core_UserSettings_sfxVolume
+  commentId: F:WGRF.Core.UserSettings.sfxVolume
+  fullName: WGRF.Core.UserSettings.sfxVolume
+  nameWithType: UserSettings.sfxVolume
 - uid: WGRF.Entities
   name: WGRF.Entities
   href: api/WGRF.Entities.html

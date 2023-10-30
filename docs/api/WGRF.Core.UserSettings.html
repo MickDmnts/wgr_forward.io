@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace WGRF.Core
+      <title>Struct UserSettings
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace WGRF.Core
+      <meta name="title" content="Struct UserSettings
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -73,87 +73,167 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.Core">
+        <article data-uid="WGRF.Core.UserSettings">
 
-  <h1 id="WGRF_Core" data-uid="WGRF.Core" class="text-break">Namespace WGRF.Core
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.AsyncGameObjectLoaderHandle.html">AsyncGameObjectLoaderHandle</a></dt>
-      <dd><p>Asynchronous event handler for the LoadSignatureAsync and LoadAsync methods.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.Controller.html">Controller</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.CursorHandler.html">CursorHandler</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.GameEventsHandler.html">GameEventsHandler</a></dt>
-      <dd><p>A class housing all global game events.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.Globals.html">Globals</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.Hub.html">Hub</a></dt>
-      <dd><p>Creates the HUB singleton and makes sure that any child gameobject will be presereved on every scene loading.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.LevelLoadPacket.html">LevelLoadPacket</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.LevelManager.html">LevelManager</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.ManagerHub.html">ManagerHub</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.SettingsHandler.html">SettingsHandler</a></dt>
-      <dd><p>The file handler of the game's settings file.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.UnityAssets.html">UnityAssets</a></dt>
-      <dd><p>A class containing every bit of logic about Addressable asset/scene loading.</p>
-</dd>
-    </dl>
-    <h3 id="structs">
-Structs
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.UserSettings.html">UserSettings</a></dt>
-      <dd><p>A struct representing the game's settings</p>
-</dd>
-    </dl>
-    <h3 id="enums">
-Enums
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="WGRF.Core.GameScenes.html">GameScenes</a></dt>
-      <dd><p>All the game scenes enumerated for ease of access, the index MUST be the same as
-the build index.</p>
-</dd>
-    </dl>
+
+  <h1 id="WGRF_Core_UserSettings" data-uid="WGRF.Core.UserSettings" class="text-break">
+    Struct UserSettings
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A struct representing the game's settings</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct UserSettings</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="WGRF_Core_UserSettings_goreVFX" data-uid="WGRF.Core.UserSettings.goreVFX">
+  goreVFX
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is gore enabled?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool goreVFX</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGRF_Core_UserSettings_masterVolume" data-uid="WGRF.Core.UserSettings.masterVolume">
+  masterVolume
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Master volume float value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float masterVolume</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGRF_Core_UserSettings_ostVolume" data-uid="WGRF.Core.UserSettings.ostVolume">
+  ostVolume
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Soundtrack float value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ostVolume</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="WGRF_Core_UserSettings_sfxVolume" data-uid="WGRF.Core.UserSettings.sfxVolume">
+  sfxVolume
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>SFX float value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float sfxVolume</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 
 </article>
