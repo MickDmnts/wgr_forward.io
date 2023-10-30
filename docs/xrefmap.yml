@@ -1574,6 +1574,108 @@ references:
   commentId: F:WGRF.Core.GameScenes.UI_Scene
   fullName: WGRF.Core.GameScenes.UI_Scene
   nameWithType: GameScenes.UI_Scene
+- uid: WGRF.Core.GameSoundsHandler
+  name: GameSoundsHandler
+  href: api/WGRF.Core.GameSoundsHandler.html
+  commentId: T:WGRF.Core.GameSoundsHandler
+  fullName: WGRF.Core.GameSoundsHandler
+  nameWithType: GameSoundsHandler
+- uid: WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy(System.Single)
+  name: DecreaseOSTVolumeBy(float)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_DecreaseOSTVolumeBy_System_Single_
+  commentId: M:WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy(System.Single)
+  name.vb: DecreaseOSTVolumeBy(Single)
+  fullName: WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy(float)
+  fullName.vb: WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy(Single)
+  nameWithType: GameSoundsHandler.DecreaseOSTVolumeBy(float)
+  nameWithType.vb: GameSoundsHandler.DecreaseOSTVolumeBy(Single)
+- uid: WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy*
+  name: DecreaseOSTVolumeBy
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_DecreaseOSTVolumeBy_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy
+  nameWithType: GameSoundsHandler.DecreaseOSTVolumeBy
+- uid: WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy(System.Single)
+  name: DecreaseSFXVolumeBy(float)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_DecreaseSFXVolumeBy_System_Single_
+  commentId: M:WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy(System.Single)
+  name.vb: DecreaseSFXVolumeBy(Single)
+  fullName: WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy(float)
+  fullName.vb: WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy(Single)
+  nameWithType: GameSoundsHandler.DecreaseSFXVolumeBy(float)
+  nameWithType.vb: GameSoundsHandler.DecreaseSFXVolumeBy(Single)
+- uid: WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy*
+  name: DecreaseSFXVolumeBy
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_DecreaseSFXVolumeBy_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy
+  nameWithType: GameSoundsHandler.DecreaseSFXVolumeBy
+- uid: WGRF.Core.GameSoundsHandler.ForceOSTVolume(System.Single)
+  name: ForceOSTVolume(float)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_ForceOSTVolume_System_Single_
+  commentId: M:WGRF.Core.GameSoundsHandler.ForceOSTVolume(System.Single)
+  name.vb: ForceOSTVolume(Single)
+  fullName: WGRF.Core.GameSoundsHandler.ForceOSTVolume(float)
+  fullName.vb: WGRF.Core.GameSoundsHandler.ForceOSTVolume(Single)
+  nameWithType: GameSoundsHandler.ForceOSTVolume(float)
+  nameWithType.vb: GameSoundsHandler.ForceOSTVolume(Single)
+- uid: WGRF.Core.GameSoundsHandler.ForceOSTVolume*
+  name: ForceOSTVolume
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_ForceOSTVolume_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.ForceOSTVolume
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.ForceOSTVolume
+  nameWithType: GameSoundsHandler.ForceOSTVolume
+- uid: WGRF.Core.GameSoundsHandler.ForceSFXVolume(System.Single)
+  name: ForceSFXVolume(float)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_ForceSFXVolume_System_Single_
+  commentId: M:WGRF.Core.GameSoundsHandler.ForceSFXVolume(System.Single)
+  name.vb: ForceSFXVolume(Single)
+  fullName: WGRF.Core.GameSoundsHandler.ForceSFXVolume(float)
+  fullName.vb: WGRF.Core.GameSoundsHandler.ForceSFXVolume(Single)
+  nameWithType: GameSoundsHandler.ForceSFXVolume(float)
+  nameWithType.vb: GameSoundsHandler.ForceSFXVolume(Single)
+- uid: WGRF.Core.GameSoundsHandler.ForceSFXVolume*
+  name: ForceSFXVolume
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_ForceSFXVolume_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.ForceSFXVolume
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.ForceSFXVolume
+  nameWithType: GameSoundsHandler.ForceSFXVolume
+- uid: WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy(System.Single)
+  name: IncreaseOSTVolumeBy(float)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_IncreaseOSTVolumeBy_System_Single_
+  commentId: M:WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy(System.Single)
+  name.vb: IncreaseOSTVolumeBy(Single)
+  fullName: WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy(float)
+  fullName.vb: WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy(Single)
+  nameWithType: GameSoundsHandler.IncreaseOSTVolumeBy(float)
+  nameWithType.vb: GameSoundsHandler.IncreaseOSTVolumeBy(Single)
+- uid: WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy*
+  name: IncreaseOSTVolumeBy
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_IncreaseOSTVolumeBy_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy
+  nameWithType: GameSoundsHandler.IncreaseOSTVolumeBy
+- uid: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy(System.Single)
+  name: IncreaseSFXVolumeBy(float)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_IncreaseSFXVolumeBy_System_Single_
+  commentId: M:WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy(System.Single)
+  name.vb: IncreaseSFXVolumeBy(Single)
+  fullName: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy(float)
+  fullName.vb: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy(Single)
+  nameWithType: GameSoundsHandler.IncreaseSFXVolumeBy(float)
+  nameWithType.vb: GameSoundsHandler.IncreaseSFXVolumeBy(Single)
+- uid: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy*
+  name: IncreaseSFXVolumeBy
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_IncreaseSFXVolumeBy_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy
+  nameWithType: GameSoundsHandler.IncreaseSFXVolumeBy
 - uid: WGRF.Core.Globals
   name: Globals
   href: api/WGRF.Core.Globals.html
@@ -1796,6 +1898,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.GameEventHandler
   nameWithType: ManagerHub.GameEventHandler
+- uid: WGRF.Core.ManagerHub.GameSoundsHandler
+  name: GameSoundsHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_GameSoundsHandler
+  commentId: P:WGRF.Core.ManagerHub.GameSoundsHandler
+  fullName: WGRF.Core.ManagerHub.GameSoundsHandler
+  nameWithType: ManagerHub.GameSoundsHandler
+- uid: WGRF.Core.ManagerHub.GameSoundsHandler*
+  name: GameSoundsHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_GameSoundsHandler_
+  commentId: Overload:WGRF.Core.ManagerHub.GameSoundsHandler
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.GameSoundsHandler
+  nameWithType: ManagerHub.GameSoundsHandler
 - uid: WGRF.Core.ManagerHub.Globals
   name: Globals
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_Globals
@@ -2284,3 +2399,169 @@ references:
   isSpec: "True"
   fullName: WGRF.Interactions.IKickable.SimulateKnockback
   nameWithType: IKickable.SimulateKnockback
+- uid: WGRF.Internal
+  name: WGRF.Internal
+  href: api/WGRF.Internal.html
+  commentId: N:WGRF.Internal
+  fullName: WGRF.Internal
+  nameWithType: WGRF.Internal
+- uid: WGRF.Internal.Database
+  name: Database
+  href: api/WGRF.Internal.Database.html
+  commentId: T:WGRF.Internal.Database
+  fullName: WGRF.Internal.Database
+  nameWithType: Database
+- uid: WGRF.Internal.Database.#ctor
+  name: Database()
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database__ctor
+  commentId: M:WGRF.Internal.Database.#ctor
+  name.vb: New()
+  fullName: WGRF.Internal.Database.Database()
+  fullName.vb: WGRF.Internal.Database.New()
+  nameWithType: Database.Database()
+  nameWithType.vb: Database.New()
+- uid: WGRF.Internal.Database.#ctor*
+  name: Database
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database__ctor_
+  commentId: Overload:WGRF.Internal.Database.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Internal.Database.Database
+  fullName.vb: WGRF.Internal.Database.New
+  nameWithType: Database.Database
+  nameWithType.vb: Database.New
+- uid: WGRF.Internal.Database.AddLoggerEntry(System.String)
+  name: AddLoggerEntry(string)
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_AddLoggerEntry_System_String_
+  commentId: M:WGRF.Internal.Database.AddLoggerEntry(System.String)
+  name.vb: AddLoggerEntry(String)
+  fullName: WGRF.Internal.Database.AddLoggerEntry(string)
+  fullName.vb: WGRF.Internal.Database.AddLoggerEntry(String)
+  nameWithType: Database.AddLoggerEntry(string)
+  nameWithType.vb: Database.AddLoggerEntry(String)
+- uid: WGRF.Internal.Database.AddLoggerEntry*
+  name: AddLoggerEntry
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_AddLoggerEntry_
+  commentId: Overload:WGRF.Internal.Database.AddLoggerEntry
+  isSpec: "True"
+  fullName: WGRF.Internal.Database.AddLoggerEntry
+  nameWithType: Database.AddLoggerEntry
+- uid: WGRF.Internal.Database.AddPlayerRecord(WGRF.Internal.PlayerRecord)
+  name: AddPlayerRecord(PlayerRecord)
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_AddPlayerRecord_WGRF_Internal_PlayerRecord_
+  commentId: M:WGRF.Internal.Database.AddPlayerRecord(WGRF.Internal.PlayerRecord)
+  fullName: WGRF.Internal.Database.AddPlayerRecord(WGRF.Internal.PlayerRecord)
+  nameWithType: Database.AddPlayerRecord(PlayerRecord)
+- uid: WGRF.Internal.Database.AddPlayerRecord*
+  name: AddPlayerRecord
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_AddPlayerRecord_
+  commentId: Overload:WGRF.Internal.Database.AddPlayerRecord
+  isSpec: "True"
+  fullName: WGRF.Internal.Database.AddPlayerRecord
+  nameWithType: Database.AddPlayerRecord
+- uid: WGRF.Internal.Database.DatabasePath
+  name: DatabasePath
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_DatabasePath
+  commentId: P:WGRF.Internal.Database.DatabasePath
+  fullName: WGRF.Internal.Database.DatabasePath
+  nameWithType: Database.DatabasePath
+- uid: WGRF.Internal.Database.DatabasePath*
+  name: DatabasePath
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_DatabasePath_
+  commentId: Overload:WGRF.Internal.Database.DatabasePath
+  isSpec: "True"
+  fullName: WGRF.Internal.Database.DatabasePath
+  nameWithType: Database.DatabasePath
+- uid: WGRF.Internal.Database.DeletePlayerRecord(System.Int32)
+  name: DeletePlayerRecord(int)
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_DeletePlayerRecord_System_Int32_
+  commentId: M:WGRF.Internal.Database.DeletePlayerRecord(System.Int32)
+  name.vb: DeletePlayerRecord(Integer)
+  fullName: WGRF.Internal.Database.DeletePlayerRecord(int)
+  fullName.vb: WGRF.Internal.Database.DeletePlayerRecord(Integer)
+  nameWithType: Database.DeletePlayerRecord(int)
+  nameWithType.vb: Database.DeletePlayerRecord(Integer)
+- uid: WGRF.Internal.Database.DeletePlayerRecord(System.String)
+  name: DeletePlayerRecord(string)
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_DeletePlayerRecord_System_String_
+  commentId: M:WGRF.Internal.Database.DeletePlayerRecord(System.String)
+  name.vb: DeletePlayerRecord(String)
+  fullName: WGRF.Internal.Database.DeletePlayerRecord(string)
+  fullName.vb: WGRF.Internal.Database.DeletePlayerRecord(String)
+  nameWithType: Database.DeletePlayerRecord(string)
+  nameWithType.vb: Database.DeletePlayerRecord(String)
+- uid: WGRF.Internal.Database.DeletePlayerRecord*
+  name: DeletePlayerRecord
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_DeletePlayerRecord_
+  commentId: Overload:WGRF.Internal.Database.DeletePlayerRecord
+  isSpec: "True"
+  fullName: WGRF.Internal.Database.DeletePlayerRecord
+  nameWithType: Database.DeletePlayerRecord
+- uid: WGRF.Internal.Database.UpdatePlayerRecord(System.Int32,WGRF.Internal.PlayerRecord)
+  name: UpdatePlayerRecord(int, PlayerRecord)
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_UpdatePlayerRecord_System_Int32_WGRF_Internal_PlayerRecord_
+  commentId: M:WGRF.Internal.Database.UpdatePlayerRecord(System.Int32,WGRF.Internal.PlayerRecord)
+  name.vb: UpdatePlayerRecord(Integer, PlayerRecord)
+  fullName: WGRF.Internal.Database.UpdatePlayerRecord(int, WGRF.Internal.PlayerRecord)
+  fullName.vb: WGRF.Internal.Database.UpdatePlayerRecord(Integer, WGRF.Internal.PlayerRecord)
+  nameWithType: Database.UpdatePlayerRecord(int, PlayerRecord)
+  nameWithType.vb: Database.UpdatePlayerRecord(Integer, PlayerRecord)
+- uid: WGRF.Internal.Database.UpdatePlayerRecord(System.String,WGRF.Internal.PlayerRecord)
+  name: UpdatePlayerRecord(string, PlayerRecord)
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_UpdatePlayerRecord_System_String_WGRF_Internal_PlayerRecord_
+  commentId: M:WGRF.Internal.Database.UpdatePlayerRecord(System.String,WGRF.Internal.PlayerRecord)
+  name.vb: UpdatePlayerRecord(String, PlayerRecord)
+  fullName: WGRF.Internal.Database.UpdatePlayerRecord(string, WGRF.Internal.PlayerRecord)
+  fullName.vb: WGRF.Internal.Database.UpdatePlayerRecord(String, WGRF.Internal.PlayerRecord)
+  nameWithType: Database.UpdatePlayerRecord(string, PlayerRecord)
+  nameWithType.vb: Database.UpdatePlayerRecord(String, PlayerRecord)
+- uid: WGRF.Internal.Database.UpdatePlayerRecord*
+  name: UpdatePlayerRecord
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_UpdatePlayerRecord_
+  commentId: Overload:WGRF.Internal.Database.UpdatePlayerRecord
+  isSpec: "True"
+  fullName: WGRF.Internal.Database.UpdatePlayerRecord
+  nameWithType: Database.UpdatePlayerRecord
+- uid: WGRF.Internal.PlayerRecord
+  name: PlayerRecord
+  href: api/WGRF.Internal.PlayerRecord.html
+  commentId: T:WGRF.Internal.PlayerRecord
+  fullName: WGRF.Internal.PlayerRecord
+  nameWithType: PlayerRecord
+- uid: WGRF.Internal.PlayerRecord.#ctor(System.Int32,System.String,System.Int32)
+  name: PlayerRecord(int, string, int)
+  href: api/WGRF.Internal.PlayerRecord.html#WGRF_Internal_PlayerRecord__ctor_System_Int32_System_String_System_Int32_
+  commentId: M:WGRF.Internal.PlayerRecord.#ctor(System.Int32,System.String,System.Int32)
+  name.vb: New(Integer, String, Integer)
+  fullName: WGRF.Internal.PlayerRecord.PlayerRecord(int, string, int)
+  fullName.vb: WGRF.Internal.PlayerRecord.New(Integer, String, Integer)
+  nameWithType: PlayerRecord.PlayerRecord(int, string, int)
+  nameWithType.vb: PlayerRecord.New(Integer, String, Integer)
+- uid: WGRF.Internal.PlayerRecord.#ctor*
+  name: PlayerRecord
+  href: api/WGRF.Internal.PlayerRecord.html#WGRF_Internal_PlayerRecord__ctor_
+  commentId: Overload:WGRF.Internal.PlayerRecord.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Internal.PlayerRecord.PlayerRecord
+  fullName.vb: WGRF.Internal.PlayerRecord.New
+  nameWithType: PlayerRecord.PlayerRecord
+  nameWithType.vb: PlayerRecord.New
+- uid: WGRF.Internal.PlayerRecord.Name
+  name: Name
+  href: api/WGRF.Internal.PlayerRecord.html#WGRF_Internal_PlayerRecord_Name
+  commentId: F:WGRF.Internal.PlayerRecord.Name
+  fullName: WGRF.Internal.PlayerRecord.Name
+  nameWithType: PlayerRecord.Name
+- uid: WGRF.Internal.PlayerRecord.Rank
+  name: Rank
+  href: api/WGRF.Internal.PlayerRecord.html#WGRF_Internal_PlayerRecord_Rank
+  commentId: F:WGRF.Internal.PlayerRecord.Rank
+  fullName: WGRF.Internal.PlayerRecord.Rank
+  nameWithType: PlayerRecord.Rank
+- uid: WGRF.Internal.PlayerRecord.Score
+  name: Score
+  href: api/WGRF.Internal.PlayerRecord.html#WGRF_Internal_PlayerRecord_Score
+  commentId: F:WGRF.Internal.PlayerRecord.Score
+  fullName: WGRF.Internal.PlayerRecord.Score
+  nameWithType: PlayerRecord.Score

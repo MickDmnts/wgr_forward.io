@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GameSoundsHandler
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GameSoundsHandler
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGRF.Core.GameSoundsHandler">
+
+
+
+  <h1 id="WGRF_Core_GameSoundsHandler" data-uid="WGRF.Core.GameSoundsHandler" class="text-break">
+    Class GameSoundsHandler
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>This class is responsible for all of WGRF game sounds.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GameSoundsHandler : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">GameSoundsHandler</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGRF_Core_GameSoundsHandler_DecreaseOSTVolumeBy_" data-uid="WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy*"></a>
+
+  <h3 id="WGRF_Core_GameSoundsHandler_DecreaseOSTVolumeBy_System_Single_" data-uid="WGRF.Core.GameSoundsHandler.DecreaseOSTVolumeBy(System.Single)">
+  DecreaseOSTVolumeBy(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decreases the OST audio source volume by the value passed
+The value gets capped at the current game wide master volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DecreaseOSTVolumeBy(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Teh value to decrease the audio source volume by.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_GameSoundsHandler_DecreaseSFXVolumeBy_" data-uid="WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy*"></a>
+
+  <h3 id="WGRF_Core_GameSoundsHandler_DecreaseSFXVolumeBy_System_Single_" data-uid="WGRF.Core.GameSoundsHandler.DecreaseSFXVolumeBy(System.Single)">
+  DecreaseSFXVolumeBy(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decreases the SFX audio source volume by the value passed
+The value gets capped at the current game wide master volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DecreaseSFXVolumeBy(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Teh value to decrease the audio source volume by.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_GameSoundsHandler_ForceOSTVolume_" data-uid="WGRF.Core.GameSoundsHandler.ForceOSTVolume*"></a>
+
+  <h3 id="WGRF_Core_GameSoundsHandler_ForceOSTVolume_System_Single_" data-uid="WGRF.Core.GameSoundsHandler.ForceOSTVolume(System.Single)">
+  ForceOSTVolume(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Forcefully sets the volume of the OST audio source to the passed new volume value.
+The value gets capped at the current game wide master volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForceOSTVolume(float newVolume)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newVolume</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The new volume of the OST audio source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_GameSoundsHandler_ForceSFXVolume_" data-uid="WGRF.Core.GameSoundsHandler.ForceSFXVolume*"></a>
+
+  <h3 id="WGRF_Core_GameSoundsHandler_ForceSFXVolume_System_Single_" data-uid="WGRF.Core.GameSoundsHandler.ForceSFXVolume(System.Single)">
+  ForceSFXVolume(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Forcefully sets the volume of the SFX audio source to the passed new volume value.
+The value gets capped at the current game wide master volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForceSFXVolume(float newVolume)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newVolume</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The new volume of the SFX audio source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_GameSoundsHandler_IncreaseOSTVolumeBy_" data-uid="WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy*"></a>
+
+  <h3 id="WGRF_Core_GameSoundsHandler_IncreaseOSTVolumeBy_System_Single_" data-uid="WGRF.Core.GameSoundsHandler.IncreaseOSTVolumeBy(System.Single)">
+  IncreaseOSTVolumeBy(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Increases the OST audio source volume by the value passed.
+The value gets capped at the current game wide master volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IncreaseOSTVolumeBy(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value to increase the audio source volume by.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Core_GameSoundsHandler_IncreaseSFXVolumeBy_" data-uid="WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy*"></a>
+
+  <h3 id="WGRF_Core_GameSoundsHandler_IncreaseSFXVolumeBy_System_Single_" data-uid="WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy(System.Single)">
+  IncreaseSFXVolumeBy(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Increases the SFX audio source volume by the value passed
+The value gets capped at the current game wide master volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IncreaseSFXVolumeBy(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value to increase the audio source volume by.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
