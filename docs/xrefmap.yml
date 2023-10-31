@@ -838,6 +838,44 @@ references:
   commentId: N:WGRF.Core
   fullName: WGRF.Core
   nameWithType: WGRF.Core
+- uid: WGRF.Core.AppInternal
+  name: AppInternal
+  href: api/WGRF.Core.AppInternal.html
+  commentId: T:WGRF.Core.AppInternal
+  fullName: WGRF.Core.AppInternal
+  nameWithType: AppInternal
+- uid: WGRF.Core.AppInternal.#ctor
+  name: AppInternal()
+  href: api/WGRF.Core.AppInternal.html#WGRF_Core_AppInternal__ctor
+  commentId: M:WGRF.Core.AppInternal.#ctor
+  name.vb: New()
+  fullName: WGRF.Core.AppInternal.AppInternal()
+  fullName.vb: WGRF.Core.AppInternal.New()
+  nameWithType: AppInternal.AppInternal()
+  nameWithType.vb: AppInternal.New()
+- uid: WGRF.Core.AppInternal.#ctor*
+  name: AppInternal
+  href: api/WGRF.Core.AppInternal.html#WGRF_Core_AppInternal__ctor_
+  commentId: Overload:WGRF.Core.AppInternal.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Core.AppInternal.AppInternal
+  fullName.vb: WGRF.Core.AppInternal.New
+  nameWithType: AppInternal.AppInternal
+  nameWithType.vb: AppInternal.New
+- uid: WGRF.Core.AppInternal.AppDataPath
+  name: AppDataPath
+  href: api/WGRF.Core.AppInternal.html#WGRF_Core_AppInternal_AppDataPath
+  commentId: P:WGRF.Core.AppInternal.AppDataPath
+  fullName: WGRF.Core.AppInternal.AppDataPath
+  nameWithType: AppInternal.AppDataPath
+- uid: WGRF.Core.AppInternal.AppDataPath*
+  name: AppDataPath
+  href: api/WGRF.Core.AppInternal.html#WGRF_Core_AppInternal_AppDataPath_
+  commentId: Overload:WGRF.Core.AppInternal.AppDataPath
+  isSpec: "True"
+  fullName: WGRF.Core.AppInternal.AppDataPath
+  nameWithType: AppInternal.AppDataPath
 - uid: WGRF.Core.AsyncGameObjectLoaderHandle
   name: AsyncGameObjectLoaderHandle
   href: api/WGRF.Core.AsyncGameObjectLoaderHandle.html
