@@ -119,19 +119,17 @@
 
 
 
-  <h3 id="WGRF_Core_UnityAssets_dScene" data-uid="WGRF.Core.UnityAssets.dScene">
-  dScene
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Tools/AssetLoading.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_Core_UnityAssets_GlobalLoadedAssets" data-uid="WGRF.Core.UnityAssets.GlobalLoadedAssets">
+  GlobalLoadedAssets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Tools/AssetLoading.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Holds the addressable paths of the loaded scene assets.
-Note: This list is cleaned every time a new scene is loaded unless the automatic scene assets release flag is cleared
-when the LoadSceneAsync method is called. In that case the ReleaseSceneAssets method should be called manualy.</p>
+  <div class="markdown level1 summary"><p>Holds the addressable paths of the globaly loaded assets. Note: Global assets are released from memory on the termination of the application.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, AsyncOperationHandle&gt; dScene</code></pre>
+    <pre><code class="lang-csharp hljs">public static HashSet&lt;string&gt; GlobalLoadedAssets</code></pre>
   </div>
 
 
@@ -139,7 +137,7 @@ when the LoadSceneAsync method is called. In that case the ReleaseSceneAssets me
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">AsyncOperationHandle</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -152,17 +150,19 @@ when the LoadSceneAsync method is called. In that case the ReleaseSceneAssets me
 
 
 
-  <h3 id="WGRF_Core_UnityAssets_hGlobal" data-uid="WGRF.Core.UnityAssets.hGlobal">
-  hGlobal
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Tools/AssetLoading.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_Core_UnityAssets_LoadedScenes" data-uid="WGRF.Core.UnityAssets.LoadedScenes">
+  LoadedScenes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Tools/AssetLoading.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Holds the addressable paths of the globaly loaded assets. Note: Global assets are released from memory on the termination of the application.</p>
+  <div class="markdown level1 summary"><p>Holds the addressable paths of the loaded scene assets.
+Note: This list is cleaned every time a new scene is loaded unless the automatic scene assets release flag is cleared
+when the LoadSceneAsync method is called. In that case the ReleaseSceneAssets method should be called manualy.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static HashSet&lt;string&gt; hGlobal</code></pre>
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, AsyncOperationHandle&gt; LoadedScenes</code></pre>
   </div>
 
 
@@ -170,7 +170,7 @@ when the LoadSceneAsync method is called. In that case the ReleaseSceneAssets me
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">AsyncOperationHandle</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -307,8 +307,8 @@ the asset should be disposed manualy from the memory.</p>
 
   <a id="WGRF_Core_UnityAssets_LoadSceneAsync_" data-uid="WGRF.Core.UnityAssets.LoadSceneAsync*"></a>
 
-  <h3 id="WGRF_Core_UnityAssets_LoadSceneAsync_System_String_System_Int32_System_Boolean_System_Action_UnityEngine_ResourceManagement_ResourceProviders_SceneInstance__" data-uid="WGRF.Core.UnityAssets.LoadSceneAsync(System.String,System.Int32,System.Boolean,System.Action{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})">
-  LoadSceneAsync(string, int, bool, Action&lt;SceneInstance&gt;)
+  <h3 id="WGRF_Core_UnityAssets_LoadSceneAsync_System_String_UnityEngine_SceneManagement_LoadSceneMode_System_Int32_System_Boolean_System_Action_UnityEngine_ResourceManagement_ResourceProviders_SceneInstance__" data-uid="WGRF.Core.UnityAssets.LoadSceneAsync(System.String,UnityEngine.SceneManagement.LoadSceneMode,System.Int32,System.Boolean,System.Action{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})">
+  LoadSceneAsync(string, LoadSceneMode, int, bool, Action&lt;SceneInstance&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Tools/AssetLoading.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -317,7 +317,7 @@ the asset should be disposed manualy from the memory.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LoadSceneAsync(string path, int delay = 0, bool asar = true, Action&lt;SceneInstance&gt; cb = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LoadSceneAsync(string path, LoadSceneMode mode, int delay = 0, bool asar = true, Action&lt;SceneInstance&gt; cb = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -325,6 +325,8 @@ the asset should be disposed manualy from the memory.</p>
     <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The addressables path of the scene.</p>
 </dd>
+    <dt><code>mode</code> <span class="xref">LoadSceneMode</span></dt>
+    <dd></dd>
     <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>The time delay before loading the desired scene in seconds(s).</p>
 </dd>

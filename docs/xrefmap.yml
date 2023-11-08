@@ -72,19 +72,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.Ability.Compare
   nameWithType: Ability.Compare
-- uid: WGRF.Abilities.Ability.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  name: DisableBehaviourOnSceneChange(GameScenes)
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_DisableBehaviourOnSceneChange_WGRF_Core_GameScenes_
-  commentId: M:WGRF.Abilities.Ability.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  fullName: WGRF.Abilities.Ability.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  nameWithType: Ability.DisableBehaviourOnSceneChange(GameScenes)
-- uid: WGRF.Abilities.Ability.DisableBehaviourOnSceneChange*
-  name: DisableBehaviourOnSceneChange
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_DisableBehaviourOnSceneChange_
-  commentId: Overload:WGRF.Abilities.Ability.DisableBehaviourOnSceneChange
-  isSpec: "True"
-  fullName: WGRF.Abilities.Ability.DisableBehaviourOnSceneChange
-  nameWithType: Ability.DisableBehaviourOnSceneChange
 - uid: WGRF.Abilities.Ability.EnableAbility
   name: EnableAbility()
   href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_EnableAbility
@@ -303,12 +290,12 @@ references:
   fullName.vb: WGRF.Abilities.SlowDownTime.New
   nameWithType: SlowDownTime.SlowDownTime
   nameWithType.vb: SlowDownTime.New
-- uid: WGRF.Abilities.SlowDownTime.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  name: DisableBehaviourOnSceneChange(GameScenes)
-  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_DisableBehaviourOnSceneChange_WGRF_Core_GameScenes_
-  commentId: M:WGRF.Abilities.SlowDownTime.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  fullName: WGRF.Abilities.SlowDownTime.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  nameWithType: SlowDownTime.DisableBehaviourOnSceneChange(GameScenes)
+- uid: WGRF.Abilities.SlowDownTime.DisableBehaviourOnSceneChange
+  name: DisableBehaviourOnSceneChange()
+  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_DisableBehaviourOnSceneChange
+  commentId: M:WGRF.Abilities.SlowDownTime.DisableBehaviourOnSceneChange
+  fullName: WGRF.Abilities.SlowDownTime.DisableBehaviourOnSceneChange()
+  nameWithType: SlowDownTime.DisableBehaviourOnSceneChange()
 - uid: WGRF.Abilities.SlowDownTime.DisableBehaviourOnSceneChange*
   name: DisableBehaviourOnSceneChange
   href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_DisableBehaviourOnSceneChange_
@@ -497,12 +484,12 @@ references:
   fullName.vb: WGRF.Abilities.StopTime.New
   nameWithType: StopTime.StopTime
   nameWithType.vb: StopTime.New
-- uid: WGRF.Abilities.StopTime.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  name: DisableBehaviourOnSceneChange(GameScenes)
-  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_DisableBehaviourOnSceneChange_WGRF_Core_GameScenes_
-  commentId: M:WGRF.Abilities.StopTime.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  fullName: WGRF.Abilities.StopTime.DisableBehaviourOnSceneChange(WGRF.Core.GameScenes)
-  nameWithType: StopTime.DisableBehaviourOnSceneChange(GameScenes)
+- uid: WGRF.Abilities.StopTime.DisableBehaviourOnSceneChange
+  name: DisableBehaviourOnSceneChange()
+  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_DisableBehaviourOnSceneChange
+  commentId: M:WGRF.Abilities.StopTime.DisableBehaviourOnSceneChange
+  fullName: WGRF.Abilities.StopTime.DisableBehaviourOnSceneChange()
+  nameWithType: StopTime.DisableBehaviourOnSceneChange()
 - uid: WGRF.Abilities.StopTime.DisableBehaviourOnSceneChange*
   name: DisableBehaviourOnSceneChange
   href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_DisableBehaviourOnSceneChange_
@@ -1311,19 +1298,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameEventsHandler.OnGameResumed
   nameWithType: GameEventsHandler.OnGameResumed
-- uid: WGRF.Core.GameEventsHandler.OnLevelPassed(WGRF.Core.GameScenes)
-  name: OnLevelPassed(GameScenes)
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnLevelPassed_WGRF_Core_GameScenes_
-  commentId: M:WGRF.Core.GameEventsHandler.OnLevelPassed(WGRF.Core.GameScenes)
-  fullName: WGRF.Core.GameEventsHandler.OnLevelPassed(WGRF.Core.GameScenes)
-  nameWithType: GameEventsHandler.OnLevelPassed(GameScenes)
-- uid: WGRF.Core.GameEventsHandler.OnLevelPassed*
-  name: OnLevelPassed
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnLevelPassed_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnLevelPassed
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnLevelPassed
-  nameWithType: GameEventsHandler.OnLevelPassed
 - uid: WGRF.Core.GameEventsHandler.OnPlayerDeath
   name: OnPlayerDeath()
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnPlayerDeath
@@ -1405,32 +1379,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameEventsHandler.OnSaveOvewrite
   nameWithType: GameEventsHandler.OnSaveOvewrite
-- uid: WGRF.Core.GameEventsHandler.OnSceneChanged(WGRF.Core.GameScenes)
-  name: OnSceneChanged(GameScenes)
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnSceneChanged_WGRF_Core_GameScenes_
-  commentId: M:WGRF.Core.GameEventsHandler.OnSceneChanged(WGRF.Core.GameScenes)
-  fullName: WGRF.Core.GameEventsHandler.OnSceneChanged(WGRF.Core.GameScenes)
-  nameWithType: GameEventsHandler.OnSceneChanged(GameScenes)
-- uid: WGRF.Core.GameEventsHandler.OnSceneChanged*
-  name: OnSceneChanged
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnSceneChanged_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnSceneChanged
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnSceneChanged
-  nameWithType: GameEventsHandler.OnSceneChanged
-- uid: WGRF.Core.GameEventsHandler.OnSceneUnloaded(WGRF.Core.GameScenes)
-  name: OnSceneUnloaded(GameScenes)
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnSceneUnloaded_WGRF_Core_GameScenes_
-  commentId: M:WGRF.Core.GameEventsHandler.OnSceneUnloaded(WGRF.Core.GameScenes)
-  fullName: WGRF.Core.GameEventsHandler.OnSceneUnloaded(WGRF.Core.GameScenes)
-  nameWithType: GameEventsHandler.OnSceneUnloaded(GameScenes)
-- uid: WGRF.Core.GameEventsHandler.OnSceneUnloaded*
-  name: OnSceneUnloaded
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnSceneUnloaded_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnSceneUnloaded
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnSceneUnloaded
-  nameWithType: GameEventsHandler.OnSceneUnloaded
 - uid: WGRF.Core.GameEventsHandler.OnWeaponPickup
   name: OnWeaponPickup()
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnWeaponPickup
@@ -1498,12 +1446,6 @@ references:
   commentId: E:WGRF.Core.GameEventsHandler.onGameResumed
   fullName: WGRF.Core.GameEventsHandler.onGameResumed
   nameWithType: GameEventsHandler.onGameResumed
-- uid: WGRF.Core.GameEventsHandler.onLevelPassed
-  name: onLevelPassed
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onLevelPassed
-  commentId: E:WGRF.Core.GameEventsHandler.onLevelPassed
-  fullName: WGRF.Core.GameEventsHandler.onLevelPassed
-  nameWithType: GameEventsHandler.onLevelPassed
 - uid: WGRF.Core.GameEventsHandler.onPlayerDeath
   name: onPlayerDeath
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onPlayerDeath
@@ -1540,18 +1482,6 @@ references:
   commentId: E:WGRF.Core.GameEventsHandler.onSaveOverwrite
   fullName: WGRF.Core.GameEventsHandler.onSaveOverwrite
   nameWithType: GameEventsHandler.onSaveOverwrite
-- uid: WGRF.Core.GameEventsHandler.onSceneChanged
-  name: onSceneChanged
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onSceneChanged
-  commentId: E:WGRF.Core.GameEventsHandler.onSceneChanged
-  fullName: WGRF.Core.GameEventsHandler.onSceneChanged
-  nameWithType: GameEventsHandler.onSceneChanged
-- uid: WGRF.Core.GameEventsHandler.onSceneUnloaded
-  name: onSceneUnloaded
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onSceneUnloaded
-  commentId: E:WGRF.Core.GameEventsHandler.onSceneUnloaded
-  fullName: WGRF.Core.GameEventsHandler.onSceneUnloaded
-  nameWithType: GameEventsHandler.onSceneUnloaded
 - uid: WGRF.Core.GameEventsHandler.onWeaponPickup
   name: onWeaponPickup
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onWeaponPickup
@@ -1962,19 +1892,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.Globals
   nameWithType: ManagerHub.Globals
-- uid: WGRF.Core.ManagerHub.LevelManager
-  name: LevelManager
-  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_LevelManager
-  commentId: P:WGRF.Core.ManagerHub.LevelManager
-  fullName: WGRF.Core.ManagerHub.LevelManager
-  nameWithType: ManagerHub.LevelManager
-- uid: WGRF.Core.ManagerHub.LevelManager*
-  name: LevelManager
-  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_LevelManager_
-  commentId: Overload:WGRF.Core.ManagerHub.LevelManager
-  isSpec: "True"
-  fullName: WGRF.Core.ManagerHub.LevelManager
-  nameWithType: ManagerHub.LevelManager
 - uid: WGRF.Core.ManagerHub.S
   name: S
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_S
@@ -1994,6 +1911,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.SettingsHandler
   nameWithType: ManagerHub.SettingsHandler
+- uid: WGRF.Core.ManagerHub.StageHandler
+  name: StageHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_StageHandler
+  commentId: P:WGRF.Core.ManagerHub.StageHandler
+  fullName: WGRF.Core.ManagerHub.StageHandler
+  nameWithType: ManagerHub.StageHandler
+- uid: WGRF.Core.ManagerHub.StageHandler*
+  name: StageHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_StageHandler_
+  commentId: Overload:WGRF.Core.ManagerHub.StageHandler
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.StageHandler
+  nameWithType: ManagerHub.StageHandler
 - uid: WGRF.Core.SettingsHandler
   name: SettingsHandler
   href: api/WGRF.Core.SettingsHandler.html
@@ -2071,12 +2001,95 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.SettingsHandler.UserSettings
   nameWithType: SettingsHandler.UserSettings
+- uid: WGRF.Core.StageHandler
+  name: StageHandler
+  href: api/WGRF.Core.StageHandler.html
+  commentId: T:WGRF.Core.StageHandler
+  fullName: WGRF.Core.StageHandler
+  nameWithType: StageHandler
+- uid: WGRF.Core.StageHandler.#ctor
+  name: StageHandler()
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler__ctor
+  commentId: M:WGRF.Core.StageHandler.#ctor
+  name.vb: New()
+  fullName: WGRF.Core.StageHandler.StageHandler()
+  fullName.vb: WGRF.Core.StageHandler.New()
+  nameWithType: StageHandler.StageHandler()
+  nameWithType.vb: StageHandler.New()
+- uid: WGRF.Core.StageHandler.#ctor*
+  name: StageHandler
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler__ctor_
+  commentId: Overload:WGRF.Core.StageHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Core.StageHandler.StageHandler
+  fullName.vb: WGRF.Core.StageHandler.New
+  nameWithType: StageHandler.StageHandler
+  nameWithType.vb: StageHandler.New
+- uid: WGRF.Core.StageHandler.GameScenePaths
+  name: GameScenePaths
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_GameScenePaths
+  commentId: P:WGRF.Core.StageHandler.GameScenePaths
+  fullName: WGRF.Core.StageHandler.GameScenePaths
+  nameWithType: StageHandler.GameScenePaths
+- uid: WGRF.Core.StageHandler.GameScenePaths*
+  name: GameScenePaths
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_GameScenePaths_
+  commentId: Overload:WGRF.Core.StageHandler.GameScenePaths
+  isSpec: "True"
+  fullName: WGRF.Core.StageHandler.GameScenePaths
+  nameWithType: StageHandler.GameScenePaths
+- uid: WGRF.Core.StageHandler.LoadFromBoot
+  name: LoadFromBoot()
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_LoadFromBoot
+  commentId: M:WGRF.Core.StageHandler.LoadFromBoot
+  fullName: WGRF.Core.StageHandler.LoadFromBoot()
+  nameWithType: StageHandler.LoadFromBoot()
+- uid: WGRF.Core.StageHandler.LoadFromBoot*
+  name: LoadFromBoot
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_LoadFromBoot_
+  commentId: Overload:WGRF.Core.StageHandler.LoadFromBoot
+  isSpec: "True"
+  fullName: WGRF.Core.StageHandler.LoadFromBoot
+  nameWithType: StageHandler.LoadFromBoot
+- uid: WGRF.Core.StageHandler.LoadRun
+  name: LoadRun()
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_LoadRun
+  commentId: M:WGRF.Core.StageHandler.LoadRun
+  fullName: WGRF.Core.StageHandler.LoadRun()
+  nameWithType: StageHandler.LoadRun()
+- uid: WGRF.Core.StageHandler.LoadRun*
+  name: LoadRun
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_LoadRun_
+  commentId: Overload:WGRF.Core.StageHandler.LoadRun
+  isSpec: "True"
+  fullName: WGRF.Core.StageHandler.LoadRun
+  nameWithType: StageHandler.LoadRun
+- uid: WGRF.Core.StageHandler.ScenesPathPrefix
+  name: ScenesPathPrefix
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_ScenesPathPrefix
+  commentId: P:WGRF.Core.StageHandler.ScenesPathPrefix
+  fullName: WGRF.Core.StageHandler.ScenesPathPrefix
+  nameWithType: StageHandler.ScenesPathPrefix
+- uid: WGRF.Core.StageHandler.ScenesPathPrefix*
+  name: ScenesPathPrefix
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler_ScenesPathPrefix_
+  commentId: Overload:WGRF.Core.StageHandler.ScenesPathPrefix
+  isSpec: "True"
+  fullName: WGRF.Core.StageHandler.ScenesPathPrefix
+  nameWithType: StageHandler.ScenesPathPrefix
 - uid: WGRF.Core.UnityAssets
   name: UnityAssets
   href: api/WGRF.Core.UnityAssets.html
   commentId: T:WGRF.Core.UnityAssets
   fullName: WGRF.Core.UnityAssets
   nameWithType: UnityAssets
+- uid: WGRF.Core.UnityAssets.GlobalLoadedAssets
+  name: GlobalLoadedAssets
+  href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_GlobalLoadedAssets
+  commentId: F:WGRF.Core.UnityAssets.GlobalLoadedAssets
+  fullName: WGRF.Core.UnityAssets.GlobalLoadedAssets
+  nameWithType: UnityAssets.GlobalLoadedAssets
 - uid: WGRF.Core.UnityAssets.Load(System.String,System.Boolean)
   name: Load(string, bool)
   href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_Load_System_String_System_Boolean_
@@ -2118,15 +2131,15 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.UnityAssets.LoadAsync
   nameWithType: UnityAssets.LoadAsync
-- uid: WGRF.Core.UnityAssets.LoadSceneAsync(System.String,System.Int32,System.Boolean,System.Action{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})
-  name: LoadSceneAsync(string, int, bool, Action<SceneInstance>)
-  href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_LoadSceneAsync_System_String_System_Int32_System_Boolean_System_Action_UnityEngine_ResourceManagement_ResourceProviders_SceneInstance__
-  commentId: M:WGRF.Core.UnityAssets.LoadSceneAsync(System.String,System.Int32,System.Boolean,System.Action{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})
-  name.vb: LoadSceneAsync(String, Integer, Boolean, Action(Of SceneInstance))
-  fullName: WGRF.Core.UnityAssets.LoadSceneAsync(string, int, bool, System.Action<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
-  fullName.vb: WGRF.Core.UnityAssets.LoadSceneAsync(String, Integer, Boolean, System.Action(Of UnityEngine.ResourceManagement.ResourceProviders.SceneInstance))
-  nameWithType: UnityAssets.LoadSceneAsync(string, int, bool, Action<SceneInstance>)
-  nameWithType.vb: UnityAssets.LoadSceneAsync(String, Integer, Boolean, Action(Of SceneInstance))
+- uid: WGRF.Core.UnityAssets.LoadSceneAsync(System.String,UnityEngine.SceneManagement.LoadSceneMode,System.Int32,System.Boolean,System.Action{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})
+  name: LoadSceneAsync(string, LoadSceneMode, int, bool, Action<SceneInstance>)
+  href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_LoadSceneAsync_System_String_UnityEngine_SceneManagement_LoadSceneMode_System_Int32_System_Boolean_System_Action_UnityEngine_ResourceManagement_ResourceProviders_SceneInstance__
+  commentId: M:WGRF.Core.UnityAssets.LoadSceneAsync(System.String,UnityEngine.SceneManagement.LoadSceneMode,System.Int32,System.Boolean,System.Action{UnityEngine.ResourceManagement.ResourceProviders.SceneInstance})
+  name.vb: LoadSceneAsync(String, LoadSceneMode, Integer, Boolean, Action(Of SceneInstance))
+  fullName: WGRF.Core.UnityAssets.LoadSceneAsync(string, UnityEngine.SceneManagement.LoadSceneMode, int, bool, System.Action<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
+  fullName.vb: WGRF.Core.UnityAssets.LoadSceneAsync(String, UnityEngine.SceneManagement.LoadSceneMode, Integer, Boolean, System.Action(Of UnityEngine.ResourceManagement.ResourceProviders.SceneInstance))
+  nameWithType: UnityAssets.LoadSceneAsync(string, LoadSceneMode, int, bool, Action<SceneInstance>)
+  nameWithType.vb: UnityAssets.LoadSceneAsync(String, LoadSceneMode, Integer, Boolean, Action(Of SceneInstance))
 - uid: WGRF.Core.UnityAssets.LoadSceneAsync*
   name: LoadSceneAsync
   href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_LoadSceneAsync_
@@ -2134,6 +2147,12 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.UnityAssets.LoadSceneAsync
   nameWithType: UnityAssets.LoadSceneAsync
+- uid: WGRF.Core.UnityAssets.LoadedScenes
+  name: LoadedScenes
+  href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_LoadedScenes
+  commentId: F:WGRF.Core.UnityAssets.LoadedScenes
+  fullName: WGRF.Core.UnityAssets.LoadedScenes
+  nameWithType: UnityAssets.LoadedScenes
 - uid: WGRF.Core.UnityAssets.PathExists(System.Object)
   name: PathExists(object)
   href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_PathExists_System_Object_
@@ -2195,18 +2214,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.UnityAssets.ReleaseSceneAssets
   nameWithType: UnityAssets.ReleaseSceneAssets
-- uid: WGRF.Core.UnityAssets.dScene
-  name: dScene
-  href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_dScene
-  commentId: F:WGRF.Core.UnityAssets.dScene
-  fullName: WGRF.Core.UnityAssets.dScene
-  nameWithType: UnityAssets.dScene
-- uid: WGRF.Core.UnityAssets.hGlobal
-  name: hGlobal
-  href: api/WGRF.Core.UnityAssets.html#WGRF_Core_UnityAssets_hGlobal
-  commentId: F:WGRF.Core.UnityAssets.hGlobal
-  fullName: WGRF.Core.UnityAssets.hGlobal
-  nameWithType: UnityAssets.hGlobal
 - uid: WGRF.Core.UserSettings
   name: UserSettings
   href: api/WGRF.Core.UserSettings.html
