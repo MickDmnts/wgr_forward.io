@@ -285,6 +285,56 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.Player.PlayerAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.Player.PlayerAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.Player.PlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.Player.PlayerController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.Player.PlayerEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.Player.PlayerEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.Player.PlayerKick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.Player.PlayerKick.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Entities.yml",
       "output": {
         ".html": {
@@ -359,6 +409,46 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Internal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.PlayerInput.IPlayerActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.PlayerInput.IPlayerActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.PlayerInput.PlayerActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.PlayerInput.PlayerActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.PlayerInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.PlayerInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.ScreenShake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.ScreenShake.html"
         }
       },
       "version": ""

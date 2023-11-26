@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Entity
+      <title>Class PlayerKick
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Entity
+      <meta name="title" content="Class PlayerKick
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_Entities_Entity.md&amp;value=---%0Auid%3A%20WGRF.Entities.Entity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_Entities_Player_PlayerKick.md&amp;value=---%0Auid%3A%20WGRF.Entities.Player.PlayerKick%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,26 +73,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.Entities.Entity">
+        <article data-uid="WGRF.Entities.Player.PlayerKick">
 
 
 
-  <h1 id="WGRF_Entities_Entity" data-uid="WGRF.Entities.Entity" class="text-break">
-    Class Entity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/EntityInteractions/Entity.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_Entities_Player_PlayerKick" data-uid="WGRF.Entities.Player.PlayerKick" class="text-break">
+    Class PlayerKick
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerKick.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Entities.html">Entities</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Entities.html">Entities</a>.<a class="xref" href="WGRF.Entities.Player.html">Player</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Abstract base class to be inherited from every entity of the game.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Entity : CoreBehaviour, IInteractable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerKick : CoreBehaviour</code></pre>
   </div>
 
 
@@ -107,23 +106,11 @@
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
       <div><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></div>
-      <div><span class="xref">Entity</span></div>
+      <div><span class="xref">PlayerKick</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="WGRF.Interactions.IInteractable.html">IInteractable</a></div>
-    </dd>
-  </dl>
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="WGRF.Entities.Player.PlayerEntity.html">PlayerEntity</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist derived">
     <dt>Inherited Members</dt>
@@ -147,9 +134,6 @@
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Awake">CoreBehaviour.Awake()</a>
     </div>
     <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PreAwake">CoreBehaviour.PreAwake()</a>
-    </div>
-    <div>
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostAwake">CoreBehaviour.PostAwake()</a>
     </div>
     <div>
@@ -168,95 +152,33 @@
 
 
 
-  <h2 class="section" id="fields">Fields
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
+  <a id="WGRF_Entities_Player_PlayerKick_IsKicking_" data-uid="WGRF.Entities.Player.PlayerKick.IsKicking*"></a>
 
-  <h3 id="WGRF_Entities_Entity_entityLife" data-uid="WGRF.Entities.Entity.entityLife">
-  entityLife
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/EntityInteractions/Entity.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_Entities_Player_PlayerKick_IsKicking" data-uid="WGRF.Entities.Player.PlayerKick.IsKicking">
+  IsKicking
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerKick.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The entity base life</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float entityLife</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsKicking { get; set; }</code></pre>
   </div>
 
 
 
 
-  <h4 class="section">Field Value</h4>
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="WGRF_Entities_Entity_entityName" data-uid="WGRF.Entities.Entity.entityName">
-  entityName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/EntityInteractions/Entity.cs/#L16"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The entity name</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string entityName</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="WGRF_Entities_Entity_maxLife" data-uid="WGRF.Entities.Entity.maxLife">
-  maxLife
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/EntityInteractions/Entity.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The entity max life</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float maxLife</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
 
 
 
@@ -269,46 +191,20 @@
 </h2>
 
 
-  <a id="WGRF_Entities_Entity_AttackInteraction_" data-uid="WGRF.Entities.Entity.AttackInteraction*"></a>
+  <a id="WGRF_Entities_Player_PlayerKick_PreAwake_" data-uid="WGRF.Entities.Player.PlayerKick.PreAwake*"></a>
 
-  <h3 id="WGRF_Entities_Entity_AttackInteraction" data-uid="WGRF.Entities.Entity.AttackInteraction">
-  AttackInteraction()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/EntityInteractions/Entity.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_Entities_Player_PlayerKick_PreAwake" data-uid="WGRF.Entities.Player.PlayerKick.PreAwake">
+  PreAwake()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerKick.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to initiate the attack interaction behaviour of any Entity GameObject</p>
+  <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
+Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.Awake().</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void AttackInteraction()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_Entities_Entity_StunInteraction_" data-uid="WGRF.Entities.Entity.StunInteraction*"></a>
-
-  <h3 id="WGRF_Entities_Entity_StunInteraction" data-uid="WGRF.Entities.Entity.StunInteraction">
-  StunInteraction()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/EntityInteractions/Entity.cs/#L31"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to initiate the stun interaction of any Entity GameObject</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void StunInteraction()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void PreAwake()</code></pre>
   </div>
 
 
@@ -327,7 +223,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/EntityInteractions/Entity.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerKick.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
         
