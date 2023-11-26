@@ -1644,6 +1644,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy
   nameWithType: GameSoundsHandler.IncreaseSFXVolumeBy
+- uid: WGRF.Core.GameSoundsHandler.PreAwake
+  name: PreAwake()
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PreAwake
+  commentId: M:WGRF.Core.GameSoundsHandler.PreAwake
+  fullName: WGRF.Core.GameSoundsHandler.PreAwake()
+  nameWithType: GameSoundsHandler.PreAwake()
+- uid: WGRF.Core.GameSoundsHandler.PreAwake*
+  name: PreAwake
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PreAwake_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.PreAwake
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.PreAwake
+  nameWithType: GameSoundsHandler.PreAwake
 - uid: WGRF.Core.Globals
   name: Globals
   href: api/WGRF.Core.Globals.html
@@ -1714,6 +1727,59 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.Hub.Instance
   nameWithType: Hub.Instance
+- uid: WGRF.Core.InternalTime
+  name: InternalTime
+  href: api/WGRF.Core.InternalTime.html
+  commentId: T:WGRF.Core.InternalTime
+  fullName: WGRF.Core.InternalTime
+  nameWithType: InternalTime
+- uid: WGRF.Core.InternalTime.#ctor(UnityEngine.MonoBehaviour)
+  name: InternalTime(MonoBehaviour)
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime__ctor_UnityEngine_MonoBehaviour_
+  commentId: M:WGRF.Core.InternalTime.#ctor(UnityEngine.MonoBehaviour)
+  name.vb: New(MonoBehaviour)
+  fullName: WGRF.Core.InternalTime.InternalTime(UnityEngine.MonoBehaviour)
+  fullName.vb: WGRF.Core.InternalTime.New(UnityEngine.MonoBehaviour)
+  nameWithType: InternalTime.InternalTime(MonoBehaviour)
+  nameWithType.vb: InternalTime.New(MonoBehaviour)
+- uid: WGRF.Core.InternalTime.#ctor*
+  name: InternalTime
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime__ctor_
+  commentId: Overload:WGRF.Core.InternalTime.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Core.InternalTime.InternalTime
+  fullName.vb: WGRF.Core.InternalTime.New
+  nameWithType: InternalTime.InternalTime
+  nameWithType.vb: InternalTime.New
+- uid: WGRF.Core.InternalTime.ChangeTimeScale(System.Single,System.Single)
+  name: ChangeTimeScale(float, float)
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_ChangeTimeScale_System_Single_System_Single_
+  commentId: M:WGRF.Core.InternalTime.ChangeTimeScale(System.Single,System.Single)
+  name.vb: ChangeTimeScale(Single, Single)
+  fullName: WGRF.Core.InternalTime.ChangeTimeScale(float, float)
+  fullName.vb: WGRF.Core.InternalTime.ChangeTimeScale(Single, Single)
+  nameWithType: InternalTime.ChangeTimeScale(float, float)
+  nameWithType.vb: InternalTime.ChangeTimeScale(Single, Single)
+- uid: WGRF.Core.InternalTime.ChangeTimeScale*
+  name: ChangeTimeScale
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_ChangeTimeScale_
+  commentId: Overload:WGRF.Core.InternalTime.ChangeTimeScale
+  isSpec: "True"
+  fullName: WGRF.Core.InternalTime.ChangeTimeScale
+  nameWithType: InternalTime.ChangeTimeScale
+- uid: WGRF.Core.InternalTime.onTimeScaleChange
+  name: onTimeScaleChange
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_onTimeScaleChange
+  commentId: E:WGRF.Core.InternalTime.onTimeScaleChange
+  fullName: WGRF.Core.InternalTime.onTimeScaleChange
+  nameWithType: InternalTime.onTimeScaleChange
+- uid: WGRF.Core.InternalTime.onTimeScaleReset
+  name: onTimeScaleReset
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_onTimeScaleReset
+  commentId: E:WGRF.Core.InternalTime.onTimeScaleReset
+  fullName: WGRF.Core.InternalTime.onTimeScaleReset
+  nameWithType: InternalTime.onTimeScaleReset
 - uid: WGRF.Core.LevelLoadPacket
   name: LevelLoadPacket
   href: api/WGRF.Core.LevelLoadPacket.html
@@ -1892,6 +1958,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.Globals
   nameWithType: ManagerHub.Globals
+- uid: WGRF.Core.ManagerHub.InternalTime
+  name: InternalTime
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_InternalTime
+  commentId: P:WGRF.Core.ManagerHub.InternalTime
+  fullName: WGRF.Core.ManagerHub.InternalTime
+  nameWithType: ManagerHub.InternalTime
+- uid: WGRF.Core.ManagerHub.InternalTime*
+  name: InternalTime
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_InternalTime_
+  commentId: Overload:WGRF.Core.ManagerHub.InternalTime
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.InternalTime
+  nameWithType: ManagerHub.InternalTime
 - uid: WGRF.Core.ManagerHub.S
   name: S
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_S

@@ -175,6 +175,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.InternalTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.InternalTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.LevelLoadPacket.yml",
       "output": {
         ".html": {
