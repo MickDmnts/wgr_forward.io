@@ -1,0 +1,935 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EnemyEntity
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EnemyEntity
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_AI_Entities_Hostile_Generic_EnemyEntity.md&amp;value=---%0Auid%3A%20WGRF.AI.Entities.Hostile.Generic.EnemyEntity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity">
+
+
+
+  <h1 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity" class="text-break">
+    Class EnemyEntity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.AI.html">AI</a>.<a class="xref" href="WGRF.AI.Entities.html">Entities</a>.<a class="xref" href="WGRF.AI.Entities.Hostile.html">Hostile</a>.<a class="xref" href="WGRF.AI.Entities.Hostile.Generic.html">Generic</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EnemyEntity : AIEntity, IInteractable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></div>
+      <div><a class="xref" href="WGRF.Entities.Entity.html">Entity</a></div>
+      <div><a class="xref" href="WGRF.AI.Entities.AIEntity.html">AIEntity</a></div>
+      <div><span class="xref">EnemyEntity</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WGRF.Interactions.IInteractable.html">IInteractable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_occlusionLayers">AIEntity.occlusionLayers</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_layerOnDeath">AIEntity.layerOnDeath</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_isAgentActive">AIEntity.isAgentActive</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_attackTarget">AIEntity.attackTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_enemyRB">AIEntity.enemyRB</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_agent">AIEntity.agent</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_fovManager">AIEntity.fovManager</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_FOVManager">AIEntity.FOVManager</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_aiEntityWeapon">AIEntity.aiEntityWeapon</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_AIEntityWeapon">AIEntity.AIEntityWeapon</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_onPlayerFound">AIEntity.onPlayerFound</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_OnPlayerFound">AIEntity.OnPlayerFound()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_onObserverDeath">AIEntity.onObserverDeath</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_OnObserverDeath">AIEntity.OnObserverDeath()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Entities.Entity.html#WGRF_Entities_Entity_entityName">Entity.entityName</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Entities.Entity.html#WGRF_Entities_Entity_maxLife">Entity.maxLife</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Entities.Entity.html#WGRF_Entities_Entity_entityLife">Entity.entityLife</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Hub">CoreBehaviour.Hub</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Controller">CoreBehaviour.Controller</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_ID">CoreBehaviour.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetID_System_String_">CoreBehaviour.SetID(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetController_WGRF_Core_Controller_">CoreBehaviour.SetController(Controller)</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Awake">CoreBehaviour.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostAwake">CoreBehaviour.PostAwake()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_OnDestroy">CoreBehaviour.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostDestroy">CoreBehaviour.PostDestroy()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_EnemyAnimation_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.EnemyAnimation*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_EnemyAnimation" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.EnemyAnimation">
+  EnemyAnimation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EnemyAnimations EnemyAnimation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGRF.AI.Entities.Hostile.Generic.EnemyAnimations.html">EnemyAnimations</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_IsDead_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.IsDead*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_IsDead" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.IsDead">
+  IsDead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>When set, IsDead automatically updates
+the enemyNodeData equivalent field
+with the passed value.</p>
+<p>If the value passed is true, instatiates a blood pool VFX.</p>
+<p>If the value passed is true AND the focused scene is the BOSS FIGHT, calls the GameEventHandler.OnBossLevelEnemyDeath event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_IsStunned_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.IsStunned*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_IsStunned" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.IsStunned">
+  IsStunned
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStunned { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_AttackInteraction_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.AttackInteraction*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_AttackInteraction" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.AttackInteraction">
+  AttackInteraction()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>If the agent has armor, decrease its armor value by 1.</p>
+<p>If the agent ahs no armor left, decrease its life value by 1.</p>
+<p>Early return if the enemy is dead OR inactive.</p>
+<p>Calls CheckIfDead(), if true then calls InitiateDeathSequence().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AttackInteraction()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CacheComponents_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CacheComponents*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CacheComponents" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CacheComponents">
+  CacheComponents()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to cache the necessary entity components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CacheComponents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CheckIfDead_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CheckIfDead*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CheckIfDead" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CheckIfDead">
+  CheckIfDead()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to check the entity life value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool CheckIfDead()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if entityLife is smaller than 0, false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CreateBTHandler_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CreateBTHandler*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CreateBTHandler" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CreateBTHandler">
+  CreateBTHandler()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to create an instance of EnemyBTHandler and assign it to the btHandler varable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CreateBTHandler()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CreateNodeData_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CreateNodeData*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_CreateNodeData" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.CreateNodeData">
+  CreateNodeData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to create the behaviour tree data container for THIS enemy entity.</p>
+<p>Creates a new EnemyNodeData instance and assigns it in the enemyNodeData variable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CreateNodeData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_DisableShootingBehaviour_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.DisableShootingBehaviour*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_DisableShootingBehaviour" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.DisableShootingBehaviour">
+  DisableShootingBehaviour()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the enemyNodeData canShoot to false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisableShootingBehaviour()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetAgent_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetAgent*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetAgent" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetAgent">
+  GetAgent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the NavMeshAgent component reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override NavMeshAgent GetAgent()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">NavMeshAgent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetEntityNodeData_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetEntityNodeData*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetEntityNodeData" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetEntityNodeData">
+  GetEntityNodeData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the node data of THIS entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override INodeData GetEntityNodeData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGRF.AI.Nodes.INodeData.html">INodeData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetIsAgentActive_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetIsAgentActive*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetIsAgentActive" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetIsAgentActive">
+  GetIsAgentActive()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the agents' current state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetIsAgentActive()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetIsDead_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetIsDead*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_GetIsDead" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.GetIsDead">
+  GetIsDead()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L484"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the agents' is dead value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetIsDead()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_OnPlayerAbilityFinish_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.OnPlayerAbilityFinish*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_OnPlayerAbilityFinish" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.OnPlayerAbilityFinish">
+  OnPlayerAbilityFinish()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from each ability when the ability behaviour has finished executing to reset the agent values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerAbilityFinish()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_OnPlayerAbilityStart_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.OnPlayerAbilityStart*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_OnPlayerAbilityStart_System_Single_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.OnPlayerAbilityStart(System.Single)">
+  OnPlayerAbilityStart(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the animator playback speed to the passed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerAbilityStart(float animatorPlaybackSpeed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animatorPlaybackSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_PreAwake_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.PreAwake*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_PreAwake" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.PreAwake">
+  PreAwake()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
+Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.Awake().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void PreAwake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_PreDestroy_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.PreDestroy*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_PreDestroy" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.PreDestroy">
+  PreDestroy()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L490"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Destroy and before this script is cleared from its assigned controller.
+Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.OnDestroy().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void PreDestroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetAttackTarget_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetAttackTarget*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetAttackTarget_UnityEngine_Transform_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetAttackTarget(UnityEngine.Transform)">
+  SetAttackTarget(Transform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L460"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the EnemyEntityManager at startup to update the target of THIS enemy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetAttackTarget(Transform target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetHealth_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetHealth_System_Single_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(System.Single)">
+  SetHealth(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the entityLife to the passed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SetHealth(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetIsAgentActive_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetIsAgentActive*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetIsAgentActive_System_Boolean_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetIsAgentActive(System.Boolean)">
+  SetIsAgentActive(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L476"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the agent is active to the passed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetIsAgentActive(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetupNodeDataFields_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetupNodeDataFields*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetupNodeDataFields" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetupNodeDataFields">
+  SetupNodeDataFields()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set up the needed node data fields for correct startup agent behaviour.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SetupNodeDataFields()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_StunInteraction_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.StunInteraction*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_StunInteraction" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.StunInteraction">
+  StunInteraction()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to play the the stunned agent animation.</p>
+<p>Set is stunned to true.</p>
+<p>Play the Punch SFX.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void StunInteraction()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_TargetFound_" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.TargetFound*"></a>
+
+  <h3 id="WGRF_AI_Entities_Hostile_Generic_EnemyEntity_TargetFound" data-uid="WGRF.AI.Entities.Hostile.Generic.EnemyEntity.TargetFound">
+  TargetFound()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the agent node data target found value to true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void TargetFound()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity/_CoreEnemy/EnemyEntity.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

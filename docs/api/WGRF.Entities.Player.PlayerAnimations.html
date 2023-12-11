@@ -79,7 +79,7 @@
 
   <h1 id="WGRF_Entities_Player_PlayerAnimations" data-uid="WGRF.Entities.Player.PlayerAnimations" class="text-break">
     Class PlayerAnimations
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -140,6 +140,9 @@
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_OnDestroy">CoreBehaviour.OnDestroy()</a>
     </div>
     <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PreDestroy">CoreBehaviour.PreDestroy()</a>
+    </div>
+    <div>
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostDestroy">CoreBehaviour.PostDestroy()</a>
     </div>
   </dd></dl>
@@ -157,7 +160,7 @@
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_GetAnimator" data-uid="WGRF.Entities.Player.PlayerAnimations.GetAnimator">
   GetAnimator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to get a player animator reference.</p>
@@ -189,7 +192,7 @@
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_PlayDeathAnimation" data-uid="WGRF.Entities.Player.PlayerAnimations.PlayDeathAnimation">
   PlayDeathAnimation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to play the player death animation.</p>
@@ -216,7 +219,7 @@
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_PlayKickAnimation" data-uid="WGRF.Entities.Player.PlayerAnimations.PlayKickAnimation">
   PlayKickAnimation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to play the player kick animation.</p>
@@ -239,11 +242,44 @@
 
 
 
+  <a id="WGRF_Entities_Player_PlayerAnimations_PlayMeleeWeaponAnimation_" data-uid="WGRF.Entities.Player.PlayerAnimations.PlayMeleeWeaponAnimation*"></a>
+
+  <h3 id="WGRF_Entities_Player_PlayerAnimations_PlayMeleeWeaponAnimation_WGRF_BattleSystem_WeaponType_" data-uid="WGRF.Entities.Player.PlayerAnimations.PlayMeleeWeaponAnimation(WGRF.BattleSystem.WeaponType)">
+  PlayMeleeWeaponAnimation(WeaponType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to play the respective player melee animation based on the weaponType passed.</p>
+<p>Also disables WeaponHolding stance by calling SetRangedWeaponAnimation(...)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayMeleeWeaponAnimation(WeaponType weaponType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>weaponType</code> <a class="xref" href="WGRF.BattleSystem.WeaponType.html">WeaponType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="WGRF_Entities_Player_PlayerAnimations_PlayThrowAnimation_" data-uid="WGRF.Entities.Player.PlayerAnimations.PlayThrowAnimation*"></a>
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_PlayThrowAnimation" data-uid="WGRF.Entities.Player.PlayerAnimations.PlayThrowAnimation">
   PlayThrowAnimation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to play the player throw animation.</p>
@@ -270,7 +306,7 @@
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_PlayWakeUpAnimation" data-uid="WGRF.Entities.Player.PlayerAnimations.PlayWakeUpAnimation">
   PlayWakeUpAnimation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to play the player wake up animation.</p>
@@ -297,7 +333,7 @@
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_PreAwake" data-uid="WGRF.Entities.Player.PlayerAnimations.PreAwake">
   PreAwake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
@@ -321,39 +357,11 @@ Warning: A function that should be used from all the child classes instead of th
 
 
 
-  <a id="WGRF_Entities_Player_PlayerAnimations_PreDestroy_" data-uid="WGRF.Entities.Player.PlayerAnimations.PreDestroy*"></a>
-
-  <h3 id="WGRF_Entities_Player_PlayerAnimations_PreDestroy" data-uid="WGRF.Entities.Player.PlayerAnimations.PreDestroy">
-  PreDestroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L133"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Called on Destroy and before this script is cleared from its assigned controller.
-Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.OnDestroy().</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void PreDestroy()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="WGRF_Entities_Player_PlayerAnimations_SetRangedWeaponAnimation_" data-uid="WGRF.Entities.Player.PlayerAnimations.SetRangedWeaponAnimation*"></a>
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_SetRangedWeaponAnimation_System_Boolean_" data-uid="WGRF.Entities.Player.PlayerAnimations.SetRangedWeaponAnimation(System.Boolean)">
   SetRangedWeaponAnimation(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to set the isHoldingGun animator boolean value to the passed value.</p>
@@ -386,7 +394,7 @@ Warning: A function that should be used from all the child classes instead of th
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_SetWalkAnimationState_System_Boolean_" data-uid="WGRF.Entities.Player.PlayerAnimations.SetWalkAnimationState(System.Boolean)">
   SetWalkAnimationState(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to set the isWalking animator bool value to the passed value.</p>
@@ -418,7 +426,7 @@ Warning: A function that should be used from all the child classes instead of th
 
   <h3 id="WGRF_Entities_Player_PlayerAnimations_ThrowAnimationEnd" data-uid="WGRF.Entities.Player.PlayerAnimations.ThrowAnimationEnd">
   ThrowAnimationEnd()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><em>ANIMATION EVENT</em></p>
@@ -446,7 +454,7 @@ Warning: A function that should be used from all the child classes instead of th
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerAnimations.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
         

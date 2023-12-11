@@ -5,6 +5,356 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.AIEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.AIEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.AIEntityAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.AIEntityAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.AIEntityBTHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.AIEntityBTHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.EnemyLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.EnemyLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.Hostile.AIEntityWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.Hostile.AIEntityWeapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyBTHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyBTHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.Hostile.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.Hostile.Generic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.Hostile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.Hostile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.FOV.AIEntityFOVDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.FOV.AIEntityFOVDetector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.FOV.AIEntityFOVManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.FOV.AIEntityFOVManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.FOV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.FOV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.AttackTargetAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.AttackTargetAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.BehaviourTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.BehaviourTree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.ChaseAttackSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.ChaseAttackSelector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.ChaseTargetActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.ChaseTargetActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.CheckIfDead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.CheckIfDead.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.CheckIfStunned.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.CheckIfStunned.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.EnemyNodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.EnemyNodeData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.INode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.INodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.INodeData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.IdleNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.IdleNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.IdleOnArrival.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.IdleOnArrival.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.IdlePatrolChaseActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.IdlePatrolChaseActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.NavToOriginalPos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.NavToOriginalPos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.NavToTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.NavToTarget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.PatrolCheckDistance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.PatrolCheckDistance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.PatrolNavToActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.PatrolNavToActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.PatrolNavigateTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.PatrolNavigateTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.PatrolNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.PatrolNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.StunedAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.StunedAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.Nodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Abilities.Ability.yml",
       "output": {
         ".html": {
@@ -39,6 +389,96 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Abilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.Bullet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.Bullet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.BulletStatics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.BulletStatics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.IShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.IShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.ProjectileLayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.ProjectileLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.ThrowableSpeeds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.ThrowableSpeeds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.Weapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.WeaponCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.WeaponCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.WeaponType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.WeaponType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.BattleSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.BattleSystem.html"
         }
       },
       "version": ""
@@ -215,6 +655,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.Managers.BulletPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.Managers.BulletPool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.Managers.BulletType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.Managers.BulletType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.Managers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.SettingsHandler.yml",
       "output": {
         ".html": {
@@ -255,10 +725,60 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.WeaponManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.WeaponManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.yml",
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.BattleSystem.IThrowable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.BattleSystem.IThrowable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.BattleSystem.Shooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.BattleSystem.Shooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.BattleSystem.ThrowableEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.BattleSystem.ThrowableEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Entities.BattleSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Entities.BattleSystem.html"
         }
       },
       "version": ""
@@ -339,6 +859,26 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Gameplay.BattleSystem.PlayerAttack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Gameplay.BattleSystem.PlayerAttack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Gameplay.BattleSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Gameplay.BattleSystem.html"
         }
       },
       "version": ""

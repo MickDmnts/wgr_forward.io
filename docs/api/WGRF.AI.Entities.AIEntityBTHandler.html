@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ScreenShake
+      <title>Class AIEntityBTHandler
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ScreenShake
+      <meta name="title" content="Class AIEntityBTHandler
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_ScreenShake.md&amp;value=---%0Auid%3A%20WGRF.ScreenShake%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_AI_Entities_AIEntityBTHandler.md&amp;value=---%0Auid%3A%20WGRF.AI.Entities.AIEntityBTHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,17 +73,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.ScreenShake">
+        <article data-uid="WGRF.AI.Entities.AIEntityBTHandler">
 
 
 
-  <h1 id="WGRF_ScreenShake" data-uid="WGRF.ScreenShake" class="text-break">
-    Class ScreenShake
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerCam/ScreenShake.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_AI_Entities_AIEntityBTHandler" data-uid="WGRF.AI.Entities.AIEntityBTHandler" class="text-break">
+    Class AIEntityBTHandler
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/_Core/AIEntityBTHandler.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.AI.html">AI</a>.<a class="xref" href="WGRF.AI.Entities.html">Entities</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
@@ -91,7 +91,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScreenShake : CoreBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AIEntityBTHandler</code></pre>
   </div>
 
 
@@ -101,51 +101,18 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Object</span></div>
-      <div><span class="xref">Component</span></div>
-      <div><span class="xref">Behaviour</span></div>
-      <div><span class="xref">MonoBehaviour</span></div>
-      <div><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></div>
-      <div><span class="xref">ScreenShake</span></div>
+      <div><span class="xref">AIEntityBTHandler</span></div>
     </dd>
   </dl>
 
 
-
   <dl class="typelist derived">
-    <dt>Inherited Members</dt>
+    <dt>Derived</dt>
     <dd>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Hub">CoreBehaviour.Hub</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Controller">CoreBehaviour.Controller</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_ID">CoreBehaviour.ID</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetID_System_String_">CoreBehaviour.SetID(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetController_WGRF_Core_Controller_">CoreBehaviour.SetController(Controller)</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Awake">CoreBehaviour.Awake()</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostAwake">CoreBehaviour.PostAwake()</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_OnDestroy">CoreBehaviour.OnDestroy()</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PreDestroy">CoreBehaviour.PreDestroy()</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostDestroy">CoreBehaviour.PostDestroy()</a>
-    </div>
-  </dd></dl>
+      <div><a class="xref" href="WGRF.AI.Entities.Hostile.Generic.EnemyBTHandler.html">EnemyBTHandler</a></div>
+    </dd>
+  </dl>
+
 
 
 
@@ -156,20 +123,46 @@
 </h2>
 
 
-  <a id="WGRF_ScreenShake_PreAwake_" data-uid="WGRF.ScreenShake.PreAwake*"></a>
+  <a id="WGRF_AI_Entities_AIEntityBTHandler_CreateBehaviourTree_" data-uid="WGRF.AI.Entities.AIEntityBTHandler.CreateBehaviourTree*"></a>
 
-  <h3 id="WGRF_ScreenShake_PreAwake" data-uid="WGRF.ScreenShake.PreAwake">
-  PreAwake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerCam/ScreenShake.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_AI_Entities_AIEntityBTHandler_CreateBehaviourTree" data-uid="WGRF.AI.Entities.AIEntityBTHandler.CreateBehaviourTree">
+  CreateBehaviourTree()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/_Core/AIEntityBTHandler.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
-Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.Awake().</p>
+  <div class="markdown level1 summary"><p>Call to start this agents' Behaviour Tree creation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void PreAwake()</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void CreateBehaviourTree()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_Entities_AIEntityBTHandler_UpdateBT_" data-uid="WGRF.AI.Entities.AIEntityBTHandler.UpdateBT*"></a>
+
+  <h3 id="WGRF_AI_Entities_AIEntityBTHandler_UpdateBT" data-uid="WGRF.AI.Entities.AIEntityBTHandler.UpdateBT">
+  UpdateBT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/_Core/AIEntityBTHandler.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to update the agent Behaviour Tree from its root.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void UpdateBT()</code></pre>
   </div>
 
 
@@ -188,7 +181,7 @@ Warning: A function that should be used from all the child classes instead of th
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerCam/ScreenShake.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/_Core/AIEntityBTHandler.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
         
