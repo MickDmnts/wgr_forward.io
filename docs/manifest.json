@@ -365,6 +365,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Abilities.IRewindable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Abilities.IRewindable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Abilities.RewindTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Abilities.RewindTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Abilities.Rewinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Abilities.Rewinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Abilities.SlowDownTime.yml",
       "output": {
         ".html": {
@@ -655,6 +685,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.Managers.AbilityManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.Managers.AbilityManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.Managers.AbilityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.Managers.AbilityType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.Managers.BulletPool.yml",
       "output": {
         ".html": {
@@ -859,6 +909,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Gameplay.BattleSystem.BloodFXController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Gameplay.BattleSystem.BloodFXController.html"
         }
       },
       "version": ""

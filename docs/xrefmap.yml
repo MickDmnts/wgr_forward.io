@@ -3105,19 +3105,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.Ability.GetCachedUses
   nameWithType: Ability.GetCachedUses
-- uid: WGRF.Abilities.Ability.GetPointsForUpgrade
-  name: GetPointsForUpgrade()
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_GetPointsForUpgrade
-  commentId: M:WGRF.Abilities.Ability.GetPointsForUpgrade
-  fullName: WGRF.Abilities.Ability.GetPointsForUpgrade()
-  nameWithType: Ability.GetPointsForUpgrade()
-- uid: WGRF.Abilities.Ability.GetPointsForUpgrade*
-  name: GetPointsForUpgrade
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_GetPointsForUpgrade_
-  commentId: Overload:WGRF.Abilities.Ability.GetPointsForUpgrade
-  isSpec: "True"
-  fullName: WGRF.Abilities.Ability.GetPointsForUpgrade
-  nameWithType: Ability.GetPointsForUpgrade
 - uid: WGRF.Abilities.Ability.IsUnlocked
   name: IsUnlocked
   href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_IsUnlocked
@@ -3176,19 +3163,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.Ability.ResetAbilityUses
   nameWithType: Ability.ResetAbilityUses
-- uid: WGRF.Abilities.Ability.SkillPointsPerTier
-  name: SkillPointsPerTier()
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_SkillPointsPerTier
-  commentId: M:WGRF.Abilities.Ability.SkillPointsPerTier
-  fullName: WGRF.Abilities.Ability.SkillPointsPerTier()
-  nameWithType: Ability.SkillPointsPerTier()
-- uid: WGRF.Abilities.Ability.SkillPointsPerTier*
-  name: SkillPointsPerTier
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_SkillPointsPerTier_
-  commentId: Overload:WGRF.Abilities.Ability.SkillPointsPerTier
-  isSpec: "True"
-  fullName: WGRF.Abilities.Ability.SkillPointsPerTier
-  nameWithType: Ability.SkillPointsPerTier
 - uid: WGRF.Abilities.Ability.Start(System.Action)
   name: Start(Action)
   href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_Start_System_Action_
@@ -3272,6 +3246,267 @@ references:
   commentId: F:WGRF.Abilities.Ability.timer
   fullName: WGRF.Abilities.Ability.timer
   nameWithType: Ability.timer
+- uid: WGRF.Abilities.IRewindable
+  name: IRewindable
+  href: api/WGRF.Abilities.IRewindable.html
+  commentId: T:WGRF.Abilities.IRewindable
+  fullName: WGRF.Abilities.IRewindable
+  nameWithType: IRewindable
+- uid: WGRF.Abilities.IRewindable.GetPosition
+  name: GetPosition()
+  href: api/WGRF.Abilities.IRewindable.html#WGRF_Abilities_IRewindable_GetPosition
+  commentId: M:WGRF.Abilities.IRewindable.GetPosition
+  fullName: WGRF.Abilities.IRewindable.GetPosition()
+  nameWithType: IRewindable.GetPosition()
+- uid: WGRF.Abilities.IRewindable.GetPosition*
+  name: GetPosition
+  href: api/WGRF.Abilities.IRewindable.html#WGRF_Abilities_IRewindable_GetPosition_
+  commentId: Overload:WGRF.Abilities.IRewindable.GetPosition
+  isSpec: "True"
+  fullName: WGRF.Abilities.IRewindable.GetPosition
+  nameWithType: IRewindable.GetPosition
+- uid: WGRF.Abilities.IRewindable.SetPosition(UnityEngine.Vector3)
+  name: SetPosition(Vector3)
+  href: api/WGRF.Abilities.IRewindable.html#WGRF_Abilities_IRewindable_SetPosition_UnityEngine_Vector3_
+  commentId: M:WGRF.Abilities.IRewindable.SetPosition(UnityEngine.Vector3)
+  fullName: WGRF.Abilities.IRewindable.SetPosition(UnityEngine.Vector3)
+  nameWithType: IRewindable.SetPosition(Vector3)
+- uid: WGRF.Abilities.IRewindable.SetPosition*
+  name: SetPosition
+  href: api/WGRF.Abilities.IRewindable.html#WGRF_Abilities_IRewindable_SetPosition_
+  commentId: Overload:WGRF.Abilities.IRewindable.SetPosition
+  isSpec: "True"
+  fullName: WGRF.Abilities.IRewindable.SetPosition
+  nameWithType: IRewindable.SetPosition
+- uid: WGRF.Abilities.RewindTime
+  name: RewindTime
+  href: api/WGRF.Abilities.RewindTime.html
+  commentId: T:WGRF.Abilities.RewindTime
+  fullName: WGRF.Abilities.RewindTime
+  nameWithType: RewindTime
+- uid: WGRF.Abilities.RewindTime.#ctor(System.String,System.Int32,UnityEngine.Sprite,System.Boolean,WGRF.Abilities.Rewinder)
+  name: RewindTime(string, int, Sprite, bool, Rewinder)
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime__ctor_System_String_System_Int32_UnityEngine_Sprite_System_Boolean_WGRF_Abilities_Rewinder_
+  commentId: M:WGRF.Abilities.RewindTime.#ctor(System.String,System.Int32,UnityEngine.Sprite,System.Boolean,WGRF.Abilities.Rewinder)
+  name.vb: New(String, Integer, Sprite, Boolean, Rewinder)
+  fullName: WGRF.Abilities.RewindTime.RewindTime(string, int, UnityEngine.Sprite, bool, WGRF.Abilities.Rewinder)
+  fullName.vb: WGRF.Abilities.RewindTime.New(String, Integer, UnityEngine.Sprite, Boolean, WGRF.Abilities.Rewinder)
+  nameWithType: RewindTime.RewindTime(string, int, Sprite, bool, Rewinder)
+  nameWithType.vb: RewindTime.New(String, Integer, Sprite, Boolean, Rewinder)
+- uid: WGRF.Abilities.RewindTime.#ctor*
+  name: RewindTime
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime__ctor_
+  commentId: Overload:WGRF.Abilities.RewindTime.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.Abilities.RewindTime.RewindTime
+  fullName.vb: WGRF.Abilities.RewindTime.New
+  nameWithType: RewindTime.RewindTime
+  nameWithType.vb: RewindTime.New
+- uid: WGRF.Abilities.RewindTime.AbilityInfoFullReset
+  name: AbilityInfoFullReset()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_AbilityInfoFullReset
+  commentId: M:WGRF.Abilities.RewindTime.AbilityInfoFullReset
+  fullName: WGRF.Abilities.RewindTime.AbilityInfoFullReset()
+  nameWithType: RewindTime.AbilityInfoFullReset()
+- uid: WGRF.Abilities.RewindTime.AbilityInfoFullReset*
+  name: AbilityInfoFullReset
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_AbilityInfoFullReset_
+  commentId: Overload:WGRF.Abilities.RewindTime.AbilityInfoFullReset
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.AbilityInfoFullReset
+  nameWithType: RewindTime.AbilityInfoFullReset
+- uid: WGRF.Abilities.RewindTime.EnableAbility
+  name: EnableAbility()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_EnableAbility
+  commentId: M:WGRF.Abilities.RewindTime.EnableAbility
+  fullName: WGRF.Abilities.RewindTime.EnableAbility()
+  nameWithType: RewindTime.EnableAbility()
+- uid: WGRF.Abilities.RewindTime.EnableAbility*
+  name: EnableAbility
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_EnableAbility_
+  commentId: Overload:WGRF.Abilities.RewindTime.EnableAbility
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.EnableAbility
+  nameWithType: RewindTime.EnableAbility
+- uid: WGRF.Abilities.RewindTime.GetCachedUses
+  name: GetCachedUses()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_GetCachedUses
+  commentId: M:WGRF.Abilities.RewindTime.GetCachedUses
+  fullName: WGRF.Abilities.RewindTime.GetCachedUses()
+  nameWithType: RewindTime.GetCachedUses()
+- uid: WGRF.Abilities.RewindTime.GetCachedUses*
+  name: GetCachedUses
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_GetCachedUses_
+  commentId: Overload:WGRF.Abilities.RewindTime.GetCachedUses
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.GetCachedUses
+  nameWithType: RewindTime.GetCachedUses
+- uid: WGRF.Abilities.RewindTime.OnAbilityFinished
+  name: OnAbilityFinished()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_OnAbilityFinished
+  commentId: M:WGRF.Abilities.RewindTime.OnAbilityFinished
+  fullName: WGRF.Abilities.RewindTime.OnAbilityFinished()
+  nameWithType: RewindTime.OnAbilityFinished()
+- uid: WGRF.Abilities.RewindTime.OnAbilityFinished*
+  name: OnAbilityFinished
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_OnAbilityFinished_
+  commentId: Overload:WGRF.Abilities.RewindTime.OnAbilityFinished
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.OnAbilityFinished
+  nameWithType: RewindTime.OnAbilityFinished
+- uid: WGRF.Abilities.RewindTime.PlayAbilitySound
+  name: PlayAbilitySound()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_PlayAbilitySound
+  commentId: M:WGRF.Abilities.RewindTime.PlayAbilitySound
+  fullName: WGRF.Abilities.RewindTime.PlayAbilitySound()
+  nameWithType: RewindTime.PlayAbilitySound()
+- uid: WGRF.Abilities.RewindTime.PlayAbilitySound*
+  name: PlayAbilitySound
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_PlayAbilitySound_
+  commentId: Overload:WGRF.Abilities.RewindTime.PlayAbilitySound
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.PlayAbilitySound
+  nameWithType: RewindTime.PlayAbilitySound
+- uid: WGRF.Abilities.RewindTime.ResetAbilityUses
+  name: ResetAbilityUses()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_ResetAbilityUses
+  commentId: M:WGRF.Abilities.RewindTime.ResetAbilityUses
+  fullName: WGRF.Abilities.RewindTime.ResetAbilityUses()
+  nameWithType: RewindTime.ResetAbilityUses()
+- uid: WGRF.Abilities.RewindTime.ResetAbilityUses*
+  name: ResetAbilityUses
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_ResetAbilityUses_
+  commentId: Overload:WGRF.Abilities.RewindTime.ResetAbilityUses
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.ResetAbilityUses
+  nameWithType: RewindTime.ResetAbilityUses
+- uid: WGRF.Abilities.RewindTime.Start(System.Action)
+  name: Start(Action)
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_Start_System_Action_
+  commentId: M:WGRF.Abilities.RewindTime.Start(System.Action)
+  fullName: WGRF.Abilities.RewindTime.Start(System.Action)
+  nameWithType: RewindTime.Start(Action)
+- uid: WGRF.Abilities.RewindTime.Start*
+  name: Start
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_Start_
+  commentId: Overload:WGRF.Abilities.RewindTime.Start
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.Start
+  nameWithType: RewindTime.Start
+- uid: WGRF.Abilities.RewindTime.TryActivate
+  name: TryActivate()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_TryActivate
+  commentId: M:WGRF.Abilities.RewindTime.TryActivate
+  fullName: WGRF.Abilities.RewindTime.TryActivate()
+  nameWithType: RewindTime.TryActivate()
+- uid: WGRF.Abilities.RewindTime.TryActivate*
+  name: TryActivate
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_TryActivate_
+  commentId: Overload:WGRF.Abilities.RewindTime.TryActivate
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.TryActivate
+  nameWithType: RewindTime.TryActivate
+- uid: WGRF.Abilities.RewindTime.UpdateAbilityTick
+  name: UpdateAbilityTick()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_UpdateAbilityTick
+  commentId: M:WGRF.Abilities.RewindTime.UpdateAbilityTick
+  fullName: WGRF.Abilities.RewindTime.UpdateAbilityTick()
+  nameWithType: RewindTime.UpdateAbilityTick()
+- uid: WGRF.Abilities.RewindTime.UpdateAbilityTick*
+  name: UpdateAbilityTick
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_UpdateAbilityTick_
+  commentId: Overload:WGRF.Abilities.RewindTime.UpdateAbilityTick
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.UpdateAbilityTick
+  nameWithType: RewindTime.UpdateAbilityTick
+- uid: WGRF.Abilities.RewindTime.UpdateStatsPerTier
+  name: UpdateStatsPerTier()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_UpdateStatsPerTier
+  commentId: M:WGRF.Abilities.RewindTime.UpdateStatsPerTier
+  fullName: WGRF.Abilities.RewindTime.UpdateStatsPerTier()
+  nameWithType: RewindTime.UpdateStatsPerTier()
+- uid: WGRF.Abilities.RewindTime.UpdateStatsPerTier*
+  name: UpdateStatsPerTier
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_UpdateStatsPerTier_
+  commentId: Overload:WGRF.Abilities.RewindTime.UpdateStatsPerTier
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.UpdateStatsPerTier
+  nameWithType: RewindTime.UpdateStatsPerTier
+- uid: WGRF.Abilities.RewindTime.UpgradeAbility
+  name: UpgradeAbility()
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_UpgradeAbility
+  commentId: M:WGRF.Abilities.RewindTime.UpgradeAbility
+  fullName: WGRF.Abilities.RewindTime.UpgradeAbility()
+  nameWithType: RewindTime.UpgradeAbility()
+- uid: WGRF.Abilities.RewindTime.UpgradeAbility*
+  name: UpgradeAbility
+  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_UpgradeAbility_
+  commentId: Overload:WGRF.Abilities.RewindTime.UpgradeAbility
+  isSpec: "True"
+  fullName: WGRF.Abilities.RewindTime.UpgradeAbility
+  nameWithType: RewindTime.UpgradeAbility
+- uid: WGRF.Abilities.Rewinder
+  name: Rewinder
+  href: api/WGRF.Abilities.Rewinder.html
+  commentId: T:WGRF.Abilities.Rewinder
+  fullName: WGRF.Abilities.Rewinder
+  nameWithType: Rewinder
+- uid: WGRF.Abilities.Rewinder.CanRecord
+  name: CanRecord
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_CanRecord
+  commentId: P:WGRF.Abilities.Rewinder.CanRecord
+  fullName: WGRF.Abilities.Rewinder.CanRecord
+  nameWithType: Rewinder.CanRecord
+- uid: WGRF.Abilities.Rewinder.CanRecord*
+  name: CanRecord
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_CanRecord_
+  commentId: Overload:WGRF.Abilities.Rewinder.CanRecord
+  isSpec: "True"
+  fullName: WGRF.Abilities.Rewinder.CanRecord
+  nameWithType: Rewinder.CanRecord
+- uid: WGRF.Abilities.Rewinder.RecordEntity(WGRF.Abilities.IRewindable,System.Single)
+  name: RecordEntity(IRewindable, float)
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_RecordEntity_WGRF_Abilities_IRewindable_System_Single_
+  commentId: M:WGRF.Abilities.Rewinder.RecordEntity(WGRF.Abilities.IRewindable,System.Single)
+  name.vb: RecordEntity(IRewindable, Single)
+  fullName: WGRF.Abilities.Rewinder.RecordEntity(WGRF.Abilities.IRewindable, float)
+  fullName.vb: WGRF.Abilities.Rewinder.RecordEntity(WGRF.Abilities.IRewindable, Single)
+  nameWithType: Rewinder.RecordEntity(IRewindable, float)
+  nameWithType.vb: Rewinder.RecordEntity(IRewindable, Single)
+- uid: WGRF.Abilities.Rewinder.RecordEntity*
+  name: RecordEntity
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_RecordEntity_
+  commentId: Overload:WGRF.Abilities.Rewinder.RecordEntity
+  isSpec: "True"
+  fullName: WGRF.Abilities.Rewinder.RecordEntity
+  nameWithType: Rewinder.RecordEntity
+- uid: WGRF.Abilities.Rewinder.ResetRewinderBehaviour
+  name: ResetRewinderBehaviour()
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_ResetRewinderBehaviour
+  commentId: M:WGRF.Abilities.Rewinder.ResetRewinderBehaviour
+  fullName: WGRF.Abilities.Rewinder.ResetRewinderBehaviour()
+  nameWithType: Rewinder.ResetRewinderBehaviour()
+- uid: WGRF.Abilities.Rewinder.ResetRewinderBehaviour*
+  name: ResetRewinderBehaviour
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_ResetRewinderBehaviour_
+  commentId: Overload:WGRF.Abilities.Rewinder.ResetRewinderBehaviour
+  isSpec: "True"
+  fullName: WGRF.Abilities.Rewinder.ResetRewinderBehaviour
+  nameWithType: Rewinder.ResetRewinderBehaviour
+- uid: WGRF.Abilities.Rewinder.RewindEntity(WGRF.Abilities.IRewindable,System.Action)
+  name: RewindEntity(IRewindable, Action)
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_RewindEntity_WGRF_Abilities_IRewindable_System_Action_
+  commentId: M:WGRF.Abilities.Rewinder.RewindEntity(WGRF.Abilities.IRewindable,System.Action)
+  fullName: WGRF.Abilities.Rewinder.RewindEntity(WGRF.Abilities.IRewindable, System.Action)
+  nameWithType: Rewinder.RewindEntity(IRewindable, Action)
+- uid: WGRF.Abilities.Rewinder.RewindEntity*
+  name: RewindEntity
+  href: api/WGRF.Abilities.Rewinder.html#WGRF_Abilities_Rewinder_RewindEntity_
+  commentId: Overload:WGRF.Abilities.Rewinder.RewindEntity
+  isSpec: "True"
+  fullName: WGRF.Abilities.Rewinder.RewindEntity
+  nameWithType: Rewinder.RewindEntity
 - uid: WGRF.Abilities.SlowDownTime
   name: SlowDownTime
   href: api/WGRF.Abilities.SlowDownTime.html
@@ -3336,19 +3571,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.SlowDownTime.GetCachedUses
   nameWithType: SlowDownTime.GetCachedUses
-- uid: WGRF.Abilities.SlowDownTime.GetPointsForUpgrade
-  name: GetPointsForUpgrade()
-  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_GetPointsForUpgrade
-  commentId: M:WGRF.Abilities.SlowDownTime.GetPointsForUpgrade
-  fullName: WGRF.Abilities.SlowDownTime.GetPointsForUpgrade()
-  nameWithType: SlowDownTime.GetPointsForUpgrade()
-- uid: WGRF.Abilities.SlowDownTime.GetPointsForUpgrade*
-  name: GetPointsForUpgrade
-  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_GetPointsForUpgrade_
-  commentId: Overload:WGRF.Abilities.SlowDownTime.GetPointsForUpgrade
-  isSpec: "True"
-  fullName: WGRF.Abilities.SlowDownTime.GetPointsForUpgrade
-  nameWithType: SlowDownTime.GetPointsForUpgrade
 - uid: WGRF.Abilities.SlowDownTime.OnAbilityFinished
   name: OnAbilityFinished()
   href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_OnAbilityFinished
@@ -3388,19 +3610,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.SlowDownTime.ResetAbilityUses
   nameWithType: SlowDownTime.ResetAbilityUses
-- uid: WGRF.Abilities.SlowDownTime.SkillPointsPerTier
-  name: SkillPointsPerTier()
-  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_SkillPointsPerTier
-  commentId: M:WGRF.Abilities.SlowDownTime.SkillPointsPerTier
-  fullName: WGRF.Abilities.SlowDownTime.SkillPointsPerTier()
-  nameWithType: SlowDownTime.SkillPointsPerTier()
-- uid: WGRF.Abilities.SlowDownTime.SkillPointsPerTier*
-  name: SkillPointsPerTier
-  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_SkillPointsPerTier_
-  commentId: Overload:WGRF.Abilities.SlowDownTime.SkillPointsPerTier
-  isSpec: "True"
-  fullName: WGRF.Abilities.SlowDownTime.SkillPointsPerTier
-  nameWithType: SlowDownTime.SkillPointsPerTier
 - uid: WGRF.Abilities.SlowDownTime.Start(System.Action)
   name: Start(Action)
   href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_Start_System_Action_
@@ -3530,19 +3739,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.StopTime.GetCachedUses
   nameWithType: StopTime.GetCachedUses
-- uid: WGRF.Abilities.StopTime.GetPointsForUpgrade
-  name: GetPointsForUpgrade()
-  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_GetPointsForUpgrade
-  commentId: M:WGRF.Abilities.StopTime.GetPointsForUpgrade
-  fullName: WGRF.Abilities.StopTime.GetPointsForUpgrade()
-  nameWithType: StopTime.GetPointsForUpgrade()
-- uid: WGRF.Abilities.StopTime.GetPointsForUpgrade*
-  name: GetPointsForUpgrade
-  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_GetPointsForUpgrade_
-  commentId: Overload:WGRF.Abilities.StopTime.GetPointsForUpgrade
-  isSpec: "True"
-  fullName: WGRF.Abilities.StopTime.GetPointsForUpgrade
-  nameWithType: StopTime.GetPointsForUpgrade
 - uid: WGRF.Abilities.StopTime.OnAbilityFinished
   name: OnAbilityFinished()
   href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_OnAbilityFinished
@@ -3582,19 +3778,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.StopTime.ResetAbilityUses
   nameWithType: StopTime.ResetAbilityUses
-- uid: WGRF.Abilities.StopTime.SkillPointsPerTier
-  name: SkillPointsPerTier()
-  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_SkillPointsPerTier
-  commentId: M:WGRF.Abilities.StopTime.SkillPointsPerTier
-  fullName: WGRF.Abilities.StopTime.SkillPointsPerTier()
-  nameWithType: StopTime.SkillPointsPerTier()
-- uid: WGRF.Abilities.StopTime.SkillPointsPerTier*
-  name: SkillPointsPerTier
-  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_SkillPointsPerTier_
-  commentId: Overload:WGRF.Abilities.StopTime.SkillPointsPerTier
-  isSpec: "True"
-  fullName: WGRF.Abilities.StopTime.SkillPointsPerTier
-  nameWithType: StopTime.SkillPointsPerTier
 - uid: WGRF.Abilities.StopTime.Start(System.Action)
   name: Start(Action)
   href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_Start_System_Action_
@@ -5269,6 +5452,19 @@ references:
   commentId: T:WGRF.Core.ManagerHub
   fullName: WGRF.Core.ManagerHub
   nameWithType: ManagerHub
+- uid: WGRF.Core.ManagerHub.AbilityManager
+  name: AbilityManager
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AbilityManager
+  commentId: P:WGRF.Core.ManagerHub.AbilityManager
+  fullName: WGRF.Core.ManagerHub.AbilityManager
+  nameWithType: ManagerHub.AbilityManager
+- uid: WGRF.Core.ManagerHub.AbilityManager*
+  name: AbilityManager
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AbilityManager_
+  commentId: Overload:WGRF.Core.ManagerHub.AbilityManager
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.AbilityManager
+  nameWithType: ManagerHub.AbilityManager
 - uid: WGRF.Core.ManagerHub.AttachPlayerController(WGRF.Core.Controller)
   name: AttachPlayerController(Controller)
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AttachPlayerController_WGRF_Core_Controller_
@@ -5437,6 +5633,169 @@ references:
   commentId: N:WGRF.Core.Managers
   fullName: WGRF.Core.Managers
   nameWithType: WGRF.Core.Managers
+- uid: WGRF.Core.Managers.AbilityManager
+  name: AbilityManager
+  href: api/WGRF.Core.Managers.AbilityManager.html
+  commentId: T:WGRF.Core.Managers.AbilityManager
+  fullName: WGRF.Core.Managers.AbilityManager
+  nameWithType: AbilityManager
+- uid: WGRF.Core.Managers.AbilityManager.AbilitiesCanActivate
+  name: AbilitiesCanActivate
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_AbilitiesCanActivate
+  commentId: P:WGRF.Core.Managers.AbilityManager.AbilitiesCanActivate
+  fullName: WGRF.Core.Managers.AbilityManager.AbilitiesCanActivate
+  nameWithType: AbilityManager.AbilitiesCanActivate
+- uid: WGRF.Core.Managers.AbilityManager.AbilitiesCanActivate*
+  name: AbilitiesCanActivate
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_AbilitiesCanActivate_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.AbilitiesCanActivate
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.AbilitiesCanActivate
+  nameWithType: AbilityManager.AbilitiesCanActivate
+- uid: WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle
+  name: AbilitiesCanCycle
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_AbilitiesCanCycle
+  commentId: P:WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle
+  fullName: WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle
+  nameWithType: AbilityManager.AbilitiesCanCycle
+- uid: WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle*
+  name: AbilitiesCanCycle
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_AbilitiesCanCycle_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle
+  nameWithType: AbilityManager.AbilitiesCanCycle
+- uid: WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex
+  name: ActiveAbilityIndex
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_ActiveAbilityIndex
+  commentId: P:WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex
+  fullName: WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex
+  nameWithType: AbilityManager.ActiveAbilityIndex
+- uid: WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex*
+  name: ActiveAbilityIndex
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_ActiveAbilityIndex_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex
+  nameWithType: AbilityManager.ActiveAbilityIndex
+- uid: WGRF.Core.Managers.AbilityManager.CanRewind(System.Boolean)
+  name: CanRewind(bool)
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_CanRewind_System_Boolean_
+  commentId: M:WGRF.Core.Managers.AbilityManager.CanRewind(System.Boolean)
+  name.vb: CanRewind(Boolean)
+  fullName: WGRF.Core.Managers.AbilityManager.CanRewind(bool)
+  fullName.vb: WGRF.Core.Managers.AbilityManager.CanRewind(Boolean)
+  nameWithType: AbilityManager.CanRewind(bool)
+  nameWithType.vb: AbilityManager.CanRewind(Boolean)
+- uid: WGRF.Core.Managers.AbilityManager.CanRewind*
+  name: CanRewind
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_CanRewind_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.CanRewind
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.CanRewind
+  nameWithType: AbilityManager.CanRewind
+- uid: WGRF.Core.Managers.AbilityManager.EnableAbilities
+  name: EnableAbilities()
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_EnableAbilities
+  commentId: M:WGRF.Core.Managers.AbilityManager.EnableAbilities
+  fullName: WGRF.Core.Managers.AbilityManager.EnableAbilities()
+  nameWithType: AbilityManager.EnableAbilities()
+- uid: WGRF.Core.Managers.AbilityManager.EnableAbilities*
+  name: EnableAbilities
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_EnableAbilities_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.EnableAbilities
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.EnableAbilities
+  nameWithType: AbilityManager.EnableAbilities
+- uid: WGRF.Core.Managers.AbilityManager.GetAbilityCurrentTier(WGRF.Core.Managers.AbilityType)
+  name: GetAbilityCurrentTier(AbilityType)
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_GetAbilityCurrentTier_WGRF_Core_Managers_AbilityType_
+  commentId: M:WGRF.Core.Managers.AbilityManager.GetAbilityCurrentTier(WGRF.Core.Managers.AbilityType)
+  fullName: WGRF.Core.Managers.AbilityManager.GetAbilityCurrentTier(WGRF.Core.Managers.AbilityType)
+  nameWithType: AbilityManager.GetAbilityCurrentTier(AbilityType)
+- uid: WGRF.Core.Managers.AbilityManager.GetAbilityCurrentTier*
+  name: GetAbilityCurrentTier
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_GetAbilityCurrentTier_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.GetAbilityCurrentTier
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.GetAbilityCurrentTier
+  nameWithType: AbilityManager.GetAbilityCurrentTier
+- uid: WGRF.Core.Managers.AbilityManager.GetAbilityDescription(WGRF.Core.Managers.AbilityType)
+  name: GetAbilityDescription(AbilityType)
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_GetAbilityDescription_WGRF_Core_Managers_AbilityType_
+  commentId: M:WGRF.Core.Managers.AbilityManager.GetAbilityDescription(WGRF.Core.Managers.AbilityType)
+  fullName: WGRF.Core.Managers.AbilityManager.GetAbilityDescription(WGRF.Core.Managers.AbilityType)
+  nameWithType: AbilityManager.GetAbilityDescription(AbilityType)
+- uid: WGRF.Core.Managers.AbilityManager.GetAbilityDescription*
+  name: GetAbilityDescription
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_GetAbilityDescription_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.GetAbilityDescription
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.GetAbilityDescription
+  nameWithType: AbilityManager.GetAbilityDescription
+- uid: WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility
+  name: GetCurrentSelectedAbility()
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_GetCurrentSelectedAbility
+  commentId: M:WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility
+  fullName: WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility()
+  nameWithType: AbilityManager.GetCurrentSelectedAbility()
+- uid: WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility*
+  name: GetCurrentSelectedAbility
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_GetCurrentSelectedAbility_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility
+  nameWithType: AbilityManager.GetCurrentSelectedAbility
+- uid: WGRF.Core.Managers.AbilityManager.PreAwake
+  name: PreAwake()
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_PreAwake
+  commentId: M:WGRF.Core.Managers.AbilityManager.PreAwake
+  fullName: WGRF.Core.Managers.AbilityManager.PreAwake()
+  nameWithType: AbilityManager.PreAwake()
+- uid: WGRF.Core.Managers.AbilityManager.PreAwake*
+  name: PreAwake
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_PreAwake_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.PreAwake
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.PreAwake
+  nameWithType: AbilityManager.PreAwake
+- uid: WGRF.Core.Managers.AbilityManager.UpdateAbilityTier(WGRF.Core.Managers.AbilityType)
+  name: UpdateAbilityTier(AbilityType)
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_UpdateAbilityTier_WGRF_Core_Managers_AbilityType_
+  commentId: M:WGRF.Core.Managers.AbilityManager.UpdateAbilityTier(WGRF.Core.Managers.AbilityType)
+  fullName: WGRF.Core.Managers.AbilityManager.UpdateAbilityTier(WGRF.Core.Managers.AbilityType)
+  nameWithType: AbilityManager.UpdateAbilityTier(AbilityType)
+- uid: WGRF.Core.Managers.AbilityManager.UpdateAbilityTier*
+  name: UpdateAbilityTier
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_UpdateAbilityTier_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.UpdateAbilityTier
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.UpdateAbilityTier
+  nameWithType: AbilityManager.UpdateAbilityTier
+- uid: WGRF.Core.Managers.AbilityType
+  name: AbilityType
+  href: api/WGRF.Core.Managers.AbilityType.html
+  commentId: T:WGRF.Core.Managers.AbilityType
+  fullName: WGRF.Core.Managers.AbilityType
+  nameWithType: AbilityType
+- uid: WGRF.Core.Managers.AbilityType.RewindTime
+  name: RewindTime
+  href: api/WGRF.Core.Managers.AbilityType.html#WGRF_Core_Managers_AbilityType_RewindTime
+  commentId: F:WGRF.Core.Managers.AbilityType.RewindTime
+  fullName: WGRF.Core.Managers.AbilityType.RewindTime
+  nameWithType: AbilityType.RewindTime
+- uid: WGRF.Core.Managers.AbilityType.Slowtime
+  name: Slowtime
+  href: api/WGRF.Core.Managers.AbilityType.html#WGRF_Core_Managers_AbilityType_Slowtime
+  commentId: F:WGRF.Core.Managers.AbilityType.Slowtime
+  fullName: WGRF.Core.Managers.AbilityType.Slowtime
+  nameWithType: AbilityType.Slowtime
+- uid: WGRF.Core.Managers.AbilityType.StopTime
+  name: StopTime
+  href: api/WGRF.Core.Managers.AbilityType.html#WGRF_Core_Managers_AbilityType_StopTime
+  commentId: F:WGRF.Core.Managers.AbilityType.StopTime
+  fullName: WGRF.Core.Managers.AbilityType.StopTime
+  nameWithType: AbilityType.StopTime
 - uid: WGRF.Core.Managers.BulletPool
   name: BulletPool
   href: api/WGRF.Core.Managers.BulletPool.html
@@ -6495,6 +6854,12 @@ references:
   commentId: N:WGRF.Gameplay.BattleSystem
   fullName: WGRF.Gameplay.BattleSystem
   nameWithType: WGRF.Gameplay.BattleSystem
+- uid: WGRF.Gameplay.BattleSystem.BloodFXController
+  name: BloodFXController
+  href: api/WGRF.Gameplay.BattleSystem.BloodFXController.html
+  commentId: T:WGRF.Gameplay.BattleSystem.BloodFXController
+  fullName: WGRF.Gameplay.BattleSystem.BloodFXController
+  nameWithType: BloodFXController
 - uid: WGRF.Gameplay.BattleSystem.PlayerAttack
   name: PlayerAttack
   href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html
