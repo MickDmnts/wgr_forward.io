@@ -3855,27 +3855,11 @@ references:
   commentId: T:WGRF.BattleSystem.Bullet
   fullName: WGRF.BattleSystem.Bullet
   nameWithType: Bullet
-- uid: WGRF.BattleSystem.Bullet.ChangeSpeed(System.Single)
-  name: ChangeSpeed(float)
-  href: api/WGRF.BattleSystem.Bullet.html#WGRF_BattleSystem_Bullet_ChangeSpeed_System_Single_
-  commentId: M:WGRF.BattleSystem.Bullet.ChangeSpeed(System.Single)
-  name.vb: ChangeSpeed(Single)
-  fullName: WGRF.BattleSystem.Bullet.ChangeSpeed(float)
-  fullName.vb: WGRF.BattleSystem.Bullet.ChangeSpeed(Single)
-  nameWithType: Bullet.ChangeSpeed(float)
-  nameWithType.vb: Bullet.ChangeSpeed(Single)
-- uid: WGRF.BattleSystem.Bullet.ChangeSpeed*
-  name: ChangeSpeed
-  href: api/WGRF.BattleSystem.Bullet.html#WGRF_BattleSystem_Bullet_ChangeSpeed_
-  commentId: Overload:WGRF.BattleSystem.Bullet.ChangeSpeed
-  isSpec: "True"
-  fullName: WGRF.BattleSystem.Bullet.ChangeSpeed
-  nameWithType: Bullet.ChangeSpeed
-- uid: WGRF.BattleSystem.Bullet.SetBulletType(WGRF.Core.Managers.BulletType)
+- uid: WGRF.BattleSystem.Bullet.SetBulletType(WGRF.Core.BulletType)
   name: SetBulletType(BulletType)
-  href: api/WGRF.BattleSystem.Bullet.html#WGRF_BattleSystem_Bullet_SetBulletType_WGRF_Core_Managers_BulletType_
-  commentId: M:WGRF.BattleSystem.Bullet.SetBulletType(WGRF.Core.Managers.BulletType)
-  fullName: WGRF.BattleSystem.Bullet.SetBulletType(WGRF.Core.Managers.BulletType)
+  href: api/WGRF.BattleSystem.Bullet.html#WGRF_BattleSystem_Bullet_SetBulletType_WGRF_Core_BulletType_
+  commentId: M:WGRF.BattleSystem.Bullet.SetBulletType(WGRF.Core.BulletType)
+  fullName: WGRF.BattleSystem.Bullet.SetBulletType(WGRF.Core.BulletType)
   nameWithType: Bullet.SetBulletType(BulletType)
 - uid: WGRF.BattleSystem.Bullet.SetBulletType*
   name: SetBulletType
@@ -4415,6 +4399,43 @@ references:
   commentId: E:WGRF.Core.AsyncGameObjectLoaderHandle.Completed
   fullName: WGRF.Core.AsyncGameObjectLoaderHandle.Completed
   nameWithType: AsyncGameObjectLoaderHandle.Completed
+- uid: WGRF.Core.BulletHandler
+  name: BulletHandler
+  href: api/WGRF.Core.BulletHandler.html
+  commentId: T:WGRF.Core.BulletHandler
+  fullName: WGRF.Core.BulletHandler
+  nameWithType: BulletHandler
+- uid: WGRF.Core.BulletHandler.GetBullet
+  name: GetBullet()
+  href: api/WGRF.Core.BulletHandler.html#WGRF_Core_BulletHandler_GetBullet
+  commentId: M:WGRF.Core.BulletHandler.GetBullet
+  fullName: WGRF.Core.BulletHandler.GetBullet()
+  nameWithType: BulletHandler.GetBullet()
+- uid: WGRF.Core.BulletHandler.GetBullet*
+  name: GetBullet
+  href: api/WGRF.Core.BulletHandler.html#WGRF_Core_BulletHandler_GetBullet_
+  commentId: Overload:WGRF.Core.BulletHandler.GetBullet
+  isSpec: "True"
+  fullName: WGRF.Core.BulletHandler.GetBullet
+  nameWithType: BulletHandler.GetBullet
+- uid: WGRF.Core.BulletType
+  name: BulletType
+  href: api/WGRF.Core.BulletType.html
+  commentId: T:WGRF.Core.BulletType
+  fullName: WGRF.Core.BulletType
+  nameWithType: BulletType
+- uid: WGRF.Core.BulletType.Enemy
+  name: Enemy
+  href: api/WGRF.Core.BulletType.html#WGRF_Core_BulletType_Enemy
+  commentId: F:WGRF.Core.BulletType.Enemy
+  fullName: WGRF.Core.BulletType.Enemy
+  nameWithType: BulletType.Enemy
+- uid: WGRF.Core.BulletType.Player
+  name: Player
+  href: api/WGRF.Core.BulletType.html#WGRF_Core_BulletType_Player
+  commentId: F:WGRF.Core.BulletType.Player
+  fullName: WGRF.Core.BulletType.Player
+  nameWithType: BulletType.Player
 - uid: WGRF.Core.Controller
   name: Controller
   href: api/WGRF.Core.Controller.html
@@ -4687,6 +4708,12 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.CursorHandler.SetCursorVisible
   nameWithType: CursorHandler.SetCursorVisible
+- uid: WGRF.Core.GameAudioClip
+  name: GameAudioClip
+  href: api/WGRF.Core.GameAudioClip.html
+  commentId: T:WGRF.Core.GameAudioClip
+  fullName: WGRF.Core.GameAudioClip
+  nameWithType: GameAudioClip
 - uid: WGRF.Core.GameEventsHandler
   name: GameEventsHandler
   href: api/WGRF.Core.GameEventsHandler.html
@@ -5203,6 +5230,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy
   nameWithType: GameSoundsHandler.IncreaseSFXVolumeBy
+- uid: WGRF.Core.GameSoundsHandler.PlayOneShotSFX(WGRF.Core.GameAudioClip)
+  name: PlayOneShotSFX(GameAudioClip)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayOneShotSFX_WGRF_Core_GameAudioClip_
+  commentId: M:WGRF.Core.GameSoundsHandler.PlayOneShotSFX(WGRF.Core.GameAudioClip)
+  fullName: WGRF.Core.GameSoundsHandler.PlayOneShotSFX(WGRF.Core.GameAudioClip)
+  nameWithType: GameSoundsHandler.PlayOneShotSFX(GameAudioClip)
+- uid: WGRF.Core.GameSoundsHandler.PlayOneShotSFX*
+  name: PlayOneShotSFX
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayOneShotSFX_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.PlayOneShotSFX
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.PlayOneShotSFX
+  nameWithType: GameSoundsHandler.PlayOneShotSFX
 - uid: WGRF.Core.GameSoundsHandler.PreAwake
   name: PreAwake()
   href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PreAwake

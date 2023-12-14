@@ -565,6 +565,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.BulletHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.BulletHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.BulletType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.BulletType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.Controller.yml",
       "output": {
         ".html": {
@@ -589,6 +609,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Core.CursorHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.GameAudioClip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.GameAudioClip.html"
         }
       },
       "version": ""
