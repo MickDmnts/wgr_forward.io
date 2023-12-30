@@ -520,15 +520,12 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.Entities.Hostile.AIEntityWeapon.SetStartDefaults
   nameWithType: AIEntityWeapon.SetStartDefaults
-- uid: WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name: SetWeaponInfo(Weapon, int)
-  href: api/WGRF.AI.Entities.Hostile.AIEntityWeapon.html#WGRF_AI_Entities_Hostile_AIEntityWeapon_SetWeaponInfo_WGRF_BattleSystem_Weapon_System_Int32_
-  commentId: M:WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name.vb: SetWeaponInfo(Weapon, Integer)
-  fullName: WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon, int)
-  fullName.vb: WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon, Integer)
-  nameWithType: AIEntityWeapon.SetWeaponInfo(Weapon, int)
-  nameWithType.vb: AIEntityWeapon.SetWeaponInfo(Weapon, Integer)
+- uid: WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  name: SetWeaponInfo(Weapon)
+  href: api/WGRF.AI.Entities.Hostile.AIEntityWeapon.html#WGRF_AI_Entities_Hostile_AIEntityWeapon_SetWeaponInfo_WGRF_BattleSystem_Weapon_
+  commentId: M:WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  fullName: WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  nameWithType: AIEntityWeapon.SetWeaponInfo(Weapon)
 - uid: WGRF.AI.Entities.Hostile.AIEntityWeapon.SetWeaponInfo*
   name: SetWeaponInfo
   href: api/WGRF.AI.Entities.Hostile.AIEntityWeapon.html#WGRF_AI_Entities_Hostile_AIEntityWeapon_SetWeaponInfo_
@@ -1235,15 +1232,12 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetStartDefaults
   nameWithType: EnemyWeapon.SetStartDefaults
-- uid: WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name: SetWeaponInfo(Weapon, int)
-  href: api/WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.html#WGRF_AI_Entities_Hostile_Generic_EnemyWeapon_SetWeaponInfo_WGRF_BattleSystem_Weapon_System_Int32_
-  commentId: M:WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name.vb: SetWeaponInfo(Weapon, Integer)
-  fullName: WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon, int)
-  fullName.vb: WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon, Integer)
-  nameWithType: EnemyWeapon.SetWeaponInfo(Weapon, int)
-  nameWithType.vb: EnemyWeapon.SetWeaponInfo(Weapon, Integer)
+- uid: WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  name: SetWeaponInfo(Weapon)
+  href: api/WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.html#WGRF_AI_Entities_Hostile_Generic_EnemyWeapon_SetWeaponInfo_WGRF_BattleSystem_Weapon_
+  commentId: M:WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  fullName: WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  nameWithType: EnemyWeapon.SetWeaponInfo(Weapon)
 - uid: WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.SetWeaponInfo*
   name: SetWeaponInfo
   href: api/WGRF.AI.Entities.Hostile.Generic.EnemyWeapon.html#WGRF_AI_Entities_Hostile_Generic_EnemyWeapon_SetWeaponInfo_
@@ -3925,15 +3919,12 @@ references:
   commentId: T:WGRF.BattleSystem.IShooter
   fullName: WGRF.BattleSystem.IShooter
   nameWithType: IShooter
-- uid: WGRF.BattleSystem.IShooter.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name: SetWeaponInfo(Weapon, int)
-  href: api/WGRF.BattleSystem.IShooter.html#WGRF_BattleSystem_IShooter_SetWeaponInfo_WGRF_BattleSystem_Weapon_System_Int32_
-  commentId: M:WGRF.BattleSystem.IShooter.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name.vb: SetWeaponInfo(Weapon, Integer)
-  fullName: WGRF.BattleSystem.IShooter.SetWeaponInfo(WGRF.BattleSystem.Weapon, int)
-  fullName.vb: WGRF.BattleSystem.IShooter.SetWeaponInfo(WGRF.BattleSystem.Weapon, Integer)
-  nameWithType: IShooter.SetWeaponInfo(Weapon, int)
-  nameWithType.vb: IShooter.SetWeaponInfo(Weapon, Integer)
+- uid: WGRF.BattleSystem.IShooter.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  name: SetWeaponInfo(Weapon)
+  href: api/WGRF.BattleSystem.IShooter.html#WGRF_BattleSystem_IShooter_SetWeaponInfo_WGRF_BattleSystem_Weapon_
+  commentId: M:WGRF.BattleSystem.IShooter.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  fullName: WGRF.BattleSystem.IShooter.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  nameWithType: IShooter.SetWeaponInfo(Weapon)
 - uid: WGRF.BattleSystem.IShooter.SetWeaponInfo*
   name: SetWeaponInfo
   href: api/WGRF.BattleSystem.IShooter.html#WGRF_BattleSystem_IShooter_SetWeaponInfo_
@@ -5622,6 +5613,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.PlayerController
   nameWithType: ManagerHub.PlayerController
+- uid: WGRF.Core.ManagerHub.RewardSelector
+  name: RewardSelector
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_RewardSelector
+  commentId: P:WGRF.Core.ManagerHub.RewardSelector
+  fullName: WGRF.Core.ManagerHub.RewardSelector
+  nameWithType: ManagerHub.RewardSelector
+- uid: WGRF.Core.ManagerHub.RewardSelector*
+  name: RewardSelector
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_RewardSelector_
+  commentId: Overload:WGRF.Core.ManagerHub.RewardSelector
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.RewardSelector
+  nameWithType: ManagerHub.RewardSelector
 - uid: WGRF.Core.ManagerHub.S
   name: S
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_S
@@ -5886,6 +5890,51 @@ references:
   commentId: F:WGRF.Core.Managers.BulletType.Player
   fullName: WGRF.Core.Managers.BulletType.Player
   nameWithType: BulletType.Player
+- uid: WGRF.Core.RewardSelector
+  name: RewardSelector
+  href: api/WGRF.Core.RewardSelector.html
+  commentId: T:WGRF.Core.RewardSelector
+  fullName: WGRF.Core.RewardSelector
+  nameWithType: RewardSelector
+- uid: WGRF.Core.RewardSelector.GetWeaponUpdate
+  name: GetWeaponUpdate()
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_GetWeaponUpdate
+  commentId: M:WGRF.Core.RewardSelector.GetWeaponUpdate
+  fullName: WGRF.Core.RewardSelector.GetWeaponUpdate()
+  nameWithType: RewardSelector.GetWeaponUpdate()
+- uid: WGRF.Core.RewardSelector.GetWeaponUpdate*
+  name: GetWeaponUpdate
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_GetWeaponUpdate_
+  commentId: Overload:WGRF.Core.RewardSelector.GetWeaponUpdate
+  isSpec: "True"
+  fullName: WGRF.Core.RewardSelector.GetWeaponUpdate
+  nameWithType: RewardSelector.GetWeaponUpdate
+- uid: WGRF.Core.RewardSelector.PreAwake
+  name: PreAwake()
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_PreAwake
+  commentId: M:WGRF.Core.RewardSelector.PreAwake
+  fullName: WGRF.Core.RewardSelector.PreAwake()
+  nameWithType: RewardSelector.PreAwake()
+- uid: WGRF.Core.RewardSelector.PreAwake*
+  name: PreAwake
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_PreAwake_
+  commentId: Overload:WGRF.Core.RewardSelector.PreAwake
+  isSpec: "True"
+  fullName: WGRF.Core.RewardSelector.PreAwake
+  nameWithType: RewardSelector.PreAwake
+- uid: WGRF.Core.RewardSelector.ResetRewards
+  name: ResetRewards()
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_ResetRewards
+  commentId: M:WGRF.Core.RewardSelector.ResetRewards
+  fullName: WGRF.Core.RewardSelector.ResetRewards()
+  nameWithType: RewardSelector.ResetRewards()
+- uid: WGRF.Core.RewardSelector.ResetRewards*
+  name: ResetRewards
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_ResetRewards_
+  commentId: Overload:WGRF.Core.RewardSelector.ResetRewards
+  isSpec: "True"
+  fullName: WGRF.Core.RewardSelector.ResetRewards
+  nameWithType: RewardSelector.ResetRewards
 - uid: WGRF.Core.SettingsHandler
   name: SettingsHandler
   href: api/WGRF.Core.SettingsHandler.html
@@ -5969,15 +6018,15 @@ references:
   commentId: T:WGRF.Core.StageHandler
   fullName: WGRF.Core.StageHandler
   nameWithType: StageHandler
-- uid: WGRF.Core.StageHandler.#ctor
-  name: StageHandler()
-  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler__ctor
-  commentId: M:WGRF.Core.StageHandler.#ctor
-  name.vb: New()
-  fullName: WGRF.Core.StageHandler.StageHandler()
-  fullName.vb: WGRF.Core.StageHandler.New()
-  nameWithType: StageHandler.StageHandler()
-  nameWithType.vb: StageHandler.New()
+- uid: WGRF.Core.StageHandler.#ctor(System.Boolean)
+  name: StageHandler(bool)
+  href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler__ctor_System_Boolean_
+  commentId: M:WGRF.Core.StageHandler.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: WGRF.Core.StageHandler.StageHandler(bool)
+  fullName.vb: WGRF.Core.StageHandler.New(Boolean)
+  nameWithType: StageHandler.StageHandler(bool)
+  nameWithType.vb: StageHandler.New(Boolean)
 - uid: WGRF.Core.StageHandler.#ctor*
   name: StageHandler
   href: api/WGRF.Core.StageHandler.html#WGRF_Core_StageHandler__ctor_
@@ -6275,15 +6324,12 @@ references:
   commentId: T:WGRF.Entities.BattleSystem.Shooter
   fullName: WGRF.Entities.BattleSystem.Shooter
   nameWithType: Shooter
-- uid: WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name: SetWeaponInfo(Weapon, int)
-  href: api/WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_SetWeaponInfo_WGRF_BattleSystem_Weapon_System_Int32_
-  commentId: M:WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name.vb: SetWeaponInfo(Weapon, Integer)
-  fullName: WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon, int)
-  fullName.vb: WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon, Integer)
-  nameWithType: Shooter.SetWeaponInfo(Weapon, int)
-  nameWithType.vb: Shooter.SetWeaponInfo(Weapon, Integer)
+- uid: WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  name: SetWeaponInfo(Weapon)
+  href: api/WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_SetWeaponInfo_WGRF_BattleSystem_Weapon_
+  commentId: M:WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  fullName: WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  nameWithType: Shooter.SetWeaponInfo(Weapon)
 - uid: WGRF.Entities.BattleSystem.Shooter.SetWeaponInfo*
   name: SetWeaponInfo
   href: api/WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_SetWeaponInfo_
@@ -6316,12 +6362,12 @@ references:
   commentId: F:WGRF.Entities.BattleSystem.Shooter.bulletSpreadRate
   fullName: WGRF.Entities.BattleSystem.Shooter.bulletSpreadRate
   nameWithType: Shooter.bulletSpreadRate
-- uid: WGRF.Entities.BattleSystem.Shooter.bulletsLeft
-  name: bulletsLeft
-  href: api/WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_bulletsLeft
-  commentId: F:WGRF.Entities.BattleSystem.Shooter.bulletsLeft
-  fullName: WGRF.Entities.BattleSystem.Shooter.bulletsLeft
-  nameWithType: Shooter.bulletsLeft
+- uid: WGRF.Entities.BattleSystem.Shooter.bulletsPerMag
+  name: bulletsPerMag
+  href: api/WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_bulletsPerMag
+  commentId: F:WGRF.Entities.BattleSystem.Shooter.bulletsPerMag
+  fullName: WGRF.Entities.BattleSystem.Shooter.bulletsPerMag
+  nameWithType: Shooter.bulletsPerMag
 - uid: WGRF.Entities.BattleSystem.Shooter.canShoot
   name: canShoot
   href: api/WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_canShoot
@@ -6552,19 +6598,19 @@ references:
   commentId: T:WGRF.Entities.Player.PlayerAnimations
   fullName: WGRF.Entities.Player.PlayerAnimations
   nameWithType: PlayerAnimations
-- uid: WGRF.Entities.Player.PlayerAnimations.GetAnimator
-  name: GetAnimator()
-  href: api/WGRF.Entities.Player.PlayerAnimations.html#WGRF_Entities_Player_PlayerAnimations_GetAnimator
-  commentId: M:WGRF.Entities.Player.PlayerAnimations.GetAnimator
-  fullName: WGRF.Entities.Player.PlayerAnimations.GetAnimator()
-  nameWithType: PlayerAnimations.GetAnimator()
-- uid: WGRF.Entities.Player.PlayerAnimations.GetAnimator*
-  name: GetAnimator
-  href: api/WGRF.Entities.Player.PlayerAnimations.html#WGRF_Entities_Player_PlayerAnimations_GetAnimator_
-  commentId: Overload:WGRF.Entities.Player.PlayerAnimations.GetAnimator
+- uid: WGRF.Entities.Player.PlayerAnimations.Animator
+  name: Animator
+  href: api/WGRF.Entities.Player.PlayerAnimations.html#WGRF_Entities_Player_PlayerAnimations_Animator
+  commentId: P:WGRF.Entities.Player.PlayerAnimations.Animator
+  fullName: WGRF.Entities.Player.PlayerAnimations.Animator
+  nameWithType: PlayerAnimations.Animator
+- uid: WGRF.Entities.Player.PlayerAnimations.Animator*
+  name: Animator
+  href: api/WGRF.Entities.Player.PlayerAnimations.html#WGRF_Entities_Player_PlayerAnimations_Animator_
+  commentId: Overload:WGRF.Entities.Player.PlayerAnimations.Animator
   isSpec: "True"
-  fullName: WGRF.Entities.Player.PlayerAnimations.GetAnimator
-  nameWithType: PlayerAnimations.GetAnimator
+  fullName: WGRF.Entities.Player.PlayerAnimations.Animator
+  nameWithType: PlayerAnimations.Animator
 - uid: WGRF.Entities.Player.PlayerAnimations.PlayDeathAnimation
   name: PlayDeathAnimation()
   href: api/WGRF.Entities.Player.PlayerAnimations.html#WGRF_Entities_Player_PlayerAnimations_PlayDeathAnimation
@@ -6906,12 +6952,6 @@ references:
   commentId: T:WGRF.Gameplay.BattleSystem.PlayerAttack
   fullName: WGRF.Gameplay.BattleSystem.PlayerAttack
   nameWithType: PlayerAttack
-- uid: WGRF.Gameplay.BattleSystem.PlayerAttack.IsAttackActive
-  name: IsAttackActive
-  href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_IsAttackActive
-  commentId: F:WGRF.Gameplay.BattleSystem.PlayerAttack.IsAttackActive
-  fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.IsAttackActive
-  nameWithType: PlayerAttack.IsAttackActive
 - uid: WGRF.Gameplay.BattleSystem.PlayerAttack.PreAwake
   name: PreAwake()
   href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_PreAwake
@@ -6938,15 +6978,38 @@ references:
   isSpec: "True"
   fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.PreDestroy
   nameWithType: PlayerAttack.PreDestroy
-- uid: WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name: SetWeaponInfo(Weapon, int)
-  href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_SetWeaponInfo_WGRF_BattleSystem_Weapon_System_Int32_
-  commentId: M:WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)
-  name.vb: SetWeaponInfo(Weapon, Integer)
-  fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon, int)
-  fullName.vb: WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon, Integer)
-  nameWithType: PlayerAttack.SetWeaponInfo(Weapon, int)
-  nameWithType.vb: PlayerAttack.SetWeaponInfo(Weapon, Integer)
+- uid: WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon(WGRF.BattleSystem.Weapon)
+  name: SetCurrentRoomWeapon(Weapon)
+  href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_SetCurrentRoomWeapon_WGRF_BattleSystem_Weapon_
+  commentId: M:WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon(WGRF.BattleSystem.Weapon)
+  fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon(WGRF.BattleSystem.Weapon)
+  nameWithType: PlayerAttack.SetCurrentRoomWeapon(Weapon)
+- uid: WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon*
+  name: SetCurrentRoomWeapon
+  href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_SetCurrentRoomWeapon_
+  commentId: Overload:WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon
+  isSpec: "True"
+  fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon
+  nameWithType: PlayerAttack.SetCurrentRoomWeapon
+- uid: WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject(UnityEngine.GameObject)
+  name: SetHeldObject(GameObject)
+  href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_SetHeldObject_UnityEngine_GameObject_
+  commentId: M:WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject(UnityEngine.GameObject)
+  fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject(UnityEngine.GameObject)
+  nameWithType: PlayerAttack.SetHeldObject(GameObject)
+- uid: WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject*
+  name: SetHeldObject
+  href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_SetHeldObject_
+  commentId: Overload:WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject
+  isSpec: "True"
+  fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject
+  nameWithType: PlayerAttack.SetHeldObject
+- uid: WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  name: SetWeaponInfo(Weapon)
+  href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_SetWeaponInfo_WGRF_BattleSystem_Weapon_
+  commentId: M:WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  fullName: WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon)
+  nameWithType: PlayerAttack.SetWeaponInfo(Weapon)
 - uid: WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo*
   name: SetWeaponInfo
   href: api/WGRF.Gameplay.BattleSystem.PlayerAttack.html#WGRF_Gameplay_BattleSystem_PlayerAttack_SetWeaponInfo_

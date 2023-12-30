@@ -141,7 +141,7 @@
       <a class="xref" href="WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_equipedWeapon">Shooter.equipedWeapon</a>
     </div>
     <div>
-      <a class="xref" href="WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_bulletsLeft">Shooter.bulletsLeft</a>
+      <a class="xref" href="WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_bulletsPerMag">Shooter.bulletsPerMag</a>
     </div>
     <div>
       <a class="xref" href="WGRF.Entities.BattleSystem.Shooter.html#WGRF_Entities_BattleSystem_Shooter_maxBulletSpread">Shooter.maxBulletSpread</a>
@@ -192,40 +192,6 @@
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_IsAttackActive" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.IsAttackActive">
-  IsAttackActive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L16"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsAttackActive</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -234,7 +200,7 @@
 
   <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_PreAwake" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.PreAwake">
   PreAwake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
@@ -262,7 +228,7 @@ Warning: A function that should be used from all the child classes instead of th
 
   <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_PreDestroy" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.PreDestroy">
   PreDestroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L458"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Destroy and before this script is cleared from its assigned controller.
@@ -286,11 +252,76 @@ Warning: A function that should be used from all the child classes instead of th
 
 
 
+  <a id="WGRF_Gameplay_BattleSystem_PlayerAttack_SetCurrentRoomWeapon_" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon*"></a>
+
+  <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_SetCurrentRoomWeapon_WGRF_BattleSystem_Weapon_" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.SetCurrentRoomWeapon(WGRF.BattleSystem.Weapon)">
+  SetCurrentRoomWeapon(Weapon)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the current room's weapon type to the passed weapon</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCurrentRoomWeapon(Weapon weapon)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>weapon</code> <a class="xref" href="WGRF.BattleSystem.Weapon.html">Weapon</a></dt>
+    <dd><p>The current room weapon</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Gameplay_BattleSystem_PlayerAttack_SetHeldObject_" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject*"></a>
+
+  <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_SetHeldObject_UnityEngine_GameObject_" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.SetHeldObject(UnityEngine.GameObject)">
+  SetHeldObject(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Attaches an object to the players holding position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHeldObject(GameObject obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="WGRF_Gameplay_BattleSystem_PlayerAttack_SetWeaponInfo_" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo*"></a>
 
-  <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_SetWeaponInfo_WGRF_BattleSystem_Weapon_System_Int32_" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon,System.Int32)">
-  SetWeaponInfo(Weapon, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_SetWeaponInfo_WGRF_BattleSystem_Weapon_" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.SetWeaponInfo(WGRF.BattleSystem.Weapon)">
+  SetWeaponInfo(Weapon)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to set the player weapon to the passed weapon type and values.</p>
@@ -299,17 +330,13 @@ Warning: A function that should be used from all the child classes instead of th
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SetWeaponInfo(Weapon weapon, int cachedBulletCount = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void SetWeaponInfo(Weapon weapon)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>weapon</code> <a class="xref" href="WGRF.BattleSystem.Weapon.html">Weapon</a></dt>
     <dd></dd>
-    <dt><code>cachedBulletCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>Leave to default when passing a non ranged weapon so the bullet count does not get printed in the UI.
-<p>Used to transfer the bullets left between the equiped weapon and the picked up weapon.</p>
-</dd>
   </dl>
 
 
@@ -327,7 +354,7 @@ Warning: A function that should be used from all the child classes instead of th
 
   <h3 id="WGRF_Gameplay_BattleSystem_PlayerAttack_Shoot" data-uid="WGRF.Gameplay.BattleSystem.PlayerAttack.Shoot">
   Shoot()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerAttack.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to initiate the player specific attacking sequence.</p>
