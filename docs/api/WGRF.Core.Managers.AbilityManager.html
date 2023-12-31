@@ -79,7 +79,7 @@
 
   <h1 id="WGRF_Core_Managers_AbilityManager" data-uid="WGRF.Core.Managers.AbilityManager" class="text-break">
     Class AbilityManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -160,7 +160,7 @@
 
   <h3 id="WGRF_Core_Managers_AbilityManager_AbilitiesCanActivate" data-uid="WGRF.Core.Managers.AbilityManager.AbilitiesCanActivate">
   AbilitiesCanActivate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>When set to true abilities are shown and enabled, if false then abilities are neither drawn or can be used.</p>
@@ -192,10 +192,11 @@
 
   <h3 id="WGRF_Core_Managers_AbilityManager_AbilitiesCanCycle" data-uid="WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle">
   AbilitiesCanCycle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>If true the player can cycle through his abilities</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -219,11 +220,43 @@
 
 
 
+  <a id="WGRF_Core_Managers_AbilityManager_AbilitiesPerRoom_" data-uid="WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom*"></a>
+
+  <h3 id="WGRF_Core_Managers_AbilityManager_AbilitiesPerRoom" data-uid="WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom">
+  AbilitiesPerRoom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The current ability uses left.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AbilitiesPerRoom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="WGRF_Core_Managers_AbilityManager_ActiveAbilityIndex_" data-uid="WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex*"></a>
 
   <h3 id="WGRF_Core_Managers_AbilityManager_ActiveAbilityIndex" data-uid="WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex">
   ActiveAbilityIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Active ability index can be used from the UI to visualize the currently selected ability.</p>
@@ -255,35 +288,22 @@
 </h2>
 
 
-  <a id="WGRF_Core_Managers_AbilityManager_CanRewind_" data-uid="WGRF.Core.Managers.AbilityManager.CanRewind*"></a>
+  <a id="WGRF_Core_Managers_AbilityManager_DecreaseAbilityUses_" data-uid="WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses*"></a>
 
-  <h3 id="WGRF_Core_Managers_AbilityManager_CanRewind_System_Boolean_" data-uid="WGRF.Core.Managers.AbilityManager.CanRewind(System.Boolean)">
-  CanRewind(bool)
+  <h3 id="WGRF_Core_Managers_AbilityManager_DecreaseAbilityUses" data-uid="WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses">
+  DecreaseAbilityUses()
   <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to check if the rewind ability UsesPerLevel is greater than 0.</p>
-<p>If yes, then return true, false otherwise.</p>
+  <div class="markdown level1 summary"><p>Decreases the ability usages per room by 1</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanRewind(bool subtractOneUse)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DecreaseAbilityUses()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>subtractOneUse</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>If set to true and the above evaluation results to true too, then
-subtract one use from the rewind ability UsesPerLevel value.</p>
-</dd>
-  </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -299,7 +319,7 @@ subtract one use from the rewind ability UsesPerLevel value.</p>
 
   <h3 id="WGRF_Core_Managers_AbilityManager_EnableAbilities" data-uid="WGRF.Core.Managers.AbilityManager.EnableAbilities">
   EnableAbilities()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to cycle through all the abilities and reset their ability uses.</p>
@@ -326,7 +346,7 @@ subtract one use from the rewind ability UsesPerLevel value.</p>
 
   <h3 id="WGRF_Core_Managers_AbilityManager_GetAbilityCurrentTier_WGRF_Core_Managers_AbilityType_" data-uid="WGRF.Core.Managers.AbilityManager.GetAbilityCurrentTier(WGRF.Core.Managers.AbilityType)">
   GetAbilityCurrentTier(AbilityType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L190"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>This method is used from the HandleAbilityPanel script to update the PlayerHub
@@ -366,7 +386,7 @@ ability panel texts.</p>
 
   <h3 id="WGRF_Core_Managers_AbilityManager_GetAbilityDescription_WGRF_Core_Managers_AbilityType_" data-uid="WGRF.Core.Managers.AbilityManager.GetAbilityDescription(WGRF.Core.Managers.AbilityType)">
   GetAbilityDescription(AbilityType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -402,7 +422,7 @@ ability panel texts.</p>
 
   <h3 id="WGRF_Core_Managers_AbilityManager_GetCurrentSelectedAbility" data-uid="WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility">
   GetCurrentSelectedAbility()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L235"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to get the current selected ability index.</p>
@@ -430,11 +450,43 @@ ability panel texts.</p>
 
 
 
+  <a id="WGRF_Core_Managers_AbilityManager_IncreaseAbilityUsesPerRoom_" data-uid="WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom*"></a>
+
+  <h3 id="WGRF_Core_Managers_AbilityManager_IncreaseAbilityUsesPerRoom" data-uid="WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom">
+  IncreaseAbilityUsesPerRoom()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Increases the ability uses per room by 1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IncreaseAbilityUsesPerRoom()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="WGRF_Core_Managers_AbilityManager_PreAwake_" data-uid="WGRF.Core.Managers.AbilityManager.PreAwake*"></a>
 
   <h3 id="WGRF_Core_Managers_AbilityManager_PreAwake" data-uid="WGRF.Core.Managers.AbilityManager.PreAwake">
   PreAwake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
@@ -462,7 +514,7 @@ Warning: A function that should be used from all the child classes instead of th
 
   <h3 id="WGRF_Core_Managers_AbilityManager_UpdateAbilityTier_WGRF_Core_Managers_AbilityType_" data-uid="WGRF.Core.Managers.AbilityManager.UpdateAbilityTier(WGRF.Core.Managers.AbilityType)">
   UpdateAbilityTier(AbilityType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>This method is added as a listener to the Ability update button in the PlayerHub.</p>
@@ -495,7 +547,7 @@ Warning: A function that should be used from all the child classes instead of th
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L17" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/AbilityManager.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
         

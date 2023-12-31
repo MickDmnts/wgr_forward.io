@@ -185,15 +185,15 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.Entities.AIEntity.SetAttackTarget
   nameWithType: AIEntity.SetAttackTarget
-- uid: WGRF.AI.Entities.AIEntity.SetHealth(System.Single)
-  name: SetHealth(float)
-  href: api/WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_SetHealth_System_Single_
-  commentId: M:WGRF.AI.Entities.AIEntity.SetHealth(System.Single)
-  name.vb: SetHealth(Single)
-  fullName: WGRF.AI.Entities.AIEntity.SetHealth(float)
-  fullName.vb: WGRF.AI.Entities.AIEntity.SetHealth(Single)
-  nameWithType: AIEntity.SetHealth(float)
-  nameWithType.vb: AIEntity.SetHealth(Single)
+- uid: WGRF.AI.Entities.AIEntity.SetHealth(System.Int32)
+  name: SetHealth(int)
+  href: api/WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_SetHealth_System_Int32_
+  commentId: M:WGRF.AI.Entities.AIEntity.SetHealth(System.Int32)
+  name.vb: SetHealth(Integer)
+  fullName: WGRF.AI.Entities.AIEntity.SetHealth(int)
+  fullName.vb: WGRF.AI.Entities.AIEntity.SetHealth(Integer)
+  nameWithType: AIEntity.SetHealth(int)
+  nameWithType.vb: AIEntity.SetHealth(Integer)
 - uid: WGRF.AI.Entities.AIEntity.SetHealth*
   name: SetHealth
   href: api/WGRF.AI.Entities.AIEntity.html#WGRF_AI_Entities_AIEntity_SetHealth_
@@ -1035,15 +1035,15 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetAttackTarget
   nameWithType: EnemyEntity.SetAttackTarget
-- uid: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(System.Single)
-  name: SetHealth(float)
-  href: api/WGRF.AI.Entities.Hostile.Generic.EnemyEntity.html#WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetHealth_System_Single_
-  commentId: M:WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(System.Single)
-  name.vb: SetHealth(Single)
-  fullName: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(float)
-  fullName.vb: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(Single)
-  nameWithType: EnemyEntity.SetHealth(float)
-  nameWithType.vb: EnemyEntity.SetHealth(Single)
+- uid: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(System.Int32)
+  name: SetHealth(int)
+  href: api/WGRF.AI.Entities.Hostile.Generic.EnemyEntity.html#WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetHealth_System_Int32_
+  commentId: M:WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(System.Int32)
+  name.vb: SetHealth(Integer)
+  fullName: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(int)
+  fullName.vb: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth(Integer)
+  nameWithType: EnemyEntity.SetHealth(int)
+  nameWithType.vb: EnemyEntity.SetHealth(Integer)
 - uid: WGRF.AI.Entities.Hostile.Generic.EnemyEntity.SetHealth*
   name: SetHealth
   href: api/WGRF.AI.Entities.Hostile.Generic.EnemyEntity.html#WGRF_AI_Entities_Hostile_Generic_EnemyEntity_SetHealth_
@@ -3086,19 +3086,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.Ability.EnableAbility
   nameWithType: Ability.EnableAbility
-- uid: WGRF.Abilities.Ability.GetCachedUses
-  name: GetCachedUses()
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_GetCachedUses
-  commentId: M:WGRF.Abilities.Ability.GetCachedUses
-  fullName: WGRF.Abilities.Ability.GetCachedUses()
-  nameWithType: Ability.GetCachedUses()
-- uid: WGRF.Abilities.Ability.GetCachedUses*
-  name: GetCachedUses
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_GetCachedUses_
-  commentId: Overload:WGRF.Abilities.Ability.GetCachedUses
-  isSpec: "True"
-  fullName: WGRF.Abilities.Ability.GetCachedUses
-  nameWithType: Ability.GetCachedUses
 - uid: WGRF.Abilities.Ability.IsUnlocked
   name: IsUnlocked
   href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_IsUnlocked
@@ -3222,18 +3209,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.Ability.UpgradeAbility
   nameWithType: Ability.UpgradeAbility
-- uid: WGRF.Abilities.Ability.UsesPerLevel
-  name: UsesPerLevel
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_UsesPerLevel
-  commentId: F:WGRF.Abilities.Ability.UsesPerLevel
-  fullName: WGRF.Abilities.Ability.UsesPerLevel
-  nameWithType: Ability.UsesPerLevel
-- uid: WGRF.Abilities.Ability.cachedUses
-  name: cachedUses
-  href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_cachedUses
-  commentId: F:WGRF.Abilities.Ability.cachedUses
-  fullName: WGRF.Abilities.Ability.cachedUses
-  nameWithType: Ability.cachedUses
 - uid: WGRF.Abilities.Ability.timer
   name: timer
   href: api/WGRF.Abilities.Ability.html#WGRF_Abilities_Ability_timer
@@ -3323,19 +3298,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.RewindTime.EnableAbility
   nameWithType: RewindTime.EnableAbility
-- uid: WGRF.Abilities.RewindTime.GetCachedUses
-  name: GetCachedUses()
-  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_GetCachedUses
-  commentId: M:WGRF.Abilities.RewindTime.GetCachedUses
-  fullName: WGRF.Abilities.RewindTime.GetCachedUses()
-  nameWithType: RewindTime.GetCachedUses()
-- uid: WGRF.Abilities.RewindTime.GetCachedUses*
-  name: GetCachedUses
-  href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_GetCachedUses_
-  commentId: Overload:WGRF.Abilities.RewindTime.GetCachedUses
-  isSpec: "True"
-  fullName: WGRF.Abilities.RewindTime.GetCachedUses
-  nameWithType: RewindTime.GetCachedUses
 - uid: WGRF.Abilities.RewindTime.OnAbilityFinished
   name: OnAbilityFinished()
   href: api/WGRF.Abilities.RewindTime.html#WGRF_Abilities_RewindTime_OnAbilityFinished
@@ -3552,19 +3514,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.SlowDownTime.EnableAbility
   nameWithType: SlowDownTime.EnableAbility
-- uid: WGRF.Abilities.SlowDownTime.GetCachedUses
-  name: GetCachedUses()
-  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_GetCachedUses
-  commentId: M:WGRF.Abilities.SlowDownTime.GetCachedUses
-  fullName: WGRF.Abilities.SlowDownTime.GetCachedUses()
-  nameWithType: SlowDownTime.GetCachedUses()
-- uid: WGRF.Abilities.SlowDownTime.GetCachedUses*
-  name: GetCachedUses
-  href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_GetCachedUses_
-  commentId: Overload:WGRF.Abilities.SlowDownTime.GetCachedUses
-  isSpec: "True"
-  fullName: WGRF.Abilities.SlowDownTime.GetCachedUses
-  nameWithType: SlowDownTime.GetCachedUses
 - uid: WGRF.Abilities.SlowDownTime.OnAbilityFinished
   name: OnAbilityFinished()
   href: api/WGRF.Abilities.SlowDownTime.html#WGRF_Abilities_SlowDownTime_OnAbilityFinished
@@ -3720,19 +3669,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Abilities.StopTime.EnableAbility
   nameWithType: StopTime.EnableAbility
-- uid: WGRF.Abilities.StopTime.GetCachedUses
-  name: GetCachedUses()
-  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_GetCachedUses
-  commentId: M:WGRF.Abilities.StopTime.GetCachedUses
-  fullName: WGRF.Abilities.StopTime.GetCachedUses()
-  nameWithType: StopTime.GetCachedUses()
-- uid: WGRF.Abilities.StopTime.GetCachedUses*
-  name: GetCachedUses
-  href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_GetCachedUses_
-  commentId: Overload:WGRF.Abilities.StopTime.GetCachedUses
-  isSpec: "True"
-  fullName: WGRF.Abilities.StopTime.GetCachedUses
-  nameWithType: StopTime.GetCachedUses
 - uid: WGRF.Abilities.StopTime.OnAbilityFinished
   name: OnAbilityFinished()
   href: api/WGRF.Abilities.StopTime.html#WGRF_Abilities_StopTime_OnAbilityFinished
@@ -5709,6 +5645,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.Managers.AbilityManager.AbilitiesCanCycle
   nameWithType: AbilityManager.AbilitiesCanCycle
+- uid: WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom
+  name: AbilitiesPerRoom
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_AbilitiesPerRoom
+  commentId: P:WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom
+  fullName: WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom
+  nameWithType: AbilityManager.AbilitiesPerRoom
+- uid: WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom*
+  name: AbilitiesPerRoom
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_AbilitiesPerRoom_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.AbilitiesPerRoom
+  nameWithType: AbilityManager.AbilitiesPerRoom
 - uid: WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex
   name: ActiveAbilityIndex
   href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_ActiveAbilityIndex
@@ -5722,22 +5671,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.Managers.AbilityManager.ActiveAbilityIndex
   nameWithType: AbilityManager.ActiveAbilityIndex
-- uid: WGRF.Core.Managers.AbilityManager.CanRewind(System.Boolean)
-  name: CanRewind(bool)
-  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_CanRewind_System_Boolean_
-  commentId: M:WGRF.Core.Managers.AbilityManager.CanRewind(System.Boolean)
-  name.vb: CanRewind(Boolean)
-  fullName: WGRF.Core.Managers.AbilityManager.CanRewind(bool)
-  fullName.vb: WGRF.Core.Managers.AbilityManager.CanRewind(Boolean)
-  nameWithType: AbilityManager.CanRewind(bool)
-  nameWithType.vb: AbilityManager.CanRewind(Boolean)
-- uid: WGRF.Core.Managers.AbilityManager.CanRewind*
-  name: CanRewind
-  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_CanRewind_
-  commentId: Overload:WGRF.Core.Managers.AbilityManager.CanRewind
+- uid: WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses
+  name: DecreaseAbilityUses()
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_DecreaseAbilityUses
+  commentId: M:WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses
+  fullName: WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses()
+  nameWithType: AbilityManager.DecreaseAbilityUses()
+- uid: WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses*
+  name: DecreaseAbilityUses
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_DecreaseAbilityUses_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses
   isSpec: "True"
-  fullName: WGRF.Core.Managers.AbilityManager.CanRewind
-  nameWithType: AbilityManager.CanRewind
+  fullName: WGRF.Core.Managers.AbilityManager.DecreaseAbilityUses
+  nameWithType: AbilityManager.DecreaseAbilityUses
 - uid: WGRF.Core.Managers.AbilityManager.EnableAbilities
   name: EnableAbilities()
   href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_EnableAbilities
@@ -5790,6 +5736,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.Managers.AbilityManager.GetCurrentSelectedAbility
   nameWithType: AbilityManager.GetCurrentSelectedAbility
+- uid: WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom
+  name: IncreaseAbilityUsesPerRoom()
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_IncreaseAbilityUsesPerRoom
+  commentId: M:WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom
+  fullName: WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom()
+  nameWithType: AbilityManager.IncreaseAbilityUsesPerRoom()
+- uid: WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom*
+  name: IncreaseAbilityUsesPerRoom
+  href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_IncreaseAbilityUsesPerRoom_
+  commentId: Overload:WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom
+  isSpec: "True"
+  fullName: WGRF.Core.Managers.AbilityManager.IncreaseAbilityUsesPerRoom
+  nameWithType: AbilityManager.IncreaseAbilityUsesPerRoom
 - uid: WGRF.Core.Managers.AbilityManager.PreAwake
   name: PreAwake()
   href: api/WGRF.Core.Managers.AbilityManager.html#WGRF_Core_Managers_AbilityManager_PreAwake
@@ -5896,6 +5855,19 @@ references:
   commentId: T:WGRF.Core.RewardSelector
   fullName: WGRF.Core.RewardSelector
   nameWithType: RewardSelector
+- uid: WGRF.Core.RewardSelector.AbilityUsesReward
+  name: AbilityUsesReward()
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_AbilityUsesReward
+  commentId: M:WGRF.Core.RewardSelector.AbilityUsesReward
+  fullName: WGRF.Core.RewardSelector.AbilityUsesReward()
+  nameWithType: RewardSelector.AbilityUsesReward()
+- uid: WGRF.Core.RewardSelector.AbilityUsesReward*
+  name: AbilityUsesReward
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_AbilityUsesReward_
+  commentId: Overload:WGRF.Core.RewardSelector.AbilityUsesReward
+  isSpec: "True"
+  fullName: WGRF.Core.RewardSelector.AbilityUsesReward
+  nameWithType: RewardSelector.AbilityUsesReward
 - uid: WGRF.Core.RewardSelector.GetWeaponUpdate
   name: GetWeaponUpdate()
   href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_GetWeaponUpdate
@@ -5909,6 +5881,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.RewardSelector.GetWeaponUpdate
   nameWithType: RewardSelector.GetWeaponUpdate
+- uid: WGRF.Core.RewardSelector.PlayerHealthUpdateReward
+  name: PlayerHealthUpdateReward()
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_PlayerHealthUpdateReward
+  commentId: M:WGRF.Core.RewardSelector.PlayerHealthUpdateReward
+  fullName: WGRF.Core.RewardSelector.PlayerHealthUpdateReward()
+  nameWithType: RewardSelector.PlayerHealthUpdateReward()
+- uid: WGRF.Core.RewardSelector.PlayerHealthUpdateReward*
+  name: PlayerHealthUpdateReward
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_PlayerHealthUpdateReward_
+  commentId: Overload:WGRF.Core.RewardSelector.PlayerHealthUpdateReward
+  isSpec: "True"
+  fullName: WGRF.Core.RewardSelector.PlayerHealthUpdateReward
+  nameWithType: RewardSelector.PlayerHealthUpdateReward
 - uid: WGRF.Core.RewardSelector.PreAwake
   name: PreAwake()
   href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_PreAwake
@@ -6824,6 +6809,22 @@ references:
   isSpec: "True"
   fullName: WGRF.Entities.Player.PlayerEntity.GetPosition
   nameWithType: PlayerEntity.GetPosition
+- uid: WGRF.Entities.Player.PlayerEntity.IncreaseHealthBy(System.Int32)
+  name: IncreaseHealthBy(int)
+  href: api/WGRF.Entities.Player.PlayerEntity.html#WGRF_Entities_Player_PlayerEntity_IncreaseHealthBy_System_Int32_
+  commentId: M:WGRF.Entities.Player.PlayerEntity.IncreaseHealthBy(System.Int32)
+  name.vb: IncreaseHealthBy(Integer)
+  fullName: WGRF.Entities.Player.PlayerEntity.IncreaseHealthBy(int)
+  fullName.vb: WGRF.Entities.Player.PlayerEntity.IncreaseHealthBy(Integer)
+  nameWithType: PlayerEntity.IncreaseHealthBy(int)
+  nameWithType.vb: PlayerEntity.IncreaseHealthBy(Integer)
+- uid: WGRF.Entities.Player.PlayerEntity.IncreaseHealthBy*
+  name: IncreaseHealthBy
+  href: api/WGRF.Entities.Player.PlayerEntity.html#WGRF_Entities_Player_PlayerEntity_IncreaseHealthBy_
+  commentId: Overload:WGRF.Entities.Player.PlayerEntity.IncreaseHealthBy
+  isSpec: "True"
+  fullName: WGRF.Entities.Player.PlayerEntity.IncreaseHealthBy
+  nameWithType: PlayerEntity.IncreaseHealthBy
 - uid: WGRF.Entities.Player.PlayerEntity.IsActive
   name: IsActive
   href: api/WGRF.Entities.Player.PlayerEntity.html#WGRF_Entities_Player_PlayerEntity_IsActive
