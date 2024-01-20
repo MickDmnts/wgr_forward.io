@@ -795,6 +795,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.RoomController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.RoomController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.RoomGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.RoomGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.ScoreHandler.yml",
       "output": {
         ".html": {
@@ -1119,6 +1139,76 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.ScreenShake.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.IUIController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.IUIController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.MainMenuHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.MainMenuHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.SliderController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.SliderController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.SoundSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.SoundSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ToggleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ToggleController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ToggleSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ToggleSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.html"
         }
       },
       "version": ""
