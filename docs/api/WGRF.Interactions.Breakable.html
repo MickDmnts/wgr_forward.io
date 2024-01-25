@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum WeaponType
+      <title>Class Breakable
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum WeaponType
+      <meta name="title" content="Class Breakable
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_BattleSystem_WeaponType.md&amp;value=---%0Auid%3A%20WGRF.BattleSystem.WeaponType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_Interactions_Breakable.md&amp;value=---%0Auid%3A%20WGRF.Interactions.Breakable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,64 +73,96 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.BattleSystem.WeaponType">
+        <article data-uid="WGRF.Interactions.Breakable">
 
 
 
-
-  <h1 id="WGRF_BattleSystem_WeaponType" data-uid="WGRF.BattleSystem.WeaponType" class="text-break">
-    Enum WeaponType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/Weapon.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_Interactions_Breakable" data-uid="WGRF.Interactions.Breakable" class="text-break">
+    Class Breakable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/Environment/Breakable.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.BattleSystem.html">BattleSystem</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Interactions.html">Interactions</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Every weapon type in the game</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum WeaponType</code></pre>
+    <pre><code class="lang-csharp hljs">public class Breakable : MonoBehaviour, IKickable</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">Breakable</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WGRF.Interactions.IKickable.html">IKickable</a></div>
+    </dd>
+  </dl>
 
 
 
 
 
-  <h2 id="fields">Fields
+
+
+
+  <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="WGRF_Interactions_Breakable_SimulateKnockback_" data-uid="WGRF.Interactions.Breakable.SimulateKnockback*"></a>
+
+  <h3 id="WGRF_Interactions_Breakable_SimulateKnockback_UnityEngine_Vector3_" data-uid="WGRF.Interactions.Breakable.SimulateKnockback(UnityEngine.Vector3)">
+  SimulateKnockback(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/Environment/Breakable.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SimulateKnockback(Vector3 incomingDir)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt id="WGRF_BattleSystem_WeaponType_BaseballBat"><code>BaseballBat = 1</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Knife"><code>Knife = 0</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Pistol"><code>Pistol = 3</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Punch"><code>Punch = 2</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_SemiAutomatic"><code>SemiAutomatic = 4</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Shotgun"><code>Shotgun = 5</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Throwable"><code>Throwable = -2</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType__NaN"><code>_NaN = -1</code></dt>
+    <dt><code>incomingDir</code> <span class="xref">Vector3</span></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/Weapon.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/Environment/Breakable.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
         

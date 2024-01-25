@@ -4079,6 +4079,12 @@ references:
   commentId: F:WGRF.BattleSystem.WeaponType.Shotgun
   fullName: WGRF.BattleSystem.WeaponType.Shotgun
   nameWithType: WeaponType.Shotgun
+- uid: WGRF.BattleSystem.WeaponType.Throwable
+  name: Throwable
+  href: api/WGRF.BattleSystem.WeaponType.html#WGRF_BattleSystem_WeaponType_Throwable
+  commentId: F:WGRF.BattleSystem.WeaponType.Throwable
+  fullName: WGRF.BattleSystem.WeaponType.Throwable
+  nameWithType: WeaponType.Throwable
 - uid: WGRF.BattleSystem.WeaponType._NaN
   name: _NaN
   href: api/WGRF.BattleSystem.WeaponType.html#WGRF_BattleSystem_WeaponType__NaN
@@ -4302,19 +4308,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AbilityManager.AbilitiesPerRoom
   nameWithType: AbilityManager.AbilitiesPerRoom
-- uid: WGRF.Core.AbilityManager.ActiveAbilityIndex
-  name: ActiveAbilityIndex
-  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_ActiveAbilityIndex
-  commentId: P:WGRF.Core.AbilityManager.ActiveAbilityIndex
-  fullName: WGRF.Core.AbilityManager.ActiveAbilityIndex
-  nameWithType: AbilityManager.ActiveAbilityIndex
-- uid: WGRF.Core.AbilityManager.ActiveAbilityIndex*
-  name: ActiveAbilityIndex
-  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_ActiveAbilityIndex_
-  commentId: Overload:WGRF.Core.AbilityManager.ActiveAbilityIndex
-  isSpec: "True"
-  fullName: WGRF.Core.AbilityManager.ActiveAbilityIndex
-  nameWithType: AbilityManager.ActiveAbilityIndex
 - uid: WGRF.Core.AbilityManager.DecreaseAbilityUses
   name: DecreaseAbilityUses()
   href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_DecreaseAbilityUses
@@ -4380,19 +4373,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AbilityManager.GetCurrentSelectedAbility
   nameWithType: AbilityManager.GetCurrentSelectedAbility
-- uid: WGRF.Core.AbilityManager.IncreaseAbilityUsesPerRoom
-  name: IncreaseAbilityUsesPerRoom()
-  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_IncreaseAbilityUsesPerRoom
-  commentId: M:WGRF.Core.AbilityManager.IncreaseAbilityUsesPerRoom
-  fullName: WGRF.Core.AbilityManager.IncreaseAbilityUsesPerRoom()
-  nameWithType: AbilityManager.IncreaseAbilityUsesPerRoom()
-- uid: WGRF.Core.AbilityManager.IncreaseAbilityUsesPerRoom*
-  name: IncreaseAbilityUsesPerRoom
-  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_IncreaseAbilityUsesPerRoom_
-  commentId: Overload:WGRF.Core.AbilityManager.IncreaseAbilityUsesPerRoom
+- uid: WGRF.Core.AbilityManager.IncreaseTotalAbilityUsesPerRoom
+  name: IncreaseTotalAbilityUsesPerRoom()
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_IncreaseTotalAbilityUsesPerRoom
+  commentId: M:WGRF.Core.AbilityManager.IncreaseTotalAbilityUsesPerRoom
+  fullName: WGRF.Core.AbilityManager.IncreaseTotalAbilityUsesPerRoom()
+  nameWithType: AbilityManager.IncreaseTotalAbilityUsesPerRoom()
+- uid: WGRF.Core.AbilityManager.IncreaseTotalAbilityUsesPerRoom*
+  name: IncreaseTotalAbilityUsesPerRoom
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_IncreaseTotalAbilityUsesPerRoom_
+  commentId: Overload:WGRF.Core.AbilityManager.IncreaseTotalAbilityUsesPerRoom
   isSpec: "True"
-  fullName: WGRF.Core.AbilityManager.IncreaseAbilityUsesPerRoom
-  nameWithType: AbilityManager.IncreaseAbilityUsesPerRoom
+  fullName: WGRF.Core.AbilityManager.IncreaseTotalAbilityUsesPerRoom
+  nameWithType: AbilityManager.IncreaseTotalAbilityUsesPerRoom
 - uid: WGRF.Core.AbilityManager.PreAwake
   name: PreAwake()
   href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_PreAwake
@@ -4406,6 +4399,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AbilityManager.PreAwake
   nameWithType: AbilityManager.PreAwake
+- uid: WGRF.Core.AbilityManager.TotalAbilitiesPerRoom
+  name: TotalAbilitiesPerRoom
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_TotalAbilitiesPerRoom
+  commentId: P:WGRF.Core.AbilityManager.TotalAbilitiesPerRoom
+  fullName: WGRF.Core.AbilityManager.TotalAbilitiesPerRoom
+  nameWithType: AbilityManager.TotalAbilitiesPerRoom
+- uid: WGRF.Core.AbilityManager.TotalAbilitiesPerRoom*
+  name: TotalAbilitiesPerRoom
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_TotalAbilitiesPerRoom_
+  commentId: Overload:WGRF.Core.AbilityManager.TotalAbilitiesPerRoom
+  isSpec: "True"
+  fullName: WGRF.Core.AbilityManager.TotalAbilitiesPerRoom
+  nameWithType: AbilityManager.TotalAbilitiesPerRoom
 - uid: WGRF.Core.AbilityManager.UpdateAbilityTier(WGRF.Core.AbilityType)
   name: UpdateAbilityTier(AbilityType)
   href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_UpdateAbilityTier_WGRF_Core_AbilityType_
@@ -5631,6 +5637,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.AttachPlayerController
   nameWithType: ManagerHub.AttachPlayerController
+- uid: WGRF.Core.ManagerHub.AttackHudHandler(WGRF.UI.UserHUDHandler)
+  name: AttackHudHandler(UserHUDHandler)
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AttackHudHandler_WGRF_UI_UserHUDHandler_
+  commentId: M:WGRF.Core.ManagerHub.AttackHudHandler(WGRF.UI.UserHUDHandler)
+  fullName: WGRF.Core.ManagerHub.AttackHudHandler(WGRF.UI.UserHUDHandler)
+  nameWithType: ManagerHub.AttackHudHandler(UserHUDHandler)
+- uid: WGRF.Core.ManagerHub.AttackHudHandler*
+  name: AttackHudHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AttackHudHandler_
+  commentId: Overload:WGRF.Core.ManagerHub.AttackHudHandler
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.AttackHudHandler
+  nameWithType: ManagerHub.AttackHudHandler
 - uid: WGRF.Core.ManagerHub.BulletPool
   name: BulletPool
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_BulletPool
@@ -5709,6 +5728,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.Globals
   nameWithType: ManagerHub.Globals
+- uid: WGRF.Core.ManagerHub.HUDHandler
+  name: HUDHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_HUDHandler
+  commentId: P:WGRF.Core.ManagerHub.HUDHandler
+  fullName: WGRF.Core.ManagerHub.HUDHandler
+  nameWithType: ManagerHub.HUDHandler
+- uid: WGRF.Core.ManagerHub.HUDHandler*
+  name: HUDHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_HUDHandler_
+  commentId: Overload:WGRF.Core.ManagerHub.HUDHandler
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.HUDHandler
+  nameWithType: ManagerHub.HUDHandler
 - uid: WGRF.Core.ManagerHub.InternalTime
   name: InternalTime
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_InternalTime
@@ -6876,6 +6908,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Entities.Entity.AttackInteraction
   nameWithType: Entity.AttackInteraction
+- uid: WGRF.Entities.Entity.MaxHealth
+  name: MaxHealth
+  href: api/WGRF.Entities.Entity.html#WGRF_Entities_Entity_MaxHealth
+  commentId: P:WGRF.Entities.Entity.MaxHealth
+  fullName: WGRF.Entities.Entity.MaxHealth
+  nameWithType: Entity.MaxHealth
+- uid: WGRF.Entities.Entity.MaxHealth*
+  name: MaxHealth
+  href: api/WGRF.Entities.Entity.html#WGRF_Entities_Entity_MaxHealth_
+  commentId: Overload:WGRF.Entities.Entity.MaxHealth
+  isSpec: "True"
+  fullName: WGRF.Entities.Entity.MaxHealth
+  nameWithType: Entity.MaxHealth
 - uid: WGRF.Entities.Entity.StunInteraction
   name: StunInteraction()
   href: api/WGRF.Entities.Entity.html#WGRF_Entities_Entity_StunInteraction
@@ -7466,6 +7511,25 @@ references:
   commentId: N:WGRF.Interactions
   fullName: WGRF.Interactions
   nameWithType: WGRF.Interactions
+- uid: WGRF.Interactions.Breakable
+  name: Breakable
+  href: api/WGRF.Interactions.Breakable.html
+  commentId: T:WGRF.Interactions.Breakable
+  fullName: WGRF.Interactions.Breakable
+  nameWithType: Breakable
+- uid: WGRF.Interactions.Breakable.SimulateKnockback(UnityEngine.Vector3)
+  name: SimulateKnockback(Vector3)
+  href: api/WGRF.Interactions.Breakable.html#WGRF_Interactions_Breakable_SimulateKnockback_UnityEngine_Vector3_
+  commentId: M:WGRF.Interactions.Breakable.SimulateKnockback(UnityEngine.Vector3)
+  fullName: WGRF.Interactions.Breakable.SimulateKnockback(UnityEngine.Vector3)
+  nameWithType: Breakable.SimulateKnockback(Vector3)
+- uid: WGRF.Interactions.Breakable.SimulateKnockback*
+  name: SimulateKnockback
+  href: api/WGRF.Interactions.Breakable.html#WGRF_Interactions_Breakable_SimulateKnockback_
+  commentId: Overload:WGRF.Interactions.Breakable.SimulateKnockback
+  isSpec: "True"
+  fullName: WGRF.Interactions.Breakable.SimulateKnockback
+  nameWithType: Breakable.SimulateKnockback
 - uid: WGRF.Interactions.IInteractable
   name: IInteractable
   href: api/WGRF.Interactions.IInteractable.html
@@ -7517,6 +7581,12 @@ references:
   isSpec: "True"
   fullName: WGRF.Interactions.IKickable.SimulateKnockback
   nameWithType: IKickable.SimulateKnockback
+- uid: WGRF.Interactions.Scaler
+  name: Scaler
+  href: api/WGRF.Interactions.Scaler.html
+  commentId: T:WGRF.Interactions.Scaler
+  fullName: WGRF.Interactions.Scaler
+  nameWithType: Scaler
 - uid: WGRF.Internal
   name: WGRF.Internal
   href: api/WGRF.Internal.html
@@ -8153,6 +8223,12 @@ references:
   commentId: N:WGRF.UI
   fullName: WGRF.UI
   nameWithType: WGRF.UI
+- uid: WGRF.UI.DynamicCrosshair
+  name: DynamicCrosshair
+  href: api/WGRF.UI.DynamicCrosshair.html
+  commentId: T:WGRF.UI.DynamicCrosshair
+  fullName: WGRF.UI.DynamicCrosshair
+  nameWithType: DynamicCrosshair
 - uid: WGRF.UI.IUIController
   name: IUIController
   href: api/WGRF.UI.IUIController.html
@@ -8230,6 +8306,89 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.MainMenuHandler.ToggleSettingsPanel
   nameWithType: MainMenuHandler.ToggleSettingsPanel
+- uid: WGRF.UI.OnMouseHover
+  name: OnMouseHover
+  href: api/WGRF.UI.OnMouseHover.html
+  commentId: T:WGRF.UI.OnMouseHover
+  fullName: WGRF.UI.OnMouseHover
+  nameWithType: OnMouseHover
+- uid: WGRF.UI.OnMouseHover.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  name: OnPointerClick(PointerEventData)
+  href: api/WGRF.UI.OnMouseHover.html#WGRF_UI_OnMouseHover_OnPointerClick_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:WGRF.UI.OnMouseHover.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  fullName: WGRF.UI.OnMouseHover.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  nameWithType: OnMouseHover.OnPointerClick(PointerEventData)
+- uid: WGRF.UI.OnMouseHover.OnPointerClick*
+  name: OnPointerClick
+  href: api/WGRF.UI.OnMouseHover.html#WGRF_UI_OnMouseHover_OnPointerClick_
+  commentId: Overload:WGRF.UI.OnMouseHover.OnPointerClick
+  isSpec: "True"
+  fullName: WGRF.UI.OnMouseHover.OnPointerClick
+  nameWithType: OnMouseHover.OnPointerClick
+- uid: WGRF.UI.OnMouseHover.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  name: OnPointerEnter(PointerEventData)
+  href: api/WGRF.UI.OnMouseHover.html#WGRF_UI_OnMouseHover_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:WGRF.UI.OnMouseHover.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  fullName: WGRF.UI.OnMouseHover.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  nameWithType: OnMouseHover.OnPointerEnter(PointerEventData)
+- uid: WGRF.UI.OnMouseHover.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/WGRF.UI.OnMouseHover.html#WGRF_UI_OnMouseHover_OnPointerEnter_
+  commentId: Overload:WGRF.UI.OnMouseHover.OnPointerEnter
+  isSpec: "True"
+  fullName: WGRF.UI.OnMouseHover.OnPointerEnter
+  nameWithType: OnMouseHover.OnPointerEnter
+- uid: WGRF.UI.OnMouseHover.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  name: OnPointerExit(PointerEventData)
+  href: api/WGRF.UI.OnMouseHover.html#WGRF_UI_OnMouseHover_OnPointerExit_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:WGRF.UI.OnMouseHover.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  fullName: WGRF.UI.OnMouseHover.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  nameWithType: OnMouseHover.OnPointerExit(PointerEventData)
+- uid: WGRF.UI.OnMouseHover.OnPointerExit*
+  name: OnPointerExit
+  href: api/WGRF.UI.OnMouseHover.html#WGRF_UI_OnMouseHover_OnPointerExit_
+  commentId: Overload:WGRF.UI.OnMouseHover.OnPointerExit
+  isSpec: "True"
+  fullName: WGRF.UI.OnMouseHover.OnPointerExit
+  nameWithType: OnMouseHover.OnPointerExit
+- uid: WGRF.UI.OnMouseHover.type
+  name: type
+  href: api/WGRF.UI.OnMouseHover.html#WGRF_UI_OnMouseHover_type
+  commentId: F:WGRF.UI.OnMouseHover.type
+  fullName: WGRF.UI.OnMouseHover.type
+  nameWithType: OnMouseHover.type
+- uid: WGRF.UI.SceneFader
+  name: SceneFader
+  href: api/WGRF.UI.SceneFader.html
+  commentId: T:WGRF.UI.SceneFader
+  fullName: WGRF.UI.SceneFader
+  nameWithType: SceneFader
+- uid: WGRF.UI.SceneFader.FadeIn
+  name: FadeIn()
+  href: api/WGRF.UI.SceneFader.html#WGRF_UI_SceneFader_FadeIn
+  commentId: M:WGRF.UI.SceneFader.FadeIn
+  fullName: WGRF.UI.SceneFader.FadeIn()
+  nameWithType: SceneFader.FadeIn()
+- uid: WGRF.UI.SceneFader.FadeIn*
+  name: FadeIn
+  href: api/WGRF.UI.SceneFader.html#WGRF_UI_SceneFader_FadeIn_
+  commentId: Overload:WGRF.UI.SceneFader.FadeIn
+  isSpec: "True"
+  fullName: WGRF.UI.SceneFader.FadeIn
+  nameWithType: SceneFader.FadeIn
+- uid: WGRF.UI.SceneFader.FadeOut
+  name: FadeOut()
+  href: api/WGRF.UI.SceneFader.html#WGRF_UI_SceneFader_FadeOut
+  commentId: M:WGRF.UI.SceneFader.FadeOut
+  fullName: WGRF.UI.SceneFader.FadeOut()
+  nameWithType: SceneFader.FadeOut()
+- uid: WGRF.UI.SceneFader.FadeOut*
+  name: FadeOut
+  href: api/WGRF.UI.SceneFader.html#WGRF_UI_SceneFader_FadeOut_
+  commentId: Overload:WGRF.UI.SceneFader.FadeOut
+  isSpec: "True"
+  fullName: WGRF.UI.SceneFader.FadeOut
+  nameWithType: SceneFader.FadeOut
 - uid: WGRF.UI.SliderController
   name: SliderController
   href: api/WGRF.UI.SliderController.html
@@ -8356,3 +8515,128 @@ references:
   commentId: F:WGRF.UI.ToggleSetting.Gore
   fullName: WGRF.UI.ToggleSetting.Gore
   nameWithType: ToggleSetting.Gore
+- uid: WGRF.UI.UserHUDHandler
+  name: UserHUDHandler
+  href: api/WGRF.UI.UserHUDHandler.html
+  commentId: T:WGRF.UI.UserHUDHandler
+  fullName: WGRF.UI.UserHUDHandler
+  nameWithType: UserHUDHandler
+- uid: WGRF.UI.UserHUDHandler.ChangeBulletsLeft(System.Int32)
+  name: ChangeBulletsLeft(int)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_ChangeBulletsLeft_System_Int32_
+  commentId: M:WGRF.UI.UserHUDHandler.ChangeBulletsLeft(System.Int32)
+  name.vb: ChangeBulletsLeft(Integer)
+  fullName: WGRF.UI.UserHUDHandler.ChangeBulletsLeft(int)
+  fullName.vb: WGRF.UI.UserHUDHandler.ChangeBulletsLeft(Integer)
+  nameWithType: UserHUDHandler.ChangeBulletsLeft(int)
+  nameWithType.vb: UserHUDHandler.ChangeBulletsLeft(Integer)
+- uid: WGRF.UI.UserHUDHandler.ChangeBulletsLeft*
+  name: ChangeBulletsLeft
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_ChangeBulletsLeft_
+  commentId: Overload:WGRF.UI.UserHUDHandler.ChangeBulletsLeft
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.ChangeBulletsLeft
+  nameWithType: UserHUDHandler.ChangeBulletsLeft
+- uid: WGRF.UI.UserHUDHandler.ChangeSelectedAbilityIcon(WGRF.Abilities.Ability)
+  name: ChangeSelectedAbilityIcon(Ability)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_ChangeSelectedAbilityIcon_WGRF_Abilities_Ability_
+  commentId: M:WGRF.UI.UserHUDHandler.ChangeSelectedAbilityIcon(WGRF.Abilities.Ability)
+  fullName: WGRF.UI.UserHUDHandler.ChangeSelectedAbilityIcon(WGRF.Abilities.Ability)
+  nameWithType: UserHUDHandler.ChangeSelectedAbilityIcon(Ability)
+- uid: WGRF.UI.UserHUDHandler.ChangeSelectedAbilityIcon*
+  name: ChangeSelectedAbilityIcon
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_ChangeSelectedAbilityIcon_
+  commentId: Overload:WGRF.UI.UserHUDHandler.ChangeSelectedAbilityIcon
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.ChangeSelectedAbilityIcon
+  nameWithType: UserHUDHandler.ChangeSelectedAbilityIcon
+- uid: WGRF.UI.UserHUDHandler.SetAbilityUses(System.Int32)
+  name: SetAbilityUses(int)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetAbilityUses_System_Int32_
+  commentId: M:WGRF.UI.UserHUDHandler.SetAbilityUses(System.Int32)
+  name.vb: SetAbilityUses(Integer)
+  fullName: WGRF.UI.UserHUDHandler.SetAbilityUses(int)
+  fullName.vb: WGRF.UI.UserHUDHandler.SetAbilityUses(Integer)
+  nameWithType: UserHUDHandler.SetAbilityUses(int)
+  nameWithType.vb: UserHUDHandler.SetAbilityUses(Integer)
+- uid: WGRF.UI.UserHUDHandler.SetAbilityUses*
+  name: SetAbilityUses
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetAbilityUses_
+  commentId: Overload:WGRF.UI.UserHUDHandler.SetAbilityUses
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.SetAbilityUses
+  nameWithType: UserHUDHandler.SetAbilityUses
+- uid: WGRF.UI.UserHUDHandler.SetPlayerHealth(System.Int32)
+  name: SetPlayerHealth(int)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetPlayerHealth_System_Int32_
+  commentId: M:WGRF.UI.UserHUDHandler.SetPlayerHealth(System.Int32)
+  name.vb: SetPlayerHealth(Integer)
+  fullName: WGRF.UI.UserHUDHandler.SetPlayerHealth(int)
+  fullName.vb: WGRF.UI.UserHUDHandler.SetPlayerHealth(Integer)
+  nameWithType: UserHUDHandler.SetPlayerHealth(int)
+  nameWithType.vb: UserHUDHandler.SetPlayerHealth(Integer)
+- uid: WGRF.UI.UserHUDHandler.SetPlayerHealth*
+  name: SetPlayerHealth
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetPlayerHealth_
+  commentId: Overload:WGRF.UI.UserHUDHandler.SetPlayerHealth
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.SetPlayerHealth
+  nameWithType: UserHUDHandler.SetPlayerHealth
+- uid: WGRF.UI.UserHUDHandler.SetPlayerHealthInfo(WGRF.Entities.Player.PlayerEntity)
+  name: SetPlayerHealthInfo(PlayerEntity)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetPlayerHealthInfo_WGRF_Entities_Player_PlayerEntity_
+  commentId: M:WGRF.UI.UserHUDHandler.SetPlayerHealthInfo(WGRF.Entities.Player.PlayerEntity)
+  fullName: WGRF.UI.UserHUDHandler.SetPlayerHealthInfo(WGRF.Entities.Player.PlayerEntity)
+  nameWithType: UserHUDHandler.SetPlayerHealthInfo(PlayerEntity)
+- uid: WGRF.UI.UserHUDHandler.SetPlayerHealthInfo*
+  name: SetPlayerHealthInfo
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetPlayerHealthInfo_
+  commentId: Overload:WGRF.UI.UserHUDHandler.SetPlayerHealthInfo
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.SetPlayerHealthInfo
+  nameWithType: UserHUDHandler.SetPlayerHealthInfo
+- uid: WGRF.UI.UserHUDHandler.SetWeaponSliderInfo(WGRF.BattleSystem.Weapon)
+  name: SetWeaponSliderInfo(Weapon)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetWeaponSliderInfo_WGRF_BattleSystem_Weapon_
+  commentId: M:WGRF.UI.UserHUDHandler.SetWeaponSliderInfo(WGRF.BattleSystem.Weapon)
+  fullName: WGRF.UI.UserHUDHandler.SetWeaponSliderInfo(WGRF.BattleSystem.Weapon)
+  nameWithType: UserHUDHandler.SetWeaponSliderInfo(Weapon)
+- uid: WGRF.UI.UserHUDHandler.SetWeaponSliderInfo*
+  name: SetWeaponSliderInfo
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetWeaponSliderInfo_
+  commentId: Overload:WGRF.UI.UserHUDHandler.SetWeaponSliderInfo
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.SetWeaponSliderInfo
+  nameWithType: UserHUDHandler.SetWeaponSliderInfo
+- uid: WGRF.UI.WeaponRepresenter
+  name: WeaponRepresenter
+  href: api/WGRF.UI.WeaponRepresenter.html
+  commentId: T:WGRF.UI.WeaponRepresenter
+  fullName: WGRF.UI.WeaponRepresenter
+  nameWithType: WeaponRepresenter
+- uid: WGRF.UI.WeaponRepresenter.DeselectWeaponButton(UnityEngine.UI.Button)
+  name: DeselectWeaponButton(Button)
+  href: api/WGRF.UI.WeaponRepresenter.html#WGRF_UI_WeaponRepresenter_DeselectWeaponButton_UnityEngine_UI_Button_
+  commentId: M:WGRF.UI.WeaponRepresenter.DeselectWeaponButton(UnityEngine.UI.Button)
+  fullName: WGRF.UI.WeaponRepresenter.DeselectWeaponButton(UnityEngine.UI.Button)
+  nameWithType: WeaponRepresenter.DeselectWeaponButton(Button)
+- uid: WGRF.UI.WeaponRepresenter.DeselectWeaponButton*
+  name: DeselectWeaponButton
+  href: api/WGRF.UI.WeaponRepresenter.html#WGRF_UI_WeaponRepresenter_DeselectWeaponButton_
+  commentId: Overload:WGRF.UI.WeaponRepresenter.DeselectWeaponButton
+  isSpec: "True"
+  fullName: WGRF.UI.WeaponRepresenter.DeselectWeaponButton
+  nameWithType: WeaponRepresenter.DeselectWeaponButton
+- uid: WGRF.UI.WeaponRepresenter.SetButtonWeaponType(WGRF.BattleSystem.WeaponType)
+  name: SetButtonWeaponType(WeaponType)
+  href: api/WGRF.UI.WeaponRepresenter.html#WGRF_UI_WeaponRepresenter_SetButtonWeaponType_WGRF_BattleSystem_WeaponType_
+  commentId: M:WGRF.UI.WeaponRepresenter.SetButtonWeaponType(WGRF.BattleSystem.WeaponType)
+  fullName: WGRF.UI.WeaponRepresenter.SetButtonWeaponType(WGRF.BattleSystem.WeaponType)
+  nameWithType: WeaponRepresenter.SetButtonWeaponType(WeaponType)
+- uid: WGRF.UI.WeaponRepresenter.SetButtonWeaponType*
+  name: SetButtonWeaponType
+  href: api/WGRF.UI.WeaponRepresenter.html#WGRF_UI_WeaponRepresenter_SetButtonWeaponType_
+  commentId: Overload:WGRF.UI.WeaponRepresenter.SetButtonWeaponType
+  isSpec: "True"
+  fullName: WGRF.UI.WeaponRepresenter.SetButtonWeaponType
+  nameWithType: WeaponRepresenter.SetButtonWeaponType

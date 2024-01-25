@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum WeaponType
+      <title>Class SceneFader
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum WeaponType
+      <meta name="title" content="Class SceneFader
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_BattleSystem_WeaponType.md&amp;value=---%0Auid%3A%20WGRF.BattleSystem.WeaponType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_UI_SceneFader.md&amp;value=---%0Auid%3A%20WGRF.UI.SceneFader%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,27 +73,67 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.BattleSystem.WeaponType">
+        <article data-uid="WGRF.UI.SceneFader">
 
 
 
-
-  <h1 id="WGRF_BattleSystem_WeaponType" data-uid="WGRF.BattleSystem.WeaponType" class="text-break">
-    Enum WeaponType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/Weapon.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_UI_SceneFader" data-uid="WGRF.UI.SceneFader" class="text-break">
+    Class SceneFader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/SceneFader.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.BattleSystem.html">BattleSystem</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.UI.html">UI</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Every weapon type in the game</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum WeaponType</code></pre>
+    <pre><code class="lang-csharp hljs">public class SceneFader : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">SceneFader</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGRF_UI_SceneFader_FadeIn_" data-uid="WGRF.UI.SceneFader.FadeIn*"></a>
+
+  <h3 id="WGRF_UI_SceneFader_FadeIn" data-uid="WGRF.UI.SceneFader.FadeIn">
+  FadeIn()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/SceneFader.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to play the FadeIn fader animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FadeIn()</code></pre>
   </div>
 
 
@@ -104,33 +144,42 @@
 
 
 
-  <h2 id="fields">Fields
-</h2>
-  <dl class="parameters">
-    <dt id="WGRF_BattleSystem_WeaponType_BaseballBat"><code>BaseballBat = 1</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Knife"><code>Knife = 0</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Pistol"><code>Pistol = 3</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Punch"><code>Punch = 2</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_SemiAutomatic"><code>SemiAutomatic = 4</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Shotgun"><code>Shotgun = 5</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType_Throwable"><code>Throwable = -2</code></dt>
-    <dd></dd>
-    <dt id="WGRF_BattleSystem_WeaponType__NaN"><code>_NaN = -1</code></dt>
-    <dd></dd>
-  </dl>
+
+
+
+
+  <a id="WGRF_UI_SceneFader_FadeOut_" data-uid="WGRF.UI.SceneFader.FadeOut*"></a>
+
+  <h3 id="WGRF_UI_SceneFader_FadeOut" data-uid="WGRF.UI.SceneFader.FadeOut">
+  FadeOut()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/SceneFader.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to play the FadeOut fader animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FadeOut()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/Weapon.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/SceneFader.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
         

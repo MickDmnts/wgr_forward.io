@@ -1045,6 +1045,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Interactions.Breakable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Interactions.Breakable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Interactions.IInteractable.yml",
       "output": {
         ".html": {
@@ -1059,6 +1069,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Interactions.IKickable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Interactions.Scaler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Interactions.Scaler.html"
         }
       },
       "version": ""
@@ -1145,6 +1165,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.DynamicCrosshair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.DynamicCrosshair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.UI.IUIController.yml",
       "output": {
         ".html": {
@@ -1159,6 +1189,26 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.MainMenuHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.OnMouseHover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.OnMouseHover.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.SceneFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.SceneFader.html"
         }
       },
       "version": ""
@@ -1199,6 +1249,26 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.ToggleSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.UserHUDHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.UserHUDHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.WeaponRepresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.WeaponRepresenter.html"
         }
       },
       "version": ""
