@@ -5,6 +5,196 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.AIEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.AIEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.AIEntityAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.AIEntityAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.AIEntityBTHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.AIEntityBTHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.AIEntityFOVDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.AIEntityFOVDetector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.AIEntityFOVManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.AIEntityFOVManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.AIEntityWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.AIEntityWeapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.AttackTargetAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.AttackTargetAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.BehaviourTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.BehaviourTree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.ChaseAttackSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.ChaseAttackSelector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.ChaseTargetActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.ChaseTargetActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.CheckIfDead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.CheckIfDead.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.CheckIfStunned.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.CheckIfStunned.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyBTHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyBTHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyKickable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyKickable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyNodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyNodeData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyWeapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.AI.Entities.AIEntity.yml",
       "output": {
         ".html": {
@@ -149,6 +339,76 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.AI.FOV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.INode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.INodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.INodeData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.IdleNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.IdleNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.IdleOnArrival.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.IdleOnArrival.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.IdlePatrolChaseActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.IdlePatrolChaseActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.NavToOriginalPos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.NavToOriginalPos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.NavToTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.NavToTarget.html"
         }
       },
       "version": ""
@@ -349,6 +609,66 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.AI.Nodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.PatrolCheckDistance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.PatrolCheckDistance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.PatrolNavToActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.PatrolNavToActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.PatrolNavigateTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.PatrolNavigateTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.PatrolNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.PatrolNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.StunedAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.StunedAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.html"
         }
       },
       "version": ""
@@ -805,6 +1125,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.RoomEndController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.RoomEndController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.RoomGenerator.yml",
       "output": {
         ".html": {
@@ -1209,6 +1539,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.SceneFader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ScorePanelController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ScorePanelController.html"
         }
       },
       "version": ""
