@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerEntity
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerEntity
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_Player_PlayerEntity.md&amp;value=---%0Auid%3A%20WGRF.Player.PlayerEntity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="WGRF.Player.PlayerEntity">
+
+
+
+  <h1 id="WGRF_Player_PlayerEntity" data-uid="WGRF.Player.PlayerEntity" class="text-break">
+    Class PlayerEntity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Player.html">Player</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerEntity : Entity, IInteractable, IRewindable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></div>
+      <div><a class="xref" href="WGRF.Core.Entity.html">Entity</a></div>
+      <div><span class="xref">PlayerEntity</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="WGRF.Interactions.IInteractable.html">IInteractable</a></div>
+      <div><a class="xref" href="WGRF.Abilities.IRewindable.html">IRewindable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_entityName">Entity.entityName</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_maxLife">Entity.maxLife</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_entityLife">Entity.entityLife</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_MaxHealth">Entity.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Hub">CoreBehaviour.Hub</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Controller">CoreBehaviour.Controller</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_ID">CoreBehaviour.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetID_System_String_">CoreBehaviour.SetID(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetController_WGRF_Core_Controller_">CoreBehaviour.SetController(Controller)</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Awake">CoreBehaviour.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostAwake">CoreBehaviour.PostAwake()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_OnDestroy">CoreBehaviour.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostDestroy">CoreBehaviour.PostDestroy()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="WGRF_Player_PlayerEntity_IsActive_" data-uid="WGRF.Player.PlayerEntity.IsActive*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_IsActive" data-uid="WGRF.Player.PlayerEntity.IsActive">
+  IsActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the is active state of the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WGRF_Player_PlayerEntity_IsDead_" data-uid="WGRF.Player.PlayerEntity.IsDead*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_IsDead" data-uid="WGRF.Player.PlayerEntity.IsDead">
+  IsDead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the is dead state of the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDead { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="WGRF_Player_PlayerEntity_AttackInteraction_" data-uid="WGRF.Player.PlayerEntity.AttackInteraction*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_AttackInteraction_System_Int32_" data-uid="WGRF.Player.PlayerEntity.AttackInteraction(System.Int32)">
+  AttackInteraction(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to initiate the attack interaction of the player.</p>
+<p>If the player is marked dead then return.</p>
+<p>If there are rewind ability uses and the player dies then a rewind sequence gets initiated.</p>
+<p>If there are not, then the player dies and gets back to the player hub.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AttackInteraction(int damage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Player_PlayerEntity_EnableUserControlOfPlayer_" data-uid="WGRF.Player.PlayerEntity.EnableUserControlOfPlayer*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_EnableUserControlOfPlayer" data-uid="WGRF.Player.PlayerEntity.EnableUserControlOfPlayer">
+  EnableUserControlOfPlayer()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><em>ANIMATION EVENT</em></p>
+<p>Called when the wake up animation finishes playing to reactivate the player controls.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableUserControlOfPlayer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Player_PlayerEntity_GetPosition_" data-uid="WGRF.Player.PlayerEntity.GetPosition*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_GetPosition" data-uid="WGRF.Player.PlayerEntity.GetPosition">
+  GetPosition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to get the current position of the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPosition()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Player_PlayerEntity_IncreaseHealthBy_" data-uid="WGRF.Player.PlayerEntity.IncreaseHealthBy*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_IncreaseHealthBy_System_Int32_" data-uid="WGRF.Player.PlayerEntity.IncreaseHealthBy(System.Int32)">
+  IncreaseHealthBy(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Increases the player's health value by the passed value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IncreaseHealthBy(int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Value to increase the health value by</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The increased player's health</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Player_PlayerEntity_PreAwake_" data-uid="WGRF.Player.PlayerEntity.PreAwake*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_PreAwake" data-uid="WGRF.Player.PlayerEntity.PreAwake">
+  PreAwake()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
+Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.Awake().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void PreAwake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Player_PlayerEntity_PreDestroy_" data-uid="WGRF.Player.PlayerEntity.PreDestroy*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_PreDestroy" data-uid="WGRF.Player.PlayerEntity.PreDestroy">
+  PreDestroy()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Destroy and before this script is cleared from its assigned controller.
+Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.OnDestroy().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void PreDestroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="WGRF_Player_PlayerEntity_SetPosition_" data-uid="WGRF.Player.PlayerEntity.SetPosition*"></a>
+
+  <h3 id="WGRF_Player_PlayerEntity_SetPosition_UnityEngine_Vector3_" data-uid="WGRF.Player.PlayerEntity.SetPosition(UnityEngine.Vector3)">
+  SetPosition(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call to set the current position of the player.</p>
+<p>If the player is marked dead, then return.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPosition(Vector3 newPos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPos</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/_Core/PlayerEntity.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

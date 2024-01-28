@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AIEntityFOVManager
+      <title>Class PlayerController
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AIEntityFOVManager
+      <meta name="title" content="Class PlayerController
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_AI_AIEntityFOVManager.md&amp;value=---%0Auid%3A%20WGRF.AI.AIEntityFOVManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_Player_PlayerController.md&amp;value=---%0Auid%3A%20WGRF.Player.PlayerController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,17 +73,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.AI.AIEntityFOVManager">
+        <article data-uid="WGRF.Player.PlayerController">
 
 
 
-  <h1 id="WGRF_AI_AIEntityFOVManager" data-uid="WGRF.AI.AIEntityFOVManager" class="text-break">
-    Class AIEntityFOVManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_Player_PlayerController" data-uid="WGRF.Player.PlayerController" class="text-break">
+    Class PlayerController
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerController.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.AI.html">AI</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Player.html">Player</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
@@ -91,7 +91,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AIEntityFOVManager : CoreBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerController : CoreBehaviour</code></pre>
   </div>
 
 
@@ -106,7 +106,7 @@
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
       <div><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></div>
-      <div><span class="xref">AIEntityFOVManager</span></div>
+      <div><span class="xref">PlayerController</span></div>
     </dd>
   </dl>
 
@@ -153,18 +153,18 @@
 </h2>
 
 
-  <a id="WGRF_AI_AIEntityFOVManager_IsDetectorActive_" data-uid="WGRF.AI.AIEntityFOVManager.IsDetectorActive*"></a>
+  <a id="WGRF_Player_PlayerController_PlayerInput_" data-uid="WGRF.Player.PlayerController.PlayerInput*"></a>
 
-  <h3 id="WGRF_AI_AIEntityFOVManager_IsDetectorActive" data-uid="WGRF.AI.AIEntityFOVManager.IsDetectorActive">
-  IsDetectorActive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_Player_PlayerController_PlayerInput" data-uid="WGRF.Player.PlayerController.PlayerInput">
+  PlayerInput
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerController.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDetectorActive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerInput PlayerInput { get; }</code></pre>
   </div>
 
 
@@ -173,7 +173,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="WGRF.PlayerInput.html">PlayerInput</a></dt>
     <dd></dd>
   </dl>
 
@@ -188,98 +188,11 @@
 </h2>
 
 
-  <a id="WGRF_AI_AIEntityFOVManager_ActivateAllDetectors_" data-uid="WGRF.AI.AIEntityFOVManager.ActivateAllDetectors*"></a>
+  <a id="WGRF_Player_PlayerController_PreAwake_" data-uid="WGRF.Player.PlayerController.PreAwake*"></a>
 
-  <h3 id="WGRF_AI_AIEntityFOVManager_ActivateAllDetectors" data-uid="WGRF.AI.AIEntityFOVManager.ActivateAllDetectors">
-  ActivateAllDetectors()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L122"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to mark every Entity detector of THIS gameObject as active.</p>
-<p>If the enemy AI is marked as dead, then returns.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ActivateAllDetectors()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_AIEntityFOVManager_DeactivateAllDetectors_" data-uid="WGRF.AI.AIEntityFOVManager.DeactivateAllDetectors*"></a>
-
-  <h3 id="WGRF_AI_AIEntityFOVManager_DeactivateAllDetectors" data-uid="WGRF.AI.AIEntityFOVManager.DeactivateAllDetectors">
-  DeactivateAllDetectors()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L108"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to mark every Entity detector of THIS gameObject as inactive.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeactivateAllDetectors()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_AIEntityFOVManager_GetEnemyEntity_" data-uid="WGRF.AI.AIEntityFOVManager.GetEnemyEntity*"></a>
-
-  <h3 id="WGRF_AI_AIEntityFOVManager_GetEnemyEntity" data-uid="WGRF.AI.AIEntityFOVManager.GetEnemyEntity">
-  GetEnemyEntity()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L158"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to get THIS FOV managers' enemy entity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AIEntity GetEnemyEntity()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="WGRF.AI.AIEntity.html">AIEntity</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_AIEntityFOVManager_PreAwake_" data-uid="WGRF.AI.AIEntityFOVManager.PreAwake*"></a>
-
-  <h3 id="WGRF_AI_AIEntityFOVManager_PreAwake" data-uid="WGRF.AI.AIEntityFOVManager.PreAwake">
+  <h3 id="WGRF_Player_PlayerController_PreAwake" data-uid="WGRF.Player.PlayerController.PreAwake">
   PreAwake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerController.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
@@ -303,11 +216,11 @@ Warning: A function that should be used from all the child classes instead of th
 
 
 
-  <a id="WGRF_AI_AIEntityFOVManager_PreDestroy_" data-uid="WGRF.AI.AIEntityFOVManager.PreDestroy*"></a>
+  <a id="WGRF_Player_PlayerController_PreDestroy_" data-uid="WGRF.Player.PlayerController.PreDestroy*"></a>
 
-  <h3 id="WGRF_AI_AIEntityFOVManager_PreDestroy" data-uid="WGRF.AI.AIEntityFOVManager.PreDestroy">
+  <h3 id="WGRF_Player_PlayerController_PreDestroy" data-uid="WGRF.Player.PlayerController.PreDestroy">
   PreDestroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerController.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Destroy and before this script is cleared from its assigned controller.
@@ -335,7 +248,7 @@ Warning: A function that should be used from all the child classes instead of th
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntityFOVManager.cs/#L23" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/Alx/Gameplay/PlayerBehaviour/Controller/PlayerController.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
         
