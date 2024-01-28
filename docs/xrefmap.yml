@@ -1449,6 +1449,19 @@ references:
   commentId: T:WGRF.AI.EnemyNodeData
   fullName: WGRF.AI.EnemyNodeData
   nameWithType: EnemyNodeData
+- uid: WGRF.AI.EnemyNodeData.EnemyEntity
+  name: EnemyEntity
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_EnemyEntity
+  commentId: P:WGRF.AI.EnemyNodeData.EnemyEntity
+  fullName: WGRF.AI.EnemyNodeData.EnemyEntity
+  nameWithType: EnemyNodeData.EnemyEntity
+- uid: WGRF.AI.EnemyNodeData.EnemyEntity*
+  name: EnemyEntity
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_EnemyEntity_
+  commentId: Overload:WGRF.AI.EnemyNodeData.EnemyEntity
+  isSpec: "True"
+  fullName: WGRF.AI.EnemyNodeData.EnemyEntity
+  nameWithType: EnemyNodeData.EnemyEntity
 - uid: WGRF.AI.EnemyNodeData.GetAttackAfterStun
   name: GetAttackAfterStun()
   href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetAttackAfterStun
