@@ -79,7 +79,7 @@
 
   <h1 id="WGRF_AI_EnemyEntity" data-uid="WGRF.AI.EnemyEntity" class="text-break">
     Class EnemyEntity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -124,10 +124,19 @@
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_enemyRoom">AIEntity.enemyRoom</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_scoreIncrease">AIEntity.scoreIncrease</a>
+    </div>
+    <div>
       <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_occlusionLayers">AIEntity.occlusionLayers</a>
     </div>
     <div>
       <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_layerOnDeath">AIEntity.layerOnDeath</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_bloodDecalPath">AIEntity.bloodDecalPath</a>
     </div>
     <div>
       <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_isAgentActive">AIEntity.isAgentActive</a>
@@ -152,18 +161,6 @@
     </div>
     <div>
       <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_Agent">AIEntity.Agent</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_onPlayerFound">AIEntity.onPlayerFound</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnPlayerFound">AIEntity.OnPlayerFound()</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_onObserverDeath">AIEntity.onObserverDeath</a>
-    </div>
-    <div>
-      <a class="xref" href="WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnObserverDeath">AIEntity.OnObserverDeath()</a>
     </div>
     <div>
       <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_entityName">Entity.entityName</a>
@@ -202,9 +199,48 @@
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_OnDestroy">CoreBehaviour.OnDestroy()</a>
     </div>
     <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PreDestroy">CoreBehaviour.PreDestroy()</a>
+    </div>
+    <div>
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostDestroy">CoreBehaviour.PostDestroy()</a>
     </div>
   </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="WGRF_AI_EnemyEntity_Target_" data-uid="WGRF.AI.EnemyEntity.Target*"></a>
+
+  <h3 id="WGRF_AI_EnemyEntity_Target" data-uid="WGRF.AI.EnemyEntity.Target">
+  Target
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the target of this agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Target { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
 
 
 
@@ -219,7 +255,7 @@
 
   <h3 id="WGRF_AI_EnemyEntity_AttackInteraction_System_Int32_" data-uid="WGRF.AI.EnemyEntity.AttackInteraction(System.Int32)">
   AttackInteraction(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>If the agent has armor, decrease its armor value by 1.</p>
@@ -250,93 +286,11 @@
 
 
 
-  <a id="WGRF_AI_EnemyEntity_CacheComponents_" data-uid="WGRF.AI.EnemyEntity.CacheComponents*"></a>
-
-  <h3 id="WGRF_AI_EnemyEntity_CacheComponents" data-uid="WGRF.AI.EnemyEntity.CacheComponents">
-  CacheComponents()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L30"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to cache the necessary entity components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void CacheComponents()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_EnemyEntity_CreateBTHandler_" data-uid="WGRF.AI.EnemyEntity.CreateBTHandler*"></a>
-
-  <h3 id="WGRF_AI_EnemyEntity_CreateBTHandler" data-uid="WGRF.AI.EnemyEntity.CreateBTHandler">
-  CreateBTHandler()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L84"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to create an instance of EnemyBTHandler and assign it to the btHandler varable.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void CreateBTHandler()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_EnemyEntity_CreateNodeData_" data-uid="WGRF.AI.EnemyEntity.CreateNodeData*"></a>
-
-  <h3 id="WGRF_AI_EnemyEntity_CreateNodeData" data-uid="WGRF.AI.EnemyEntity.CreateNodeData">
-  CreateNodeData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L51"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to create the behaviour tree data container for THIS enemy entity.</p>
-<p>Creates a new EnemyNodeData instance and assigns it in the enemyNodeData variable.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void CreateNodeData()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="WGRF_AI_EnemyEntity_DisableShootingBehaviour_" data-uid="WGRF.AI.EnemyEntity.DisableShootingBehaviour*"></a>
 
   <h3 id="WGRF_AI_EnemyEntity_DisableShootingBehaviour" data-uid="WGRF.AI.EnemyEntity.DisableShootingBehaviour">
   DisableShootingBehaviour()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to set the enemyNodeData canShoot to false.</p>
@@ -363,7 +317,7 @@
 
   <h3 id="WGRF_AI_EnemyEntity_GetEntityNodeData" data-uid="WGRF.AI.EnemyEntity.GetEntityNodeData">
   GetEntityNodeData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to get the node data of THIS entity.</p>
@@ -395,7 +349,7 @@
 
   <h3 id="WGRF_AI_EnemyEntity_GetIsAgentActive" data-uid="WGRF.AI.EnemyEntity.GetIsAgentActive">
   GetIsAgentActive()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to get the agents' current state.</p>
@@ -427,7 +381,7 @@
 
   <h3 id="WGRF_AI_EnemyEntity_OnPlayerAbilityFinish" data-uid="WGRF.AI.EnemyEntity.OnPlayerAbilityFinish">
   OnPlayerAbilityFinish()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called from each ability when the ability behaviour has finished executing to reset the agent values.</p>
@@ -454,7 +408,7 @@
 
   <h3 id="WGRF_AI_EnemyEntity_OnPlayerAbilityStart_System_Single_" data-uid="WGRF.AI.EnemyEntity.OnPlayerAbilityStart(System.Single)">
   OnPlayerAbilityStart(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to set the animator playback speed to the passed value.</p>
@@ -486,7 +440,7 @@
 
   <h3 id="WGRF_AI_EnemyEntity_PreAwake" data-uid="WGRF.AI.EnemyEntity.PreAwake">
   PreAwake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
@@ -510,39 +464,11 @@ Warning: A function that should be used from all the child classes instead of th
 
 
 
-  <a id="WGRF_AI_EnemyEntity_PreDestroy_" data-uid="WGRF.AI.EnemyEntity.PreDestroy*"></a>
-
-  <h3 id="WGRF_AI_EnemyEntity_PreDestroy" data-uid="WGRF.AI.EnemyEntity.PreDestroy">
-  PreDestroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L264"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Called on Destroy and before this script is cleared from its assigned controller.
-Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.OnDestroy().</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void PreDestroy()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="WGRF_AI_EnemyEntity_SetAttackTarget_" data-uid="WGRF.AI.EnemyEntity.SetAttackTarget*"></a>
 
   <h3 id="WGRF_AI_EnemyEntity_SetAttackTarget_UnityEngine_Transform_" data-uid="WGRF.AI.EnemyEntity.SetAttackTarget(UnityEngine.Transform)">
   SetAttackTarget(Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called from the EnemyEntityManager at startup to update the target of THIS enemy.</p>
@@ -574,7 +500,7 @@ Warning: A function that should be used from all the child classes instead of th
 
   <h3 id="WGRF_AI_EnemyEntity_SetIsAgentActive_System_Boolean_" data-uid="WGRF.AI.EnemyEntity.SetIsAgentActive(System.Boolean)">
   SetIsAgentActive(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to set the agent is active to the passed value.</p>
@@ -602,65 +528,11 @@ Warning: A function that should be used from all the child classes instead of th
 
 
 
-  <a id="WGRF_AI_EnemyEntity_SetupNodeDataFields_" data-uid="WGRF.AI.EnemyEntity.SetupNodeDataFields*"></a>
-
-  <h3 id="WGRF_AI_EnemyEntity_SetupNodeDataFields" data-uid="WGRF.AI.EnemyEntity.SetupNodeDataFields">
-  SetupNodeDataFields()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L60"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to set up the needed node data fields for correct startup agent behaviour.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void SetupNodeDataFields()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_EnemyEntity_TargetFound_" data-uid="WGRF.AI.EnemyEntity.TargetFound*"></a>
-
-  <h3 id="WGRF_AI_EnemyEntity_TargetFound" data-uid="WGRF.AI.EnemyEntity.TargetFound">
-  TargetFound()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L90"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to set the agent node data target found value to true.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void TargetFound()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/EnemyEntity.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
         

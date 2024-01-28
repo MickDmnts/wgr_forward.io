@@ -29,45 +29,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.Agent
   nameWithType: AIEntity.Agent
-- uid: WGRF.AI.AIEntity.CacheComponents
-  name: CacheComponents()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_CacheComponents
-  commentId: M:WGRF.AI.AIEntity.CacheComponents
-  fullName: WGRF.AI.AIEntity.CacheComponents()
-  nameWithType: AIEntity.CacheComponents()
-- uid: WGRF.AI.AIEntity.CacheComponents*
-  name: CacheComponents
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_CacheComponents_
-  commentId: Overload:WGRF.AI.AIEntity.CacheComponents
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.CacheComponents
-  nameWithType: AIEntity.CacheComponents
-- uid: WGRF.AI.AIEntity.CreateBTHandler
-  name: CreateBTHandler()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_CreateBTHandler
-  commentId: M:WGRF.AI.AIEntity.CreateBTHandler
-  fullName: WGRF.AI.AIEntity.CreateBTHandler()
-  nameWithType: AIEntity.CreateBTHandler()
-- uid: WGRF.AI.AIEntity.CreateBTHandler*
-  name: CreateBTHandler
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_CreateBTHandler_
-  commentId: Overload:WGRF.AI.AIEntity.CreateBTHandler
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.CreateBTHandler
-  nameWithType: AIEntity.CreateBTHandler
-- uid: WGRF.AI.AIEntity.CreateNodeData
-  name: CreateNodeData()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_CreateNodeData
-  commentId: M:WGRF.AI.AIEntity.CreateNodeData
-  fullName: WGRF.AI.AIEntity.CreateNodeData()
-  nameWithType: AIEntity.CreateNodeData()
-- uid: WGRF.AI.AIEntity.CreateNodeData*
-  name: CreateNodeData
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_CreateNodeData_
-  commentId: Overload:WGRF.AI.AIEntity.CreateNodeData
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.CreateNodeData
-  nameWithType: AIEntity.CreateNodeData
 - uid: WGRF.AI.AIEntity.GetEntityNodeData
   name: GetEntityNodeData()
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_GetEntityNodeData
@@ -107,32 +68,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.IsDead
   nameWithType: AIEntity.IsDead
-- uid: WGRF.AI.AIEntity.OnObserverDeath
-  name: OnObserverDeath()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnObserverDeath
-  commentId: M:WGRF.AI.AIEntity.OnObserverDeath
-  fullName: WGRF.AI.AIEntity.OnObserverDeath()
-  nameWithType: AIEntity.OnObserverDeath()
-- uid: WGRF.AI.AIEntity.OnObserverDeath*
-  name: OnObserverDeath
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnObserverDeath_
-  commentId: Overload:WGRF.AI.AIEntity.OnObserverDeath
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.OnObserverDeath
-  nameWithType: AIEntity.OnObserverDeath
-- uid: WGRF.AI.AIEntity.OnPlayerFound
-  name: OnPlayerFound()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnPlayerFound
-  commentId: M:WGRF.AI.AIEntity.OnPlayerFound
-  fullName: WGRF.AI.AIEntity.OnPlayerFound()
-  nameWithType: AIEntity.OnPlayerFound()
-- uid: WGRF.AI.AIEntity.OnPlayerFound*
-  name: OnPlayerFound
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnPlayerFound_
-  commentId: Overload:WGRF.AI.AIEntity.OnPlayerFound
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.OnPlayerFound
-  nameWithType: AIEntity.OnPlayerFound
 - uid: WGRF.AI.AIEntity.SetAttackTarget(UnityEngine.Transform)
   name: SetAttackTarget(Transform)
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_SetAttackTarget_UnityEngine_Transform_
@@ -162,32 +97,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.SetIsAgentActive
   nameWithType: AIEntity.SetIsAgentActive
-- uid: WGRF.AI.AIEntity.SetupNodeDataFields
-  name: SetupNodeDataFields()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_SetupNodeDataFields
-  commentId: M:WGRF.AI.AIEntity.SetupNodeDataFields
-  fullName: WGRF.AI.AIEntity.SetupNodeDataFields()
-  nameWithType: AIEntity.SetupNodeDataFields()
-- uid: WGRF.AI.AIEntity.SetupNodeDataFields*
-  name: SetupNodeDataFields
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_SetupNodeDataFields_
-  commentId: Overload:WGRF.AI.AIEntity.SetupNodeDataFields
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.SetupNodeDataFields
-  nameWithType: AIEntity.SetupNodeDataFields
-- uid: WGRF.AI.AIEntity.TargetFound
-  name: TargetFound()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_TargetFound
-  commentId: M:WGRF.AI.AIEntity.TargetFound
-  fullName: WGRF.AI.AIEntity.TargetFound()
-  nameWithType: AIEntity.TargetFound()
-- uid: WGRF.AI.AIEntity.TargetFound*
-  name: TargetFound
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_TargetFound_
-  commentId: Overload:WGRF.AI.AIEntity.TargetFound
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.TargetFound
-  nameWithType: AIEntity.TargetFound
 - uid: WGRF.AI.AIEntity.agent
   name: agent
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_agent
@@ -200,6 +109,12 @@ references:
   commentId: F:WGRF.AI.AIEntity.attackTarget
   fullName: WGRF.AI.AIEntity.attackTarget
   nameWithType: AIEntity.attackTarget
+- uid: WGRF.AI.AIEntity.bloodDecalPath
+  name: bloodDecalPath
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_bloodDecalPath
+  commentId: F:WGRF.AI.AIEntity.bloodDecalPath
+  fullName: WGRF.AI.AIEntity.bloodDecalPath
+  nameWithType: AIEntity.bloodDecalPath
 - uid: WGRF.AI.AIEntity.enemyNodeData
   name: enemyNodeData
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_enemyNodeData
@@ -212,6 +127,12 @@ references:
   commentId: F:WGRF.AI.AIEntity.enemyRB
   fullName: WGRF.AI.AIEntity.enemyRB
   nameWithType: AIEntity.enemyRB
+- uid: WGRF.AI.AIEntity.enemyRoom
+  name: enemyRoom
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_enemyRoom
+  commentId: F:WGRF.AI.AIEntity.enemyRoom
+  fullName: WGRF.AI.AIEntity.enemyRoom
+  nameWithType: AIEntity.enemyRoom
 - uid: WGRF.AI.AIEntity.isAgentActive
   name: isAgentActive
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_isAgentActive
@@ -236,18 +157,12 @@ references:
   commentId: F:WGRF.AI.AIEntity.occlusionLayers
   fullName: WGRF.AI.AIEntity.occlusionLayers
   nameWithType: AIEntity.occlusionLayers
-- uid: WGRF.AI.AIEntity.onObserverDeath
-  name: onObserverDeath
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_onObserverDeath
-  commentId: E:WGRF.AI.AIEntity.onObserverDeath
-  fullName: WGRF.AI.AIEntity.onObserverDeath
-  nameWithType: AIEntity.onObserverDeath
-- uid: WGRF.AI.AIEntity.onPlayerFound
-  name: onPlayerFound
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_onPlayerFound
-  commentId: E:WGRF.AI.AIEntity.onPlayerFound
-  fullName: WGRF.AI.AIEntity.onPlayerFound
-  nameWithType: AIEntity.onPlayerFound
+- uid: WGRF.AI.AIEntity.scoreIncrease
+  name: scoreIncrease
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_scoreIncrease
+  commentId: F:WGRF.AI.AIEntity.scoreIncrease
+  fullName: WGRF.AI.AIEntity.scoreIncrease
+  nameWithType: AIEntity.scoreIncrease
 - uid: WGRF.AI.AIEntityAnimations
   name: AIEntityAnimations
   href: api/WGRF.AI.AIEntityAnimations.html
@@ -1205,45 +1120,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyEntity.AttackInteraction
   nameWithType: EnemyEntity.AttackInteraction
-- uid: WGRF.AI.EnemyEntity.CacheComponents
-  name: CacheComponents()
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_CacheComponents
-  commentId: M:WGRF.AI.EnemyEntity.CacheComponents
-  fullName: WGRF.AI.EnemyEntity.CacheComponents()
-  nameWithType: EnemyEntity.CacheComponents()
-- uid: WGRF.AI.EnemyEntity.CacheComponents*
-  name: CacheComponents
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_CacheComponents_
-  commentId: Overload:WGRF.AI.EnemyEntity.CacheComponents
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.CacheComponents
-  nameWithType: EnemyEntity.CacheComponents
-- uid: WGRF.AI.EnemyEntity.CreateBTHandler
-  name: CreateBTHandler()
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_CreateBTHandler
-  commentId: M:WGRF.AI.EnemyEntity.CreateBTHandler
-  fullName: WGRF.AI.EnemyEntity.CreateBTHandler()
-  nameWithType: EnemyEntity.CreateBTHandler()
-- uid: WGRF.AI.EnemyEntity.CreateBTHandler*
-  name: CreateBTHandler
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_CreateBTHandler_
-  commentId: Overload:WGRF.AI.EnemyEntity.CreateBTHandler
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.CreateBTHandler
-  nameWithType: EnemyEntity.CreateBTHandler
-- uid: WGRF.AI.EnemyEntity.CreateNodeData
-  name: CreateNodeData()
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_CreateNodeData
-  commentId: M:WGRF.AI.EnemyEntity.CreateNodeData
-  fullName: WGRF.AI.EnemyEntity.CreateNodeData()
-  nameWithType: EnemyEntity.CreateNodeData()
-- uid: WGRF.AI.EnemyEntity.CreateNodeData*
-  name: CreateNodeData
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_CreateNodeData_
-  commentId: Overload:WGRF.AI.EnemyEntity.CreateNodeData
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.CreateNodeData
-  nameWithType: EnemyEntity.CreateNodeData
 - uid: WGRF.AI.EnemyEntity.DisableShootingBehaviour
   name: DisableShootingBehaviour()
   href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_DisableShootingBehaviour
@@ -1325,19 +1201,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyEntity.PreAwake
   nameWithType: EnemyEntity.PreAwake
-- uid: WGRF.AI.EnemyEntity.PreDestroy
-  name: PreDestroy()
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_PreDestroy
-  commentId: M:WGRF.AI.EnemyEntity.PreDestroy
-  fullName: WGRF.AI.EnemyEntity.PreDestroy()
-  nameWithType: EnemyEntity.PreDestroy()
-- uid: WGRF.AI.EnemyEntity.PreDestroy*
-  name: PreDestroy
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_PreDestroy_
-  commentId: Overload:WGRF.AI.EnemyEntity.PreDestroy
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.PreDestroy
-  nameWithType: EnemyEntity.PreDestroy
 - uid: WGRF.AI.EnemyEntity.SetAttackTarget(UnityEngine.Transform)
   name: SetAttackTarget(Transform)
   href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_SetAttackTarget_UnityEngine_Transform_
@@ -1367,32 +1230,19 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyEntity.SetIsAgentActive
   nameWithType: EnemyEntity.SetIsAgentActive
-- uid: WGRF.AI.EnemyEntity.SetupNodeDataFields
-  name: SetupNodeDataFields()
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_SetupNodeDataFields
-  commentId: M:WGRF.AI.EnemyEntity.SetupNodeDataFields
-  fullName: WGRF.AI.EnemyEntity.SetupNodeDataFields()
-  nameWithType: EnemyEntity.SetupNodeDataFields()
-- uid: WGRF.AI.EnemyEntity.SetupNodeDataFields*
-  name: SetupNodeDataFields
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_SetupNodeDataFields_
-  commentId: Overload:WGRF.AI.EnemyEntity.SetupNodeDataFields
+- uid: WGRF.AI.EnemyEntity.Target
+  name: Target
+  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_Target
+  commentId: P:WGRF.AI.EnemyEntity.Target
+  fullName: WGRF.AI.EnemyEntity.Target
+  nameWithType: EnemyEntity.Target
+- uid: WGRF.AI.EnemyEntity.Target*
+  name: Target
+  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_Target_
+  commentId: Overload:WGRF.AI.EnemyEntity.Target
   isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.SetupNodeDataFields
-  nameWithType: EnemyEntity.SetupNodeDataFields
-- uid: WGRF.AI.EnemyEntity.TargetFound
-  name: TargetFound()
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_TargetFound
-  commentId: M:WGRF.AI.EnemyEntity.TargetFound
-  fullName: WGRF.AI.EnemyEntity.TargetFound()
-  nameWithType: EnemyEntity.TargetFound()
-- uid: WGRF.AI.EnemyEntity.TargetFound*
-  name: TargetFound
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_TargetFound_
-  commentId: Overload:WGRF.AI.EnemyEntity.TargetFound
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.TargetFound
-  nameWithType: EnemyEntity.TargetFound
+  fullName: WGRF.AI.EnemyEntity.Target
+  nameWithType: EnemyEntity.Target
 - uid: WGRF.AI.EnemyKickable
   name: EnemyKickable
   href: api/WGRF.AI.EnemyKickable.html
@@ -1449,6 +1299,32 @@ references:
   commentId: T:WGRF.AI.EnemyNodeData
   fullName: WGRF.AI.EnemyNodeData
   nameWithType: EnemyNodeData
+- uid: WGRF.AI.EnemyNodeData.CanShoot
+  name: CanShoot
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_CanShoot
+  commentId: P:WGRF.AI.EnemyNodeData.CanShoot
+  fullName: WGRF.AI.EnemyNodeData.CanShoot
+  nameWithType: EnemyNodeData.CanShoot
+- uid: WGRF.AI.EnemyNodeData.CanShoot*
+  name: CanShoot
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_CanShoot_
+  commentId: Overload:WGRF.AI.EnemyNodeData.CanShoot
+  isSpec: "True"
+  fullName: WGRF.AI.EnemyNodeData.CanShoot
+  nameWithType: EnemyNodeData.CanShoot
+- uid: WGRF.AI.EnemyNodeData.EnemyAnimations
+  name: EnemyAnimations
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_EnemyAnimations
+  commentId: P:WGRF.AI.EnemyNodeData.EnemyAnimations
+  fullName: WGRF.AI.EnemyNodeData.EnemyAnimations
+  nameWithType: EnemyNodeData.EnemyAnimations
+- uid: WGRF.AI.EnemyNodeData.EnemyAnimations*
+  name: EnemyAnimations
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_EnemyAnimations_
+  commentId: Overload:WGRF.AI.EnemyNodeData.EnemyAnimations
+  isSpec: "True"
+  fullName: WGRF.AI.EnemyNodeData.EnemyAnimations
+  nameWithType: EnemyNodeData.EnemyAnimations
 - uid: WGRF.AI.EnemyNodeData.EnemyEntity
   name: EnemyEntity
   href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_EnemyEntity
@@ -1462,481 +1338,94 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyNodeData.EnemyEntity
   nameWithType: EnemyNodeData.EnemyEntity
-- uid: WGRF.AI.EnemyNodeData.GetAttackAfterStun
-  name: GetAttackAfterStun()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetAttackAfterStun
-  commentId: M:WGRF.AI.EnemyNodeData.GetAttackAfterStun
-  fullName: WGRF.AI.EnemyNodeData.GetAttackAfterStun()
-  nameWithType: EnemyNodeData.GetAttackAfterStun()
-- uid: WGRF.AI.EnemyNodeData.GetAttackAfterStun*
-  name: GetAttackAfterStun
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetAttackAfterStun_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetAttackAfterStun
+- uid: WGRF.AI.EnemyNodeData.IsDead
+  name: IsDead
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_IsDead
+  commentId: P:WGRF.AI.EnemyNodeData.IsDead
+  fullName: WGRF.AI.EnemyNodeData.IsDead
+  nameWithType: EnemyNodeData.IsDead
+- uid: WGRF.AI.EnemyNodeData.IsDead*
+  name: IsDead
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_IsDead_
+  commentId: Overload:WGRF.AI.EnemyNodeData.IsDead
   isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetAttackAfterStun
-  nameWithType: EnemyNodeData.GetAttackAfterStun
-- uid: WGRF.AI.EnemyNodeData.GetCanShoot
-  name: GetCanShoot()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetCanShoot
-  commentId: M:WGRF.AI.EnemyNodeData.GetCanShoot
-  fullName: WGRF.AI.EnemyNodeData.GetCanShoot()
-  nameWithType: EnemyNodeData.GetCanShoot()
-- uid: WGRF.AI.EnemyNodeData.GetCanShoot*
-  name: GetCanShoot
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetCanShoot_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetCanShoot
+  fullName: WGRF.AI.EnemyNodeData.IsDead
+  nameWithType: EnemyNodeData.IsDead
+- uid: WGRF.AI.EnemyNodeData.OcclusionLayers
+  name: OcclusionLayers
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_OcclusionLayers
+  commentId: P:WGRF.AI.EnemyNodeData.OcclusionLayers
+  fullName: WGRF.AI.EnemyNodeData.OcclusionLayers
+  nameWithType: EnemyNodeData.OcclusionLayers
+- uid: WGRF.AI.EnemyNodeData.OcclusionLayers*
+  name: OcclusionLayers
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_OcclusionLayers_
+  commentId: Overload:WGRF.AI.EnemyNodeData.OcclusionLayers
   isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetCanShoot
-  nameWithType: EnemyNodeData.GetCanShoot
-- uid: WGRF.AI.EnemyNodeData.GetCurrentWaypointIndex
-  name: GetCurrentWaypointIndex()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetCurrentWaypointIndex
-  commentId: M:WGRF.AI.EnemyNodeData.GetCurrentWaypointIndex
-  fullName: WGRF.AI.EnemyNodeData.GetCurrentWaypointIndex()
-  nameWithType: EnemyNodeData.GetCurrentWaypointIndex()
-- uid: WGRF.AI.EnemyNodeData.GetCurrentWaypointIndex*
-  name: GetCurrentWaypointIndex
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetCurrentWaypointIndex_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetCurrentWaypointIndex
+  fullName: WGRF.AI.EnemyNodeData.OcclusionLayers
+  nameWithType: EnemyNodeData.OcclusionLayers
+- uid: WGRF.AI.EnemyNodeData.Target
+  name: Target
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_Target
+  commentId: P:WGRF.AI.EnemyNodeData.Target
+  fullName: WGRF.AI.EnemyNodeData.Target
+  nameWithType: EnemyNodeData.Target
+- uid: WGRF.AI.EnemyNodeData.Target*
+  name: Target
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_Target_
+  commentId: Overload:WGRF.AI.EnemyNodeData.Target
   isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetCurrentWaypointIndex
-  nameWithType: EnemyNodeData.GetCurrentWaypointIndex
-- uid: WGRF.AI.EnemyNodeData.GetEnemyAnimations
-  name: GetEnemyAnimations()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetEnemyAnimations
-  commentId: M:WGRF.AI.EnemyNodeData.GetEnemyAnimations
-  fullName: WGRF.AI.EnemyNodeData.GetEnemyAnimations()
-  nameWithType: EnemyNodeData.GetEnemyAnimations()
-- uid: WGRF.AI.EnemyNodeData.GetEnemyAnimations*
-  name: GetEnemyAnimations
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetEnemyAnimations_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetEnemyAnimations
+  fullName: WGRF.AI.EnemyNodeData.Target
+  nameWithType: EnemyNodeData.Target
+- uid: WGRF.AI.EnemyNodeData.WeaponRange
+  name: WeaponRange
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_WeaponRange
+  commentId: P:WGRF.AI.EnemyNodeData.WeaponRange
+  fullName: WGRF.AI.EnemyNodeData.WeaponRange
+  nameWithType: EnemyNodeData.WeaponRange
+- uid: WGRF.AI.EnemyNodeData.WeaponRange*
+  name: WeaponRange
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_WeaponRange_
+  commentId: Overload:WGRF.AI.EnemyNodeData.WeaponRange
   isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetEnemyAnimations
-  nameWithType: EnemyNodeData.GetEnemyAnimations
-- uid: WGRF.AI.EnemyNodeData.GetEnemyEntity
-  name: GetEnemyEntity()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetEnemyEntity
-  commentId: M:WGRF.AI.EnemyNodeData.GetEnemyEntity
-  fullName: WGRF.AI.EnemyNodeData.GetEnemyEntity()
-  nameWithType: EnemyNodeData.GetEnemyEntity()
-- uid: WGRF.AI.EnemyNodeData.GetEnemyEntity*
-  name: GetEnemyEntity
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetEnemyEntity_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetEnemyEntity
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetEnemyEntity
-  nameWithType: EnemyNodeData.GetEnemyEntity
-- uid: WGRF.AI.EnemyNodeData.GetIdleTimeOnPatrol
-  name: GetIdleTimeOnPatrol()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetIdleTimeOnPatrol
-  commentId: M:WGRF.AI.EnemyNodeData.GetIdleTimeOnPatrol
-  fullName: WGRF.AI.EnemyNodeData.GetIdleTimeOnPatrol()
-  nameWithType: EnemyNodeData.GetIdleTimeOnPatrol()
-- uid: WGRF.AI.EnemyNodeData.GetIdleTimeOnPatrol*
-  name: GetIdleTimeOnPatrol
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetIdleTimeOnPatrol_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetIdleTimeOnPatrol
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetIdleTimeOnPatrol
-  nameWithType: EnemyNodeData.GetIdleTimeOnPatrol
-- uid: WGRF.AI.EnemyNodeData.GetIsDead
-  name: GetIsDead()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetIsDead
-  commentId: M:WGRF.AI.EnemyNodeData.GetIsDead
-  fullName: WGRF.AI.EnemyNodeData.GetIsDead()
-  nameWithType: EnemyNodeData.GetIsDead()
-- uid: WGRF.AI.EnemyNodeData.GetIsDead*
-  name: GetIsDead
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetIsDead_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetIsDead
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetIsDead
-  nameWithType: EnemyNodeData.GetIsDead
-- uid: WGRF.AI.EnemyNodeData.GetIsPatroller
-  name: GetIsPatroller()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetIsPatroller
-  commentId: M:WGRF.AI.EnemyNodeData.GetIsPatroller
-  fullName: WGRF.AI.EnemyNodeData.GetIsPatroller()
-  nameWithType: EnemyNodeData.GetIsPatroller()
-- uid: WGRF.AI.EnemyNodeData.GetIsPatroller*
-  name: GetIsPatroller
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetIsPatroller_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetIsPatroller
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetIsPatroller
-  nameWithType: EnemyNodeData.GetIsPatroller
-- uid: WGRF.AI.EnemyNodeData.GetNavMeshAgent
-  name: GetNavMeshAgent()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetNavMeshAgent
-  commentId: M:WGRF.AI.EnemyNodeData.GetNavMeshAgent
-  fullName: WGRF.AI.EnemyNodeData.GetNavMeshAgent()
-  nameWithType: EnemyNodeData.GetNavMeshAgent()
-- uid: WGRF.AI.EnemyNodeData.GetNavMeshAgent*
-  name: GetNavMeshAgent
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetNavMeshAgent_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetNavMeshAgent
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetNavMeshAgent
-  nameWithType: EnemyNodeData.GetNavMeshAgent
-- uid: WGRF.AI.EnemyNodeData.GetOcclusionLayers
-  name: GetOcclusionLayers()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetOcclusionLayers
-  commentId: M:WGRF.AI.EnemyNodeData.GetOcclusionLayers
-  fullName: WGRF.AI.EnemyNodeData.GetOcclusionLayers()
-  nameWithType: EnemyNodeData.GetOcclusionLayers()
-- uid: WGRF.AI.EnemyNodeData.GetOcclusionLayers*
-  name: GetOcclusionLayers
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetOcclusionLayers_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetOcclusionLayers
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetOcclusionLayers
-  nameWithType: EnemyNodeData.GetOcclusionLayers
-- uid: WGRF.AI.EnemyNodeData.GetOriginalPos
-  name: GetOriginalPos()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetOriginalPos
-  commentId: M:WGRF.AI.EnemyNodeData.GetOriginalPos
-  fullName: WGRF.AI.EnemyNodeData.GetOriginalPos()
-  nameWithType: EnemyNodeData.GetOriginalPos()
-- uid: WGRF.AI.EnemyNodeData.GetOriginalPos*
-  name: GetOriginalPos
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetOriginalPos_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetOriginalPos
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetOriginalPos
-  nameWithType: EnemyNodeData.GetOriginalPos
-- uid: WGRF.AI.EnemyNodeData.GetTarget
-  name: GetTarget()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetTarget
-  commentId: M:WGRF.AI.EnemyNodeData.GetTarget
-  fullName: WGRF.AI.EnemyNodeData.GetTarget()
-  nameWithType: EnemyNodeData.GetTarget()
-- uid: WGRF.AI.EnemyNodeData.GetTarget*
-  name: GetTarget
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetTarget_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetTarget
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetTarget
-  nameWithType: EnemyNodeData.GetTarget
-- uid: WGRF.AI.EnemyNodeData.GetTargetFound
-  name: GetTargetFound()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetTargetFound
-  commentId: M:WGRF.AI.EnemyNodeData.GetTargetFound
-  fullName: WGRF.AI.EnemyNodeData.GetTargetFound()
-  nameWithType: EnemyNodeData.GetTargetFound()
-- uid: WGRF.AI.EnemyNodeData.GetTargetFound*
-  name: GetTargetFound
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetTargetFound_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetTargetFound
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetTargetFound
-  nameWithType: EnemyNodeData.GetTargetFound
-- uid: WGRF.AI.EnemyNodeData.GetTargetIsDead
-  name: GetTargetIsDead()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetTargetIsDead
-  commentId: M:WGRF.AI.EnemyNodeData.GetTargetIsDead
-  fullName: WGRF.AI.EnemyNodeData.GetTargetIsDead()
-  nameWithType: EnemyNodeData.GetTargetIsDead()
-- uid: WGRF.AI.EnemyNodeData.GetTargetIsDead*
-  name: GetTargetIsDead
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetTargetIsDead_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetTargetIsDead
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetTargetIsDead
-  nameWithType: EnemyNodeData.GetTargetIsDead
-- uid: WGRF.AI.EnemyNodeData.GetWaypointDistanceOffset
-  name: GetWaypointDistanceOffset()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetWaypointDistanceOffset
-  commentId: M:WGRF.AI.EnemyNodeData.GetWaypointDistanceOffset
-  fullName: WGRF.AI.EnemyNodeData.GetWaypointDistanceOffset()
-  nameWithType: EnemyNodeData.GetWaypointDistanceOffset()
-- uid: WGRF.AI.EnemyNodeData.GetWaypointDistanceOffset*
-  name: GetWaypointDistanceOffset
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetWaypointDistanceOffset_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetWaypointDistanceOffset
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetWaypointDistanceOffset
-  nameWithType: EnemyNodeData.GetWaypointDistanceOffset
-- uid: WGRF.AI.EnemyNodeData.GetWaypoints
-  name: GetWaypoints()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetWaypoints
-  commentId: M:WGRF.AI.EnemyNodeData.GetWaypoints
-  fullName: WGRF.AI.EnemyNodeData.GetWaypoints()
-  nameWithType: EnemyNodeData.GetWaypoints()
-- uid: WGRF.AI.EnemyNodeData.GetWaypoints*
-  name: GetWaypoints
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetWaypoints_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetWaypoints
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetWaypoints
-  nameWithType: EnemyNodeData.GetWaypoints
-- uid: WGRF.AI.EnemyNodeData.GetWeaponRange
-  name: GetWeaponRange()
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetWeaponRange
-  commentId: M:WGRF.AI.EnemyNodeData.GetWeaponRange
-  fullName: WGRF.AI.EnemyNodeData.GetWeaponRange()
-  nameWithType: EnemyNodeData.GetWeaponRange()
-- uid: WGRF.AI.EnemyNodeData.GetWeaponRange*
-  name: GetWeaponRange
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_GetWeaponRange_
-  commentId: Overload:WGRF.AI.EnemyNodeData.GetWeaponRange
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.GetWeaponRange
-  nameWithType: EnemyNodeData.GetWeaponRange
-- uid: WGRF.AI.EnemyNodeData.SetAttackAfterStun(System.Boolean)
-  name: SetAttackAfterStun(bool)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetAttackAfterStun_System_Boolean_
-  commentId: M:WGRF.AI.EnemyNodeData.SetAttackAfterStun(System.Boolean)
-  name.vb: SetAttackAfterStun(Boolean)
-  fullName: WGRF.AI.EnemyNodeData.SetAttackAfterStun(bool)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetAttackAfterStun(Boolean)
-  nameWithType: EnemyNodeData.SetAttackAfterStun(bool)
-  nameWithType.vb: EnemyNodeData.SetAttackAfterStun(Boolean)
-- uid: WGRF.AI.EnemyNodeData.SetAttackAfterStun*
-  name: SetAttackAfterStun
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetAttackAfterStun_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetAttackAfterStun
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetAttackAfterStun
-  nameWithType: EnemyNodeData.SetAttackAfterStun
-- uid: WGRF.AI.EnemyNodeData.SetCanShoot(System.Boolean)
-  name: SetCanShoot(bool)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetCanShoot_System_Boolean_
-  commentId: M:WGRF.AI.EnemyNodeData.SetCanShoot(System.Boolean)
-  name.vb: SetCanShoot(Boolean)
-  fullName: WGRF.AI.EnemyNodeData.SetCanShoot(bool)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetCanShoot(Boolean)
-  nameWithType: EnemyNodeData.SetCanShoot(bool)
-  nameWithType.vb: EnemyNodeData.SetCanShoot(Boolean)
-- uid: WGRF.AI.EnemyNodeData.SetCanShoot*
-  name: SetCanShoot
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetCanShoot_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetCanShoot
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetCanShoot
-  nameWithType: EnemyNodeData.SetCanShoot
-- uid: WGRF.AI.EnemyNodeData.SetCurrentWaypointIndex(System.Int32)
-  name: SetCurrentWaypointIndex(int)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetCurrentWaypointIndex_System_Int32_
-  commentId: M:WGRF.AI.EnemyNodeData.SetCurrentWaypointIndex(System.Int32)
-  name.vb: SetCurrentWaypointIndex(Integer)
-  fullName: WGRF.AI.EnemyNodeData.SetCurrentWaypointIndex(int)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetCurrentWaypointIndex(Integer)
-  nameWithType: EnemyNodeData.SetCurrentWaypointIndex(int)
-  nameWithType.vb: EnemyNodeData.SetCurrentWaypointIndex(Integer)
-- uid: WGRF.AI.EnemyNodeData.SetCurrentWaypointIndex*
-  name: SetCurrentWaypointIndex
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetCurrentWaypointIndex_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetCurrentWaypointIndex
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetCurrentWaypointIndex
-  nameWithType: EnemyNodeData.SetCurrentWaypointIndex
-- uid: WGRF.AI.EnemyNodeData.SetEnemyAnimations(WGRF.AI.EnemyAnimations)
-  name: SetEnemyAnimations(EnemyAnimations)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetEnemyAnimations_WGRF_AI_EnemyAnimations_
-  commentId: M:WGRF.AI.EnemyNodeData.SetEnemyAnimations(WGRF.AI.EnemyAnimations)
-  fullName: WGRF.AI.EnemyNodeData.SetEnemyAnimations(WGRF.AI.EnemyAnimations)
-  nameWithType: EnemyNodeData.SetEnemyAnimations(EnemyAnimations)
-- uid: WGRF.AI.EnemyNodeData.SetEnemyAnimations*
-  name: SetEnemyAnimations
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetEnemyAnimations_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetEnemyAnimations
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetEnemyAnimations
-  nameWithType: EnemyNodeData.SetEnemyAnimations
-- uid: WGRF.AI.EnemyNodeData.SetEnemyEntity(WGRF.AI.EnemyEntity)
-  name: SetEnemyEntity(EnemyEntity)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetEnemyEntity_WGRF_AI_EnemyEntity_
-  commentId: M:WGRF.AI.EnemyNodeData.SetEnemyEntity(WGRF.AI.EnemyEntity)
-  fullName: WGRF.AI.EnemyNodeData.SetEnemyEntity(WGRF.AI.EnemyEntity)
-  nameWithType: EnemyNodeData.SetEnemyEntity(EnemyEntity)
-- uid: WGRF.AI.EnemyNodeData.SetEnemyEntity*
-  name: SetEnemyEntity
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetEnemyEntity_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetEnemyEntity
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetEnemyEntity
-  nameWithType: EnemyNodeData.SetEnemyEntity
-- uid: WGRF.AI.EnemyNodeData.SetIdleTimeOnPatrol(System.Single)
-  name: SetIdleTimeOnPatrol(float)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetIdleTimeOnPatrol_System_Single_
-  commentId: M:WGRF.AI.EnemyNodeData.SetIdleTimeOnPatrol(System.Single)
-  name.vb: SetIdleTimeOnPatrol(Single)
-  fullName: WGRF.AI.EnemyNodeData.SetIdleTimeOnPatrol(float)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetIdleTimeOnPatrol(Single)
-  nameWithType: EnemyNodeData.SetIdleTimeOnPatrol(float)
-  nameWithType.vb: EnemyNodeData.SetIdleTimeOnPatrol(Single)
-- uid: WGRF.AI.EnemyNodeData.SetIdleTimeOnPatrol*
-  name: SetIdleTimeOnPatrol
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetIdleTimeOnPatrol_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetIdleTimeOnPatrol
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetIdleTimeOnPatrol
-  nameWithType: EnemyNodeData.SetIdleTimeOnPatrol
-- uid: WGRF.AI.EnemyNodeData.SetIsDead(System.Boolean)
-  name: SetIsDead(bool)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetIsDead_System_Boolean_
-  commentId: M:WGRF.AI.EnemyNodeData.SetIsDead(System.Boolean)
-  name.vb: SetIsDead(Boolean)
-  fullName: WGRF.AI.EnemyNodeData.SetIsDead(bool)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetIsDead(Boolean)
-  nameWithType: EnemyNodeData.SetIsDead(bool)
-  nameWithType.vb: EnemyNodeData.SetIsDead(Boolean)
-- uid: WGRF.AI.EnemyNodeData.SetIsDead*
-  name: SetIsDead
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetIsDead_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetIsDead
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetIsDead
-  nameWithType: EnemyNodeData.SetIsDead
-- uid: WGRF.AI.EnemyNodeData.SetIsPatroller(System.Boolean)
-  name: SetIsPatroller(bool)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetIsPatroller_System_Boolean_
-  commentId: M:WGRF.AI.EnemyNodeData.SetIsPatroller(System.Boolean)
-  name.vb: SetIsPatroller(Boolean)
-  fullName: WGRF.AI.EnemyNodeData.SetIsPatroller(bool)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetIsPatroller(Boolean)
-  nameWithType: EnemyNodeData.SetIsPatroller(bool)
-  nameWithType.vb: EnemyNodeData.SetIsPatroller(Boolean)
-- uid: WGRF.AI.EnemyNodeData.SetIsPatroller*
-  name: SetIsPatroller
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetIsPatroller_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetIsPatroller
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetIsPatroller
-  nameWithType: EnemyNodeData.SetIsPatroller
-- uid: WGRF.AI.EnemyNodeData.SetNavMeshAgent(UnityEngine.AI.NavMeshAgent)
-  name: SetNavMeshAgent(NavMeshAgent)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetNavMeshAgent_UnityEngine_AI_NavMeshAgent_
-  commentId: M:WGRF.AI.EnemyNodeData.SetNavMeshAgent(UnityEngine.AI.NavMeshAgent)
-  fullName: WGRF.AI.EnemyNodeData.SetNavMeshAgent(UnityEngine.AI.NavMeshAgent)
-  nameWithType: EnemyNodeData.SetNavMeshAgent(NavMeshAgent)
-- uid: WGRF.AI.EnemyNodeData.SetNavMeshAgent*
-  name: SetNavMeshAgent
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetNavMeshAgent_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetNavMeshAgent
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetNavMeshAgent
-  nameWithType: EnemyNodeData.SetNavMeshAgent
-- uid: WGRF.AI.EnemyNodeData.SetOcclusionLayers(UnityEngine.LayerMask)
-  name: SetOcclusionLayers(LayerMask)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetOcclusionLayers_UnityEngine_LayerMask_
-  commentId: M:WGRF.AI.EnemyNodeData.SetOcclusionLayers(UnityEngine.LayerMask)
-  fullName: WGRF.AI.EnemyNodeData.SetOcclusionLayers(UnityEngine.LayerMask)
-  nameWithType: EnemyNodeData.SetOcclusionLayers(LayerMask)
-- uid: WGRF.AI.EnemyNodeData.SetOcclusionLayers*
-  name: SetOcclusionLayers
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetOcclusionLayers_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetOcclusionLayers
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetOcclusionLayers
-  nameWithType: EnemyNodeData.SetOcclusionLayers
-- uid: WGRF.AI.EnemyNodeData.SetOriginalPos(UnityEngine.Vector3)
-  name: SetOriginalPos(Vector3)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetOriginalPos_UnityEngine_Vector3_
-  commentId: M:WGRF.AI.EnemyNodeData.SetOriginalPos(UnityEngine.Vector3)
-  fullName: WGRF.AI.EnemyNodeData.SetOriginalPos(UnityEngine.Vector3)
-  nameWithType: EnemyNodeData.SetOriginalPos(Vector3)
-- uid: WGRF.AI.EnemyNodeData.SetOriginalPos*
-  name: SetOriginalPos
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetOriginalPos_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetOriginalPos
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetOriginalPos
-  nameWithType: EnemyNodeData.SetOriginalPos
-- uid: WGRF.AI.EnemyNodeData.SetTarget(UnityEngine.Transform)
-  name: SetTarget(Transform)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetTarget_UnityEngine_Transform_
-  commentId: M:WGRF.AI.EnemyNodeData.SetTarget(UnityEngine.Transform)
-  fullName: WGRF.AI.EnemyNodeData.SetTarget(UnityEngine.Transform)
-  nameWithType: EnemyNodeData.SetTarget(Transform)
-- uid: WGRF.AI.EnemyNodeData.SetTarget*
-  name: SetTarget
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetTarget_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetTarget
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetTarget
-  nameWithType: EnemyNodeData.SetTarget
-- uid: WGRF.AI.EnemyNodeData.SetTargetFound(System.Boolean)
-  name: SetTargetFound(bool)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetTargetFound_System_Boolean_
-  commentId: M:WGRF.AI.EnemyNodeData.SetTargetFound(System.Boolean)
-  name.vb: SetTargetFound(Boolean)
-  fullName: WGRF.AI.EnemyNodeData.SetTargetFound(bool)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetTargetFound(Boolean)
-  nameWithType: EnemyNodeData.SetTargetFound(bool)
-  nameWithType.vb: EnemyNodeData.SetTargetFound(Boolean)
-- uid: WGRF.AI.EnemyNodeData.SetTargetFound*
-  name: SetTargetFound
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetTargetFound_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetTargetFound
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetTargetFound
-  nameWithType: EnemyNodeData.SetTargetFound
-- uid: WGRF.AI.EnemyNodeData.SetTargetIsDead(System.Boolean)
-  name: SetTargetIsDead(bool)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetTargetIsDead_System_Boolean_
-  commentId: M:WGRF.AI.EnemyNodeData.SetTargetIsDead(System.Boolean)
-  name.vb: SetTargetIsDead(Boolean)
-  fullName: WGRF.AI.EnemyNodeData.SetTargetIsDead(bool)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetTargetIsDead(Boolean)
-  nameWithType: EnemyNodeData.SetTargetIsDead(bool)
-  nameWithType.vb: EnemyNodeData.SetTargetIsDead(Boolean)
-- uid: WGRF.AI.EnemyNodeData.SetTargetIsDead*
-  name: SetTargetIsDead
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetTargetIsDead_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetTargetIsDead
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetTargetIsDead
-  nameWithType: EnemyNodeData.SetTargetIsDead
-- uid: WGRF.AI.EnemyNodeData.SetWaypointDistanceOffset(System.Single)
-  name: SetWaypointDistanceOffset(float)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetWaypointDistanceOffset_System_Single_
-  commentId: M:WGRF.AI.EnemyNodeData.SetWaypointDistanceOffset(System.Single)
-  name.vb: SetWaypointDistanceOffset(Single)
-  fullName: WGRF.AI.EnemyNodeData.SetWaypointDistanceOffset(float)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetWaypointDistanceOffset(Single)
-  nameWithType: EnemyNodeData.SetWaypointDistanceOffset(float)
-  nameWithType.vb: EnemyNodeData.SetWaypointDistanceOffset(Single)
-- uid: WGRF.AI.EnemyNodeData.SetWaypointDistanceOffset*
-  name: SetWaypointDistanceOffset
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetWaypointDistanceOffset_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetWaypointDistanceOffset
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetWaypointDistanceOffset
-  nameWithType: EnemyNodeData.SetWaypointDistanceOffset
-- uid: WGRF.AI.EnemyNodeData.SetWaypoints(System.Collections.Generic.List{UnityEngine.Transform})
-  name: SetWaypoints(List<Transform>)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetWaypoints_System_Collections_Generic_List_UnityEngine_Transform__
-  commentId: M:WGRF.AI.EnemyNodeData.SetWaypoints(System.Collections.Generic.List{UnityEngine.Transform})
-  name.vb: SetWaypoints(List(Of Transform))
-  fullName: WGRF.AI.EnemyNodeData.SetWaypoints(System.Collections.Generic.List<UnityEngine.Transform>)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetWaypoints(System.Collections.Generic.List(Of UnityEngine.Transform))
-  nameWithType: EnemyNodeData.SetWaypoints(List<Transform>)
-  nameWithType.vb: EnemyNodeData.SetWaypoints(List(Of Transform))
-- uid: WGRF.AI.EnemyNodeData.SetWaypoints*
-  name: SetWaypoints
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetWaypoints_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetWaypoints
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetWaypoints
-  nameWithType: EnemyNodeData.SetWaypoints
-- uid: WGRF.AI.EnemyNodeData.SetWeaponRange(System.Single)
-  name: SetWeaponRange(float)
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetWeaponRange_System_Single_
-  commentId: M:WGRF.AI.EnemyNodeData.SetWeaponRange(System.Single)
-  name.vb: SetWeaponRange(Single)
-  fullName: WGRF.AI.EnemyNodeData.SetWeaponRange(float)
-  fullName.vb: WGRF.AI.EnemyNodeData.SetWeaponRange(Single)
-  nameWithType: EnemyNodeData.SetWeaponRange(float)
-  nameWithType.vb: EnemyNodeData.SetWeaponRange(Single)
-- uid: WGRF.AI.EnemyNodeData.SetWeaponRange*
-  name: SetWeaponRange
-  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_SetWeaponRange_
-  commentId: Overload:WGRF.AI.EnemyNodeData.SetWeaponRange
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyNodeData.SetWeaponRange
-  nameWithType: EnemyNodeData.SetWeaponRange
+  fullName: WGRF.AI.EnemyNodeData.WeaponRange
+  nameWithType: EnemyNodeData.WeaponRange
+- uid: WGRF.AI.EnemyRoom
+  name: EnemyRoom
+  href: api/WGRF.AI.EnemyRoom.html
+  commentId: T:WGRF.AI.EnemyRoom
+  fullName: WGRF.AI.EnemyRoom
+  nameWithType: EnemyRoom
+- uid: WGRF.AI.EnemyRoom.Room1
+  name: Room1
+  href: api/WGRF.AI.EnemyRoom.html#WGRF_AI_EnemyRoom_Room1
+  commentId: F:WGRF.AI.EnemyRoom.Room1
+  fullName: WGRF.AI.EnemyRoom.Room1
+  nameWithType: EnemyRoom.Room1
+- uid: WGRF.AI.EnemyRoom.Room2
+  name: Room2
+  href: api/WGRF.AI.EnemyRoom.html#WGRF_AI_EnemyRoom_Room2
+  commentId: F:WGRF.AI.EnemyRoom.Room2
+  fullName: WGRF.AI.EnemyRoom.Room2
+  nameWithType: EnemyRoom.Room2
+- uid: WGRF.AI.EnemyRoom.Room3
+  name: Room3
+  href: api/WGRF.AI.EnemyRoom.html#WGRF_AI_EnemyRoom_Room3
+  commentId: F:WGRF.AI.EnemyRoom.Room3
+  fullName: WGRF.AI.EnemyRoom.Room3
+  nameWithType: EnemyRoom.Room3
+- uid: WGRF.AI.EnemyRoom.Room4
+  name: Room4
+  href: api/WGRF.AI.EnemyRoom.html#WGRF_AI_EnemyRoom_Room4
+  commentId: F:WGRF.AI.EnemyRoom.Room4
+  fullName: WGRF.AI.EnemyRoom.Room4
+  nameWithType: EnemyRoom.Room4
+- uid: WGRF.AI.EnemyRoom.Room5
+  name: Room5
+  href: api/WGRF.AI.EnemyRoom.html#WGRF_AI_EnemyRoom_Room5
+  commentId: F:WGRF.AI.EnemyRoom.Room5
+  fullName: WGRF.AI.EnemyRoom.Room5
+  nameWithType: EnemyRoom.Room5
 - uid: WGRF.AI.EnemyWeapon
   name: EnemyWeapon
   href: api/WGRF.AI.EnemyWeapon.html
@@ -3564,226 +3053,97 @@ references:
   commentId: T:WGRF.AI.INodeData
   fullName: WGRF.AI.INodeData
   nameWithType: INodeData
-- uid: WGRF.AI.INodeData.GetCanShoot
-  name: GetCanShoot()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetCanShoot
-  commentId: M:WGRF.AI.INodeData.GetCanShoot
-  fullName: WGRF.AI.INodeData.GetCanShoot()
-  nameWithType: INodeData.GetCanShoot()
-- uid: WGRF.AI.INodeData.GetCanShoot*
-  name: GetCanShoot
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetCanShoot_
-  commentId: Overload:WGRF.AI.INodeData.GetCanShoot
+- uid: WGRF.AI.INodeData.CanShoot
+  name: CanShoot
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_CanShoot
+  commentId: P:WGRF.AI.INodeData.CanShoot
+  fullName: WGRF.AI.INodeData.CanShoot
+  nameWithType: INodeData.CanShoot
+- uid: WGRF.AI.INodeData.CanShoot*
+  name: CanShoot
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_CanShoot_
+  commentId: Overload:WGRF.AI.INodeData.CanShoot
   isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetCanShoot
-  nameWithType: INodeData.GetCanShoot
-- uid: WGRF.AI.INodeData.GetNavMeshAgent
-  name: GetNavMeshAgent()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetNavMeshAgent
-  commentId: M:WGRF.AI.INodeData.GetNavMeshAgent
-  fullName: WGRF.AI.INodeData.GetNavMeshAgent()
-  nameWithType: INodeData.GetNavMeshAgent()
-- uid: WGRF.AI.INodeData.GetNavMeshAgent*
-  name: GetNavMeshAgent
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetNavMeshAgent_
-  commentId: Overload:WGRF.AI.INodeData.GetNavMeshAgent
+  fullName: WGRF.AI.INodeData.CanShoot
+  nameWithType: INodeData.CanShoot
+- uid: WGRF.AI.INodeData.EnemyAnimations
+  name: EnemyAnimations
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_EnemyAnimations
+  commentId: P:WGRF.AI.INodeData.EnemyAnimations
+  fullName: WGRF.AI.INodeData.EnemyAnimations
+  nameWithType: INodeData.EnemyAnimations
+- uid: WGRF.AI.INodeData.EnemyAnimations*
+  name: EnemyAnimations
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_EnemyAnimations_
+  commentId: Overload:WGRF.AI.INodeData.EnemyAnimations
   isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetNavMeshAgent
-  nameWithType: INodeData.GetNavMeshAgent
-- uid: WGRF.AI.INodeData.GetOcclusionLayers
-  name: GetOcclusionLayers()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetOcclusionLayers
-  commentId: M:WGRF.AI.INodeData.GetOcclusionLayers
-  fullName: WGRF.AI.INodeData.GetOcclusionLayers()
-  nameWithType: INodeData.GetOcclusionLayers()
-- uid: WGRF.AI.INodeData.GetOcclusionLayers*
-  name: GetOcclusionLayers
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetOcclusionLayers_
-  commentId: Overload:WGRF.AI.INodeData.GetOcclusionLayers
+  fullName: WGRF.AI.INodeData.EnemyAnimations
+  nameWithType: INodeData.EnemyAnimations
+- uid: WGRF.AI.INodeData.EnemyEntity
+  name: EnemyEntity
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_EnemyEntity
+  commentId: P:WGRF.AI.INodeData.EnemyEntity
+  fullName: WGRF.AI.INodeData.EnemyEntity
+  nameWithType: INodeData.EnemyEntity
+- uid: WGRF.AI.INodeData.EnemyEntity*
+  name: EnemyEntity
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_EnemyEntity_
+  commentId: Overload:WGRF.AI.INodeData.EnemyEntity
   isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetOcclusionLayers
-  nameWithType: INodeData.GetOcclusionLayers
-- uid: WGRF.AI.INodeData.GetOriginalPos
-  name: GetOriginalPos()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetOriginalPos
-  commentId: M:WGRF.AI.INodeData.GetOriginalPos
-  fullName: WGRF.AI.INodeData.GetOriginalPos()
-  nameWithType: INodeData.GetOriginalPos()
-- uid: WGRF.AI.INodeData.GetOriginalPos*
-  name: GetOriginalPos
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetOriginalPos_
-  commentId: Overload:WGRF.AI.INodeData.GetOriginalPos
+  fullName: WGRF.AI.INodeData.EnemyEntity
+  nameWithType: INodeData.EnemyEntity
+- uid: WGRF.AI.INodeData.IsDead
+  name: IsDead
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_IsDead
+  commentId: P:WGRF.AI.INodeData.IsDead
+  fullName: WGRF.AI.INodeData.IsDead
+  nameWithType: INodeData.IsDead
+- uid: WGRF.AI.INodeData.IsDead*
+  name: IsDead
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_IsDead_
+  commentId: Overload:WGRF.AI.INodeData.IsDead
   isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetOriginalPos
-  nameWithType: INodeData.GetOriginalPos
-- uid: WGRF.AI.INodeData.GetTarget
-  name: GetTarget()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetTarget
-  commentId: M:WGRF.AI.INodeData.GetTarget
-  fullName: WGRF.AI.INodeData.GetTarget()
-  nameWithType: INodeData.GetTarget()
-- uid: WGRF.AI.INodeData.GetTarget*
-  name: GetTarget
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetTarget_
-  commentId: Overload:WGRF.AI.INodeData.GetTarget
+  fullName: WGRF.AI.INodeData.IsDead
+  nameWithType: INodeData.IsDead
+- uid: WGRF.AI.INodeData.OcclusionLayers
+  name: OcclusionLayers
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_OcclusionLayers
+  commentId: P:WGRF.AI.INodeData.OcclusionLayers
+  fullName: WGRF.AI.INodeData.OcclusionLayers
+  nameWithType: INodeData.OcclusionLayers
+- uid: WGRF.AI.INodeData.OcclusionLayers*
+  name: OcclusionLayers
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_OcclusionLayers_
+  commentId: Overload:WGRF.AI.INodeData.OcclusionLayers
   isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetTarget
-  nameWithType: INodeData.GetTarget
-- uid: WGRF.AI.INodeData.GetTargetFound
-  name: GetTargetFound()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetTargetFound
-  commentId: M:WGRF.AI.INodeData.GetTargetFound
-  fullName: WGRF.AI.INodeData.GetTargetFound()
-  nameWithType: INodeData.GetTargetFound()
-- uid: WGRF.AI.INodeData.GetTargetFound*
-  name: GetTargetFound
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetTargetFound_
-  commentId: Overload:WGRF.AI.INodeData.GetTargetFound
+  fullName: WGRF.AI.INodeData.OcclusionLayers
+  nameWithType: INodeData.OcclusionLayers
+- uid: WGRF.AI.INodeData.Target
+  name: Target
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_Target
+  commentId: P:WGRF.AI.INodeData.Target
+  fullName: WGRF.AI.INodeData.Target
+  nameWithType: INodeData.Target
+- uid: WGRF.AI.INodeData.Target*
+  name: Target
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_Target_
+  commentId: Overload:WGRF.AI.INodeData.Target
   isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetTargetFound
-  nameWithType: INodeData.GetTargetFound
-- uid: WGRF.AI.INodeData.GetTargetIsDead
-  name: GetTargetIsDead()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetTargetIsDead
-  commentId: M:WGRF.AI.INodeData.GetTargetIsDead
-  fullName: WGRF.AI.INodeData.GetTargetIsDead()
-  nameWithType: INodeData.GetTargetIsDead()
-- uid: WGRF.AI.INodeData.GetTargetIsDead*
-  name: GetTargetIsDead
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetTargetIsDead_
-  commentId: Overload:WGRF.AI.INodeData.GetTargetIsDead
+  fullName: WGRF.AI.INodeData.Target
+  nameWithType: INodeData.Target
+- uid: WGRF.AI.INodeData.WeaponRange
+  name: WeaponRange
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_WeaponRange
+  commentId: P:WGRF.AI.INodeData.WeaponRange
+  fullName: WGRF.AI.INodeData.WeaponRange
+  nameWithType: INodeData.WeaponRange
+- uid: WGRF.AI.INodeData.WeaponRange*
+  name: WeaponRange
+  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_WeaponRange_
+  commentId: Overload:WGRF.AI.INodeData.WeaponRange
   isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetTargetIsDead
-  nameWithType: INodeData.GetTargetIsDead
-- uid: WGRF.AI.INodeData.GetWeaponRange
-  name: GetWeaponRange()
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetWeaponRange
-  commentId: M:WGRF.AI.INodeData.GetWeaponRange
-  fullName: WGRF.AI.INodeData.GetWeaponRange()
-  nameWithType: INodeData.GetWeaponRange()
-- uid: WGRF.AI.INodeData.GetWeaponRange*
-  name: GetWeaponRange
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_GetWeaponRange_
-  commentId: Overload:WGRF.AI.INodeData.GetWeaponRange
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.GetWeaponRange
-  nameWithType: INodeData.GetWeaponRange
-- uid: WGRF.AI.INodeData.SetCanShoot(System.Boolean)
-  name: SetCanShoot(bool)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetCanShoot_System_Boolean_
-  commentId: M:WGRF.AI.INodeData.SetCanShoot(System.Boolean)
-  name.vb: SetCanShoot(Boolean)
-  fullName: WGRF.AI.INodeData.SetCanShoot(bool)
-  fullName.vb: WGRF.AI.INodeData.SetCanShoot(Boolean)
-  nameWithType: INodeData.SetCanShoot(bool)
-  nameWithType.vb: INodeData.SetCanShoot(Boolean)
-- uid: WGRF.AI.INodeData.SetCanShoot*
-  name: SetCanShoot
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetCanShoot_
-  commentId: Overload:WGRF.AI.INodeData.SetCanShoot
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetCanShoot
-  nameWithType: INodeData.SetCanShoot
-- uid: WGRF.AI.INodeData.SetNavMeshAgent(UnityEngine.AI.NavMeshAgent)
-  name: SetNavMeshAgent(NavMeshAgent)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetNavMeshAgent_UnityEngine_AI_NavMeshAgent_
-  commentId: M:WGRF.AI.INodeData.SetNavMeshAgent(UnityEngine.AI.NavMeshAgent)
-  fullName: WGRF.AI.INodeData.SetNavMeshAgent(UnityEngine.AI.NavMeshAgent)
-  nameWithType: INodeData.SetNavMeshAgent(NavMeshAgent)
-- uid: WGRF.AI.INodeData.SetNavMeshAgent*
-  name: SetNavMeshAgent
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetNavMeshAgent_
-  commentId: Overload:WGRF.AI.INodeData.SetNavMeshAgent
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetNavMeshAgent
-  nameWithType: INodeData.SetNavMeshAgent
-- uid: WGRF.AI.INodeData.SetOcclusionLayers(UnityEngine.LayerMask)
-  name: SetOcclusionLayers(LayerMask)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetOcclusionLayers_UnityEngine_LayerMask_
-  commentId: M:WGRF.AI.INodeData.SetOcclusionLayers(UnityEngine.LayerMask)
-  fullName: WGRF.AI.INodeData.SetOcclusionLayers(UnityEngine.LayerMask)
-  nameWithType: INodeData.SetOcclusionLayers(LayerMask)
-- uid: WGRF.AI.INodeData.SetOcclusionLayers*
-  name: SetOcclusionLayers
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetOcclusionLayers_
-  commentId: Overload:WGRF.AI.INodeData.SetOcclusionLayers
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetOcclusionLayers
-  nameWithType: INodeData.SetOcclusionLayers
-- uid: WGRF.AI.INodeData.SetOriginalPos(UnityEngine.Vector3)
-  name: SetOriginalPos(Vector3)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetOriginalPos_UnityEngine_Vector3_
-  commentId: M:WGRF.AI.INodeData.SetOriginalPos(UnityEngine.Vector3)
-  fullName: WGRF.AI.INodeData.SetOriginalPos(UnityEngine.Vector3)
-  nameWithType: INodeData.SetOriginalPos(Vector3)
-- uid: WGRF.AI.INodeData.SetOriginalPos*
-  name: SetOriginalPos
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetOriginalPos_
-  commentId: Overload:WGRF.AI.INodeData.SetOriginalPos
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetOriginalPos
-  nameWithType: INodeData.SetOriginalPos
-- uid: WGRF.AI.INodeData.SetTarget(UnityEngine.Transform)
-  name: SetTarget(Transform)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetTarget_UnityEngine_Transform_
-  commentId: M:WGRF.AI.INodeData.SetTarget(UnityEngine.Transform)
-  fullName: WGRF.AI.INodeData.SetTarget(UnityEngine.Transform)
-  nameWithType: INodeData.SetTarget(Transform)
-- uid: WGRF.AI.INodeData.SetTarget*
-  name: SetTarget
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetTarget_
-  commentId: Overload:WGRF.AI.INodeData.SetTarget
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetTarget
-  nameWithType: INodeData.SetTarget
-- uid: WGRF.AI.INodeData.SetTargetFound(System.Boolean)
-  name: SetTargetFound(bool)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetTargetFound_System_Boolean_
-  commentId: M:WGRF.AI.INodeData.SetTargetFound(System.Boolean)
-  name.vb: SetTargetFound(Boolean)
-  fullName: WGRF.AI.INodeData.SetTargetFound(bool)
-  fullName.vb: WGRF.AI.INodeData.SetTargetFound(Boolean)
-  nameWithType: INodeData.SetTargetFound(bool)
-  nameWithType.vb: INodeData.SetTargetFound(Boolean)
-- uid: WGRF.AI.INodeData.SetTargetFound*
-  name: SetTargetFound
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetTargetFound_
-  commentId: Overload:WGRF.AI.INodeData.SetTargetFound
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetTargetFound
-  nameWithType: INodeData.SetTargetFound
-- uid: WGRF.AI.INodeData.SetTargetIsDead(System.Boolean)
-  name: SetTargetIsDead(bool)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetTargetIsDead_System_Boolean_
-  commentId: M:WGRF.AI.INodeData.SetTargetIsDead(System.Boolean)
-  name.vb: SetTargetIsDead(Boolean)
-  fullName: WGRF.AI.INodeData.SetTargetIsDead(bool)
-  fullName.vb: WGRF.AI.INodeData.SetTargetIsDead(Boolean)
-  nameWithType: INodeData.SetTargetIsDead(bool)
-  nameWithType.vb: INodeData.SetTargetIsDead(Boolean)
-- uid: WGRF.AI.INodeData.SetTargetIsDead*
-  name: SetTargetIsDead
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetTargetIsDead_
-  commentId: Overload:WGRF.AI.INodeData.SetTargetIsDead
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetTargetIsDead
-  nameWithType: INodeData.SetTargetIsDead
-- uid: WGRF.AI.INodeData.SetWeaponRange(System.Single)
-  name: SetWeaponRange(float)
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetWeaponRange_System_Single_
-  commentId: M:WGRF.AI.INodeData.SetWeaponRange(System.Single)
-  name.vb: SetWeaponRange(Single)
-  fullName: WGRF.AI.INodeData.SetWeaponRange(float)
-  fullName.vb: WGRF.AI.INodeData.SetWeaponRange(Single)
-  nameWithType: INodeData.SetWeaponRange(float)
-  nameWithType.vb: INodeData.SetWeaponRange(Single)
-- uid: WGRF.AI.INodeData.SetWeaponRange*
-  name: SetWeaponRange
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_SetWeaponRange_
-  commentId: Overload:WGRF.AI.INodeData.SetWeaponRange
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.SetWeaponRange
-  nameWithType: INodeData.SetWeaponRange
+  fullName: WGRF.AI.INodeData.WeaponRange
+  nameWithType: INodeData.WeaponRange
 - uid: WGRF.AI.IdleNode
   name: IdleNode
   href: api/WGRF.AI.IdleNode.html
@@ -7368,6 +6728,80 @@ references:
   commentId: N:WGRF.Core
   fullName: WGRF.Core
   nameWithType: WGRF.Core
+- uid: WGRF.Core.AIHandler
+  name: AIHandler
+  href: api/WGRF.Core.AIHandler.html
+  commentId: T:WGRF.Core.AIHandler
+  fullName: WGRF.Core.AIHandler
+  nameWithType: AIHandler
+- uid: WGRF.Core.AIHandler.ActivateAgents(WGRF.AI.EnemyRoom)
+  name: ActivateAgents(EnemyRoom)
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_ActivateAgents_WGRF_AI_EnemyRoom_
+  commentId: M:WGRF.Core.AIHandler.ActivateAgents(WGRF.AI.EnemyRoom)
+  fullName: WGRF.Core.AIHandler.ActivateAgents(WGRF.AI.EnemyRoom)
+  nameWithType: AIHandler.ActivateAgents(EnemyRoom)
+- uid: WGRF.Core.AIHandler.ActivateAgents*
+  name: ActivateAgents
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_ActivateAgents_
+  commentId: Overload:WGRF.Core.AIHandler.ActivateAgents
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.ActivateAgents
+  nameWithType: AIHandler.ActivateAgents
+- uid: WGRF.Core.AIHandler.GetRoomAgents(System.Int32)
+  name: GetRoomAgents(int)
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetRoomAgents_System_Int32_
+  commentId: M:WGRF.Core.AIHandler.GetRoomAgents(System.Int32)
+  name.vb: GetRoomAgents(Integer)
+  fullName: WGRF.Core.AIHandler.GetRoomAgents(int)
+  fullName.vb: WGRF.Core.AIHandler.GetRoomAgents(Integer)
+  nameWithType: AIHandler.GetRoomAgents(int)
+  nameWithType.vb: AIHandler.GetRoomAgents(Integer)
+- uid: WGRF.Core.AIHandler.GetRoomAgents*
+  name: GetRoomAgents
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetRoomAgents_
+  commentId: Overload:WGRF.Core.AIHandler.GetRoomAgents
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.GetRoomAgents
+  nameWithType: AIHandler.GetRoomAgents
+- uid: WGRF.Core.AIHandler.PreAwake
+  name: PreAwake()
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_PreAwake
+  commentId: M:WGRF.Core.AIHandler.PreAwake
+  fullName: WGRF.Core.AIHandler.PreAwake()
+  nameWithType: AIHandler.PreAwake()
+- uid: WGRF.Core.AIHandler.PreAwake*
+  name: PreAwake
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_PreAwake_
+  commentId: Overload:WGRF.Core.AIHandler.PreAwake
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.PreAwake
+  nameWithType: AIHandler.PreAwake
+- uid: WGRF.Core.AIHandler.RegisterAgent(WGRF.AI.EnemyRoom,WGRF.AI.AIEntity)
+  name: RegisterAgent(EnemyRoom, AIEntity)
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_RegisterAgent_WGRF_AI_EnemyRoom_WGRF_AI_AIEntity_
+  commentId: M:WGRF.Core.AIHandler.RegisterAgent(WGRF.AI.EnemyRoom,WGRF.AI.AIEntity)
+  fullName: WGRF.Core.AIHandler.RegisterAgent(WGRF.AI.EnemyRoom, WGRF.AI.AIEntity)
+  nameWithType: AIHandler.RegisterAgent(EnemyRoom, AIEntity)
+- uid: WGRF.Core.AIHandler.RegisterAgent*
+  name: RegisterAgent
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_RegisterAgent_
+  commentId: Overload:WGRF.Core.AIHandler.RegisterAgent
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.RegisterAgent
+  nameWithType: AIHandler.RegisterAgent
+- uid: WGRF.Core.AIHandler.RemoveAgent(WGRF.AI.EnemyRoom,WGRF.AI.AIEntity)
+  name: RemoveAgent(EnemyRoom, AIEntity)
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_RemoveAgent_WGRF_AI_EnemyRoom_WGRF_AI_AIEntity_
+  commentId: M:WGRF.Core.AIHandler.RemoveAgent(WGRF.AI.EnemyRoom,WGRF.AI.AIEntity)
+  fullName: WGRF.Core.AIHandler.RemoveAgent(WGRF.AI.EnemyRoom, WGRF.AI.AIEntity)
+  nameWithType: AIHandler.RemoveAgent(EnemyRoom, AIEntity)
+- uid: WGRF.Core.AIHandler.RemoveAgent*
+  name: RemoveAgent
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_RemoveAgent_
+  commentId: Overload:WGRF.Core.AIHandler.RemoveAgent
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.RemoveAgent
+  nameWithType: AIHandler.RemoveAgent
 - uid: WGRF.Core.AbilityManager
   name: AbilityManager
   href: api/WGRF.Core.AbilityManager.html
@@ -8042,48 +7476,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameEventsHandler.OnAbilityUse
   nameWithType: GameEventsHandler.OnAbilityUse
-- uid: WGRF.Core.GameEventsHandler.OnBossLevelEnemyDeath
-  name: OnBossLevelEnemyDeath()
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnBossLevelEnemyDeath
-  commentId: M:WGRF.Core.GameEventsHandler.OnBossLevelEnemyDeath
-  fullName: WGRF.Core.GameEventsHandler.OnBossLevelEnemyDeath()
-  nameWithType: GameEventsHandler.OnBossLevelEnemyDeath()
-- uid: WGRF.Core.GameEventsHandler.OnBossLevelEnemyDeath*
-  name: OnBossLevelEnemyDeath
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnBossLevelEnemyDeath_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnBossLevelEnemyDeath
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnBossLevelEnemyDeath
-  nameWithType: GameEventsHandler.OnBossLevelEnemyDeath
-- uid: WGRF.Core.GameEventsHandler.OnBossStunnedPhase
-  name: OnBossStunnedPhase()
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnBossStunnedPhase
-  commentId: M:WGRF.Core.GameEventsHandler.OnBossStunnedPhase
-  fullName: WGRF.Core.GameEventsHandler.OnBossStunnedPhase()
-  nameWithType: GameEventsHandler.OnBossStunnedPhase()
-- uid: WGRF.Core.GameEventsHandler.OnBossStunnedPhase*
-  name: OnBossStunnedPhase
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnBossStunnedPhase_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnBossStunnedPhase
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnBossStunnedPhase
-  nameWithType: GameEventsHandler.OnBossStunnedPhase
-- uid: WGRF.Core.GameEventsHandler.OnBulletSpeedChange(System.Single)
-  name: OnBulletSpeedChange(float)
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnBulletSpeedChange_System_Single_
-  commentId: M:WGRF.Core.GameEventsHandler.OnBulletSpeedChange(System.Single)
-  name.vb: OnBulletSpeedChange(Single)
-  fullName: WGRF.Core.GameEventsHandler.OnBulletSpeedChange(float)
-  fullName.vb: WGRF.Core.GameEventsHandler.OnBulletSpeedChange(Single)
-  nameWithType: GameEventsHandler.OnBulletSpeedChange(float)
-  nameWithType.vb: GameEventsHandler.OnBulletSpeedChange(Single)
-- uid: WGRF.Core.GameEventsHandler.OnBulletSpeedChange*
-  name: OnBulletSpeedChange
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnBulletSpeedChange_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnBulletSpeedChange
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnBulletSpeedChange
-  nameWithType: GameEventsHandler.OnBulletSpeedChange
 - uid: WGRF.Core.GameEventsHandler.OnEnemyDeath
   name: OnEnemyDeath()
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnEnemyDeath
@@ -8097,45 +7489,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameEventsHandler.OnEnemyDeath
   nameWithType: GameEventsHandler.OnEnemyDeath
-- uid: WGRF.Core.GameEventsHandler.OnGamePaused
-  name: OnGamePaused()
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnGamePaused
-  commentId: M:WGRF.Core.GameEventsHandler.OnGamePaused
-  fullName: WGRF.Core.GameEventsHandler.OnGamePaused()
-  nameWithType: GameEventsHandler.OnGamePaused()
-- uid: WGRF.Core.GameEventsHandler.OnGamePaused*
-  name: OnGamePaused
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnGamePaused_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnGamePaused
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnGamePaused
-  nameWithType: GameEventsHandler.OnGamePaused
-- uid: WGRF.Core.GameEventsHandler.OnGameResumed
-  name: OnGameResumed()
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnGameResumed
-  commentId: M:WGRF.Core.GameEventsHandler.OnGameResumed
-  fullName: WGRF.Core.GameEventsHandler.OnGameResumed()
-  nameWithType: GameEventsHandler.OnGameResumed()
-- uid: WGRF.Core.GameEventsHandler.OnGameResumed*
-  name: OnGameResumed
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnGameResumed_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnGameResumed
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnGameResumed
-  nameWithType: GameEventsHandler.OnGameResumed
-- uid: WGRF.Core.GameEventsHandler.OnPlayerDeath
-  name: OnPlayerDeath()
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnPlayerDeath
-  commentId: M:WGRF.Core.GameEventsHandler.OnPlayerDeath
-  fullName: WGRF.Core.GameEventsHandler.OnPlayerDeath()
-  nameWithType: GameEventsHandler.OnPlayerDeath()
-- uid: WGRF.Core.GameEventsHandler.OnPlayerDeath*
-  name: OnPlayerDeath
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnPlayerDeath_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnPlayerDeath
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnPlayerDeath
-  nameWithType: GameEventsHandler.OnPlayerDeath
 - uid: WGRF.Core.GameEventsHandler.OnPlayerKickEnd
   name: OnPlayerKickEnd()
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnPlayerKickEnd
@@ -8204,32 +7557,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameEventsHandler.OnPlayerShootStart
   nameWithType: GameEventsHandler.OnPlayerShootStart
-- uid: WGRF.Core.GameEventsHandler.OnPlayerSpawn(UnityEngine.Vector3)
-  name: OnPlayerSpawn(Vector3)
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnPlayerSpawn_UnityEngine_Vector3_
-  commentId: M:WGRF.Core.GameEventsHandler.OnPlayerSpawn(UnityEngine.Vector3)
-  fullName: WGRF.Core.GameEventsHandler.OnPlayerSpawn(UnityEngine.Vector3)
-  nameWithType: GameEventsHandler.OnPlayerSpawn(Vector3)
-- uid: WGRF.Core.GameEventsHandler.OnPlayerSpawn*
-  name: OnPlayerSpawn
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnPlayerSpawn_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnPlayerSpawn
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnPlayerSpawn
-  nameWithType: GameEventsHandler.OnPlayerSpawn
-- uid: WGRF.Core.GameEventsHandler.OnSaveOvewrite
-  name: OnSaveOvewrite()
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnSaveOvewrite
-  commentId: M:WGRF.Core.GameEventsHandler.OnSaveOvewrite
-  fullName: WGRF.Core.GameEventsHandler.OnSaveOvewrite()
-  nameWithType: GameEventsHandler.OnSaveOvewrite()
-- uid: WGRF.Core.GameEventsHandler.OnSaveOvewrite*
-  name: OnSaveOvewrite
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnSaveOvewrite_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnSaveOvewrite
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnSaveOvewrite
-  nameWithType: GameEventsHandler.OnSaveOvewrite
 - uid: WGRF.Core.GameEventsHandler.OnWeaponPickup
   name: OnWeaponPickup()
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnWeaponPickup
@@ -8261,48 +7588,12 @@ references:
   commentId: E:WGRF.Core.GameEventsHandler.onAbilityUse
   fullName: WGRF.Core.GameEventsHandler.onAbilityUse
   nameWithType: GameEventsHandler.onAbilityUse
-- uid: WGRF.Core.GameEventsHandler.onBossLevelEnemyDeath
-  name: onBossLevelEnemyDeath
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onBossLevelEnemyDeath
-  commentId: E:WGRF.Core.GameEventsHandler.onBossLevelEnemyDeath
-  fullName: WGRF.Core.GameEventsHandler.onBossLevelEnemyDeath
-  nameWithType: GameEventsHandler.onBossLevelEnemyDeath
-- uid: WGRF.Core.GameEventsHandler.onBossStunnedPhase
-  name: onBossStunnedPhase
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onBossStunnedPhase
-  commentId: E:WGRF.Core.GameEventsHandler.onBossStunnedPhase
-  fullName: WGRF.Core.GameEventsHandler.onBossStunnedPhase
-  nameWithType: GameEventsHandler.onBossStunnedPhase
-- uid: WGRF.Core.GameEventsHandler.onBulletSpeedChange
-  name: onBulletSpeedChange
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onBulletSpeedChange
-  commentId: E:WGRF.Core.GameEventsHandler.onBulletSpeedChange
-  fullName: WGRF.Core.GameEventsHandler.onBulletSpeedChange
-  nameWithType: GameEventsHandler.onBulletSpeedChange
 - uid: WGRF.Core.GameEventsHandler.onEnemyDeath
   name: onEnemyDeath
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onEnemyDeath
   commentId: E:WGRF.Core.GameEventsHandler.onEnemyDeath
   fullName: WGRF.Core.GameEventsHandler.onEnemyDeath
   nameWithType: GameEventsHandler.onEnemyDeath
-- uid: WGRF.Core.GameEventsHandler.onGamePause
-  name: onGamePause
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onGamePause
-  commentId: E:WGRF.Core.GameEventsHandler.onGamePause
-  fullName: WGRF.Core.GameEventsHandler.onGamePause
-  nameWithType: GameEventsHandler.onGamePause
-- uid: WGRF.Core.GameEventsHandler.onGameResumed
-  name: onGameResumed
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onGameResumed
-  commentId: E:WGRF.Core.GameEventsHandler.onGameResumed
-  fullName: WGRF.Core.GameEventsHandler.onGameResumed
-  nameWithType: GameEventsHandler.onGameResumed
-- uid: WGRF.Core.GameEventsHandler.onPlayerDeath
-  name: onPlayerDeath
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onPlayerDeath
-  commentId: E:WGRF.Core.GameEventsHandler.onPlayerDeath
-  fullName: WGRF.Core.GameEventsHandler.onPlayerDeath
-  nameWithType: GameEventsHandler.onPlayerDeath
 - uid: WGRF.Core.GameEventsHandler.onPlayerKickEnd
   name: onPlayerKickEnd
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onPlayerKickEnd
@@ -8333,18 +7624,6 @@ references:
   commentId: E:WGRF.Core.GameEventsHandler.onPlayerShootStart
   fullName: WGRF.Core.GameEventsHandler.onPlayerShootStart
   nameWithType: GameEventsHandler.onPlayerShootStart
-- uid: WGRF.Core.GameEventsHandler.onPlayerSpawn
-  name: onPlayerSpawn
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onPlayerSpawn
-  commentId: E:WGRF.Core.GameEventsHandler.onPlayerSpawn
-  fullName: WGRF.Core.GameEventsHandler.onPlayerSpawn
-  nameWithType: GameEventsHandler.onPlayerSpawn
-- uid: WGRF.Core.GameEventsHandler.onSaveOverwrite
-  name: onSaveOverwrite
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onSaveOverwrite
-  commentId: E:WGRF.Core.GameEventsHandler.onSaveOverwrite
-  fullName: WGRF.Core.GameEventsHandler.onSaveOverwrite
-  nameWithType: GameEventsHandler.onSaveOverwrite
 - uid: WGRF.Core.GameEventsHandler.onWeaponPickup
   name: onWeaponPickup
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onWeaponPickup
@@ -8821,6 +8100,19 @@ references:
   commentId: T:WGRF.Core.ManagerHub
   fullName: WGRF.Core.ManagerHub
   nameWithType: ManagerHub
+- uid: WGRF.Core.ManagerHub.AIHandler
+  name: AIHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AIHandler
+  commentId: P:WGRF.Core.ManagerHub.AIHandler
+  fullName: WGRF.Core.ManagerHub.AIHandler
+  nameWithType: ManagerHub.AIHandler
+- uid: WGRF.Core.ManagerHub.AIHandler*
+  name: AIHandler
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AIHandler_
+  commentId: Overload:WGRF.Core.ManagerHub.AIHandler
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.AIHandler
+  nameWithType: ManagerHub.AIHandler
 - uid: WGRF.Core.ManagerHub.AbilityManager
   name: AbilityManager
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AbilityManager
@@ -8834,6 +8126,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.AbilityManager
   nameWithType: ManagerHub.AbilityManager
+- uid: WGRF.Core.ManagerHub.ActiveRoom
+  name: ActiveRoom
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_ActiveRoom
+  commentId: P:WGRF.Core.ManagerHub.ActiveRoom
+  fullName: WGRF.Core.ManagerHub.ActiveRoom
+  nameWithType: ManagerHub.ActiveRoom
+- uid: WGRF.Core.ManagerHub.ActiveRoom*
+  name: ActiveRoom
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_ActiveRoom_
+  commentId: Overload:WGRF.Core.ManagerHub.ActiveRoom
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.ActiveRoom
+  nameWithType: ManagerHub.ActiveRoom
 - uid: WGRF.Core.ManagerHub.AttachPlayerController(WGRF.Core.Controller)
   name: AttachPlayerController(Controller)
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_AttachPlayerController_WGRF_Core_Controller_
@@ -9009,6 +8314,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.ScoreHandler
   nameWithType: ManagerHub.ScoreHandler
+- uid: WGRF.Core.ManagerHub.SetActiveRoom(WGRF.AI.EnemyRoom)
+  name: SetActiveRoom(EnemyRoom)
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SetActiveRoom_WGRF_AI_EnemyRoom_
+  commentId: M:WGRF.Core.ManagerHub.SetActiveRoom(WGRF.AI.EnemyRoom)
+  fullName: WGRF.Core.ManagerHub.SetActiveRoom(WGRF.AI.EnemyRoom)
+  nameWithType: ManagerHub.SetActiveRoom(EnemyRoom)
+- uid: WGRF.Core.ManagerHub.SetActiveRoom*
+  name: SetActiveRoom
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SetActiveRoom_
+  commentId: Overload:WGRF.Core.ManagerHub.SetActiveRoom
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.SetActiveRoom
+  nameWithType: ManagerHub.SetActiveRoom
 - uid: WGRF.Core.ManagerHub.SettingsHandler
   name: SettingsHandler
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SettingsHandler
@@ -10756,6 +10074,12 @@ references:
   commentId: N:WGRF.Interactions
   fullName: WGRF.Interactions
   nameWithType: WGRF.Interactions
+- uid: WGRF.Interactions.AgentActivator
+  name: AgentActivator
+  href: api/WGRF.Interactions.AgentActivator.html
+  commentId: T:WGRF.Interactions.AgentActivator
+  fullName: WGRF.Interactions.AgentActivator
+  nameWithType: AgentActivator
 - uid: WGRF.Interactions.Breakable
   name: Breakable
   href: api/WGRF.Interactions.Breakable.html
@@ -11368,19 +10692,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Player.PlayerEntity.PreAwake
   nameWithType: PlayerEntity.PreAwake
-- uid: WGRF.Player.PlayerEntity.PreDestroy
-  name: PreDestroy()
-  href: api/WGRF.Player.PlayerEntity.html#WGRF_Player_PlayerEntity_PreDestroy
-  commentId: M:WGRF.Player.PlayerEntity.PreDestroy
-  fullName: WGRF.Player.PlayerEntity.PreDestroy()
-  nameWithType: PlayerEntity.PreDestroy()
-- uid: WGRF.Player.PlayerEntity.PreDestroy*
-  name: PreDestroy
-  href: api/WGRF.Player.PlayerEntity.html#WGRF_Player_PlayerEntity_PreDestroy_
-  commentId: Overload:WGRF.Player.PlayerEntity.PreDestroy
-  isSpec: "True"
-  fullName: WGRF.Player.PlayerEntity.PreDestroy
-  nameWithType: PlayerEntity.PreDestroy
 - uid: WGRF.Player.PlayerEntity.SetPosition(UnityEngine.Vector3)
   name: SetPosition(Vector3)
   href: api/WGRF.Player.PlayerEntity.html#WGRF_Player_PlayerEntity_SetPosition_UnityEngine_Vector3_

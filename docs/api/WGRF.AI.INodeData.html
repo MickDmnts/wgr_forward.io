@@ -79,7 +79,7 @@
 
   <h1 id="WGRF_AI_INodeData" data-uid="WGRF.AI.INodeData" class="text-break">
     Interface INodeData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -107,26 +107,29 @@
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="WGRF_AI_INodeData_GetCanShoot_" data-uid="WGRF.AI.INodeData.GetCanShoot*"></a>
+  <a id="WGRF_AI_INodeData_CanShoot_" data-uid="WGRF.AI.INodeData.CanShoot*"></a>
 
-  <h3 id="WGRF_AI_INodeData_GetCanShoot" data-uid="WGRF.AI.INodeData.GetCanShoot">
-  GetCanShoot()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_AI_INodeData_CanShoot" data-uid="WGRF.AI.INodeData.CanShoot">
+  CanShoot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool GetCanShoot()</code></pre>
+    <pre><code class="lang-csharp hljs">bool CanShoot { get; set; }</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -139,27 +142,27 @@
 
 
 
+  <a id="WGRF_AI_INodeData_EnemyAnimations_" data-uid="WGRF.AI.INodeData.EnemyAnimations*"></a>
 
-
-
-  <a id="WGRF_AI_INodeData_GetNavMeshAgent_" data-uid="WGRF.AI.INodeData.GetNavMeshAgent*"></a>
-
-  <h3 id="WGRF_AI_INodeData_GetNavMeshAgent" data-uid="WGRF.AI.INodeData.GetNavMeshAgent">
-  GetNavMeshAgent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_AI_INodeData_EnemyAnimations" data-uid="WGRF.AI.INodeData.EnemyAnimations">
+  EnemyAnimations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">NavMeshAgent GetNavMeshAgent()</code></pre>
+    <pre><code class="lang-csharp hljs">AIEntityAnimations EnemyAnimations { get; }</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">NavMeshAgent</span></dt>
+    <dt><a class="xref" href="WGRF.AI.AIEntityAnimations.html">AIEntityAnimations</a></dt>
     <dd></dd>
   </dl>
 
@@ -170,25 +173,87 @@
 
 
 
+  <a id="WGRF_AI_INodeData_EnemyEntity_" data-uid="WGRF.AI.INodeData.EnemyEntity*"></a>
 
-
-
-  <a id="WGRF_AI_INodeData_GetOcclusionLayers_" data-uid="WGRF.AI.INodeData.GetOcclusionLayers*"></a>
-
-  <h3 id="WGRF_AI_INodeData_GetOcclusionLayers" data-uid="WGRF.AI.INodeData.GetOcclusionLayers">
-  GetOcclusionLayers()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_AI_INodeData_EnemyEntity" data-uid="WGRF.AI.INodeData.EnemyEntity">
+  EnemyEntity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">LayerMask GetOcclusionLayers()</code></pre>
+    <pre><code class="lang-csharp hljs">AIEntity EnemyEntity { get; }</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="WGRF.AI.AIEntity.html">AIEntity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_INodeData_IsDead_" data-uid="WGRF.AI.INodeData.IsDead*"></a>
+
+  <h3 id="WGRF_AI_INodeData_IsDead" data-uid="WGRF.AI.INodeData.IsDead">
+  IsDead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsDead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="WGRF_AI_INodeData_OcclusionLayers_" data-uid="WGRF.AI.INodeData.OcclusionLayers*"></a>
+
+  <h3 id="WGRF_AI_INodeData_OcclusionLayers" data-uid="WGRF.AI.INodeData.OcclusionLayers">
+  OcclusionLayers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">LayerMask OcclusionLayers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">LayerMask</span></dt>
     <dd></dd>
@@ -201,56 +266,25 @@
 
 
 
+  <a id="WGRF_AI_INodeData_Target_" data-uid="WGRF.AI.INodeData.Target*"></a>
 
-
-
-  <a id="WGRF_AI_INodeData_GetOriginalPos_" data-uid="WGRF.AI.INodeData.GetOriginalPos*"></a>
-
-  <h3 id="WGRF_AI_INodeData_GetOriginalPos" data-uid="WGRF.AI.INodeData.GetOriginalPos">
-  GetOriginalPos()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_AI_INodeData_Target" data-uid="WGRF.AI.INodeData.Target">
+  Target
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector3 GetOriginalPos()</code></pre>
+    <pre><code class="lang-csharp hljs">Transform Target { get; set; }</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Vector3</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_GetTarget_" data-uid="WGRF.AI.INodeData.GetTarget*"></a>
-
-  <h3 id="WGRF_AI_INodeData_GetTarget" data-uid="WGRF.AI.INodeData.GetTarget">
-  GetTarget()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Transform GetTarget()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">Transform</span></dt>
     <dd></dd>
@@ -263,87 +297,25 @@
 
 
 
+  <a id="WGRF_AI_INodeData_WeaponRange_" data-uid="WGRF.AI.INodeData.WeaponRange*"></a>
 
-
-
-  <a id="WGRF_AI_INodeData_GetTargetFound_" data-uid="WGRF.AI.INodeData.GetTargetFound*"></a>
-
-  <h3 id="WGRF_AI_INodeData_GetTargetFound" data-uid="WGRF.AI.INodeData.GetTargetFound">
-  GetTargetFound()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_AI_INodeData_WeaponRange" data-uid="WGRF.AI.INodeData.WeaponRange">
+  WeaponRange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool GetTargetFound()</code></pre>
+    <pre><code class="lang-csharp hljs">float WeaponRange { get; }</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_GetTargetIsDead_" data-uid="WGRF.AI.INodeData.GetTargetIsDead*"></a>
-
-  <h3 id="WGRF_AI_INodeData_GetTargetIsDead" data-uid="WGRF.AI.INodeData.GetTargetIsDead">
-  GetTargetIsDead()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L15"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool GetTargetIsDead()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_GetWeaponRange_" data-uid="WGRF.AI.INodeData.GetWeaponRange*"></a>
-
-  <h3 id="WGRF_AI_INodeData_GetWeaponRange" data-uid="WGRF.AI.INodeData.GetWeaponRange">
-  GetWeaponRange()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L24"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float GetWeaponRange()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
@@ -357,261 +329,10 @@
 
 
 
-
-
-  <a id="WGRF_AI_INodeData_SetCanShoot_" data-uid="WGRF.AI.INodeData.SetCanShoot*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetCanShoot_System_Boolean_" data-uid="WGRF.AI.INodeData.SetCanShoot(System.Boolean)">
-  SetCanShoot(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L26"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetCanShoot(bool value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_SetNavMeshAgent_" data-uid="WGRF.AI.INodeData.SetNavMeshAgent*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetNavMeshAgent_UnityEngine_AI_NavMeshAgent_" data-uid="WGRF.AI.INodeData.SetNavMeshAgent(UnityEngine.AI.NavMeshAgent)">
-  SetNavMeshAgent(NavMeshAgent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L11"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetNavMeshAgent(NavMeshAgent agent)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>agent</code> <span class="xref">NavMeshAgent</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_SetOcclusionLayers_" data-uid="WGRF.AI.INodeData.SetOcclusionLayers*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetOcclusionLayers_UnityEngine_LayerMask_" data-uid="WGRF.AI.INodeData.SetOcclusionLayers(UnityEngine.LayerMask)">
-  SetOcclusionLayers(LayerMask)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetOcclusionLayers(LayerMask value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <span class="xref">LayerMask</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_SetOriginalPos_" data-uid="WGRF.AI.INodeData.SetOriginalPos*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetOriginalPos_UnityEngine_Vector3_" data-uid="WGRF.AI.INodeData.SetOriginalPos(UnityEngine.Vector3)">
-  SetOriginalPos(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L32"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetOriginalPos(Vector3 pos)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>pos</code> <span class="xref">Vector3</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_SetTarget_" data-uid="WGRF.AI.INodeData.SetTarget*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetTarget_UnityEngine_Transform_" data-uid="WGRF.AI.INodeData.SetTarget(UnityEngine.Transform)">
-  SetTarget(Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L17"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetTarget(Transform target)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">Transform</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_SetTargetFound_" data-uid="WGRF.AI.INodeData.SetTargetFound*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetTargetFound_System_Boolean_" data-uid="WGRF.AI.INodeData.SetTargetFound(System.Boolean)">
-  SetTargetFound(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L29"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetTargetFound(bool value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_SetTargetIsDead_" data-uid="WGRF.AI.INodeData.SetTargetIsDead*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetTargetIsDead_System_Boolean_" data-uid="WGRF.AI.INodeData.SetTargetIsDead(System.Boolean)">
-  SetTargetIsDead(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L14"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetTargetIsDead(bool value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_INodeData_SetWeaponRange_" data-uid="WGRF.AI.INodeData.SetWeaponRange*"></a>
-
-  <h3 id="WGRF_AI_INodeData_SetWeaponRange_System_Single_" data-uid="WGRF.AI.INodeData.SetWeaponRange(System.Single)">
-  SetWeaponRange(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetWeaponRange(float value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/INodeData.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
         

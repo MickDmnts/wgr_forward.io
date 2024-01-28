@@ -185,6 +185,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnemyRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnemyRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.AI.EnemyWeapon.yml",
       "output": {
         ".html": {
@@ -905,6 +915,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.AIHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.AIHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.AbilityManager.yml",
       "output": {
         ".html": {
@@ -1429,6 +1449,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.InspectorButtonAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Interactions.AgentActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Interactions.AgentActivator.html"
         }
       },
       "version": ""
