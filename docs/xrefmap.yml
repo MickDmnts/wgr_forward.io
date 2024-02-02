@@ -42,19 +42,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.GetEntityNodeData
   nameWithType: AIEntity.GetEntityNodeData
-- uid: WGRF.AI.AIEntity.GetIsAgentActive
-  name: GetIsAgentActive()
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_GetIsAgentActive
-  commentId: M:WGRF.AI.AIEntity.GetIsAgentActive
-  fullName: WGRF.AI.AIEntity.GetIsAgentActive()
-  nameWithType: AIEntity.GetIsAgentActive()
-- uid: WGRF.AI.AIEntity.GetIsAgentActive*
-  name: GetIsAgentActive
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_GetIsAgentActive_
-  commentId: Overload:WGRF.AI.AIEntity.GetIsAgentActive
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.GetIsAgentActive
-  nameWithType: AIEntity.GetIsAgentActive
 - uid: WGRF.AI.AIEntity.IsDead
   name: IsDead
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_IsDead
@@ -68,19 +55,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.IsDead
   nameWithType: AIEntity.IsDead
-- uid: WGRF.AI.AIEntity.SetAttackTarget(UnityEngine.Transform)
-  name: SetAttackTarget(Transform)
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_SetAttackTarget_UnityEngine_Transform_
-  commentId: M:WGRF.AI.AIEntity.SetAttackTarget(UnityEngine.Transform)
-  fullName: WGRF.AI.AIEntity.SetAttackTarget(UnityEngine.Transform)
-  nameWithType: AIEntity.SetAttackTarget(Transform)
-- uid: WGRF.AI.AIEntity.SetAttackTarget*
-  name: SetAttackTarget
-  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_SetAttackTarget_
-  commentId: Overload:WGRF.AI.AIEntity.SetAttackTarget
-  isSpec: "True"
-  fullName: WGRF.AI.AIEntity.SetAttackTarget
-  nameWithType: AIEntity.SetAttackTarget
 - uid: WGRF.AI.AIEntity.SetIsAgentActive(System.Boolean)
   name: SetIsAgentActive(bool)
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_SetIsAgentActive_System_Boolean_
@@ -670,6 +644,57 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AttackTargetAction.Run
   nameWithType: AttackTargetAction.Run
+- uid: WGRF.AI.BehaviourSelector
+  name: BehaviourSelector
+  href: api/WGRF.AI.BehaviourSelector.html
+  commentId: T:WGRF.AI.BehaviourSelector
+  fullName: WGRF.AI.BehaviourSelector
+  nameWithType: BehaviourSelector
+- uid: WGRF.AI.BehaviourSelector.#ctor(WGRF.AI.INodeData,System.Collections.Generic.List{WGRF.AI.INode})
+  name: BehaviourSelector(INodeData, List<INode>)
+  href: api/WGRF.AI.BehaviourSelector.html#WGRF_AI_BehaviourSelector__ctor_WGRF_AI_INodeData_System_Collections_Generic_List_WGRF_AI_INode__
+  commentId: M:WGRF.AI.BehaviourSelector.#ctor(WGRF.AI.INodeData,System.Collections.Generic.List{WGRF.AI.INode})
+  name.vb: New(INodeData, List(Of INode))
+  fullName: WGRF.AI.BehaviourSelector.BehaviourSelector(WGRF.AI.INodeData, System.Collections.Generic.List<WGRF.AI.INode>)
+  fullName.vb: WGRF.AI.BehaviourSelector.New(WGRF.AI.INodeData, System.Collections.Generic.List(Of WGRF.AI.INode))
+  nameWithType: BehaviourSelector.BehaviourSelector(INodeData, List<INode>)
+  nameWithType.vb: BehaviourSelector.New(INodeData, List(Of INode))
+- uid: WGRF.AI.BehaviourSelector.#ctor*
+  name: BehaviourSelector
+  href: api/WGRF.AI.BehaviourSelector.html#WGRF_AI_BehaviourSelector__ctor_
+  commentId: Overload:WGRF.AI.BehaviourSelector.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.BehaviourSelector.BehaviourSelector
+  fullName.vb: WGRF.AI.BehaviourSelector.New
+  nameWithType: BehaviourSelector.BehaviourSelector
+  nameWithType.vb: BehaviourSelector.New
+- uid: WGRF.AI.BehaviourSelector.GetNodeData
+  name: GetNodeData()
+  href: api/WGRF.AI.BehaviourSelector.html#WGRF_AI_BehaviourSelector_GetNodeData
+  commentId: M:WGRF.AI.BehaviourSelector.GetNodeData
+  fullName: WGRF.AI.BehaviourSelector.GetNodeData()
+  nameWithType: BehaviourSelector.GetNodeData()
+- uid: WGRF.AI.BehaviourSelector.GetNodeData*
+  name: GetNodeData
+  href: api/WGRF.AI.BehaviourSelector.html#WGRF_AI_BehaviourSelector_GetNodeData_
+  commentId: Overload:WGRF.AI.BehaviourSelector.GetNodeData
+  isSpec: "True"
+  fullName: WGRF.AI.BehaviourSelector.GetNodeData
+  nameWithType: BehaviourSelector.GetNodeData
+- uid: WGRF.AI.BehaviourSelector.Run
+  name: Run()
+  href: api/WGRF.AI.BehaviourSelector.html#WGRF_AI_BehaviourSelector_Run
+  commentId: M:WGRF.AI.BehaviourSelector.Run
+  fullName: WGRF.AI.BehaviourSelector.Run()
+  nameWithType: BehaviourSelector.Run()
+- uid: WGRF.AI.BehaviourSelector.Run*
+  name: Run
+  href: api/WGRF.AI.BehaviourSelector.html#WGRF_AI_BehaviourSelector_Run_
+  commentId: Overload:WGRF.AI.BehaviourSelector.Run
+  isSpec: "True"
+  fullName: WGRF.AI.BehaviourSelector.Run
+  nameWithType: BehaviourSelector.Run
 - uid: WGRF.AI.BehaviourTree
   name: BehaviourTree
   href: api/WGRF.AI.BehaviourTree.html
@@ -778,15 +803,15 @@ references:
   commentId: T:WGRF.AI.ChaseTargetActivator
   fullName: WGRF.AI.ChaseTargetActivator
   nameWithType: ChaseTargetActivator
-- uid: WGRF.AI.ChaseTargetActivator.#ctor(WGRF.AI.INodeData,WGRF.AI.ChaseAttackSelector)
-  name: ChaseTargetActivator(INodeData, ChaseAttackSelector)
-  href: api/WGRF.AI.ChaseTargetActivator.html#WGRF_AI_ChaseTargetActivator__ctor_WGRF_AI_INodeData_WGRF_AI_ChaseAttackSelector_
-  commentId: M:WGRF.AI.ChaseTargetActivator.#ctor(WGRF.AI.INodeData,WGRF.AI.ChaseAttackSelector)
-  name.vb: New(INodeData, ChaseAttackSelector)
-  fullName: WGRF.AI.ChaseTargetActivator.ChaseTargetActivator(WGRF.AI.INodeData, WGRF.AI.ChaseAttackSelector)
-  fullName.vb: WGRF.AI.ChaseTargetActivator.New(WGRF.AI.INodeData, WGRF.AI.ChaseAttackSelector)
-  nameWithType: ChaseTargetActivator.ChaseTargetActivator(INodeData, ChaseAttackSelector)
-  nameWithType.vb: ChaseTargetActivator.New(INodeData, ChaseAttackSelector)
+- uid: WGRF.AI.ChaseTargetActivator.#ctor(WGRF.AI.EnemyNodeData,WGRF.AI.ChaseAttackSelector)
+  name: ChaseTargetActivator(EnemyNodeData, ChaseAttackSelector)
+  href: api/WGRF.AI.ChaseTargetActivator.html#WGRF_AI_ChaseTargetActivator__ctor_WGRF_AI_EnemyNodeData_WGRF_AI_ChaseAttackSelector_
+  commentId: M:WGRF.AI.ChaseTargetActivator.#ctor(WGRF.AI.EnemyNodeData,WGRF.AI.ChaseAttackSelector)
+  name.vb: New(EnemyNodeData, ChaseAttackSelector)
+  fullName: WGRF.AI.ChaseTargetActivator.ChaseTargetActivator(WGRF.AI.EnemyNodeData, WGRF.AI.ChaseAttackSelector)
+  fullName.vb: WGRF.AI.ChaseTargetActivator.New(WGRF.AI.EnemyNodeData, WGRF.AI.ChaseAttackSelector)
+  nameWithType: ChaseTargetActivator.ChaseTargetActivator(EnemyNodeData, ChaseAttackSelector)
+  nameWithType.vb: ChaseTargetActivator.New(EnemyNodeData, ChaseAttackSelector)
 - uid: WGRF.AI.ChaseTargetActivator.#ctor*
   name: ChaseTargetActivator
   href: api/WGRF.AI.ChaseTargetActivator.html#WGRF_AI_ChaseTargetActivator__ctor_
@@ -829,15 +854,15 @@ references:
   commentId: T:WGRF.AI.CheckIfDead
   fullName: WGRF.AI.CheckIfDead
   nameWithType: CheckIfDead
-- uid: WGRF.AI.CheckIfDead.#ctor(WGRF.AI.EnemyNodeData,WGRF.AI.INode)
-  name: CheckIfDead(EnemyNodeData, INode)
-  href: api/WGRF.AI.CheckIfDead.html#WGRF_AI_CheckIfDead__ctor_WGRF_AI_EnemyNodeData_WGRF_AI_INode_
-  commentId: M:WGRF.AI.CheckIfDead.#ctor(WGRF.AI.EnemyNodeData,WGRF.AI.INode)
-  name.vb: New(EnemyNodeData, INode)
-  fullName: WGRF.AI.CheckIfDead.CheckIfDead(WGRF.AI.EnemyNodeData, WGRF.AI.INode)
-  fullName.vb: WGRF.AI.CheckIfDead.New(WGRF.AI.EnemyNodeData, WGRF.AI.INode)
-  nameWithType: CheckIfDead.CheckIfDead(EnemyNodeData, INode)
-  nameWithType.vb: CheckIfDead.New(EnemyNodeData, INode)
+- uid: WGRF.AI.CheckIfDead.#ctor(WGRF.AI.INodeData,WGRF.AI.INode)
+  name: CheckIfDead(INodeData, INode)
+  href: api/WGRF.AI.CheckIfDead.html#WGRF_AI_CheckIfDead__ctor_WGRF_AI_INodeData_WGRF_AI_INode_
+  commentId: M:WGRF.AI.CheckIfDead.#ctor(WGRF.AI.INodeData,WGRF.AI.INode)
+  name.vb: New(INodeData, INode)
+  fullName: WGRF.AI.CheckIfDead.CheckIfDead(WGRF.AI.INodeData, WGRF.AI.INode)
+  fullName.vb: WGRF.AI.CheckIfDead.New(WGRF.AI.INodeData, WGRF.AI.INode)
+  nameWithType: CheckIfDead.CheckIfDead(INodeData, INode)
+  nameWithType.vb: CheckIfDead.New(INodeData, INode)
 - uid: WGRF.AI.CheckIfDead.#ctor*
   name: CheckIfDead
   href: api/WGRF.AI.CheckIfDead.html#WGRF_AI_CheckIfDead__ctor_
@@ -1146,19 +1171,35 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyEntity.GetEntityNodeData
   nameWithType: EnemyEntity.GetEntityNodeData
-- uid: WGRF.AI.EnemyEntity.GetIsAgentActive
-  name: GetIsAgentActive()
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_GetIsAgentActive
-  commentId: M:WGRF.AI.EnemyEntity.GetIsAgentActive
-  fullName: WGRF.AI.EnemyEntity.GetIsAgentActive()
-  nameWithType: EnemyEntity.GetIsAgentActive()
-- uid: WGRF.AI.EnemyEntity.GetIsAgentActive*
-  name: GetIsAgentActive
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_GetIsAgentActive_
-  commentId: Overload:WGRF.AI.EnemyEntity.GetIsAgentActive
+- uid: WGRF.AI.EnemyEntity.InitiateFallback(System.Single)
+  name: InitiateFallback(float)
+  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_InitiateFallback_System_Single_
+  commentId: M:WGRF.AI.EnemyEntity.InitiateFallback(System.Single)
+  name.vb: InitiateFallback(Single)
+  fullName: WGRF.AI.EnemyEntity.InitiateFallback(float)
+  fullName.vb: WGRF.AI.EnemyEntity.InitiateFallback(Single)
+  nameWithType: EnemyEntity.InitiateFallback(float)
+  nameWithType.vb: EnemyEntity.InitiateFallback(Single)
+- uid: WGRF.AI.EnemyEntity.InitiateFallback*
+  name: InitiateFallback
+  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_InitiateFallback_
+  commentId: Overload:WGRF.AI.EnemyEntity.InitiateFallback
   isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.GetIsAgentActive
-  nameWithType: EnemyEntity.GetIsAgentActive
+  fullName: WGRF.AI.EnemyEntity.InitiateFallback
+  nameWithType: EnemyEntity.InitiateFallback
+- uid: WGRF.AI.EnemyEntity.IsAgentActive
+  name: IsAgentActive
+  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_IsAgentActive
+  commentId: P:WGRF.AI.EnemyEntity.IsAgentActive
+  fullName: WGRF.AI.EnemyEntity.IsAgentActive
+  nameWithType: EnemyEntity.IsAgentActive
+- uid: WGRF.AI.EnemyEntity.IsAgentActive*
+  name: IsAgentActive
+  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_IsAgentActive_
+  commentId: Overload:WGRF.AI.EnemyEntity.IsAgentActive
+  isSpec: "True"
+  fullName: WGRF.AI.EnemyEntity.IsAgentActive
+  nameWithType: EnemyEntity.IsAgentActive
 - uid: WGRF.AI.EnemyEntity.OnPlayerAbilityFinish
   name: OnPlayerAbilityFinish()
   href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_OnPlayerAbilityFinish
@@ -1201,19 +1242,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyEntity.PreAwake
   nameWithType: EnemyEntity.PreAwake
-- uid: WGRF.AI.EnemyEntity.SetAttackTarget(UnityEngine.Transform)
-  name: SetAttackTarget(Transform)
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_SetAttackTarget_UnityEngine_Transform_
-  commentId: M:WGRF.AI.EnemyEntity.SetAttackTarget(UnityEngine.Transform)
-  fullName: WGRF.AI.EnemyEntity.SetAttackTarget(UnityEngine.Transform)
-  nameWithType: EnemyEntity.SetAttackTarget(Transform)
-- uid: WGRF.AI.EnemyEntity.SetAttackTarget*
-  name: SetAttackTarget
-  href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_SetAttackTarget_
-  commentId: Overload:WGRF.AI.EnemyEntity.SetAttackTarget
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyEntity.SetAttackTarget
-  nameWithType: EnemyEntity.SetAttackTarget
 - uid: WGRF.AI.EnemyEntity.SetIsAgentActive(System.Boolean)
   name: SetIsAgentActive(bool)
   href: api/WGRF.AI.EnemyEntity.html#WGRF_AI_EnemyEntity_SetIsAgentActive_System_Boolean_
@@ -1262,19 +1290,6 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyKickable.SimulateKnockback
   nameWithType: EnemyKickable.SimulateKnockback
-- uid: WGRF.AI.EnemyKickable.Update
-  name: Update()
-  href: api/WGRF.AI.EnemyKickable.html#WGRF_AI_EnemyKickable_Update
-  commentId: M:WGRF.AI.EnemyKickable.Update
-  fullName: WGRF.AI.EnemyKickable.Update()
-  nameWithType: EnemyKickable.Update()
-- uid: WGRF.AI.EnemyKickable.Update*
-  name: Update
-  href: api/WGRF.AI.EnemyKickable.html#WGRF_AI_EnemyKickable_Update_
-  commentId: Overload:WGRF.AI.EnemyKickable.Update
-  isSpec: "True"
-  fullName: WGRF.AI.EnemyKickable.Update
-  nameWithType: EnemyKickable.Update
 - uid: WGRF.AI.EnemyLayer
   name: EnemyLayer
   href: api/WGRF.AI.EnemyLayer.html
@@ -1299,6 +1314,38 @@ references:
   commentId: T:WGRF.AI.EnemyNodeData
   fullName: WGRF.AI.EnemyNodeData
   nameWithType: EnemyNodeData
+- uid: WGRF.AI.EnemyNodeData.#ctor(WGRF.AI.EnemyEntity)
+  name: EnemyNodeData(EnemyEntity)
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData__ctor_WGRF_AI_EnemyEntity_
+  commentId: M:WGRF.AI.EnemyNodeData.#ctor(WGRF.AI.EnemyEntity)
+  name.vb: New(EnemyEntity)
+  fullName: WGRF.AI.EnemyNodeData.EnemyNodeData(WGRF.AI.EnemyEntity)
+  fullName.vb: WGRF.AI.EnemyNodeData.New(WGRF.AI.EnemyEntity)
+  nameWithType: EnemyNodeData.EnemyNodeData(EnemyEntity)
+  nameWithType.vb: EnemyNodeData.New(EnemyEntity)
+- uid: WGRF.AI.EnemyNodeData.#ctor*
+  name: EnemyNodeData
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData__ctor_
+  commentId: Overload:WGRF.AI.EnemyNodeData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.EnemyNodeData.EnemyNodeData
+  fullName.vb: WGRF.AI.EnemyNodeData.New
+  nameWithType: EnemyNodeData.EnemyNodeData
+  nameWithType.vb: EnemyNodeData.New
+- uid: WGRF.AI.EnemyNodeData.CanAttack
+  name: CanAttack
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_CanAttack
+  commentId: P:WGRF.AI.EnemyNodeData.CanAttack
+  fullName: WGRF.AI.EnemyNodeData.CanAttack
+  nameWithType: EnemyNodeData.CanAttack
+- uid: WGRF.AI.EnemyNodeData.CanAttack*
+  name: CanAttack
+  href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_CanAttack_
+  commentId: Overload:WGRF.AI.EnemyNodeData.CanAttack
+  isSpec: "True"
+  fullName: WGRF.AI.EnemyNodeData.CanAttack
+  nameWithType: EnemyNodeData.CanAttack
 - uid: WGRF.AI.EnemyNodeData.CanShoot
   name: CanShoot
   href: api/WGRF.AI.EnemyNodeData.html#WGRF_AI_EnemyNodeData_CanShoot
@@ -1604,6 +1651,401 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnemyWeapon.TypeBasedAttack
   nameWithType: EnemyWeapon.TypeBasedAttack
+- uid: WGRF.AI.EnforcerAnimations
+  name: EnforcerAnimations
+  href: api/WGRF.AI.EnforcerAnimations.html
+  commentId: T:WGRF.AI.EnforcerAnimations
+  fullName: WGRF.AI.EnforcerAnimations
+  nameWithType: EnforcerAnimations
+- uid: WGRF.AI.EnforcerAnimations.PlayDeathAnimation
+  name: PlayDeathAnimation()
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_PlayDeathAnimation
+  commentId: M:WGRF.AI.EnforcerAnimations.PlayDeathAnimation
+  fullName: WGRF.AI.EnforcerAnimations.PlayDeathAnimation()
+  nameWithType: EnforcerAnimations.PlayDeathAnimation()
+- uid: WGRF.AI.EnforcerAnimations.PlayDeathAnimation*
+  name: PlayDeathAnimation
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_PlayDeathAnimation_
+  commentId: Overload:WGRF.AI.EnforcerAnimations.PlayDeathAnimation
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerAnimations.PlayDeathAnimation
+  nameWithType: EnforcerAnimations.PlayDeathAnimation
+- uid: WGRF.AI.EnforcerAnimations.PreAwake
+  name: PreAwake()
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_PreAwake
+  commentId: M:WGRF.AI.EnforcerAnimations.PreAwake
+  fullName: WGRF.AI.EnforcerAnimations.PreAwake()
+  nameWithType: EnforcerAnimations.PreAwake()
+- uid: WGRF.AI.EnforcerAnimations.PreAwake*
+  name: PreAwake
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_PreAwake_
+  commentId: Overload:WGRF.AI.EnforcerAnimations.PreAwake
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerAnimations.PreAwake
+  nameWithType: EnforcerAnimations.PreAwake
+- uid: WGRF.AI.EnforcerAnimations.SetAnimatorPlaybackSpeed(System.Single)
+  name: SetAnimatorPlaybackSpeed(float)
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_SetAnimatorPlaybackSpeed_System_Single_
+  commentId: M:WGRF.AI.EnforcerAnimations.SetAnimatorPlaybackSpeed(System.Single)
+  name.vb: SetAnimatorPlaybackSpeed(Single)
+  fullName: WGRF.AI.EnforcerAnimations.SetAnimatorPlaybackSpeed(float)
+  fullName.vb: WGRF.AI.EnforcerAnimations.SetAnimatorPlaybackSpeed(Single)
+  nameWithType: EnforcerAnimations.SetAnimatorPlaybackSpeed(float)
+  nameWithType.vb: EnforcerAnimations.SetAnimatorPlaybackSpeed(Single)
+- uid: WGRF.AI.EnforcerAnimations.SetAnimatorPlaybackSpeed*
+  name: SetAnimatorPlaybackSpeed
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_SetAnimatorPlaybackSpeed_
+  commentId: Overload:WGRF.AI.EnforcerAnimations.SetAnimatorPlaybackSpeed
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerAnimations.SetAnimatorPlaybackSpeed
+  nameWithType: EnforcerAnimations.SetAnimatorPlaybackSpeed
+- uid: WGRF.AI.EnforcerAnimations.SetHoldingRangedWeaponState(System.Boolean)
+  name: SetHoldingRangedWeaponState(bool)
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_SetHoldingRangedWeaponState_System_Boolean_
+  commentId: M:WGRF.AI.EnforcerAnimations.SetHoldingRangedWeaponState(System.Boolean)
+  name.vb: SetHoldingRangedWeaponState(Boolean)
+  fullName: WGRF.AI.EnforcerAnimations.SetHoldingRangedWeaponState(bool)
+  fullName.vb: WGRF.AI.EnforcerAnimations.SetHoldingRangedWeaponState(Boolean)
+  nameWithType: EnforcerAnimations.SetHoldingRangedWeaponState(bool)
+  nameWithType.vb: EnforcerAnimations.SetHoldingRangedWeaponState(Boolean)
+- uid: WGRF.AI.EnforcerAnimations.SetHoldingRangedWeaponState*
+  name: SetHoldingRangedWeaponState
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_SetHoldingRangedWeaponState_
+  commentId: Overload:WGRF.AI.EnforcerAnimations.SetHoldingRangedWeaponState
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerAnimations.SetHoldingRangedWeaponState
+  nameWithType: EnforcerAnimations.SetHoldingRangedWeaponState
+- uid: WGRF.AI.EnforcerAnimations.SetWalkStateAnimation(System.Boolean)
+  name: SetWalkStateAnimation(bool)
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_SetWalkStateAnimation_System_Boolean_
+  commentId: M:WGRF.AI.EnforcerAnimations.SetWalkStateAnimation(System.Boolean)
+  name.vb: SetWalkStateAnimation(Boolean)
+  fullName: WGRF.AI.EnforcerAnimations.SetWalkStateAnimation(bool)
+  fullName.vb: WGRF.AI.EnforcerAnimations.SetWalkStateAnimation(Boolean)
+  nameWithType: EnforcerAnimations.SetWalkStateAnimation(bool)
+  nameWithType.vb: EnforcerAnimations.SetWalkStateAnimation(Boolean)
+- uid: WGRF.AI.EnforcerAnimations.SetWalkStateAnimation*
+  name: SetWalkStateAnimation
+  href: api/WGRF.AI.EnforcerAnimations.html#WGRF_AI_EnforcerAnimations_SetWalkStateAnimation_
+  commentId: Overload:WGRF.AI.EnforcerAnimations.SetWalkStateAnimation
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerAnimations.SetWalkStateAnimation
+  nameWithType: EnforcerAnimations.SetWalkStateAnimation
+- uid: WGRF.AI.EnforcerBTHandler
+  name: EnforcerBTHandler
+  href: api/WGRF.AI.EnforcerBTHandler.html
+  commentId: T:WGRF.AI.EnforcerBTHandler
+  fullName: WGRF.AI.EnforcerBTHandler
+  nameWithType: EnforcerBTHandler
+- uid: WGRF.AI.EnforcerBTHandler.#ctor(WGRF.AI.EnforcerNodeData,WGRF.AI.EnforcerEntity)
+  name: EnforcerBTHandler(EnforcerNodeData, EnforcerEntity)
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler__ctor_WGRF_AI_EnforcerNodeData_WGRF_AI_EnforcerEntity_
+  commentId: M:WGRF.AI.EnforcerBTHandler.#ctor(WGRF.AI.EnforcerNodeData,WGRF.AI.EnforcerEntity)
+  name.vb: New(EnforcerNodeData, EnforcerEntity)
+  fullName: WGRF.AI.EnforcerBTHandler.EnforcerBTHandler(WGRF.AI.EnforcerNodeData, WGRF.AI.EnforcerEntity)
+  fullName.vb: WGRF.AI.EnforcerBTHandler.New(WGRF.AI.EnforcerNodeData, WGRF.AI.EnforcerEntity)
+  nameWithType: EnforcerBTHandler.EnforcerBTHandler(EnforcerNodeData, EnforcerEntity)
+  nameWithType.vb: EnforcerBTHandler.New(EnforcerNodeData, EnforcerEntity)
+- uid: WGRF.AI.EnforcerBTHandler.#ctor*
+  name: EnforcerBTHandler
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler__ctor_
+  commentId: Overload:WGRF.AI.EnforcerBTHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.EnforcerBTHandler.EnforcerBTHandler
+  fullName.vb: WGRF.AI.EnforcerBTHandler.New
+  nameWithType: EnforcerBTHandler.EnforcerBTHandler
+  nameWithType.vb: EnforcerBTHandler.New
+- uid: WGRF.AI.EnforcerBTHandler.CreateBehaviourTree
+  name: CreateBehaviourTree()
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler_CreateBehaviourTree
+  commentId: M:WGRF.AI.EnforcerBTHandler.CreateBehaviourTree
+  fullName: WGRF.AI.EnforcerBTHandler.CreateBehaviourTree()
+  nameWithType: EnforcerBTHandler.CreateBehaviourTree()
+- uid: WGRF.AI.EnforcerBTHandler.CreateBehaviourTree*
+  name: CreateBehaviourTree
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler_CreateBehaviourTree_
+  commentId: Overload:WGRF.AI.EnforcerBTHandler.CreateBehaviourTree
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerBTHandler.CreateBehaviourTree
+  nameWithType: EnforcerBTHandler.CreateBehaviourTree
+- uid: WGRF.AI.EnforcerBTHandler.NodeData
+  name: NodeData
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler_NodeData
+  commentId: P:WGRF.AI.EnforcerBTHandler.NodeData
+  fullName: WGRF.AI.EnforcerBTHandler.NodeData
+  nameWithType: EnforcerBTHandler.NodeData
+- uid: WGRF.AI.EnforcerBTHandler.NodeData*
+  name: NodeData
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler_NodeData_
+  commentId: Overload:WGRF.AI.EnforcerBTHandler.NodeData
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerBTHandler.NodeData
+  nameWithType: EnforcerBTHandler.NodeData
+- uid: WGRF.AI.EnforcerBTHandler.UpdateBT
+  name: UpdateBT()
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler_UpdateBT
+  commentId: M:WGRF.AI.EnforcerBTHandler.UpdateBT
+  fullName: WGRF.AI.EnforcerBTHandler.UpdateBT()
+  nameWithType: EnforcerBTHandler.UpdateBT()
+- uid: WGRF.AI.EnforcerBTHandler.UpdateBT*
+  name: UpdateBT
+  href: api/WGRF.AI.EnforcerBTHandler.html#WGRF_AI_EnforcerBTHandler_UpdateBT_
+  commentId: Overload:WGRF.AI.EnforcerBTHandler.UpdateBT
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerBTHandler.UpdateBT
+  nameWithType: EnforcerBTHandler.UpdateBT
+- uid: WGRF.AI.EnforcerEntity
+  name: EnforcerEntity
+  href: api/WGRF.AI.EnforcerEntity.html
+  commentId: T:WGRF.AI.EnforcerEntity
+  fullName: WGRF.AI.EnforcerEntity
+  nameWithType: EnforcerEntity
+- uid: WGRF.AI.EnforcerEntity.AttackInteraction(System.Int32)
+  name: AttackInteraction(int)
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_AttackInteraction_System_Int32_
+  commentId: M:WGRF.AI.EnforcerEntity.AttackInteraction(System.Int32)
+  name.vb: AttackInteraction(Integer)
+  fullName: WGRF.AI.EnforcerEntity.AttackInteraction(int)
+  fullName.vb: WGRF.AI.EnforcerEntity.AttackInteraction(Integer)
+  nameWithType: EnforcerEntity.AttackInteraction(int)
+  nameWithType.vb: EnforcerEntity.AttackInteraction(Integer)
+- uid: WGRF.AI.EnforcerEntity.AttackInteraction*
+  name: AttackInteraction
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_AttackInteraction_
+  commentId: Overload:WGRF.AI.EnforcerEntity.AttackInteraction
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.AttackInteraction
+  nameWithType: EnforcerEntity.AttackInteraction
+- uid: WGRF.AI.EnforcerEntity.GetEntityNodeData
+  name: GetEntityNodeData()
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_GetEntityNodeData
+  commentId: M:WGRF.AI.EnforcerEntity.GetEntityNodeData
+  fullName: WGRF.AI.EnforcerEntity.GetEntityNodeData()
+  nameWithType: EnforcerEntity.GetEntityNodeData()
+- uid: WGRF.AI.EnforcerEntity.GetEntityNodeData*
+  name: GetEntityNodeData
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_GetEntityNodeData_
+  commentId: Overload:WGRF.AI.EnforcerEntity.GetEntityNodeData
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.GetEntityNodeData
+  nameWithType: EnforcerEntity.GetEntityNodeData
+- uid: WGRF.AI.EnforcerEntity.InitiateFallback(System.Single)
+  name: InitiateFallback(float)
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_InitiateFallback_System_Single_
+  commentId: M:WGRF.AI.EnforcerEntity.InitiateFallback(System.Single)
+  name.vb: InitiateFallback(Single)
+  fullName: WGRF.AI.EnforcerEntity.InitiateFallback(float)
+  fullName.vb: WGRF.AI.EnforcerEntity.InitiateFallback(Single)
+  nameWithType: EnforcerEntity.InitiateFallback(float)
+  nameWithType.vb: EnforcerEntity.InitiateFallback(Single)
+- uid: WGRF.AI.EnforcerEntity.InitiateFallback*
+  name: InitiateFallback
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_InitiateFallback_
+  commentId: Overload:WGRF.AI.EnforcerEntity.InitiateFallback
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.InitiateFallback
+  nameWithType: EnforcerEntity.InitiateFallback
+- uid: WGRF.AI.EnforcerEntity.IsAgentActive
+  name: IsAgentActive
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_IsAgentActive
+  commentId: P:WGRF.AI.EnforcerEntity.IsAgentActive
+  fullName: WGRF.AI.EnforcerEntity.IsAgentActive
+  nameWithType: EnforcerEntity.IsAgentActive
+- uid: WGRF.AI.EnforcerEntity.IsAgentActive*
+  name: IsAgentActive
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_IsAgentActive_
+  commentId: Overload:WGRF.AI.EnforcerEntity.IsAgentActive
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.IsAgentActive
+  nameWithType: EnforcerEntity.IsAgentActive
+- uid: WGRF.AI.EnforcerEntity.OnPlayerAbilityFinish
+  name: OnPlayerAbilityFinish()
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_OnPlayerAbilityFinish
+  commentId: M:WGRF.AI.EnforcerEntity.OnPlayerAbilityFinish
+  fullName: WGRF.AI.EnforcerEntity.OnPlayerAbilityFinish()
+  nameWithType: EnforcerEntity.OnPlayerAbilityFinish()
+- uid: WGRF.AI.EnforcerEntity.OnPlayerAbilityFinish*
+  name: OnPlayerAbilityFinish
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_OnPlayerAbilityFinish_
+  commentId: Overload:WGRF.AI.EnforcerEntity.OnPlayerAbilityFinish
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.OnPlayerAbilityFinish
+  nameWithType: EnforcerEntity.OnPlayerAbilityFinish
+- uid: WGRF.AI.EnforcerEntity.OnPlayerAbilityStart(System.Single)
+  name: OnPlayerAbilityStart(float)
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_OnPlayerAbilityStart_System_Single_
+  commentId: M:WGRF.AI.EnforcerEntity.OnPlayerAbilityStart(System.Single)
+  name.vb: OnPlayerAbilityStart(Single)
+  fullName: WGRF.AI.EnforcerEntity.OnPlayerAbilityStart(float)
+  fullName.vb: WGRF.AI.EnforcerEntity.OnPlayerAbilityStart(Single)
+  nameWithType: EnforcerEntity.OnPlayerAbilityStart(float)
+  nameWithType.vb: EnforcerEntity.OnPlayerAbilityStart(Single)
+- uid: WGRF.AI.EnforcerEntity.OnPlayerAbilityStart*
+  name: OnPlayerAbilityStart
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_OnPlayerAbilityStart_
+  commentId: Overload:WGRF.AI.EnforcerEntity.OnPlayerAbilityStart
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.OnPlayerAbilityStart
+  nameWithType: EnforcerEntity.OnPlayerAbilityStart
+- uid: WGRF.AI.EnforcerEntity.PreAwake
+  name: PreAwake()
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_PreAwake
+  commentId: M:WGRF.AI.EnforcerEntity.PreAwake
+  fullName: WGRF.AI.EnforcerEntity.PreAwake()
+  nameWithType: EnforcerEntity.PreAwake()
+- uid: WGRF.AI.EnforcerEntity.PreAwake*
+  name: PreAwake
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_PreAwake_
+  commentId: Overload:WGRF.AI.EnforcerEntity.PreAwake
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.PreAwake
+  nameWithType: EnforcerEntity.PreAwake
+- uid: WGRF.AI.EnforcerEntity.SetIsAgentActive(System.Boolean)
+  name: SetIsAgentActive(bool)
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_SetIsAgentActive_System_Boolean_
+  commentId: M:WGRF.AI.EnforcerEntity.SetIsAgentActive(System.Boolean)
+  name.vb: SetIsAgentActive(Boolean)
+  fullName: WGRF.AI.EnforcerEntity.SetIsAgentActive(bool)
+  fullName.vb: WGRF.AI.EnforcerEntity.SetIsAgentActive(Boolean)
+  nameWithType: EnforcerEntity.SetIsAgentActive(bool)
+  nameWithType.vb: EnforcerEntity.SetIsAgentActive(Boolean)
+- uid: WGRF.AI.EnforcerEntity.SetIsAgentActive*
+  name: SetIsAgentActive
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_SetIsAgentActive_
+  commentId: Overload:WGRF.AI.EnforcerEntity.SetIsAgentActive
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.SetIsAgentActive
+  nameWithType: EnforcerEntity.SetIsAgentActive
+- uid: WGRF.AI.EnforcerEntity.Target
+  name: Target
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_Target
+  commentId: P:WGRF.AI.EnforcerEntity.Target
+  fullName: WGRF.AI.EnforcerEntity.Target
+  nameWithType: EnforcerEntity.Target
+- uid: WGRF.AI.EnforcerEntity.Target*
+  name: Target
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_Target_
+  commentId: Overload:WGRF.AI.EnforcerEntity.Target
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.Target
+  nameWithType: EnforcerEntity.Target
+- uid: WGRF.AI.EnforcerNodeData
+  name: EnforcerNodeData
+  href: api/WGRF.AI.EnforcerNodeData.html
+  commentId: T:WGRF.AI.EnforcerNodeData
+  fullName: WGRF.AI.EnforcerNodeData
+  nameWithType: EnforcerNodeData
+- uid: WGRF.AI.EnforcerNodeData.#ctor(WGRF.AI.EnforcerEntity)
+  name: EnforcerNodeData(EnforcerEntity)
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData__ctor_WGRF_AI_EnforcerEntity_
+  commentId: M:WGRF.AI.EnforcerNodeData.#ctor(WGRF.AI.EnforcerEntity)
+  name.vb: New(EnforcerEntity)
+  fullName: WGRF.AI.EnforcerNodeData.EnforcerNodeData(WGRF.AI.EnforcerEntity)
+  fullName.vb: WGRF.AI.EnforcerNodeData.New(WGRF.AI.EnforcerEntity)
+  nameWithType: EnforcerNodeData.EnforcerNodeData(EnforcerEntity)
+  nameWithType.vb: EnforcerNodeData.New(EnforcerEntity)
+- uid: WGRF.AI.EnforcerNodeData.#ctor*
+  name: EnforcerNodeData
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData__ctor_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.EnforcerNodeData.EnforcerNodeData
+  fullName.vb: WGRF.AI.EnforcerNodeData.New
+  nameWithType: EnforcerNodeData.EnforcerNodeData
+  nameWithType.vb: EnforcerNodeData.New
+- uid: WGRF.AI.EnforcerNodeData.CanProtect
+  name: CanProtect
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_CanProtect
+  commentId: P:WGRF.AI.EnforcerNodeData.CanProtect
+  fullName: WGRF.AI.EnforcerNodeData.CanProtect
+  nameWithType: EnforcerNodeData.CanProtect
+- uid: WGRF.AI.EnforcerNodeData.CanProtect*
+  name: CanProtect
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_CanProtect_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.CanProtect
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.CanProtect
+  nameWithType: EnforcerNodeData.CanProtect
+- uid: WGRF.AI.EnforcerNodeData.EnemyAnimations
+  name: EnemyAnimations
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_EnemyAnimations
+  commentId: P:WGRF.AI.EnforcerNodeData.EnemyAnimations
+  fullName: WGRF.AI.EnforcerNodeData.EnemyAnimations
+  nameWithType: EnforcerNodeData.EnemyAnimations
+- uid: WGRF.AI.EnforcerNodeData.EnemyAnimations*
+  name: EnemyAnimations
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_EnemyAnimations_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.EnemyAnimations
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.EnemyAnimations
+  nameWithType: EnforcerNodeData.EnemyAnimations
+- uid: WGRF.AI.EnforcerNodeData.EnemyEntity
+  name: EnemyEntity
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_EnemyEntity
+  commentId: P:WGRF.AI.EnforcerNodeData.EnemyEntity
+  fullName: WGRF.AI.EnforcerNodeData.EnemyEntity
+  nameWithType: EnforcerNodeData.EnemyEntity
+- uid: WGRF.AI.EnforcerNodeData.EnemyEntity*
+  name: EnemyEntity
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_EnemyEntity_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.EnemyEntity
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.EnemyEntity
+  nameWithType: EnforcerNodeData.EnemyEntity
+- uid: WGRF.AI.EnforcerNodeData.IsDead
+  name: IsDead
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_IsDead
+  commentId: P:WGRF.AI.EnforcerNodeData.IsDead
+  fullName: WGRF.AI.EnforcerNodeData.IsDead
+  nameWithType: EnforcerNodeData.IsDead
+- uid: WGRF.AI.EnforcerNodeData.IsDead*
+  name: IsDead
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_IsDead_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.IsDead
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.IsDead
+  nameWithType: EnforcerNodeData.IsDead
+- uid: WGRF.AI.EnforcerNodeData.OcclusionLayers
+  name: OcclusionLayers
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_OcclusionLayers
+  commentId: P:WGRF.AI.EnforcerNodeData.OcclusionLayers
+  fullName: WGRF.AI.EnforcerNodeData.OcclusionLayers
+  nameWithType: EnforcerNodeData.OcclusionLayers
+- uid: WGRF.AI.EnforcerNodeData.OcclusionLayers*
+  name: OcclusionLayers
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_OcclusionLayers_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.OcclusionLayers
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.OcclusionLayers
+  nameWithType: EnforcerNodeData.OcclusionLayers
+- uid: WGRF.AI.EnforcerNodeData.Target
+  name: Target
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_Target
+  commentId: P:WGRF.AI.EnforcerNodeData.Target
+  fullName: WGRF.AI.EnforcerNodeData.Target
+  nameWithType: EnforcerNodeData.Target
+- uid: WGRF.AI.EnforcerNodeData.Target*
+  name: Target
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_Target_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.Target
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.Target
+  nameWithType: EnforcerNodeData.Target
+- uid: WGRF.AI.EnforcerNodeData.WeaponRange
+  name: WeaponRange
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_WeaponRange
+  commentId: P:WGRF.AI.EnforcerNodeData.WeaponRange
+  fullName: WGRF.AI.EnforcerNodeData.WeaponRange
+  nameWithType: EnforcerNodeData.WeaponRange
+- uid: WGRF.AI.EnforcerNodeData.WeaponRange*
+  name: WeaponRange
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_WeaponRange_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.WeaponRange
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.WeaponRange
+  nameWithType: EnforcerNodeData.WeaponRange
 - uid: WGRF.AI.Entities
   name: WGRF.AI.Entities
   href: api/WGRF.AI.Entities.html
@@ -3015,6 +3457,57 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.FOV.AIEntityFOVManager.IsDetectorActive
   nameWithType: AIEntityFOVManager.IsDetectorActive
+- uid: WGRF.AI.FallbackAction
+  name: FallbackAction
+  href: api/WGRF.AI.FallbackAction.html
+  commentId: T:WGRF.AI.FallbackAction
+  fullName: WGRF.AI.FallbackAction
+  nameWithType: FallbackAction
+- uid: WGRF.AI.FallbackAction.#ctor(WGRF.AI.INodeData)
+  name: FallbackAction(INodeData)
+  href: api/WGRF.AI.FallbackAction.html#WGRF_AI_FallbackAction__ctor_WGRF_AI_INodeData_
+  commentId: M:WGRF.AI.FallbackAction.#ctor(WGRF.AI.INodeData)
+  name.vb: New(INodeData)
+  fullName: WGRF.AI.FallbackAction.FallbackAction(WGRF.AI.INodeData)
+  fullName.vb: WGRF.AI.FallbackAction.New(WGRF.AI.INodeData)
+  nameWithType: FallbackAction.FallbackAction(INodeData)
+  nameWithType.vb: FallbackAction.New(INodeData)
+- uid: WGRF.AI.FallbackAction.#ctor*
+  name: FallbackAction
+  href: api/WGRF.AI.FallbackAction.html#WGRF_AI_FallbackAction__ctor_
+  commentId: Overload:WGRF.AI.FallbackAction.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.FallbackAction.FallbackAction
+  fullName.vb: WGRF.AI.FallbackAction.New
+  nameWithType: FallbackAction.FallbackAction
+  nameWithType.vb: FallbackAction.New
+- uid: WGRF.AI.FallbackAction.GetNodeData
+  name: GetNodeData()
+  href: api/WGRF.AI.FallbackAction.html#WGRF_AI_FallbackAction_GetNodeData
+  commentId: M:WGRF.AI.FallbackAction.GetNodeData
+  fullName: WGRF.AI.FallbackAction.GetNodeData()
+  nameWithType: FallbackAction.GetNodeData()
+- uid: WGRF.AI.FallbackAction.GetNodeData*
+  name: GetNodeData
+  href: api/WGRF.AI.FallbackAction.html#WGRF_AI_FallbackAction_GetNodeData_
+  commentId: Overload:WGRF.AI.FallbackAction.GetNodeData
+  isSpec: "True"
+  fullName: WGRF.AI.FallbackAction.GetNodeData
+  nameWithType: FallbackAction.GetNodeData
+- uid: WGRF.AI.FallbackAction.Run
+  name: Run()
+  href: api/WGRF.AI.FallbackAction.html#WGRF_AI_FallbackAction_Run
+  commentId: M:WGRF.AI.FallbackAction.Run
+  fullName: WGRF.AI.FallbackAction.Run()
+  nameWithType: FallbackAction.Run()
+- uid: WGRF.AI.FallbackAction.Run*
+  name: Run
+  href: api/WGRF.AI.FallbackAction.html#WGRF_AI_FallbackAction_Run_
+  commentId: Overload:WGRF.AI.FallbackAction.Run
+  isSpec: "True"
+  fullName: WGRF.AI.FallbackAction.Run
+  nameWithType: FallbackAction.Run
 - uid: WGRF.AI.INode
   name: INode
   href: api/WGRF.AI.INode.html
@@ -3053,19 +3546,6 @@ references:
   commentId: T:WGRF.AI.INodeData
   fullName: WGRF.AI.INodeData
   nameWithType: INodeData
-- uid: WGRF.AI.INodeData.CanShoot
-  name: CanShoot
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_CanShoot
-  commentId: P:WGRF.AI.INodeData.CanShoot
-  fullName: WGRF.AI.INodeData.CanShoot
-  nameWithType: INodeData.CanShoot
-- uid: WGRF.AI.INodeData.CanShoot*
-  name: CanShoot
-  href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_CanShoot_
-  commentId: Overload:WGRF.AI.INodeData.CanShoot
-  isSpec: "True"
-  fullName: WGRF.AI.INodeData.CanShoot
-  nameWithType: INodeData.CanShoot
 - uid: WGRF.AI.INodeData.EnemyAnimations
   name: EnemyAnimations
   href: api/WGRF.AI.INodeData.html#WGRF_AI_INodeData_EnemyAnimations
@@ -3150,15 +3630,15 @@ references:
   commentId: T:WGRF.AI.IdleNode
   fullName: WGRF.AI.IdleNode
   nameWithType: IdleNode
-- uid: WGRF.AI.IdleNode.#ctor(WGRF.AI.EnemyNodeData)
-  name: IdleNode(EnemyNodeData)
-  href: api/WGRF.AI.IdleNode.html#WGRF_AI_IdleNode__ctor_WGRF_AI_EnemyNodeData_
-  commentId: M:WGRF.AI.IdleNode.#ctor(WGRF.AI.EnemyNodeData)
-  name.vb: New(EnemyNodeData)
-  fullName: WGRF.AI.IdleNode.IdleNode(WGRF.AI.EnemyNodeData)
-  fullName.vb: WGRF.AI.IdleNode.New(WGRF.AI.EnemyNodeData)
-  nameWithType: IdleNode.IdleNode(EnemyNodeData)
-  nameWithType.vb: IdleNode.New(EnemyNodeData)
+- uid: WGRF.AI.IdleNode.#ctor(WGRF.AI.INodeData)
+  name: IdleNode(INodeData)
+  href: api/WGRF.AI.IdleNode.html#WGRF_AI_IdleNode__ctor_WGRF_AI_INodeData_
+  commentId: M:WGRF.AI.IdleNode.#ctor(WGRF.AI.INodeData)
+  name.vb: New(INodeData)
+  fullName: WGRF.AI.IdleNode.IdleNode(WGRF.AI.INodeData)
+  fullName.vb: WGRF.AI.IdleNode.New(WGRF.AI.INodeData)
+  nameWithType: IdleNode.IdleNode(INodeData)
+  nameWithType.vb: IdleNode.New(INodeData)
 - uid: WGRF.AI.IdleNode.#ctor*
   name: IdleNode
   href: api/WGRF.AI.IdleNode.html#WGRF_AI_IdleNode__ctor_
@@ -6747,6 +7227,22 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AIHandler.ActivateAgents
   nameWithType: AIHandler.ActivateAgents
+- uid: WGRF.Core.AIHandler.GetRoomAgentCount(System.Int32)
+  name: GetRoomAgentCount(int)
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetRoomAgentCount_System_Int32_
+  commentId: M:WGRF.Core.AIHandler.GetRoomAgentCount(System.Int32)
+  name.vb: GetRoomAgentCount(Integer)
+  fullName: WGRF.Core.AIHandler.GetRoomAgentCount(int)
+  fullName.vb: WGRF.Core.AIHandler.GetRoomAgentCount(Integer)
+  nameWithType: AIHandler.GetRoomAgentCount(int)
+  nameWithType.vb: AIHandler.GetRoomAgentCount(Integer)
+- uid: WGRF.Core.AIHandler.GetRoomAgentCount*
+  name: GetRoomAgentCount
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetRoomAgentCount_
+  commentId: Overload:WGRF.Core.AIHandler.GetRoomAgentCount
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.GetRoomAgentCount
+  nameWithType: AIHandler.GetRoomAgentCount
 - uid: WGRF.Core.AIHandler.GetRoomAgents(System.Int32)
   name: GetRoomAgents(int)
   href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetRoomAgents_System_Int32_
@@ -7388,6 +7884,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.Entity.AttackInteraction
   nameWithType: Entity.AttackInteraction
+- uid: WGRF.Core.Entity.EntityLife
+  name: EntityLife
+  href: api/WGRF.Core.Entity.html#WGRF_Core_Entity_EntityLife
+  commentId: P:WGRF.Core.Entity.EntityLife
+  fullName: WGRF.Core.Entity.EntityLife
+  nameWithType: Entity.EntityLife
+- uid: WGRF.Core.Entity.EntityLife*
+  name: EntityLife
+  href: api/WGRF.Core.Entity.html#WGRF_Core_Entity_EntityLife_
+  commentId: Overload:WGRF.Core.Entity.EntityLife
+  isSpec: "True"
+  fullName: WGRF.Core.Entity.EntityLife
+  nameWithType: Entity.EntityLife
 - uid: WGRF.Core.Entity.MaxHealth
   name: MaxHealth
   href: api/WGRF.Core.Entity.html#WGRF_Core_Entity_MaxHealth
@@ -7932,6 +8441,58 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.InternalTime.ChangeTimeScale
   nameWithType: InternalTime.ChangeTimeScale
+- uid: WGRF.Core.InternalTime.ResetRoomTimer
+  name: ResetRoomTimer()
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_ResetRoomTimer
+  commentId: M:WGRF.Core.InternalTime.ResetRoomTimer
+  fullName: WGRF.Core.InternalTime.ResetRoomTimer()
+  nameWithType: InternalTime.ResetRoomTimer()
+- uid: WGRF.Core.InternalTime.ResetRoomTimer*
+  name: ResetRoomTimer
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_ResetRoomTimer_
+  commentId: Overload:WGRF.Core.InternalTime.ResetRoomTimer
+  isSpec: "True"
+  fullName: WGRF.Core.InternalTime.ResetRoomTimer
+  nameWithType: InternalTime.ResetRoomTimer
+- uid: WGRF.Core.InternalTime.RoomTime
+  name: RoomTime
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_RoomTime
+  commentId: P:WGRF.Core.InternalTime.RoomTime
+  fullName: WGRF.Core.InternalTime.RoomTime
+  nameWithType: InternalTime.RoomTime
+- uid: WGRF.Core.InternalTime.RoomTime*
+  name: RoomTime
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_RoomTime_
+  commentId: Overload:WGRF.Core.InternalTime.RoomTime
+  isSpec: "True"
+  fullName: WGRF.Core.InternalTime.RoomTime
+  nameWithType: InternalTime.RoomTime
+- uid: WGRF.Core.InternalTime.StartRoomTimer
+  name: StartRoomTimer()
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_StartRoomTimer
+  commentId: M:WGRF.Core.InternalTime.StartRoomTimer
+  fullName: WGRF.Core.InternalTime.StartRoomTimer()
+  nameWithType: InternalTime.StartRoomTimer()
+- uid: WGRF.Core.InternalTime.StartRoomTimer*
+  name: StartRoomTimer
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_StartRoomTimer_
+  commentId: Overload:WGRF.Core.InternalTime.StartRoomTimer
+  isSpec: "True"
+  fullName: WGRF.Core.InternalTime.StartRoomTimer
+  nameWithType: InternalTime.StartRoomTimer
+- uid: WGRF.Core.InternalTime.StopRoomTimer
+  name: StopRoomTimer()
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_StopRoomTimer
+  commentId: M:WGRF.Core.InternalTime.StopRoomTimer
+  fullName: WGRF.Core.InternalTime.StopRoomTimer()
+  nameWithType: InternalTime.StopRoomTimer()
+- uid: WGRF.Core.InternalTime.StopRoomTimer*
+  name: StopRoomTimer
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_StopRoomTimer_
+  commentId: Overload:WGRF.Core.InternalTime.StopRoomTimer
+  isSpec: "True"
+  fullName: WGRF.Core.InternalTime.StopRoomTimer
+  nameWithType: InternalTime.StopRoomTimer
 - uid: WGRF.Core.InternalTime.onTimeScaleChange
   name: onTimeScaleChange
   href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_onTimeScaleChange
@@ -7975,12 +8536,6 @@ references:
   commentId: F:WGRF.Core.KickableEntity.kickForce
   fullName: WGRF.Core.KickableEntity.kickForce
   nameWithType: KickableEntity.kickForce
-- uid: WGRF.Core.KickableEntity.kicked
-  name: kicked
-  href: api/WGRF.Core.KickableEntity.html#WGRF_Core_KickableEntity_kicked
-  commentId: F:WGRF.Core.KickableEntity.kicked
-  fullName: WGRF.Core.KickableEntity.kicked
-  nameWithType: KickableEntity.kicked
 - uid: WGRF.Core.KickableEntity.oppositeDir
   name: oppositeDir
   href: api/WGRF.Core.KickableEntity.html#WGRF_Core_KickableEntity_oppositeDir
@@ -8881,6 +9436,12 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ScoreHandler.TotalScore
   nameWithType: ScoreHandler.TotalScore
+- uid: WGRF.Core.ScoreboardLoader
+  name: ScoreboardLoader
+  href: api/WGRF.Core.ScoreboardLoader.html
+  commentId: T:WGRF.Core.ScoreboardLoader
+  fullName: WGRF.Core.ScoreboardLoader
+  nameWithType: ScoreboardLoader
 - uid: WGRF.Core.SettingsHandler
   name: SettingsHandler
   href: api/WGRF.Core.SettingsHandler.html
@@ -11201,6 +11762,19 @@ references:
   isSpec: "True"
   fullName: ScreenShake.PreAwake
   nameWithType: ScreenShake.PreAwake
+- uid: WGRF.ScreenShake.PreDestroy
+  name: PreDestroy()
+  href: api/WGRF.ScreenShake.html#WGRF_ScreenShake_PreDestroy
+  commentId: M:WGRF.ScreenShake.PreDestroy
+  fullName: ScreenShake.PreDestroy()
+  nameWithType: ScreenShake.PreDestroy()
+- uid: WGRF.ScreenShake.PreDestroy*
+  name: PreDestroy
+  href: api/WGRF.ScreenShake.html#WGRF_ScreenShake_PreDestroy_
+  commentId: Overload:WGRF.ScreenShake.PreDestroy
+  isSpec: "True"
+  fullName: ScreenShake.PreDestroy
+  nameWithType: ScreenShake.PreDestroy
 - uid: WGRF.UI
   name: WGRF.UI
   href: api/WGRF.UI.html

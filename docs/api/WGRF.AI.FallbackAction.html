@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ChaseTargetActivator
+      <title>Class FallbackAction
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ChaseTargetActivator
+      <meta name="title" content="Class FallbackAction
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_AI_ChaseTargetActivator.md&amp;value=---%0Auid%3A%20WGRF.AI.ChaseTargetActivator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_AI_FallbackAction.md&amp;value=---%0Auid%3A%20WGRF.AI.FallbackAction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,13 +73,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.AI.ChaseTargetActivator">
+        <article data-uid="WGRF.AI.FallbackAction">
 
 
 
-  <h1 id="WGRF_AI_ChaseTargetActivator" data-uid="WGRF.AI.ChaseTargetActivator" class="text-break">
-    Class ChaseTargetActivator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/ChaseTargetActivator.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_AI_FallbackAction" data-uid="WGRF.AI.FallbackAction" class="text-break">
+    Class FallbackAction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/FallbackAction.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -91,7 +91,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ChaseTargetActivator : INode</code></pre>
+    <pre><code class="lang-csharp hljs">public class FallbackAction : INode</code></pre>
   </div>
 
 
@@ -101,7 +101,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ChaseTargetActivator</span></div>
+      <div><span class="xref">FallbackAction</span></div>
     </dd>
   </dl>
 
@@ -123,25 +123,23 @@
 </h2>
 
 
-  <a id="WGRF_AI_ChaseTargetActivator__ctor_" data-uid="WGRF.AI.ChaseTargetActivator.#ctor*"></a>
+  <a id="WGRF_AI_FallbackAction__ctor_" data-uid="WGRF.AI.FallbackAction.#ctor*"></a>
 
-  <h3 id="WGRF_AI_ChaseTargetActivator__ctor_WGRF_AI_EnemyNodeData_WGRF_AI_ChaseAttackSelector_" data-uid="WGRF.AI.ChaseTargetActivator.#ctor(WGRF.AI.EnemyNodeData,WGRF.AI.ChaseAttackSelector)">
-  ChaseTargetActivator(EnemyNodeData, ChaseAttackSelector)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/ChaseTargetActivator.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_AI_FallbackAction__ctor_WGRF_AI_INodeData_" data-uid="WGRF.AI.FallbackAction.#ctor(WGRF.AI.INodeData)">
+  FallbackAction(INodeData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/FallbackAction.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ChaseTargetActivator(EnemyNodeData nodeData, ChaseAttackSelector chaseTarget)</code></pre>
+    <pre><code class="lang-csharp hljs">public FallbackAction(INodeData nodeData)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>nodeData</code> <a class="xref" href="WGRF.AI.EnemyNodeData.html">EnemyNodeData</a></dt>
-    <dd></dd>
-    <dt><code>chaseTarget</code> <a class="xref" href="WGRF.AI.ChaseAttackSelector.html">ChaseAttackSelector</a></dt>
+    <dt><code>nodeData</code> <a class="xref" href="WGRF.AI.INodeData.html">INodeData</a></dt>
     <dd></dd>
   </dl>
 
@@ -160,11 +158,11 @@
 </h2>
 
 
-  <a id="WGRF_AI_ChaseTargetActivator_GetNodeData_" data-uid="WGRF.AI.ChaseTargetActivator.GetNodeData*"></a>
+  <a id="WGRF_AI_FallbackAction_GetNodeData_" data-uid="WGRF.AI.FallbackAction.GetNodeData*"></a>
 
-  <h3 id="WGRF_AI_ChaseTargetActivator_GetNodeData" data-uid="WGRF.AI.ChaseTargetActivator.GetNodeData">
+  <h3 id="WGRF_AI_FallbackAction_GetNodeData" data-uid="WGRF.AI.FallbackAction.GetNodeData">
   GetNodeData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/ChaseTargetActivator.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/FallbackAction.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to get the node data passed in the creation of the node.</p>
@@ -192,16 +190,16 @@
 
 
 
-  <a id="WGRF_AI_ChaseTargetActivator_Run_" data-uid="WGRF.AI.ChaseTargetActivator.Run*"></a>
+  <a id="WGRF_AI_FallbackAction_Run_" data-uid="WGRF.AI.FallbackAction.Run*"></a>
 
-  <h3 id="WGRF_AI_ChaseTargetActivator_Run" data-uid="WGRF.AI.ChaseTargetActivator.Run">
+  <h3 id="WGRF_AI_FallbackAction_Run" data-uid="WGRF.AI.FallbackAction.Run">
   Run()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/ChaseTargetActivator.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/FallbackAction.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to check if the nodeData target has been marked as found.</p>
-<p>If yes, Run and return the ChaseAttackSelector return value. Else return false.</p>
-<p>If the agent nodeData CanShoot value is false the node returns true.</p>
+  <div class="markdown level1 summary"><p>Checks if the AI is a patroller through the NodeData passed.</p>
+<p>If false, sets their walk animation state to false and returns true,
+else returns false.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -230,7 +228,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/ChaseTargetActivator.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/FallbackAction.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
         

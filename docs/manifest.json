@@ -75,6 +75,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.BehaviourSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.BehaviourSelector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.AI.BehaviourTree.yml",
       "output": {
         ".html": {
@@ -199,6 +209,46 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.AI.EnemyWeapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnforcerAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnforcerAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnforcerBTHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnforcerBTHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnforcerEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnforcerEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnforcerNodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnforcerNodeData.html"
         }
       },
       "version": ""
@@ -349,6 +399,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.AI.FOV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.FallbackAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.FallbackAction.html"
         }
       },
       "version": ""
@@ -1229,6 +1289,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Core.ScoreHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.ScoreboardLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.ScoreboardLoader.html"
         }
       },
       "version": ""

@@ -122,6 +122,7 @@
     <dt>Derived</dt>
     <dd>
       <div><a class="xref" href="WGRF.AI.EnemyEntity.html">EnemyEntity</a></div>
+      <div><a class="xref" href="WGRF.AI.EnforcerEntity.html">EnforcerEntity</a></div>
     </dd>
   </dl>
 
@@ -136,6 +137,9 @@
     </div>
     <div>
       <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_entityLife">Entity.entityLife</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_EntityLife">Entity.EntityLife</a>
     </div>
     <div>
       <a class="xref" href="WGRF.Core.Entity.html#WGRF_Core_Entity_MaxHealth">Entity.MaxHealth</a>
@@ -287,7 +291,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EnemyNodeData enemyNodeData</code></pre>
+    <pre><code class="lang-csharp hljs">protected INodeData enemyNodeData</code></pre>
   </div>
 
 
@@ -295,7 +299,7 @@
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.AI.EnemyNodeData.html">EnemyNodeData</a></dt>
+    <dt><a class="xref" href="WGRF.AI.INodeData.html">INodeData</a></dt>
     <dd></dd>
   </dl>
 
@@ -400,10 +404,11 @@
 
   <h3 id="WGRF_AI_AIEntity_isDead" data-uid="WGRF.AI.AIEntity.isDead">
   isDead
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The dead state of the agent</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -525,7 +530,7 @@
 
   <h3 id="WGRF_AI_AIEntity_Agent" data-uid="WGRF.AI.AIEntity.Agent">
   Agent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -556,12 +561,10 @@
 
   <h3 id="WGRF_AI_AIEntity_IsDead" data-uid="WGRF.AI.AIEntity.IsDead">
   IsDead
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>When set, IsDead automatically updates
-the enemyNodeData equivalent field
-with the passed value.</p>
+  <div class="markdown level1 summary"><p>The dead state of the agent</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -594,7 +597,7 @@ with the passed value.</p>
 
   <h3 id="WGRF_AI_AIEntity_GetEntityNodeData" data-uid="WGRF.AI.AIEntity.GetEntityNodeData">
   GetEntityNodeData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -621,73 +624,11 @@ with the passed value.</p>
 
 
 
-  <a id="WGRF_AI_AIEntity_GetIsAgentActive_" data-uid="WGRF.AI.AIEntity.GetIsAgentActive*"></a>
-
-  <h3 id="WGRF_AI_AIEntity_GetIsAgentActive" data-uid="WGRF.AI.AIEntity.GetIsAgentActive">
-  GetIsAgentActive()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L91"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract bool GetIsAgentActive()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_AI_AIEntity_SetAttackTarget_" data-uid="WGRF.AI.AIEntity.SetAttackTarget*"></a>
-
-  <h3 id="WGRF_AI_AIEntity_SetAttackTarget_UnityEngine_Transform_" data-uid="WGRF.AI.AIEntity.SetAttackTarget(UnityEngine.Transform)">
-  SetAttackTarget(Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L88"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void SetAttackTarget(Transform target)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">Transform</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="WGRF_AI_AIEntity_SetIsAgentActive_" data-uid="WGRF.AI.AIEntity.SetIsAgentActive*"></a>
 
   <h3 id="WGRF_AI_AIEntity_SetIsAgentActive_System_Boolean_" data-uid="WGRF.AI.AIEntity.SetIsAgentActive(System.Boolean)">
   SetIsAgentActive(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/AI_EnemyBase/AIEntity.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
