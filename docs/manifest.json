@@ -1615,6 +1615,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.OpenUpdatesPanelTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.OpenUpdatesPanelTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Player.PlayerAnimations.yml",
       "output": {
         ".html": {
@@ -1725,6 +1735,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.EndMessageController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.EndMessageController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.UI.IUIController.yml",
       "output": {
         ".html": {
@@ -1765,10 +1785,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ScoreDataController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ScoreDataController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.UI.ScorePanelController.yml",
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.ScorePanelController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ScoreboardLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ScoreboardLoader.html"
         }
       },
       "version": ""
@@ -1809,6 +1849,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.ToggleSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.UpdatesPanelController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.UpdatesPanelController.html"
         }
       },
       "version": ""

@@ -7421,6 +7421,22 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AbilityManager.IncreaseTotalAbilityUsesPerRoom
   nameWithType: AbilityManager.IncreaseTotalAbilityUsesPerRoom
+- uid: WGRF.Core.AbilityManager.NextAbilitySprite(System.Int32)
+  name: NextAbilitySprite(int)
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_NextAbilitySprite_System_Int32_
+  commentId: M:WGRF.Core.AbilityManager.NextAbilitySprite(System.Int32)
+  name.vb: NextAbilitySprite(Integer)
+  fullName: WGRF.Core.AbilityManager.NextAbilitySprite(int)
+  fullName.vb: WGRF.Core.AbilityManager.NextAbilitySprite(Integer)
+  nameWithType: AbilityManager.NextAbilitySprite(int)
+  nameWithType.vb: AbilityManager.NextAbilitySprite(Integer)
+- uid: WGRF.Core.AbilityManager.NextAbilitySprite*
+  name: NextAbilitySprite
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_NextAbilitySprite_
+  commentId: Overload:WGRF.Core.AbilityManager.NextAbilitySprite
+  isSpec: "True"
+  fullName: WGRF.Core.AbilityManager.NextAbilitySprite
+  nameWithType: AbilityManager.NextAbilitySprite
 - uid: WGRF.Core.AbilityManager.PreAwake
   name: PreAwake()
   href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_PreAwake
@@ -8467,6 +8483,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.InternalTime.RoomTime
   nameWithType: InternalTime.RoomTime
+- uid: WGRF.Core.InternalTime.RoomTimeInt
+  name: RoomTimeInt
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_RoomTimeInt
+  commentId: P:WGRF.Core.InternalTime.RoomTimeInt
+  fullName: WGRF.Core.InternalTime.RoomTimeInt
+  nameWithType: InternalTime.RoomTimeInt
+- uid: WGRF.Core.InternalTime.RoomTimeInt*
+  name: RoomTimeInt
+  href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_RoomTimeInt_
+  commentId: Overload:WGRF.Core.InternalTime.RoomTimeInt
+  isSpec: "True"
+  fullName: WGRF.Core.InternalTime.RoomTimeInt
+  nameWithType: InternalTime.RoomTimeInt
 - uid: WGRF.Core.InternalTime.StartRoomTimer
   name: StartRoomTimer()
   href: api/WGRF.Core.InternalTime.html#WGRF_Core_InternalTime_StartRoomTimer
@@ -8908,19 +8937,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.StageHandler
   nameWithType: ManagerHub.StageHandler
-- uid: WGRF.Core.ManagerHub.WeaponManager
-  name: WeaponManager
-  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_WeaponManager
-  commentId: P:WGRF.Core.ManagerHub.WeaponManager
-  fullName: WGRF.Core.ManagerHub.WeaponManager
-  nameWithType: ManagerHub.WeaponManager
-- uid: WGRF.Core.ManagerHub.WeaponManager*
-  name: WeaponManager
-  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_WeaponManager_
-  commentId: Overload:WGRF.Core.ManagerHub.WeaponManager
-  isSpec: "True"
-  fullName: WGRF.Core.ManagerHub.WeaponManager
-  nameWithType: ManagerHub.WeaponManager
 - uid: WGRF.Core.Managers
   name: WGRF.Core.Managers
   href: api/WGRF.Core.Managers.html
@@ -9182,6 +9198,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.RewardSelector.AbilityUsesReward
   nameWithType: RewardSelector.AbilityUsesReward
+- uid: WGRF.Core.RewardSelector.GetNextWeaponSprite
+  name: GetNextWeaponSprite()
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_GetNextWeaponSprite
+  commentId: M:WGRF.Core.RewardSelector.GetNextWeaponSprite
+  fullName: WGRF.Core.RewardSelector.GetNextWeaponSprite()
+  nameWithType: RewardSelector.GetNextWeaponSprite()
+- uid: WGRF.Core.RewardSelector.GetNextWeaponSprite*
+  name: GetNextWeaponSprite
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_GetNextWeaponSprite_
+  commentId: Overload:WGRF.Core.RewardSelector.GetNextWeaponSprite
+  isSpec: "True"
+  fullName: WGRF.Core.RewardSelector.GetNextWeaponSprite
+  nameWithType: RewardSelector.GetNextWeaponSprite
 - uid: WGRF.Core.RewardSelector.GetWeaponUpdate
   name: GetWeaponUpdate()
   href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_GetWeaponUpdate
@@ -10805,6 +10834,32 @@ references:
   isSpec: "True"
   fullName: WGRF.Internal.Database.DeletePlayerRecord
   nameWithType: Database.DeletePlayerRecord
+- uid: WGRF.Internal.Database.GetAllPlayerRecords
+  name: GetAllPlayerRecords()
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_GetAllPlayerRecords
+  commentId: M:WGRF.Internal.Database.GetAllPlayerRecords
+  fullName: WGRF.Internal.Database.GetAllPlayerRecords()
+  nameWithType: Database.GetAllPlayerRecords()
+- uid: WGRF.Internal.Database.GetAllPlayerRecords*
+  name: GetAllPlayerRecords
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_GetAllPlayerRecords_
+  commentId: Overload:WGRF.Internal.Database.GetAllPlayerRecords
+  isSpec: "True"
+  fullName: WGRF.Internal.Database.GetAllPlayerRecords
+  nameWithType: Database.GetAllPlayerRecords
+- uid: WGRF.Internal.Database.GetPlayerRecordCount
+  name: GetPlayerRecordCount()
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_GetPlayerRecordCount
+  commentId: M:WGRF.Internal.Database.GetPlayerRecordCount
+  fullName: WGRF.Internal.Database.GetPlayerRecordCount()
+  nameWithType: Database.GetPlayerRecordCount()
+- uid: WGRF.Internal.Database.GetPlayerRecordCount*
+  name: GetPlayerRecordCount
+  href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_GetPlayerRecordCount_
+  commentId: Overload:WGRF.Internal.Database.GetPlayerRecordCount
+  isSpec: "True"
+  fullName: WGRF.Internal.Database.GetPlayerRecordCount
+  nameWithType: Database.GetPlayerRecordCount
 - uid: WGRF.Internal.Database.UpdatePlayerRecord(System.Int32,WGRF.Internal.PlayerRecord)
   name: UpdatePlayerRecord(int, PlayerRecord)
   href: api/WGRF.Internal.Database.html#WGRF_Internal_Database_UpdatePlayerRecord_System_Int32_WGRF_Internal_PlayerRecord_
@@ -10873,6 +10928,12 @@ references:
   commentId: F:WGRF.Internal.PlayerRecord.Score
   fullName: WGRF.Internal.PlayerRecord.Score
   nameWithType: PlayerRecord.Score
+- uid: WGRF.OpenUpdatesPanelTrigger
+  name: OpenUpdatesPanelTrigger
+  href: api/WGRF.OpenUpdatesPanelTrigger.html
+  commentId: T:WGRF.OpenUpdatesPanelTrigger
+  fullName: OpenUpdatesPanelTrigger
+  nameWithType: OpenUpdatesPanelTrigger
 - uid: WGRF.Player
   name: WGRF.Player
   href: api/WGRF.Player.html
@@ -11787,6 +11848,41 @@ references:
   commentId: T:WGRF.UI.DynamicCrosshair
   fullName: WGRF.UI.DynamicCrosshair
   nameWithType: DynamicCrosshair
+- uid: WGRF.UI.EndMessageController
+  name: EndMessageController
+  href: api/WGRF.UI.EndMessageController.html
+  commentId: T:WGRF.UI.EndMessageController
+  fullName: WGRF.UI.EndMessageController
+  nameWithType: EndMessageController
+- uid: WGRF.UI.EndMessageController.FinalizeScore
+  name: FinalizeScore()
+  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_FinalizeScore
+  commentId: M:WGRF.UI.EndMessageController.FinalizeScore
+  fullName: WGRF.UI.EndMessageController.FinalizeScore()
+  nameWithType: EndMessageController.FinalizeScore()
+- uid: WGRF.UI.EndMessageController.FinalizeScore*
+  name: FinalizeScore
+  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_FinalizeScore_
+  commentId: Overload:WGRF.UI.EndMessageController.FinalizeScore
+  isSpec: "True"
+  fullName: WGRF.UI.EndMessageController.FinalizeScore
+  nameWithType: EndMessageController.FinalizeScore
+- uid: WGRF.UI.EndMessageController.SetMessageText(System.String)
+  name: SetMessageText(string)
+  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_SetMessageText_System_String_
+  commentId: M:WGRF.UI.EndMessageController.SetMessageText(System.String)
+  name.vb: SetMessageText(String)
+  fullName: WGRF.UI.EndMessageController.SetMessageText(string)
+  fullName.vb: WGRF.UI.EndMessageController.SetMessageText(String)
+  nameWithType: EndMessageController.SetMessageText(string)
+  nameWithType.vb: EndMessageController.SetMessageText(String)
+- uid: WGRF.UI.EndMessageController.SetMessageText*
+  name: SetMessageText
+  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_SetMessageText_
+  commentId: Overload:WGRF.UI.EndMessageController.SetMessageText
+  isSpec: "True"
+  fullName: WGRF.UI.EndMessageController.SetMessageText
+  nameWithType: EndMessageController.SetMessageText
 - uid: WGRF.UI.IUIController
   name: IUIController
   href: api/WGRF.UI.IUIController.html
@@ -11947,12 +12043,72 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.SceneFader.FadeOut
   nameWithType: SceneFader.FadeOut
+- uid: WGRF.UI.ScoreDataController
+  name: ScoreDataController
+  href: api/WGRF.UI.ScoreDataController.html
+  commentId: T:WGRF.UI.ScoreDataController
+  fullName: WGRF.UI.ScoreDataController
+  nameWithType: ScoreDataController
+- uid: WGRF.UI.ScoreDataController.SetName(System.String)
+  name: SetName(string)
+  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetName_System_String_
+  commentId: M:WGRF.UI.ScoreDataController.SetName(System.String)
+  name.vb: SetName(String)
+  fullName: WGRF.UI.ScoreDataController.SetName(string)
+  fullName.vb: WGRF.UI.ScoreDataController.SetName(String)
+  nameWithType: ScoreDataController.SetName(string)
+  nameWithType.vb: ScoreDataController.SetName(String)
+- uid: WGRF.UI.ScoreDataController.SetName*
+  name: SetName
+  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetName_
+  commentId: Overload:WGRF.UI.ScoreDataController.SetName
+  isSpec: "True"
+  fullName: WGRF.UI.ScoreDataController.SetName
+  nameWithType: ScoreDataController.SetName
+- uid: WGRF.UI.ScoreDataController.SetRank(System.Int32)
+  name: SetRank(int)
+  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetRank_System_Int32_
+  commentId: M:WGRF.UI.ScoreDataController.SetRank(System.Int32)
+  name.vb: SetRank(Integer)
+  fullName: WGRF.UI.ScoreDataController.SetRank(int)
+  fullName.vb: WGRF.UI.ScoreDataController.SetRank(Integer)
+  nameWithType: ScoreDataController.SetRank(int)
+  nameWithType.vb: ScoreDataController.SetRank(Integer)
+- uid: WGRF.UI.ScoreDataController.SetRank*
+  name: SetRank
+  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetRank_
+  commentId: Overload:WGRF.UI.ScoreDataController.SetRank
+  isSpec: "True"
+  fullName: WGRF.UI.ScoreDataController.SetRank
+  nameWithType: ScoreDataController.SetRank
+- uid: WGRF.UI.ScoreDataController.SetScore(System.Int32)
+  name: SetScore(int)
+  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetScore_System_Int32_
+  commentId: M:WGRF.UI.ScoreDataController.SetScore(System.Int32)
+  name.vb: SetScore(Integer)
+  fullName: WGRF.UI.ScoreDataController.SetScore(int)
+  fullName.vb: WGRF.UI.ScoreDataController.SetScore(Integer)
+  nameWithType: ScoreDataController.SetScore(int)
+  nameWithType.vb: ScoreDataController.SetScore(Integer)
+- uid: WGRF.UI.ScoreDataController.SetScore*
+  name: SetScore
+  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetScore_
+  commentId: Overload:WGRF.UI.ScoreDataController.SetScore
+  isSpec: "True"
+  fullName: WGRF.UI.ScoreDataController.SetScore
+  nameWithType: ScoreDataController.SetScore
 - uid: WGRF.UI.ScorePanelController
   name: ScorePanelController
   href: api/WGRF.UI.ScorePanelController.html
   commentId: T:WGRF.UI.ScorePanelController
   fullName: WGRF.UI.ScorePanelController
   nameWithType: ScorePanelController
+- uid: WGRF.UI.ScoreboardLoader
+  name: ScoreboardLoader
+  href: api/WGRF.UI.ScoreboardLoader.html
+  commentId: T:WGRF.UI.ScoreboardLoader
+  fullName: WGRF.UI.ScoreboardLoader
+  nameWithType: ScoreboardLoader
 - uid: WGRF.UI.SliderController
   name: SliderController
   href: api/WGRF.UI.SliderController.html
@@ -12079,6 +12235,64 @@ references:
   commentId: F:WGRF.UI.ToggleSetting.Gore
   fullName: WGRF.UI.ToggleSetting.Gore
   nameWithType: ToggleSetting.Gore
+- uid: WGRF.UI.UpdatesPanelController
+  name: UpdatesPanelController
+  href: api/WGRF.UI.UpdatesPanelController.html
+  commentId: T:WGRF.UI.UpdatesPanelController
+  fullName: WGRF.UI.UpdatesPanelController
+  nameWithType: UpdatesPanelController
+- uid: WGRF.UI.UpdatesPanelController.BadassUpdate
+  name: BadassUpdate()
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_BadassUpdate
+  commentId: M:WGRF.UI.UpdatesPanelController.BadassUpdate
+  fullName: WGRF.UI.UpdatesPanelController.BadassUpdate()
+  nameWithType: UpdatesPanelController.BadassUpdate()
+- uid: WGRF.UI.UpdatesPanelController.BadassUpdate*
+  name: BadassUpdate
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_BadassUpdate_
+  commentId: Overload:WGRF.UI.UpdatesPanelController.BadassUpdate
+  isSpec: "True"
+  fullName: WGRF.UI.UpdatesPanelController.BadassUpdate
+  nameWithType: UpdatesPanelController.BadassUpdate
+- uid: WGRF.UI.UpdatesPanelController.UpdateAbility
+  name: UpdateAbility()
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_UpdateAbility
+  commentId: M:WGRF.UI.UpdatesPanelController.UpdateAbility
+  fullName: WGRF.UI.UpdatesPanelController.UpdateAbility()
+  nameWithType: UpdatesPanelController.UpdateAbility()
+- uid: WGRF.UI.UpdatesPanelController.UpdateAbility*
+  name: UpdateAbility
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_UpdateAbility_
+  commentId: Overload:WGRF.UI.UpdatesPanelController.UpdateAbility
+  isSpec: "True"
+  fullName: WGRF.UI.UpdatesPanelController.UpdateAbility
+  nameWithType: UpdatesPanelController.UpdateAbility
+- uid: WGRF.UI.UpdatesPanelController.UpdatePlayerStat
+  name: UpdatePlayerStat()
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_UpdatePlayerStat
+  commentId: M:WGRF.UI.UpdatesPanelController.UpdatePlayerStat
+  fullName: WGRF.UI.UpdatesPanelController.UpdatePlayerStat()
+  nameWithType: UpdatesPanelController.UpdatePlayerStat()
+- uid: WGRF.UI.UpdatesPanelController.UpdatePlayerStat*
+  name: UpdatePlayerStat
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_UpdatePlayerStat_
+  commentId: Overload:WGRF.UI.UpdatesPanelController.UpdatePlayerStat
+  isSpec: "True"
+  fullName: WGRF.UI.UpdatesPanelController.UpdatePlayerStat
+  nameWithType: UpdatesPanelController.UpdatePlayerStat
+- uid: WGRF.UI.UpdatesPanelController.UpdateWeapon
+  name: UpdateWeapon()
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_UpdateWeapon
+  commentId: M:WGRF.UI.UpdatesPanelController.UpdateWeapon
+  fullName: WGRF.UI.UpdatesPanelController.UpdateWeapon()
+  nameWithType: UpdatesPanelController.UpdateWeapon()
+- uid: WGRF.UI.UpdatesPanelController.UpdateWeapon*
+  name: UpdateWeapon
+  href: api/WGRF.UI.UpdatesPanelController.html#WGRF_UI_UpdatesPanelController_UpdateWeapon_
+  commentId: Overload:WGRF.UI.UpdatesPanelController.UpdateWeapon
+  isSpec: "True"
+  fullName: WGRF.UI.UpdatesPanelController.UpdateWeapon
+  nameWithType: UpdatesPanelController.UpdateWeapon
 - uid: WGRF.UI.UserHUDHandler
   name: UserHUDHandler
   href: api/WGRF.UI.UserHUDHandler.html
@@ -12127,6 +12341,35 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.UserHUDHandler.CloseScoreUI
   nameWithType: UserHUDHandler.CloseScoreUI
+- uid: WGRF.UI.UserHUDHandler.CloseScoreboardUI
+  name: CloseScoreboardUI()
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_CloseScoreboardUI
+  commentId: M:WGRF.UI.UserHUDHandler.CloseScoreboardUI
+  fullName: WGRF.UI.UserHUDHandler.CloseScoreboardUI()
+  nameWithType: UserHUDHandler.CloseScoreboardUI()
+- uid: WGRF.UI.UserHUDHandler.CloseScoreboardUI*
+  name: CloseScoreboardUI
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_CloseScoreboardUI_
+  commentId: Overload:WGRF.UI.UserHUDHandler.CloseScoreboardUI
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.CloseScoreboardUI
+  nameWithType: UserHUDHandler.CloseScoreboardUI
+- uid: WGRF.UI.UserHUDHandler.OpenMessageUI(System.String)
+  name: OpenMessageUI(string)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenMessageUI_System_String_
+  commentId: M:WGRF.UI.UserHUDHandler.OpenMessageUI(System.String)
+  name.vb: OpenMessageUI(String)
+  fullName: WGRF.UI.UserHUDHandler.OpenMessageUI(string)
+  fullName.vb: WGRF.UI.UserHUDHandler.OpenMessageUI(String)
+  nameWithType: UserHUDHandler.OpenMessageUI(string)
+  nameWithType.vb: UserHUDHandler.OpenMessageUI(String)
+- uid: WGRF.UI.UserHUDHandler.OpenMessageUI*
+  name: OpenMessageUI
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenMessageUI_
+  commentId: Overload:WGRF.UI.UserHUDHandler.OpenMessageUI
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.OpenMessageUI
+  nameWithType: UserHUDHandler.OpenMessageUI
 - uid: WGRF.UI.UserHUDHandler.OpenScoreUI
   name: OpenScoreUI()
   href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenScoreUI
@@ -12140,6 +12383,32 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.UserHUDHandler.OpenScoreUI
   nameWithType: UserHUDHandler.OpenScoreUI
+- uid: WGRF.UI.UserHUDHandler.OpenScoreboardUI
+  name: OpenScoreboardUI()
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenScoreboardUI
+  commentId: M:WGRF.UI.UserHUDHandler.OpenScoreboardUI
+  fullName: WGRF.UI.UserHUDHandler.OpenScoreboardUI()
+  nameWithType: UserHUDHandler.OpenScoreboardUI()
+- uid: WGRF.UI.UserHUDHandler.OpenScoreboardUI*
+  name: OpenScoreboardUI
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenScoreboardUI_
+  commentId: Overload:WGRF.UI.UserHUDHandler.OpenScoreboardUI
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.OpenScoreboardUI
+  nameWithType: UserHUDHandler.OpenScoreboardUI
+- uid: WGRF.UI.UserHUDHandler.OpenUpdatesUI
+  name: OpenUpdatesUI()
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenUpdatesUI
+  commentId: M:WGRF.UI.UserHUDHandler.OpenUpdatesUI
+  fullName: WGRF.UI.UserHUDHandler.OpenUpdatesUI()
+  nameWithType: UserHUDHandler.OpenUpdatesUI()
+- uid: WGRF.UI.UserHUDHandler.OpenUpdatesUI*
+  name: OpenUpdatesUI
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenUpdatesUI_
+  commentId: Overload:WGRF.UI.UserHUDHandler.OpenUpdatesUI
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.OpenUpdatesUI
+  nameWithType: UserHUDHandler.OpenUpdatesUI
 - uid: WGRF.UI.UserHUDHandler.SetAbilityUses(System.Int32)
   name: SetAbilityUses(int)
   href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetAbilityUses_System_Int32_
