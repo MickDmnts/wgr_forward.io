@@ -29,6 +29,19 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.Agent
   nameWithType: AIEntity.Agent
+- uid: WGRF.AI.AIEntity.EnemyRoom
+  name: EnemyRoom
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_EnemyRoom
+  commentId: P:WGRF.AI.AIEntity.EnemyRoom
+  fullName: WGRF.AI.AIEntity.EnemyRoom
+  nameWithType: AIEntity.EnemyRoom
+- uid: WGRF.AI.AIEntity.EnemyRoom*
+  name: EnemyRoom
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_EnemyRoom_
+  commentId: Overload:WGRF.AI.AIEntity.EnemyRoom
+  isSpec: "True"
+  fullName: WGRF.AI.AIEntity.EnemyRoom
+  nameWithType: AIEntity.EnemyRoom
 - uid: WGRF.AI.AIEntity.GetEntityNodeData
   name: GetEntityNodeData()
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_GetEntityNodeData
@@ -42,6 +55,22 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.GetEntityNodeData
   nameWithType: AIEntity.GetEntityNodeData
+- uid: WGRF.AI.AIEntity.InitiateFallback(System.Single)
+  name: InitiateFallback(float)
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_InitiateFallback_System_Single_
+  commentId: M:WGRF.AI.AIEntity.InitiateFallback(System.Single)
+  name.vb: InitiateFallback(Single)
+  fullName: WGRF.AI.AIEntity.InitiateFallback(float)
+  fullName.vb: WGRF.AI.AIEntity.InitiateFallback(Single)
+  nameWithType: AIEntity.InitiateFallback(float)
+  nameWithType.vb: AIEntity.InitiateFallback(Single)
+- uid: WGRF.AI.AIEntity.InitiateFallback*
+  name: InitiateFallback
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_InitiateFallback_
+  commentId: Overload:WGRF.AI.AIEntity.InitiateFallback
+  isSpec: "True"
+  fullName: WGRF.AI.AIEntity.InitiateFallback
+  nameWithType: AIEntity.InitiateFallback
 - uid: WGRF.AI.AIEntity.IsDead
   name: IsDead
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_IsDead
@@ -55,6 +84,35 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.IsDead
   nameWithType: AIEntity.IsDead
+- uid: WGRF.AI.AIEntity.OnPlayerAbilityFinish
+  name: OnPlayerAbilityFinish()
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnPlayerAbilityFinish
+  commentId: M:WGRF.AI.AIEntity.OnPlayerAbilityFinish
+  fullName: WGRF.AI.AIEntity.OnPlayerAbilityFinish()
+  nameWithType: AIEntity.OnPlayerAbilityFinish()
+- uid: WGRF.AI.AIEntity.OnPlayerAbilityFinish*
+  name: OnPlayerAbilityFinish
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnPlayerAbilityFinish_
+  commentId: Overload:WGRF.AI.AIEntity.OnPlayerAbilityFinish
+  isSpec: "True"
+  fullName: WGRF.AI.AIEntity.OnPlayerAbilityFinish
+  nameWithType: AIEntity.OnPlayerAbilityFinish
+- uid: WGRF.AI.AIEntity.OnPlayerAbilityStart(System.Single)
+  name: OnPlayerAbilityStart(float)
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnPlayerAbilityStart_System_Single_
+  commentId: M:WGRF.AI.AIEntity.OnPlayerAbilityStart(System.Single)
+  name.vb: OnPlayerAbilityStart(Single)
+  fullName: WGRF.AI.AIEntity.OnPlayerAbilityStart(float)
+  fullName.vb: WGRF.AI.AIEntity.OnPlayerAbilityStart(Single)
+  nameWithType: AIEntity.OnPlayerAbilityStart(float)
+  nameWithType.vb: AIEntity.OnPlayerAbilityStart(Single)
+- uid: WGRF.AI.AIEntity.OnPlayerAbilityStart*
+  name: OnPlayerAbilityStart
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_OnPlayerAbilityStart_
+  commentId: Overload:WGRF.AI.AIEntity.OnPlayerAbilityStart
+  isSpec: "True"
+  fullName: WGRF.AI.AIEntity.OnPlayerAbilityStart
+  nameWithType: AIEntity.OnPlayerAbilityStart
 - uid: WGRF.AI.AIEntity.SetIsAgentActive(System.Boolean)
   name: SetIsAgentActive(bool)
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_SetIsAgentActive_System_Boolean_
@@ -1930,6 +1988,57 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnforcerEntity.Target
   nameWithType: EnforcerEntity.Target
+- uid: WGRF.AI.EnforcerIdleNode
+  name: EnforcerIdleNode
+  href: api/WGRF.AI.EnforcerIdleNode.html
+  commentId: T:WGRF.AI.EnforcerIdleNode
+  fullName: WGRF.AI.EnforcerIdleNode
+  nameWithType: EnforcerIdleNode
+- uid: WGRF.AI.EnforcerIdleNode.#ctor(WGRF.AI.INodeData)
+  name: EnforcerIdleNode(INodeData)
+  href: api/WGRF.AI.EnforcerIdleNode.html#WGRF_AI_EnforcerIdleNode__ctor_WGRF_AI_INodeData_
+  commentId: M:WGRF.AI.EnforcerIdleNode.#ctor(WGRF.AI.INodeData)
+  name.vb: New(INodeData)
+  fullName: WGRF.AI.EnforcerIdleNode.EnforcerIdleNode(WGRF.AI.INodeData)
+  fullName.vb: WGRF.AI.EnforcerIdleNode.New(WGRF.AI.INodeData)
+  nameWithType: EnforcerIdleNode.EnforcerIdleNode(INodeData)
+  nameWithType.vb: EnforcerIdleNode.New(INodeData)
+- uid: WGRF.AI.EnforcerIdleNode.#ctor*
+  name: EnforcerIdleNode
+  href: api/WGRF.AI.EnforcerIdleNode.html#WGRF_AI_EnforcerIdleNode__ctor_
+  commentId: Overload:WGRF.AI.EnforcerIdleNode.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.EnforcerIdleNode.EnforcerIdleNode
+  fullName.vb: WGRF.AI.EnforcerIdleNode.New
+  nameWithType: EnforcerIdleNode.EnforcerIdleNode
+  nameWithType.vb: EnforcerIdleNode.New
+- uid: WGRF.AI.EnforcerIdleNode.GetNodeData
+  name: GetNodeData()
+  href: api/WGRF.AI.EnforcerIdleNode.html#WGRF_AI_EnforcerIdleNode_GetNodeData
+  commentId: M:WGRF.AI.EnforcerIdleNode.GetNodeData
+  fullName: WGRF.AI.EnforcerIdleNode.GetNodeData()
+  nameWithType: EnforcerIdleNode.GetNodeData()
+- uid: WGRF.AI.EnforcerIdleNode.GetNodeData*
+  name: GetNodeData
+  href: api/WGRF.AI.EnforcerIdleNode.html#WGRF_AI_EnforcerIdleNode_GetNodeData_
+  commentId: Overload:WGRF.AI.EnforcerIdleNode.GetNodeData
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerIdleNode.GetNodeData
+  nameWithType: EnforcerIdleNode.GetNodeData
+- uid: WGRF.AI.EnforcerIdleNode.Run
+  name: Run()
+  href: api/WGRF.AI.EnforcerIdleNode.html#WGRF_AI_EnforcerIdleNode_Run
+  commentId: M:WGRF.AI.EnforcerIdleNode.Run
+  fullName: WGRF.AI.EnforcerIdleNode.Run()
+  nameWithType: EnforcerIdleNode.Run()
+- uid: WGRF.AI.EnforcerIdleNode.Run*
+  name: Run
+  href: api/WGRF.AI.EnforcerIdleNode.html#WGRF_AI_EnforcerIdleNode_Run_
+  commentId: Overload:WGRF.AI.EnforcerIdleNode.Run
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerIdleNode.Run
+  nameWithType: EnforcerIdleNode.Run
 - uid: WGRF.AI.EnforcerNodeData
   name: EnforcerNodeData
   href: api/WGRF.AI.EnforcerNodeData.html
@@ -2007,6 +2116,19 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnforcerNodeData.IsDead
   nameWithType: EnforcerNodeData.IsDead
+- uid: WGRF.AI.EnforcerNodeData.LowestHpEnemy
+  name: LowestHpEnemy
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_LowestHpEnemy
+  commentId: P:WGRF.AI.EnforcerNodeData.LowestHpEnemy
+  fullName: WGRF.AI.EnforcerNodeData.LowestHpEnemy
+  nameWithType: EnforcerNodeData.LowestHpEnemy
+- uid: WGRF.AI.EnforcerNodeData.LowestHpEnemy*
+  name: LowestHpEnemy
+  href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_LowestHpEnemy_
+  commentId: Overload:WGRF.AI.EnforcerNodeData.LowestHpEnemy
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerNodeData.LowestHpEnemy
+  nameWithType: EnforcerNodeData.LowestHpEnemy
 - uid: WGRF.AI.EnforcerNodeData.OcclusionLayers
   name: OcclusionLayers
   href: api/WGRF.AI.EnforcerNodeData.html#WGRF_AI_EnforcerNodeData_OcclusionLayers
@@ -3508,6 +3630,57 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.FallbackAction.Run
   nameWithType: FallbackAction.Run
+- uid: WGRF.AI.FindMostVulnerable
+  name: FindMostVulnerable
+  href: api/WGRF.AI.FindMostVulnerable.html
+  commentId: T:WGRF.AI.FindMostVulnerable
+  fullName: WGRF.AI.FindMostVulnerable
+  nameWithType: FindMostVulnerable
+- uid: WGRF.AI.FindMostVulnerable.#ctor(WGRF.AI.EnforcerNodeData)
+  name: FindMostVulnerable(EnforcerNodeData)
+  href: api/WGRF.AI.FindMostVulnerable.html#WGRF_AI_FindMostVulnerable__ctor_WGRF_AI_EnforcerNodeData_
+  commentId: M:WGRF.AI.FindMostVulnerable.#ctor(WGRF.AI.EnforcerNodeData)
+  name.vb: New(EnforcerNodeData)
+  fullName: WGRF.AI.FindMostVulnerable.FindMostVulnerable(WGRF.AI.EnforcerNodeData)
+  fullName.vb: WGRF.AI.FindMostVulnerable.New(WGRF.AI.EnforcerNodeData)
+  nameWithType: FindMostVulnerable.FindMostVulnerable(EnforcerNodeData)
+  nameWithType.vb: FindMostVulnerable.New(EnforcerNodeData)
+- uid: WGRF.AI.FindMostVulnerable.#ctor*
+  name: FindMostVulnerable
+  href: api/WGRF.AI.FindMostVulnerable.html#WGRF_AI_FindMostVulnerable__ctor_
+  commentId: Overload:WGRF.AI.FindMostVulnerable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.FindMostVulnerable.FindMostVulnerable
+  fullName.vb: WGRF.AI.FindMostVulnerable.New
+  nameWithType: FindMostVulnerable.FindMostVulnerable
+  nameWithType.vb: FindMostVulnerable.New
+- uid: WGRF.AI.FindMostVulnerable.GetNodeData
+  name: GetNodeData()
+  href: api/WGRF.AI.FindMostVulnerable.html#WGRF_AI_FindMostVulnerable_GetNodeData
+  commentId: M:WGRF.AI.FindMostVulnerable.GetNodeData
+  fullName: WGRF.AI.FindMostVulnerable.GetNodeData()
+  nameWithType: FindMostVulnerable.GetNodeData()
+- uid: WGRF.AI.FindMostVulnerable.GetNodeData*
+  name: GetNodeData
+  href: api/WGRF.AI.FindMostVulnerable.html#WGRF_AI_FindMostVulnerable_GetNodeData_
+  commentId: Overload:WGRF.AI.FindMostVulnerable.GetNodeData
+  isSpec: "True"
+  fullName: WGRF.AI.FindMostVulnerable.GetNodeData
+  nameWithType: FindMostVulnerable.GetNodeData
+- uid: WGRF.AI.FindMostVulnerable.Run
+  name: Run()
+  href: api/WGRF.AI.FindMostVulnerable.html#WGRF_AI_FindMostVulnerable_Run
+  commentId: M:WGRF.AI.FindMostVulnerable.Run
+  fullName: WGRF.AI.FindMostVulnerable.Run()
+  nameWithType: FindMostVulnerable.Run()
+- uid: WGRF.AI.FindMostVulnerable.Run*
+  name: Run
+  href: api/WGRF.AI.FindMostVulnerable.html#WGRF_AI_FindMostVulnerable_Run_
+  commentId: Overload:WGRF.AI.FindMostVulnerable.Run
+  isSpec: "True"
+  fullName: WGRF.AI.FindMostVulnerable.Run
+  nameWithType: FindMostVulnerable.Run
 - uid: WGRF.AI.INode
   name: INode
   href: api/WGRF.AI.INode.html
@@ -5673,6 +5846,108 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.PatrolNode.Run
   nameWithType: PatrolNode.Run
+- uid: WGRF.AI.ProtectVulnerable
+  name: ProtectVulnerable
+  href: api/WGRF.AI.ProtectVulnerable.html
+  commentId: T:WGRF.AI.ProtectVulnerable
+  fullName: WGRF.AI.ProtectVulnerable
+  nameWithType: ProtectVulnerable
+- uid: WGRF.AI.ProtectVulnerable.#ctor(WGRF.AI.EnforcerNodeData)
+  name: ProtectVulnerable(EnforcerNodeData)
+  href: api/WGRF.AI.ProtectVulnerable.html#WGRF_AI_ProtectVulnerable__ctor_WGRF_AI_EnforcerNodeData_
+  commentId: M:WGRF.AI.ProtectVulnerable.#ctor(WGRF.AI.EnforcerNodeData)
+  name.vb: New(EnforcerNodeData)
+  fullName: WGRF.AI.ProtectVulnerable.ProtectVulnerable(WGRF.AI.EnforcerNodeData)
+  fullName.vb: WGRF.AI.ProtectVulnerable.New(WGRF.AI.EnforcerNodeData)
+  nameWithType: ProtectVulnerable.ProtectVulnerable(EnforcerNodeData)
+  nameWithType.vb: ProtectVulnerable.New(EnforcerNodeData)
+- uid: WGRF.AI.ProtectVulnerable.#ctor*
+  name: ProtectVulnerable
+  href: api/WGRF.AI.ProtectVulnerable.html#WGRF_AI_ProtectVulnerable__ctor_
+  commentId: Overload:WGRF.AI.ProtectVulnerable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.ProtectVulnerable.ProtectVulnerable
+  fullName.vb: WGRF.AI.ProtectVulnerable.New
+  nameWithType: ProtectVulnerable.ProtectVulnerable
+  nameWithType.vb: ProtectVulnerable.New
+- uid: WGRF.AI.ProtectVulnerable.GetNodeData
+  name: GetNodeData()
+  href: api/WGRF.AI.ProtectVulnerable.html#WGRF_AI_ProtectVulnerable_GetNodeData
+  commentId: M:WGRF.AI.ProtectVulnerable.GetNodeData
+  fullName: WGRF.AI.ProtectVulnerable.GetNodeData()
+  nameWithType: ProtectVulnerable.GetNodeData()
+- uid: WGRF.AI.ProtectVulnerable.GetNodeData*
+  name: GetNodeData
+  href: api/WGRF.AI.ProtectVulnerable.html#WGRF_AI_ProtectVulnerable_GetNodeData_
+  commentId: Overload:WGRF.AI.ProtectVulnerable.GetNodeData
+  isSpec: "True"
+  fullName: WGRF.AI.ProtectVulnerable.GetNodeData
+  nameWithType: ProtectVulnerable.GetNodeData
+- uid: WGRF.AI.ProtectVulnerable.Run
+  name: Run()
+  href: api/WGRF.AI.ProtectVulnerable.html#WGRF_AI_ProtectVulnerable_Run
+  commentId: M:WGRF.AI.ProtectVulnerable.Run
+  fullName: WGRF.AI.ProtectVulnerable.Run()
+  nameWithType: ProtectVulnerable.Run()
+- uid: WGRF.AI.ProtectVulnerable.Run*
+  name: Run
+  href: api/WGRF.AI.ProtectVulnerable.html#WGRF_AI_ProtectVulnerable_Run_
+  commentId: Overload:WGRF.AI.ProtectVulnerable.Run
+  isSpec: "True"
+  fullName: WGRF.AI.ProtectVulnerable.Run
+  nameWithType: ProtectVulnerable.Run
+- uid: WGRF.AI.ProtectionSelector
+  name: ProtectionSelector
+  href: api/WGRF.AI.ProtectionSelector.html
+  commentId: T:WGRF.AI.ProtectionSelector
+  fullName: WGRF.AI.ProtectionSelector
+  nameWithType: ProtectionSelector
+- uid: WGRF.AI.ProtectionSelector.#ctor(WGRF.AI.FindMostVulnerable,WGRF.AI.ProtectVulnerable,WGRF.AI.EnforcerNodeData)
+  name: ProtectionSelector(FindMostVulnerable, ProtectVulnerable, EnforcerNodeData)
+  href: api/WGRF.AI.ProtectionSelector.html#WGRF_AI_ProtectionSelector__ctor_WGRF_AI_FindMostVulnerable_WGRF_AI_ProtectVulnerable_WGRF_AI_EnforcerNodeData_
+  commentId: M:WGRF.AI.ProtectionSelector.#ctor(WGRF.AI.FindMostVulnerable,WGRF.AI.ProtectVulnerable,WGRF.AI.EnforcerNodeData)
+  name.vb: New(FindMostVulnerable, ProtectVulnerable, EnforcerNodeData)
+  fullName: WGRF.AI.ProtectionSelector.ProtectionSelector(WGRF.AI.FindMostVulnerable, WGRF.AI.ProtectVulnerable, WGRF.AI.EnforcerNodeData)
+  fullName.vb: WGRF.AI.ProtectionSelector.New(WGRF.AI.FindMostVulnerable, WGRF.AI.ProtectVulnerable, WGRF.AI.EnforcerNodeData)
+  nameWithType: ProtectionSelector.ProtectionSelector(FindMostVulnerable, ProtectVulnerable, EnforcerNodeData)
+  nameWithType.vb: ProtectionSelector.New(FindMostVulnerable, ProtectVulnerable, EnforcerNodeData)
+- uid: WGRF.AI.ProtectionSelector.#ctor*
+  name: ProtectionSelector
+  href: api/WGRF.AI.ProtectionSelector.html#WGRF_AI_ProtectionSelector__ctor_
+  commentId: Overload:WGRF.AI.ProtectionSelector.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: WGRF.AI.ProtectionSelector.ProtectionSelector
+  fullName.vb: WGRF.AI.ProtectionSelector.New
+  nameWithType: ProtectionSelector.ProtectionSelector
+  nameWithType.vb: ProtectionSelector.New
+- uid: WGRF.AI.ProtectionSelector.GetNodeData
+  name: GetNodeData()
+  href: api/WGRF.AI.ProtectionSelector.html#WGRF_AI_ProtectionSelector_GetNodeData
+  commentId: M:WGRF.AI.ProtectionSelector.GetNodeData
+  fullName: WGRF.AI.ProtectionSelector.GetNodeData()
+  nameWithType: ProtectionSelector.GetNodeData()
+- uid: WGRF.AI.ProtectionSelector.GetNodeData*
+  name: GetNodeData
+  href: api/WGRF.AI.ProtectionSelector.html#WGRF_AI_ProtectionSelector_GetNodeData_
+  commentId: Overload:WGRF.AI.ProtectionSelector.GetNodeData
+  isSpec: "True"
+  fullName: WGRF.AI.ProtectionSelector.GetNodeData
+  nameWithType: ProtectionSelector.GetNodeData
+- uid: WGRF.AI.ProtectionSelector.Run
+  name: Run()
+  href: api/WGRF.AI.ProtectionSelector.html#WGRF_AI_ProtectionSelector_Run
+  commentId: M:WGRF.AI.ProtectionSelector.Run
+  fullName: WGRF.AI.ProtectionSelector.Run()
+  nameWithType: ProtectionSelector.Run()
+- uid: WGRF.AI.ProtectionSelector.Run*
+  name: Run
+  href: api/WGRF.AI.ProtectionSelector.html#WGRF_AI_ProtectionSelector_Run_
+  commentId: Overload:WGRF.AI.ProtectionSelector.Run
+  isSpec: "True"
+  fullName: WGRF.AI.ProtectionSelector.Run
+  nameWithType: ProtectionSelector.Run
 - uid: WGRF.AI.StunedAction
   name: StunedAction
   href: api/WGRF.AI.StunedAction.html
@@ -7227,6 +7502,35 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AIHandler.ActivateAgents
   nameWithType: AIHandler.ActivateAgents
+- uid: WGRF.Core.AIHandler.DeactivateAllAgents
+  name: DeactivateAllAgents()
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_DeactivateAllAgents
+  commentId: M:WGRF.Core.AIHandler.DeactivateAllAgents
+  fullName: WGRF.Core.AIHandler.DeactivateAllAgents()
+  nameWithType: AIHandler.DeactivateAllAgents()
+- uid: WGRF.Core.AIHandler.DeactivateAllAgents*
+  name: DeactivateAllAgents
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_DeactivateAllAgents_
+  commentId: Overload:WGRF.Core.AIHandler.DeactivateAllAgents
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.DeactivateAllAgents
+  nameWithType: AIHandler.DeactivateAllAgents
+- uid: WGRF.Core.AIHandler.GetAliveAgentCount(System.Int32)
+  name: GetAliveAgentCount(int)
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetAliveAgentCount_System_Int32_
+  commentId: M:WGRF.Core.AIHandler.GetAliveAgentCount(System.Int32)
+  name.vb: GetAliveAgentCount(Integer)
+  fullName: WGRF.Core.AIHandler.GetAliveAgentCount(int)
+  fullName.vb: WGRF.Core.AIHandler.GetAliveAgentCount(Integer)
+  nameWithType: AIHandler.GetAliveAgentCount(int)
+  nameWithType.vb: AIHandler.GetAliveAgentCount(Integer)
+- uid: WGRF.Core.AIHandler.GetAliveAgentCount*
+  name: GetAliveAgentCount
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetAliveAgentCount_
+  commentId: Overload:WGRF.Core.AIHandler.GetAliveAgentCount
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.GetAliveAgentCount
+  nameWithType: AIHandler.GetAliveAgentCount
 - uid: WGRF.Core.AIHandler.GetRoomAgentCount(System.Int32)
   name: GetRoomAgentCount(int)
   href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_GetRoomAgentCount_System_Int32_
@@ -11867,6 +12171,19 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.EndMessageController.FinalizeScore
   nameWithType: EndMessageController.FinalizeScore
+- uid: WGRF.UI.EndMessageController.LoadMenu
+  name: LoadMenu()
+  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_LoadMenu
+  commentId: M:WGRF.UI.EndMessageController.LoadMenu
+  fullName: WGRF.UI.EndMessageController.LoadMenu()
+  nameWithType: EndMessageController.LoadMenu()
+- uid: WGRF.UI.EndMessageController.LoadMenu*
+  name: LoadMenu
+  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_LoadMenu_
+  commentId: Overload:WGRF.UI.EndMessageController.LoadMenu
+  isSpec: "True"
+  fullName: WGRF.UI.EndMessageController.LoadMenu
+  nameWithType: EndMessageController.LoadMenu
 - uid: WGRF.UI.EndMessageController.SetMessageText(System.String)
   name: SetMessageText(string)
   href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_SetMessageText_System_String_
@@ -12328,6 +12645,19 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.UserHUDHandler.ChangeSelectedAbilityIcon
   nameWithType: UserHUDHandler.ChangeSelectedAbilityIcon
+- uid: WGRF.UI.UserHUDHandler.CloseMessageUI
+  name: CloseMessageUI()
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_CloseMessageUI
+  commentId: M:WGRF.UI.UserHUDHandler.CloseMessageUI
+  fullName: WGRF.UI.UserHUDHandler.CloseMessageUI()
+  nameWithType: UserHUDHandler.CloseMessageUI()
+- uid: WGRF.UI.UserHUDHandler.CloseMessageUI*
+  name: CloseMessageUI
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_CloseMessageUI_
+  commentId: Overload:WGRF.UI.UserHUDHandler.CloseMessageUI
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.CloseMessageUI
+  nameWithType: UserHUDHandler.CloseMessageUI
 - uid: WGRF.UI.UserHUDHandler.CloseScoreUI
   name: CloseScoreUI()
   href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_CloseScoreUI

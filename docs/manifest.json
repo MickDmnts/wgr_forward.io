@@ -245,6 +245,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.EnforcerIdleNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.EnforcerIdleNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.AI.EnforcerNodeData.yml",
       "output": {
         ".html": {
@@ -409,6 +419,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.AI.FallbackAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.FindMostVulnerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.FindMostVulnerable.html"
         }
       },
       "version": ""
@@ -719,6 +739,26 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.AI.PatrolNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.ProtectVulnerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.ProtectVulnerable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.AI.ProtectionSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.AI.ProtectionSelector.html"
         }
       },
       "version": ""
