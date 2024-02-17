@@ -1065,6 +1065,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.AudioData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.AudioData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.BulletHandler.yml",
       "output": {
         ".html": {
@@ -1135,6 +1145,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.GameEnder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.GameEnder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.GameEventsHandler.yml",
       "output": {
         ".html": {
@@ -1159,6 +1179,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.Core.GameSoundsHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.GameState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.GameState.html"
         }
       },
       "version": ""
@@ -1585,6 +1615,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Interactions.DoorRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Interactions.DoorRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Interactions.IInteractable.yml",
       "output": {
         ".html": {
@@ -1839,6 +1879,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.ScorePanelController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ScoreUIFeeder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ScoreUIFeeder.html"
         }
       },
       "version": ""

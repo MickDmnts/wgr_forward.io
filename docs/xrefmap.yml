@@ -29,6 +29,19 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.AIEntity.Agent
   nameWithType: AIEntity.Agent
+- uid: WGRF.AI.AIEntity.DisableShootingBehaviour
+  name: DisableShootingBehaviour()
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_DisableShootingBehaviour
+  commentId: M:WGRF.AI.AIEntity.DisableShootingBehaviour
+  fullName: WGRF.AI.AIEntity.DisableShootingBehaviour()
+  nameWithType: AIEntity.DisableShootingBehaviour()
+- uid: WGRF.AI.AIEntity.DisableShootingBehaviour*
+  name: DisableShootingBehaviour
+  href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_DisableShootingBehaviour_
+  commentId: Overload:WGRF.AI.AIEntity.DisableShootingBehaviour
+  isSpec: "True"
+  fullName: WGRF.AI.AIEntity.DisableShootingBehaviour
+  nameWithType: AIEntity.DisableShootingBehaviour
 - uid: WGRF.AI.AIEntity.EnemyRoom
   name: EnemyRoom
   href: api/WGRF.AI.AIEntity.html#WGRF_AI_AIEntity_EnemyRoom
@@ -1531,6 +1544,18 @@ references:
   commentId: F:WGRF.AI.EnemyRoom.Room5
   fullName: WGRF.AI.EnemyRoom.Room5
   nameWithType: EnemyRoom.Room5
+- uid: WGRF.AI.EnemyRoom.Room6
+  name: Room6
+  href: api/WGRF.AI.EnemyRoom.html#WGRF_AI_EnemyRoom_Room6
+  commentId: F:WGRF.AI.EnemyRoom.Room6
+  fullName: WGRF.AI.EnemyRoom.Room6
+  nameWithType: EnemyRoom.Room6
+- uid: WGRF.AI.EnemyRoom.Room7
+  name: Room7
+  href: api/WGRF.AI.EnemyRoom.html#WGRF_AI_EnemyRoom_Room7
+  commentId: F:WGRF.AI.EnemyRoom.Room7
+  fullName: WGRF.AI.EnemyRoom.Room7
+  nameWithType: EnemyRoom.Room7
 - uid: WGRF.AI.EnemyWeapon
   name: EnemyWeapon
   href: api/WGRF.AI.EnemyWeapon.html
@@ -1875,6 +1900,19 @@ references:
   isSpec: "True"
   fullName: WGRF.AI.EnforcerEntity.AttackInteraction
   nameWithType: EnforcerEntity.AttackInteraction
+- uid: WGRF.AI.EnforcerEntity.DisableShootingBehaviour
+  name: DisableShootingBehaviour()
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_DisableShootingBehaviour
+  commentId: M:WGRF.AI.EnforcerEntity.DisableShootingBehaviour
+  fullName: WGRF.AI.EnforcerEntity.DisableShootingBehaviour()
+  nameWithType: EnforcerEntity.DisableShootingBehaviour()
+- uid: WGRF.AI.EnforcerEntity.DisableShootingBehaviour*
+  name: DisableShootingBehaviour
+  href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_DisableShootingBehaviour_
+  commentId: Overload:WGRF.AI.EnforcerEntity.DisableShootingBehaviour
+  isSpec: "True"
+  fullName: WGRF.AI.EnforcerEntity.DisableShootingBehaviour
+  nameWithType: EnforcerEntity.DisableShootingBehaviour
 - uid: WGRF.AI.EnforcerEntity.GetEntityNodeData
   name: GetEntityNodeData()
   href: api/WGRF.AI.EnforcerEntity.html#WGRF_AI_EnforcerEntity_GetEntityNodeData
@@ -7167,6 +7205,12 @@ references:
   commentId: T:WGRF.BattleSystem.Weapon
   fullName: WGRF.BattleSystem.Weapon
   nameWithType: Weapon
+- uid: WGRF.BattleSystem.Weapon.Damage
+  name: Damage
+  href: api/WGRF.BattleSystem.Weapon.html#WGRF_BattleSystem_Weapon_Damage
+  commentId: F:WGRF.BattleSystem.Weapon.Damage
+  fullName: WGRF.BattleSystem.Weapon.Damage
+  nameWithType: Weapon.Damage
 - uid: WGRF.BattleSystem.Weapon.DefaultMagazine
   name: DefaultMagazine
   href: api/WGRF.BattleSystem.Weapon.html#WGRF_BattleSystem_Weapon_DefaultMagazine
@@ -7602,6 +7646,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AIHandler.RemoveAgent
   nameWithType: AIHandler.RemoveAgent
+- uid: WGRF.Core.AIHandler.ResetHandler
+  name: ResetHandler()
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_ResetHandler
+  commentId: M:WGRF.Core.AIHandler.ResetHandler
+  fullName: WGRF.Core.AIHandler.ResetHandler()
+  nameWithType: AIHandler.ResetHandler()
+- uid: WGRF.Core.AIHandler.ResetHandler*
+  name: ResetHandler
+  href: api/WGRF.Core.AIHandler.html#WGRF_Core_AIHandler_ResetHandler_
+  commentId: Overload:WGRF.Core.AIHandler.ResetHandler
+  isSpec: "True"
+  fullName: WGRF.Core.AIHandler.ResetHandler
+  nameWithType: AIHandler.ResetHandler
 - uid: WGRF.Core.AbilityManager
   name: AbilityManager
   href: api/WGRF.Core.AbilityManager.html
@@ -7754,6 +7811,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AbilityManager.PreAwake
   nameWithType: AbilityManager.PreAwake
+- uid: WGRF.Core.AbilityManager.ResetAbilities
+  name: ResetAbilities()
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_ResetAbilities
+  commentId: M:WGRF.Core.AbilityManager.ResetAbilities
+  fullName: WGRF.Core.AbilityManager.ResetAbilities()
+  nameWithType: AbilityManager.ResetAbilities()
+- uid: WGRF.Core.AbilityManager.ResetAbilities*
+  name: ResetAbilities
+  href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_ResetAbilities_
+  commentId: Overload:WGRF.Core.AbilityManager.ResetAbilities
+  isSpec: "True"
+  fullName: WGRF.Core.AbilityManager.ResetAbilities
+  nameWithType: AbilityManager.ResetAbilities
 - uid: WGRF.Core.AbilityManager.TotalAbilitiesPerRoom
   name: TotalAbilitiesPerRoom
   href: api/WGRF.Core.AbilityManager.html#WGRF_Core_AbilityManager_TotalAbilitiesPerRoom
@@ -7873,6 +7943,24 @@ references:
   commentId: E:WGRF.Core.AsyncGameObjectLoaderHandle.Completed
   fullName: WGRF.Core.AsyncGameObjectLoaderHandle.Completed
   nameWithType: AsyncGameObjectLoaderHandle.Completed
+- uid: WGRF.Core.AudioData
+  name: AudioData
+  href: api/WGRF.Core.AudioData.html
+  commentId: T:WGRF.Core.AudioData
+  fullName: WGRF.Core.AudioData
+  nameWithType: AudioData
+- uid: WGRF.Core.AudioData.clips
+  name: clips
+  href: api/WGRF.Core.AudioData.html#WGRF_Core_AudioData_clips
+  commentId: F:WGRF.Core.AudioData.clips
+  fullName: WGRF.Core.AudioData.clips
+  nameWithType: AudioData.clips
+- uid: WGRF.Core.AudioData.gameAudioClip
+  name: gameAudioClip
+  href: api/WGRF.Core.AudioData.html#WGRF_Core_AudioData_gameAudioClip
+  commentId: F:WGRF.Core.AudioData.gameAudioClip
+  fullName: WGRF.Core.AudioData.gameAudioClip
+  nameWithType: AudioData.gameAudioClip
 - uid: WGRF.Core.BulletHandler
   name: BulletHandler
   href: api/WGRF.Core.BulletHandler.html
@@ -8254,6 +8342,174 @@ references:
   commentId: T:WGRF.Core.GameAudioClip
   fullName: WGRF.Core.GameAudioClip
   nameWithType: GameAudioClip
+- uid: WGRF.Core.GameAudioClip.DoorHit
+  name: DoorHit
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_DoorHit
+  commentId: F:WGRF.Core.GameAudioClip.DoorHit
+  fullName: WGRF.Core.GameAudioClip.DoorHit
+  nameWithType: GameAudioClip.DoorHit
+- uid: WGRF.Core.GameAudioClip.ElevatorRing
+  name: ElevatorRing
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_ElevatorRing
+  commentId: F:WGRF.Core.GameAudioClip.ElevatorRing
+  fullName: WGRF.Core.GameAudioClip.ElevatorRing
+  nameWithType: GameAudioClip.ElevatorRing
+- uid: WGRF.Core.GameAudioClip.EmptyGun
+  name: EmptyGun
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_EmptyGun
+  commentId: F:WGRF.Core.GameAudioClip.EmptyGun
+  fullName: WGRF.Core.GameAudioClip.EmptyGun
+  nameWithType: GameAudioClip.EmptyGun
+- uid: WGRF.Core.GameAudioClip.ForcePunch
+  name: ForcePunch
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_ForcePunch
+  commentId: F:WGRF.Core.GameAudioClip.ForcePunch
+  fullName: WGRF.Core.GameAudioClip.ForcePunch
+  nameWithType: GameAudioClip.ForcePunch
+- uid: WGRF.Core.GameAudioClip.GameplayLoop
+  name: GameplayLoop
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_GameplayLoop
+  commentId: F:WGRF.Core.GameAudioClip.GameplayLoop
+  fullName: WGRF.Core.GameAudioClip.GameplayLoop
+  nameWithType: GameAudioClip.GameplayLoop
+- uid: WGRF.Core.GameAudioClip.Hit
+  name: Hit
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Hit
+  commentId: F:WGRF.Core.GameAudioClip.Hit
+  fullName: WGRF.Core.GameAudioClip.Hit
+  nameWithType: GameAudioClip.Hit
+- uid: WGRF.Core.GameAudioClip.Hub
+  name: Hub
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Hub
+  commentId: F:WGRF.Core.GameAudioClip.Hub
+  fullName: WGRF.Core.GameAudioClip.Hub
+  nameWithType: GameAudioClip.Hub
+- uid: WGRF.Core.GameAudioClip.Hurt
+  name: Hurt
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Hurt
+  commentId: F:WGRF.Core.GameAudioClip.Hurt
+  fullName: WGRF.Core.GameAudioClip.Hurt
+  nameWithType: GameAudioClip.Hurt
+- uid: WGRF.Core.GameAudioClip.KnifeCut
+  name: KnifeCut
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_KnifeCut
+  commentId: F:WGRF.Core.GameAudioClip.KnifeCut
+  fullName: WGRF.Core.GameAudioClip.KnifeCut
+  nameWithType: GameAudioClip.KnifeCut
+- uid: WGRF.Core.GameAudioClip.Menu
+  name: Menu
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Menu
+  commentId: F:WGRF.Core.GameAudioClip.Menu
+  fullName: WGRF.Core.GameAudioClip.Menu
+  nameWithType: GameAudioClip.Menu
+- uid: WGRF.Core.GameAudioClip.Pause
+  name: Pause
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Pause
+  commentId: F:WGRF.Core.GameAudioClip.Pause
+  fullName: WGRF.Core.GameAudioClip.Pause
+  nameWithType: GameAudioClip.Pause
+- uid: WGRF.Core.GameAudioClip.PickUp
+  name: PickUp
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_PickUp
+  commentId: F:WGRF.Core.GameAudioClip.PickUp
+  fullName: WGRF.Core.GameAudioClip.PickUp
+  nameWithType: GameAudioClip.PickUp
+- uid: WGRF.Core.GameAudioClip.Pistol
+  name: Pistol
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Pistol
+  commentId: F:WGRF.Core.GameAudioClip.Pistol
+  fullName: WGRF.Core.GameAudioClip.Pistol
+  nameWithType: GameAudioClip.Pistol
+- uid: WGRF.Core.GameAudioClip.PressRewind
+  name: PressRewind
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_PressRewind
+  commentId: F:WGRF.Core.GameAudioClip.PressRewind
+  fullName: WGRF.Core.GameAudioClip.PressRewind
+  nameWithType: GameAudioClip.PressRewind
+- uid: WGRF.Core.GameAudioClip.Punch
+  name: Punch
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Punch
+  commentId: F:WGRF.Core.GameAudioClip.Punch
+  fullName: WGRF.Core.GameAudioClip.Punch
+  nameWithType: GameAudioClip.Punch
+- uid: WGRF.Core.GameAudioClip.Reloading
+  name: Reloading
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Reloading
+  commentId: F:WGRF.Core.GameAudioClip.Reloading
+  fullName: WGRF.Core.GameAudioClip.Reloading
+  nameWithType: GameAudioClip.Reloading
+- uid: WGRF.Core.GameAudioClip.Rewind
+  name: Rewind
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Rewind
+  commentId: F:WGRF.Core.GameAudioClip.Rewind
+  fullName: WGRF.Core.GameAudioClip.Rewind
+  nameWithType: GameAudioClip.Rewind
+- uid: WGRF.Core.GameAudioClip.Shotgun
+  name: Shotgun
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Shotgun
+  commentId: F:WGRF.Core.GameAudioClip.Shotgun
+  fullName: WGRF.Core.GameAudioClip.Shotgun
+  nameWithType: GameAudioClip.Shotgun
+- uid: WGRF.Core.GameAudioClip.SlowDownTime
+  name: SlowDownTime
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_SlowDownTime
+  commentId: F:WGRF.Core.GameAudioClip.SlowDownTime
+  fullName: WGRF.Core.GameAudioClip.SlowDownTime
+  nameWithType: GameAudioClip.SlowDownTime
+- uid: WGRF.Core.GameAudioClip.Static
+  name: Static
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Static
+  commentId: F:WGRF.Core.GameAudioClip.Static
+  fullName: WGRF.Core.GameAudioClip.Static
+  nameWithType: GameAudioClip.Static
+- uid: WGRF.Core.GameAudioClip.StopTime
+  name: StopTime
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_StopTime
+  commentId: F:WGRF.Core.GameAudioClip.StopTime
+  fullName: WGRF.Core.GameAudioClip.StopTime
+  nameWithType: GameAudioClip.StopTime
+- uid: WGRF.Core.GameAudioClip.Unpause
+  name: Unpause
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Unpause
+  commentId: F:WGRF.Core.GameAudioClip.Unpause
+  fullName: WGRF.Core.GameAudioClip.Unpause
+  nameWithType: GameAudioClip.Unpause
+- uid: WGRF.Core.GameAudioClip.Uzi
+  name: Uzi
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Uzi
+  commentId: F:WGRF.Core.GameAudioClip.Uzi
+  fullName: WGRF.Core.GameAudioClip.Uzi
+  nameWithType: GameAudioClip.Uzi
+- uid: WGRF.Core.GameAudioClip.VHSClose
+  name: VHSClose
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_VHSClose
+  commentId: F:WGRF.Core.GameAudioClip.VHSClose
+  fullName: WGRF.Core.GameAudioClip.VHSClose
+  nameWithType: GameAudioClip.VHSClose
+- uid: WGRF.Core.GameAudioClip.VHSOpen
+  name: VHSOpen
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_VHSOpen
+  commentId: F:WGRF.Core.GameAudioClip.VHSOpen
+  fullName: WGRF.Core.GameAudioClip.VHSOpen
+  nameWithType: GameAudioClip.VHSOpen
+- uid: WGRF.Core.GameAudioClip.VHSSlideIn
+  name: VHSSlideIn
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_VHSSlideIn
+  commentId: F:WGRF.Core.GameAudioClip.VHSSlideIn
+  fullName: WGRF.Core.GameAudioClip.VHSSlideIn
+  nameWithType: GameAudioClip.VHSSlideIn
+- uid: WGRF.Core.GameAudioClip.VHSSlideOut
+  name: VHSSlideOut
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_VHSSlideOut
+  commentId: F:WGRF.Core.GameAudioClip.VHSSlideOut
+  fullName: WGRF.Core.GameAudioClip.VHSSlideOut
+  nameWithType: GameAudioClip.VHSSlideOut
+- uid: WGRF.Core.GameEnder
+  name: GameEnder
+  href: api/WGRF.Core.GameEnder.html
+  commentId: T:WGRF.Core.GameEnder
+  fullName: WGRF.Core.GameEnder
+  nameWithType: GameEnder
 - uid: WGRF.Core.GameEventsHandler
   name: GameEventsHandler
   href: api/WGRF.Core.GameEventsHandler.html
@@ -8615,6 +8871,45 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameSoundsHandler.IncreaseSFXVolumeBy
   nameWithType: GameSoundsHandler.IncreaseSFXVolumeBy
+- uid: WGRF.Core.GameSoundsHandler.PlayHubSFX
+  name: PlayHubSFX()
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayHubSFX
+  commentId: M:WGRF.Core.GameSoundsHandler.PlayHubSFX
+  fullName: WGRF.Core.GameSoundsHandler.PlayHubSFX()
+  nameWithType: GameSoundsHandler.PlayHubSFX()
+- uid: WGRF.Core.GameSoundsHandler.PlayHubSFX*
+  name: PlayHubSFX
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayHubSFX_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.PlayHubSFX
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.PlayHubSFX
+  nameWithType: GameSoundsHandler.PlayHubSFX
+- uid: WGRF.Core.GameSoundsHandler.PlayLoop
+  name: PlayLoop()
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayLoop
+  commentId: M:WGRF.Core.GameSoundsHandler.PlayLoop
+  fullName: WGRF.Core.GameSoundsHandler.PlayLoop()
+  nameWithType: GameSoundsHandler.PlayLoop()
+- uid: WGRF.Core.GameSoundsHandler.PlayLoop*
+  name: PlayLoop
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayLoop_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.PlayLoop
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.PlayLoop
+  nameWithType: GameSoundsHandler.PlayLoop
+- uid: WGRF.Core.GameSoundsHandler.PlayMenu
+  name: PlayMenu()
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayMenu
+  commentId: M:WGRF.Core.GameSoundsHandler.PlayMenu
+  fullName: WGRF.Core.GameSoundsHandler.PlayMenu()
+  nameWithType: GameSoundsHandler.PlayMenu()
+- uid: WGRF.Core.GameSoundsHandler.PlayMenu*
+  name: PlayMenu
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayMenu_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.PlayMenu
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.PlayMenu
+  nameWithType: GameSoundsHandler.PlayMenu
 - uid: WGRF.Core.GameSoundsHandler.PlayOneShotSFX(WGRF.Core.GameAudioClip)
   name: PlayOneShotSFX(GameAudioClip)
   href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_PlayOneShotSFX_WGRF_Core_GameAudioClip_
@@ -8641,6 +8936,37 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameSoundsHandler.PreAwake
   nameWithType: GameSoundsHandler.PreAwake
+- uid: WGRF.Core.GameSoundsHandler.SetLoadedSettings(WGRF.Core.UserSettings)
+  name: SetLoadedSettings(UserSettings)
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_SetLoadedSettings_WGRF_Core_UserSettings_
+  commentId: M:WGRF.Core.GameSoundsHandler.SetLoadedSettings(WGRF.Core.UserSettings)
+  fullName: WGRF.Core.GameSoundsHandler.SetLoadedSettings(WGRF.Core.UserSettings)
+  nameWithType: GameSoundsHandler.SetLoadedSettings(UserSettings)
+- uid: WGRF.Core.GameSoundsHandler.SetLoadedSettings*
+  name: SetLoadedSettings
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_SetLoadedSettings_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.SetLoadedSettings
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.SetLoadedSettings
+  nameWithType: GameSoundsHandler.SetLoadedSettings
+- uid: WGRF.Core.GameState
+  name: GameState
+  href: api/WGRF.Core.GameState.html
+  commentId: T:WGRF.Core.GameState
+  fullName: WGRF.Core.GameState
+  nameWithType: GameState
+- uid: WGRF.Core.GameState.Paused
+  name: Paused
+  href: api/WGRF.Core.GameState.html#WGRF_Core_GameState_Paused
+  commentId: F:WGRF.Core.GameState.Paused
+  fullName: WGRF.Core.GameState.Paused
+  nameWithType: GameState.Paused
+- uid: WGRF.Core.GameState.Running
+  name: Running
+  href: api/WGRF.Core.GameState.html#WGRF_Core_GameState_Running
+  commentId: F:WGRF.Core.GameState.Running
+  fullName: WGRF.Core.GameState.Running
+  nameWithType: GameState.Running
 - uid: WGRF.Core.Globals
   name: Globals
   href: api/WGRF.Core.Globals.html
@@ -9118,6 +9444,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.GameSoundsHandler
   nameWithType: ManagerHub.GameSoundsHandler
+- uid: WGRF.Core.ManagerHub.GameState
+  name: GameState
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_GameState
+  commentId: P:WGRF.Core.ManagerHub.GameState
+  fullName: WGRF.Core.ManagerHub.GameState
+  nameWithType: ManagerHub.GameState
+- uid: WGRF.Core.ManagerHub.GameState*
+  name: GameState
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_GameState_
+  commentId: Overload:WGRF.Core.ManagerHub.GameState
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.GameState
+  nameWithType: ManagerHub.GameState
 - uid: WGRF.Core.ManagerHub.Globals
   name: Globals
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_Globals
@@ -9170,6 +9509,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.PlayerController
   nameWithType: ManagerHub.PlayerController
+- uid: WGRF.Core.ManagerHub.PostProcessVolume
+  name: PostProcessVolume
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_PostProcessVolume
+  commentId: P:WGRF.Core.ManagerHub.PostProcessVolume
+  fullName: WGRF.Core.ManagerHub.PostProcessVolume
+  nameWithType: ManagerHub.PostProcessVolume
+- uid: WGRF.Core.ManagerHub.PostProcessVolume*
+  name: PostProcessVolume
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_PostProcessVolume_
+  commentId: Overload:WGRF.Core.ManagerHub.PostProcessVolume
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.PostProcessVolume
+  nameWithType: ManagerHub.PostProcessVolume
 - uid: WGRF.Core.ManagerHub.RewardSelector
   name: RewardSelector
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_RewardSelector
@@ -9215,6 +9567,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ManagerHub.SetActiveRoom
   nameWithType: ManagerHub.SetActiveRoom
+- uid: WGRF.Core.ManagerHub.SetGameState(WGRF.Core.GameState)
+  name: SetGameState(GameState)
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SetGameState_WGRF_Core_GameState_
+  commentId: M:WGRF.Core.ManagerHub.SetGameState(WGRF.Core.GameState)
+  fullName: WGRF.Core.ManagerHub.SetGameState(WGRF.Core.GameState)
+  nameWithType: ManagerHub.SetGameState(GameState)
+- uid: WGRF.Core.ManagerHub.SetGameState*
+  name: SetGameState
+  href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SetGameState_
+  commentId: Overload:WGRF.Core.ManagerHub.SetGameState
+  isSpec: "True"
+  fullName: WGRF.Core.ManagerHub.SetGameState
+  nameWithType: ManagerHub.SetGameState
 - uid: WGRF.Core.ManagerHub.SettingsHandler
   name: SettingsHandler
   href: api/WGRF.Core.ManagerHub.html#WGRF_Core_ManagerHub_SettingsHandler
@@ -9769,6 +10134,18 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.ScoreHandler.TotalScore
   nameWithType: ScoreHandler.TotalScore
+- uid: WGRF.Core.ScoreHandler.onRoomScoreUpdated
+  name: onRoomScoreUpdated
+  href: api/WGRF.Core.ScoreHandler.html#WGRF_Core_ScoreHandler_onRoomScoreUpdated
+  commentId: E:WGRF.Core.ScoreHandler.onRoomScoreUpdated
+  fullName: WGRF.Core.ScoreHandler.onRoomScoreUpdated
+  nameWithType: ScoreHandler.onRoomScoreUpdated
+- uid: WGRF.Core.ScoreHandler.onTotalScoreUpdated
+  name: onTotalScoreUpdated
+  href: api/WGRF.Core.ScoreHandler.html#WGRF_Core_ScoreHandler_onTotalScoreUpdated
+  commentId: E:WGRF.Core.ScoreHandler.onTotalScoreUpdated
+  fullName: WGRF.Core.ScoreHandler.onTotalScoreUpdated
+  nameWithType: ScoreHandler.onTotalScoreUpdated
 - uid: WGRF.Core.ScoreboardLoader
   name: ScoreboardLoader
   href: api/WGRF.Core.ScoreboardLoader.html
@@ -10993,6 +11370,54 @@ references:
   isSpec: "True"
   fullName: WGRF.Interactions.Breakable.SimulateKnockback
   nameWithType: Breakable.SimulateKnockback
+- uid: WGRF.Interactions.DoorRoom
+  name: DoorRoom
+  href: api/WGRF.Interactions.DoorRoom.html
+  commentId: T:WGRF.Interactions.DoorRoom
+  fullName: WGRF.Interactions.DoorRoom
+  nameWithType: DoorRoom
+- uid: WGRF.Interactions.DoorRoom.Room1
+  name: Room1
+  href: api/WGRF.Interactions.DoorRoom.html#WGRF_Interactions_DoorRoom_Room1
+  commentId: F:WGRF.Interactions.DoorRoom.Room1
+  fullName: WGRF.Interactions.DoorRoom.Room1
+  nameWithType: DoorRoom.Room1
+- uid: WGRF.Interactions.DoorRoom.Room2
+  name: Room2
+  href: api/WGRF.Interactions.DoorRoom.html#WGRF_Interactions_DoorRoom_Room2
+  commentId: F:WGRF.Interactions.DoorRoom.Room2
+  fullName: WGRF.Interactions.DoorRoom.Room2
+  nameWithType: DoorRoom.Room2
+- uid: WGRF.Interactions.DoorRoom.Room3
+  name: Room3
+  href: api/WGRF.Interactions.DoorRoom.html#WGRF_Interactions_DoorRoom_Room3
+  commentId: F:WGRF.Interactions.DoorRoom.Room3
+  fullName: WGRF.Interactions.DoorRoom.Room3
+  nameWithType: DoorRoom.Room3
+- uid: WGRF.Interactions.DoorRoom.Room4
+  name: Room4
+  href: api/WGRF.Interactions.DoorRoom.html#WGRF_Interactions_DoorRoom_Room4
+  commentId: F:WGRF.Interactions.DoorRoom.Room4
+  fullName: WGRF.Interactions.DoorRoom.Room4
+  nameWithType: DoorRoom.Room4
+- uid: WGRF.Interactions.DoorRoom.Room5
+  name: Room5
+  href: api/WGRF.Interactions.DoorRoom.html#WGRF_Interactions_DoorRoom_Room5
+  commentId: F:WGRF.Interactions.DoorRoom.Room5
+  fullName: WGRF.Interactions.DoorRoom.Room5
+  nameWithType: DoorRoom.Room5
+- uid: WGRF.Interactions.DoorRoom.Room6
+  name: Room6
+  href: api/WGRF.Interactions.DoorRoom.html#WGRF_Interactions_DoorRoom_Room6
+  commentId: F:WGRF.Interactions.DoorRoom.Room6
+  fullName: WGRF.Interactions.DoorRoom.Room6
+  nameWithType: DoorRoom.Room6
+- uid: WGRF.Interactions.DoorRoom.Room7
+  name: Room7
+  href: api/WGRF.Interactions.DoorRoom.html#WGRF_Interactions_DoorRoom_Room7
+  commentId: F:WGRF.Interactions.DoorRoom.Room7
+  fullName: WGRF.Interactions.DoorRoom.Room7
+  nameWithType: DoorRoom.Room7
 - uid: WGRF.Interactions.IInteractable
   name: IInteractable
   href: api/WGRF.Interactions.IInteractable.html
@@ -12114,32 +12539,6 @@ references:
   commentId: T:WGRF.ScreenShake
   fullName: ScreenShake
   nameWithType: ScreenShake
-- uid: WGRF.ScreenShake.PreAwake
-  name: PreAwake()
-  href: api/WGRF.ScreenShake.html#WGRF_ScreenShake_PreAwake
-  commentId: M:WGRF.ScreenShake.PreAwake
-  fullName: ScreenShake.PreAwake()
-  nameWithType: ScreenShake.PreAwake()
-- uid: WGRF.ScreenShake.PreAwake*
-  name: PreAwake
-  href: api/WGRF.ScreenShake.html#WGRF_ScreenShake_PreAwake_
-  commentId: Overload:WGRF.ScreenShake.PreAwake
-  isSpec: "True"
-  fullName: ScreenShake.PreAwake
-  nameWithType: ScreenShake.PreAwake
-- uid: WGRF.ScreenShake.PreDestroy
-  name: PreDestroy()
-  href: api/WGRF.ScreenShake.html#WGRF_ScreenShake_PreDestroy
-  commentId: M:WGRF.ScreenShake.PreDestroy
-  fullName: ScreenShake.PreDestroy()
-  nameWithType: ScreenShake.PreDestroy()
-- uid: WGRF.ScreenShake.PreDestroy*
-  name: PreDestroy
-  href: api/WGRF.ScreenShake.html#WGRF_ScreenShake_PreDestroy_
-  commentId: Overload:WGRF.ScreenShake.PreDestroy
-  isSpec: "True"
-  fullName: ScreenShake.PreDestroy
-  nameWithType: ScreenShake.PreDestroy
 - uid: WGRF.UI
   name: WGRF.UI
   href: api/WGRF.UI.html
@@ -12382,22 +12781,6 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.ScoreDataController.SetName
   nameWithType: ScoreDataController.SetName
-- uid: WGRF.UI.ScoreDataController.SetRank(System.Int32)
-  name: SetRank(int)
-  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetRank_System_Int32_
-  commentId: M:WGRF.UI.ScoreDataController.SetRank(System.Int32)
-  name.vb: SetRank(Integer)
-  fullName: WGRF.UI.ScoreDataController.SetRank(int)
-  fullName.vb: WGRF.UI.ScoreDataController.SetRank(Integer)
-  nameWithType: ScoreDataController.SetRank(int)
-  nameWithType.vb: ScoreDataController.SetRank(Integer)
-- uid: WGRF.UI.ScoreDataController.SetRank*
-  name: SetRank
-  href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetRank_
-  commentId: Overload:WGRF.UI.ScoreDataController.SetRank
-  isSpec: "True"
-  fullName: WGRF.UI.ScoreDataController.SetRank
-  nameWithType: ScoreDataController.SetRank
 - uid: WGRF.UI.ScoreDataController.SetScore(System.Int32)
   name: SetScore(int)
   href: api/WGRF.UI.ScoreDataController.html#WGRF_UI_ScoreDataController_SetScore_System_Int32_
@@ -12420,6 +12803,12 @@ references:
   commentId: T:WGRF.UI.ScorePanelController
   fullName: WGRF.UI.ScorePanelController
   nameWithType: ScorePanelController
+- uid: WGRF.UI.ScoreUIFeeder
+  name: ScoreUIFeeder
+  href: api/WGRF.UI.ScoreUIFeeder.html
+  commentId: T:WGRF.UI.ScoreUIFeeder
+  fullName: WGRF.UI.ScoreUIFeeder
+  nameWithType: ScoreUIFeeder
 - uid: WGRF.UI.ScoreboardLoader
   name: ScoreboardLoader
   href: api/WGRF.UI.ScoreboardLoader.html
@@ -12616,6 +13005,19 @@ references:
   commentId: T:WGRF.UI.UserHUDHandler
   fullName: WGRF.UI.UserHUDHandler
   nameWithType: UserHUDHandler
+- uid: WGRF.UI.UserHUDHandler.BloomOnKill
+  name: BloomOnKill()
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_BloomOnKill
+  commentId: M:WGRF.UI.UserHUDHandler.BloomOnKill
+  fullName: WGRF.UI.UserHUDHandler.BloomOnKill()
+  nameWithType: UserHUDHandler.BloomOnKill()
+- uid: WGRF.UI.UserHUDHandler.BloomOnKill*
+  name: BloomOnKill
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_BloomOnKill_
+  commentId: Overload:WGRF.UI.UserHUDHandler.BloomOnKill
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.BloomOnKill
+  nameWithType: UserHUDHandler.BloomOnKill
 - uid: WGRF.UI.UserHUDHandler.ChangeBulletsLeft(System.Int32)
   name: ChangeBulletsLeft(int)
   href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_ChangeBulletsLeft_System_Int32_
@@ -12684,6 +13086,19 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.UserHUDHandler.CloseScoreboardUI
   nameWithType: UserHUDHandler.CloseScoreboardUI
+- uid: WGRF.UI.UserHUDHandler.LoadMenu
+  name: LoadMenu()
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_LoadMenu
+  commentId: M:WGRF.UI.UserHUDHandler.LoadMenu
+  fullName: WGRF.UI.UserHUDHandler.LoadMenu()
+  nameWithType: UserHUDHandler.LoadMenu()
+- uid: WGRF.UI.UserHUDHandler.LoadMenu*
+  name: LoadMenu
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_LoadMenu_
+  commentId: Overload:WGRF.UI.UserHUDHandler.LoadMenu
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.LoadMenu
+  nameWithType: UserHUDHandler.LoadMenu
 - uid: WGRF.UI.UserHUDHandler.OpenMessageUI(System.String)
   name: OpenMessageUI(string)
   href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_OpenMessageUI_System_String_
@@ -12797,6 +13212,19 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.UserHUDHandler.SetWeaponSliderInfo
   nameWithType: UserHUDHandler.SetWeaponSliderInfo
+- uid: WGRF.UI.UserHUDHandler.TogglePauseMenu
+  name: TogglePauseMenu()
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_TogglePauseMenu
+  commentId: M:WGRF.UI.UserHUDHandler.TogglePauseMenu
+  fullName: WGRF.UI.UserHUDHandler.TogglePauseMenu()
+  nameWithType: UserHUDHandler.TogglePauseMenu()
+- uid: WGRF.UI.UserHUDHandler.TogglePauseMenu*
+  name: TogglePauseMenu
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_TogglePauseMenu_
+  commentId: Overload:WGRF.UI.UserHUDHandler.TogglePauseMenu
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.TogglePauseMenu
+  nameWithType: UserHUDHandler.TogglePauseMenu
 - uid: WGRF.UI.WeaponRepresenter
   name: WeaponRepresenter
   href: api/WGRF.UI.WeaponRepresenter.html
