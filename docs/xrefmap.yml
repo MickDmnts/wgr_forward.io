@@ -6988,6 +6988,19 @@ references:
   commentId: T:WGRF.BattleSystem.Shooter
   fullName: WGRF.BattleSystem.Shooter
   nameWithType: Shooter
+- uid: WGRF.BattleSystem.Shooter.EquipedWeapon
+  name: EquipedWeapon
+  href: api/WGRF.BattleSystem.Shooter.html#WGRF_BattleSystem_Shooter_EquipedWeapon
+  commentId: P:WGRF.BattleSystem.Shooter.EquipedWeapon
+  fullName: WGRF.BattleSystem.Shooter.EquipedWeapon
+  nameWithType: Shooter.EquipedWeapon
+- uid: WGRF.BattleSystem.Shooter.EquipedWeapon*
+  name: EquipedWeapon
+  href: api/WGRF.BattleSystem.Shooter.html#WGRF_BattleSystem_Shooter_EquipedWeapon_
+  commentId: Overload:WGRF.BattleSystem.Shooter.EquipedWeapon
+  isSpec: "True"
+  fullName: WGRF.BattleSystem.Shooter.EquipedWeapon
+  nameWithType: Shooter.EquipedWeapon
 - uid: WGRF.BattleSystem.Shooter.SetWeaponInfo(WGRF.BattleSystem.Weapon)
   name: SetWeaponInfo(Weapon)
   href: api/WGRF.BattleSystem.Shooter.html#WGRF_BattleSystem_Shooter_SetWeaponInfo_WGRF_BattleSystem_Weapon_
@@ -7271,12 +7284,6 @@ references:
   commentId: F:WGRF.BattleSystem.Weapon.weaponEquipedSprite
   fullName: WGRF.BattleSystem.Weapon.weaponEquipedSprite
   nameWithType: Weapon.weaponEquipedSprite
-- uid: WGRF.BattleSystem.Weapon.weaponGrayedSprite
-  name: weaponGrayedSprite
-  href: api/WGRF.BattleSystem.Weapon.html#WGRF_BattleSystem_Weapon_weaponGrayedSprite
-  commentId: F:WGRF.BattleSystem.Weapon.weaponGrayedSprite
-  fullName: WGRF.BattleSystem.Weapon.weaponGrayedSprite
-  nameWithType: Weapon.weaponGrayedSprite
 - uid: WGRF.BattleSystem.WeaponCategory
   name: WeaponCategory
   href: api/WGRF.BattleSystem.WeaponCategory.html
@@ -7912,6 +7919,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.AppInternal.AppDataPath
   nameWithType: AppInternal.AppDataPath
+- uid: WGRF.Core.AppInternal.LegacyExecutable
+  name: LegacyExecutable
+  href: api/WGRF.Core.AppInternal.html#WGRF_Core_AppInternal_LegacyExecutable
+  commentId: P:WGRF.Core.AppInternal.LegacyExecutable
+  fullName: WGRF.Core.AppInternal.LegacyExecutable
+  nameWithType: AppInternal.LegacyExecutable
+- uid: WGRF.Core.AppInternal.LegacyExecutable*
+  name: LegacyExecutable
+  href: api/WGRF.Core.AppInternal.html#WGRF_Core_AppInternal_LegacyExecutable_
+  commentId: Overload:WGRF.Core.AppInternal.LegacyExecutable
+  isSpec: "True"
+  fullName: WGRF.Core.AppInternal.LegacyExecutable
+  nameWithType: AppInternal.LegacyExecutable
 - uid: WGRF.Core.AsyncGameObjectLoaderHandle
   name: AsyncGameObjectLoaderHandle
   href: api/WGRF.Core.AsyncGameObjectLoaderHandle.html
@@ -7980,6 +8000,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.BulletHandler.GetBullet
   nameWithType: BulletHandler.GetBullet
+- uid: WGRF.Core.BulletHandler.PreAwake
+  name: PreAwake()
+  href: api/WGRF.Core.BulletHandler.html#WGRF_Core_BulletHandler_PreAwake
+  commentId: M:WGRF.Core.BulletHandler.PreAwake
+  fullName: WGRF.Core.BulletHandler.PreAwake()
+  nameWithType: BulletHandler.PreAwake()
+- uid: WGRF.Core.BulletHandler.PreAwake*
+  name: PreAwake
+  href: api/WGRF.Core.BulletHandler.html#WGRF_Core_BulletHandler_PreAwake_
+  commentId: Overload:WGRF.Core.BulletHandler.PreAwake
+  isSpec: "True"
+  fullName: WGRF.Core.BulletHandler.PreAwake
+  nameWithType: BulletHandler.PreAwake
 - uid: WGRF.Core.BulletType
   name: BulletType
   href: api/WGRF.Core.BulletType.html
@@ -8222,15 +8255,15 @@ references:
   commentId: T:WGRF.Core.CursorHandler
   fullName: WGRF.Core.CursorHandler
   nameWithType: CursorHandler
-- uid: WGRF.Core.CursorHandler.#ctor
-  name: CursorHandler()
-  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler__ctor
-  commentId: M:WGRF.Core.CursorHandler.#ctor
-  name.vb: New()
-  fullName: WGRF.Core.CursorHandler.CursorHandler()
-  fullName.vb: WGRF.Core.CursorHandler.New()
-  nameWithType: CursorHandler.CursorHandler()
-  nameWithType.vb: CursorHandler.New()
+- uid: WGRF.Core.CursorHandler.#ctor(WGRF.Core.MouseSpritePair[])
+  name: CursorHandler(MouseSpritePair[])
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler__ctor_WGRF_Core_MouseSpritePair___
+  commentId: M:WGRF.Core.CursorHandler.#ctor(WGRF.Core.MouseSpritePair[])
+  name.vb: New(MouseSpritePair())
+  fullName: WGRF.Core.CursorHandler.CursorHandler(WGRF.Core.MouseSpritePair[])
+  fullName.vb: WGRF.Core.CursorHandler.New(WGRF.Core.MouseSpritePair())
+  nameWithType: CursorHandler.CursorHandler(MouseSpritePair[])
+  nameWithType.vb: CursorHandler.New(MouseSpritePair())
 - uid: WGRF.Core.CursorHandler.#ctor*
   name: CursorHandler
   href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler__ctor_
@@ -8270,6 +8303,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.CursorHandler.SetCursorVisible
   nameWithType: CursorHandler.SetCursorVisible
+- uid: WGRF.Core.CursorHandler.SetMouseSprite(WGRF.Core.MouseSprite)
+  name: SetMouseSprite(MouseSprite)
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler_SetMouseSprite_WGRF_Core_MouseSprite_
+  commentId: M:WGRF.Core.CursorHandler.SetMouseSprite(WGRF.Core.MouseSprite)
+  fullName: WGRF.Core.CursorHandler.SetMouseSprite(WGRF.Core.MouseSprite)
+  nameWithType: CursorHandler.SetMouseSprite(MouseSprite)
+- uid: WGRF.Core.CursorHandler.SetMouseSprite*
+  name: SetMouseSprite
+  href: api/WGRF.Core.CursorHandler.html#WGRF_Core_CursorHandler_SetMouseSprite_
+  commentId: Overload:WGRF.Core.CursorHandler.SetMouseSprite
+  isSpec: "True"
+  fullName: WGRF.Core.CursorHandler.SetMouseSprite
+  nameWithType: CursorHandler.SetMouseSprite
 - uid: WGRF.Core.Entity
   name: Entity
   href: api/WGRF.Core.Entity.html
@@ -8342,6 +8388,18 @@ references:
   commentId: T:WGRF.Core.GameAudioClip
   fullName: WGRF.Core.GameAudioClip
   nameWithType: GameAudioClip
+- uid: WGRF.Core.GameAudioClip.Bootup
+  name: Bootup
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Bootup
+  commentId: F:WGRF.Core.GameAudioClip.Bootup
+  fullName: WGRF.Core.GameAudioClip.Bootup
+  nameWithType: GameAudioClip.Bootup
+- uid: WGRF.Core.GameAudioClip.Click
+  name: Click
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Click
+  commentId: F:WGRF.Core.GameAudioClip.Click
+  fullName: WGRF.Core.GameAudioClip.Click
+  nameWithType: GameAudioClip.Click
 - uid: WGRF.Core.GameAudioClip.DoorHit
   name: DoorHit
   href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_DoorHit
@@ -8360,6 +8418,18 @@ references:
   commentId: F:WGRF.Core.GameAudioClip.EmptyGun
   fullName: WGRF.Core.GameAudioClip.EmptyGun
   nameWithType: GameAudioClip.EmptyGun
+- uid: WGRF.Core.GameAudioClip.Fart
+  name: Fart
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_Fart
+  commentId: F:WGRF.Core.GameAudioClip.Fart
+  fullName: WGRF.Core.GameAudioClip.Fart
+  nameWithType: GameAudioClip.Fart
+- uid: WGRF.Core.GameAudioClip.FlipLoad
+  name: FlipLoad
+  href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_FlipLoad
+  commentId: F:WGRF.Core.GameAudioClip.FlipLoad
+  fullName: WGRF.Core.GameAudioClip.FlipLoad
+  nameWithType: GameAudioClip.FlipLoad
 - uid: WGRF.Core.GameAudioClip.ForcePunch
   name: ForcePunch
   href: api/WGRF.Core.GameAudioClip.html#WGRF_Core_GameAudioClip_ForcePunch
@@ -8642,19 +8712,6 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameEventsHandler.OnPlayerShootStart
   nameWithType: GameEventsHandler.OnPlayerShootStart
-- uid: WGRF.Core.GameEventsHandler.OnWeaponPickup
-  name: OnWeaponPickup()
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnWeaponPickup
-  commentId: M:WGRF.Core.GameEventsHandler.OnWeaponPickup
-  fullName: WGRF.Core.GameEventsHandler.OnWeaponPickup()
-  nameWithType: GameEventsHandler.OnWeaponPickup()
-- uid: WGRF.Core.GameEventsHandler.OnWeaponPickup*
-  name: OnWeaponPickup
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_OnWeaponPickup_
-  commentId: Overload:WGRF.Core.GameEventsHandler.OnWeaponPickup
-  isSpec: "True"
-  fullName: WGRF.Core.GameEventsHandler.OnWeaponPickup
-  nameWithType: GameEventsHandler.OnWeaponPickup
 - uid: WGRF.Core.GameEventsHandler.cameraShakeOnEnemyDeath
   name: cameraShakeOnEnemyDeath
   href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_cameraShakeOnEnemyDeath
@@ -8709,12 +8766,6 @@ references:
   commentId: E:WGRF.Core.GameEventsHandler.onPlayerShootStart
   fullName: WGRF.Core.GameEventsHandler.onPlayerShootStart
   nameWithType: GameEventsHandler.onPlayerShootStart
-- uid: WGRF.Core.GameEventsHandler.onWeaponPickup
-  name: onWeaponPickup
-  href: api/WGRF.Core.GameEventsHandler.html#WGRF_Core_GameEventsHandler_onWeaponPickup
-  commentId: E:WGRF.Core.GameEventsHandler.onWeaponPickup
-  fullName: WGRF.Core.GameEventsHandler.onWeaponPickup
-  nameWithType: GameEventsHandler.onWeaponPickup
 - uid: WGRF.Core.GameScenes
   name: GameScenes
   href: api/WGRF.Core.GameScenes.html
@@ -8949,6 +9000,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.GameSoundsHandler.SetLoadedSettings
   nameWithType: GameSoundsHandler.SetLoadedSettings
+- uid: WGRF.Core.GameSoundsHandler.StopMenu
+  name: StopMenu()
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_StopMenu
+  commentId: M:WGRF.Core.GameSoundsHandler.StopMenu
+  fullName: WGRF.Core.GameSoundsHandler.StopMenu()
+  nameWithType: GameSoundsHandler.StopMenu()
+- uid: WGRF.Core.GameSoundsHandler.StopMenu*
+  name: StopMenu
+  href: api/WGRF.Core.GameSoundsHandler.html#WGRF_Core_GameSoundsHandler_StopMenu_
+  commentId: Overload:WGRF.Core.GameSoundsHandler.StopMenu
+  isSpec: "True"
+  fullName: WGRF.Core.GameSoundsHandler.StopMenu
+  nameWithType: GameSoundsHandler.StopMenu
 - uid: WGRF.Core.GameState
   name: GameState
   href: api/WGRF.Core.GameState.html
@@ -9848,6 +9912,48 @@ references:
   commentId: F:WGRF.Core.Managers.BulletType.Player
   fullName: WGRF.Core.Managers.BulletType.Player
   nameWithType: BulletType.Player
+- uid: WGRF.Core.MouseSprite
+  name: MouseSprite
+  href: api/WGRF.Core.MouseSprite.html
+  commentId: T:WGRF.Core.MouseSprite
+  fullName: WGRF.Core.MouseSprite
+  nameWithType: MouseSprite
+- uid: WGRF.Core.MouseSprite.Crosshair
+  name: Crosshair
+  href: api/WGRF.Core.MouseSprite.html#WGRF_Core_MouseSprite_Crosshair
+  commentId: F:WGRF.Core.MouseSprite.Crosshair
+  fullName: WGRF.Core.MouseSprite.Crosshair
+  nameWithType: MouseSprite.Crosshair
+- uid: WGRF.Core.MouseSprite.Cursor
+  name: Cursor
+  href: api/WGRF.Core.MouseSprite.html#WGRF_Core_MouseSprite_Cursor
+  commentId: F:WGRF.Core.MouseSprite.Cursor
+  fullName: WGRF.Core.MouseSprite.Cursor
+  nameWithType: MouseSprite.Cursor
+- uid: WGRF.Core.MouseSprite.Hand
+  name: Hand
+  href: api/WGRF.Core.MouseSprite.html#WGRF_Core_MouseSprite_Hand
+  commentId: F:WGRF.Core.MouseSprite.Hand
+  fullName: WGRF.Core.MouseSprite.Hand
+  nameWithType: MouseSprite.Hand
+- uid: WGRF.Core.MouseSpritePair
+  name: MouseSpritePair
+  href: api/WGRF.Core.MouseSpritePair.html
+  commentId: T:WGRF.Core.MouseSpritePair
+  fullName: WGRF.Core.MouseSpritePair
+  nameWithType: MouseSpritePair
+- uid: WGRF.Core.MouseSpritePair.MouseSprite
+  name: MouseSprite
+  href: api/WGRF.Core.MouseSpritePair.html#WGRF_Core_MouseSpritePair_MouseSprite
+  commentId: F:WGRF.Core.MouseSpritePair.MouseSprite
+  fullName: WGRF.Core.MouseSpritePair.MouseSprite
+  nameWithType: MouseSpritePair.MouseSprite
+- uid: WGRF.Core.MouseSpritePair.MouseTexture
+  name: MouseTexture
+  href: api/WGRF.Core.MouseSpritePair.html#WGRF_Core_MouseSpritePair_MouseTexture
+  commentId: F:WGRF.Core.MouseSpritePair.MouseTexture
+  fullName: WGRF.Core.MouseSpritePair.MouseTexture
+  nameWithType: MouseSpritePair.MouseTexture
 - uid: WGRF.Core.RewardSelector
   name: RewardSelector
   href: api/WGRF.Core.RewardSelector.html
@@ -9893,6 +9999,19 @@ references:
   isSpec: "True"
   fullName: WGRF.Core.RewardSelector.GetWeaponUpdate
   nameWithType: RewardSelector.GetWeaponUpdate
+- uid: WGRF.Core.RewardSelector.HasWeaponReward
+  name: HasWeaponReward()
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_HasWeaponReward
+  commentId: M:WGRF.Core.RewardSelector.HasWeaponReward
+  fullName: WGRF.Core.RewardSelector.HasWeaponReward()
+  nameWithType: RewardSelector.HasWeaponReward()
+- uid: WGRF.Core.RewardSelector.HasWeaponReward*
+  name: HasWeaponReward
+  href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_HasWeaponReward_
+  commentId: Overload:WGRF.Core.RewardSelector.HasWeaponReward
+  isSpec: "True"
+  fullName: WGRF.Core.RewardSelector.HasWeaponReward
+  nameWithType: RewardSelector.HasWeaponReward
 - uid: WGRF.Core.RewardSelector.PlayerHealthUpdateReward
   name: PlayerHealthUpdateReward()
   href: api/WGRF.Core.RewardSelector.html#WGRF_Core_RewardSelector_PlayerHealthUpdateReward
@@ -12545,6 +12664,38 @@ references:
   commentId: N:WGRF.UI
   fullName: WGRF.UI
   nameWithType: WGRF.UI
+- uid: WGRF.UI.DesktopIconHover
+  name: DesktopIconHover
+  href: api/WGRF.UI.DesktopIconHover.html
+  commentId: T:WGRF.UI.DesktopIconHover
+  fullName: WGRF.UI.DesktopIconHover
+  nameWithType: DesktopIconHover
+- uid: WGRF.UI.DesktopIconHover.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  name: OnPointerEnter(PointerEventData)
+  href: api/WGRF.UI.DesktopIconHover.html#WGRF_UI_DesktopIconHover_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:WGRF.UI.DesktopIconHover.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  fullName: WGRF.UI.DesktopIconHover.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  nameWithType: DesktopIconHover.OnPointerEnter(PointerEventData)
+- uid: WGRF.UI.DesktopIconHover.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/WGRF.UI.DesktopIconHover.html#WGRF_UI_DesktopIconHover_OnPointerEnter_
+  commentId: Overload:WGRF.UI.DesktopIconHover.OnPointerEnter
+  isSpec: "True"
+  fullName: WGRF.UI.DesktopIconHover.OnPointerEnter
+  nameWithType: DesktopIconHover.OnPointerEnter
+- uid: WGRF.UI.DesktopIconHover.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  name: OnPointerExit(PointerEventData)
+  href: api/WGRF.UI.DesktopIconHover.html#WGRF_UI_DesktopIconHover_OnPointerExit_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:WGRF.UI.DesktopIconHover.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  fullName: WGRF.UI.DesktopIconHover.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  nameWithType: DesktopIconHover.OnPointerExit(PointerEventData)
+- uid: WGRF.UI.DesktopIconHover.OnPointerExit*
+  name: OnPointerExit
+  href: api/WGRF.UI.DesktopIconHover.html#WGRF_UI_DesktopIconHover_OnPointerExit_
+  commentId: Overload:WGRF.UI.DesktopIconHover.OnPointerExit
+  isSpec: "True"
+  fullName: WGRF.UI.DesktopIconHover.OnPointerExit
+  nameWithType: DesktopIconHover.OnPointerExit
 - uid: WGRF.UI.DynamicCrosshair
   name: DynamicCrosshair
   href: api/WGRF.UI.DynamicCrosshair.html
@@ -12570,19 +12721,6 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.EndMessageController.FinalizeScore
   nameWithType: EndMessageController.FinalizeScore
-- uid: WGRF.UI.EndMessageController.LoadMenu
-  name: LoadMenu()
-  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_LoadMenu
-  commentId: M:WGRF.UI.EndMessageController.LoadMenu
-  fullName: WGRF.UI.EndMessageController.LoadMenu()
-  nameWithType: EndMessageController.LoadMenu()
-- uid: WGRF.UI.EndMessageController.LoadMenu*
-  name: LoadMenu
-  href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_LoadMenu_
-  commentId: Overload:WGRF.UI.EndMessageController.LoadMenu
-  isSpec: "True"
-  fullName: WGRF.UI.EndMessageController.LoadMenu
-  nameWithType: EndMessageController.LoadMenu
 - uid: WGRF.UI.EndMessageController.SetMessageText(System.String)
   name: SetMessageText(string)
   href: api/WGRF.UI.EndMessageController.html#WGRF_UI_EndMessageController_SetMessageText_System_String_
@@ -12618,6 +12756,12 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.IUIController.WriteToSettings
   nameWithType: IUIController.WriteToSettings
+- uid: WGRF.UI.ImageFiller
+  name: ImageFiller
+  href: api/WGRF.UI.ImageFiller.html
+  commentId: T:WGRF.UI.ImageFiller
+  fullName: WGRF.UI.ImageFiller
+  nameWithType: ImageFiller
 - uid: WGRF.UI.MainMenuHandler
   name: MainMenuHandler
   href: api/WGRF.UI.MainMenuHandler.html
@@ -12637,6 +12781,19 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.MainMenuHandler.ExitGame
   nameWithType: MainMenuHandler.ExitGame
+- uid: WGRF.UI.MainMenuHandler.PlayClick
+  name: PlayClick()
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_PlayClick
+  commentId: M:WGRF.UI.MainMenuHandler.PlayClick
+  fullName: WGRF.UI.MainMenuHandler.PlayClick()
+  nameWithType: MainMenuHandler.PlayClick()
+- uid: WGRF.UI.MainMenuHandler.PlayClick*
+  name: PlayClick
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_PlayClick_
+  commentId: Overload:WGRF.UI.MainMenuHandler.PlayClick
+  isSpec: "True"
+  fullName: WGRF.UI.MainMenuHandler.PlayClick
+  nameWithType: MainMenuHandler.PlayClick
 - uid: WGRF.UI.MainMenuHandler.SaveSettings
   name: SaveSettings()
   href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_SaveSettings
@@ -12650,19 +12807,32 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.MainMenuHandler.SaveSettings
   nameWithType: MainMenuHandler.SaveSettings
-- uid: WGRF.UI.MainMenuHandler.StartGame
-  name: StartGame()
-  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_StartGame
-  commentId: M:WGRF.UI.MainMenuHandler.StartGame
-  fullName: WGRF.UI.MainMenuHandler.StartGame()
-  nameWithType: MainMenuHandler.StartGame()
-- uid: WGRF.UI.MainMenuHandler.StartGame*
-  name: StartGame
-  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_StartGame_
-  commentId: Overload:WGRF.UI.MainMenuHandler.StartGame
+- uid: WGRF.UI.MainMenuHandler.StartWGR
+  name: StartWGR()
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_StartWGR
+  commentId: M:WGRF.UI.MainMenuHandler.StartWGR
+  fullName: WGRF.UI.MainMenuHandler.StartWGR()
+  nameWithType: MainMenuHandler.StartWGR()
+- uid: WGRF.UI.MainMenuHandler.StartWGR*
+  name: StartWGR
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_StartWGR_
+  commentId: Overload:WGRF.UI.MainMenuHandler.StartWGR
   isSpec: "True"
-  fullName: WGRF.UI.MainMenuHandler.StartGame
-  nameWithType: MainMenuHandler.StartGame
+  fullName: WGRF.UI.MainMenuHandler.StartWGR
+  nameWithType: MainMenuHandler.StartWGR
+- uid: WGRF.UI.MainMenuHandler.StartWGRF
+  name: StartWGRF()
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_StartWGRF
+  commentId: M:WGRF.UI.MainMenuHandler.StartWGRF
+  fullName: WGRF.UI.MainMenuHandler.StartWGRF()
+  nameWithType: MainMenuHandler.StartWGRF()
+- uid: WGRF.UI.MainMenuHandler.StartWGRF*
+  name: StartWGRF
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_StartWGRF_
+  commentId: Overload:WGRF.UI.MainMenuHandler.StartWGRF
+  isSpec: "True"
+  fullName: WGRF.UI.MainMenuHandler.StartWGRF
+  nameWithType: MainMenuHandler.StartWGRF
 - uid: WGRF.UI.MainMenuHandler.ToggleSettingsPanel
   name: ToggleSettingsPanel()
   href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_ToggleSettingsPanel
@@ -12676,6 +12846,45 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.MainMenuHandler.ToggleSettingsPanel
   nameWithType: MainMenuHandler.ToggleSettingsPanel
+- uid: WGRF.UI.MainMenuHandler.ToggleShutdownPanel
+  name: ToggleShutdownPanel()
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_ToggleShutdownPanel
+  commentId: M:WGRF.UI.MainMenuHandler.ToggleShutdownPanel
+  fullName: WGRF.UI.MainMenuHandler.ToggleShutdownPanel()
+  nameWithType: MainMenuHandler.ToggleShutdownPanel()
+- uid: WGRF.UI.MainMenuHandler.ToggleShutdownPanel*
+  name: ToggleShutdownPanel
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_ToggleShutdownPanel_
+  commentId: Overload:WGRF.UI.MainMenuHandler.ToggleShutdownPanel
+  isSpec: "True"
+  fullName: WGRF.UI.MainMenuHandler.ToggleShutdownPanel
+  nameWithType: MainMenuHandler.ToggleShutdownPanel
+- uid: WGRF.UI.MainMenuHandler.ToggleWGRFMMPanel
+  name: ToggleWGRFMMPanel()
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_ToggleWGRFMMPanel
+  commentId: M:WGRF.UI.MainMenuHandler.ToggleWGRFMMPanel
+  fullName: WGRF.UI.MainMenuHandler.ToggleWGRFMMPanel()
+  nameWithType: MainMenuHandler.ToggleWGRFMMPanel()
+- uid: WGRF.UI.MainMenuHandler.ToggleWGRFMMPanel*
+  name: ToggleWGRFMMPanel
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_ToggleWGRFMMPanel_
+  commentId: Overload:WGRF.UI.MainMenuHandler.ToggleWGRFMMPanel
+  isSpec: "True"
+  fullName: WGRF.UI.MainMenuHandler.ToggleWGRFMMPanel
+  nameWithType: MainMenuHandler.ToggleWGRFMMPanel
+- uid: WGRF.UI.MainMenuHandler.ToggleWGRMMPanel
+  name: ToggleWGRMMPanel()
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_ToggleWGRMMPanel
+  commentId: M:WGRF.UI.MainMenuHandler.ToggleWGRMMPanel
+  fullName: WGRF.UI.MainMenuHandler.ToggleWGRMMPanel()
+  nameWithType: MainMenuHandler.ToggleWGRMMPanel()
+- uid: WGRF.UI.MainMenuHandler.ToggleWGRMMPanel*
+  name: ToggleWGRMMPanel
+  href: api/WGRF.UI.MainMenuHandler.html#WGRF_UI_MainMenuHandler_ToggleWGRMMPanel_
+  commentId: Overload:WGRF.UI.MainMenuHandler.ToggleWGRMMPanel
+  isSpec: "True"
+  fullName: WGRF.UI.MainMenuHandler.ToggleWGRMMPanel
+  nameWithType: MainMenuHandler.ToggleWGRMMPanel
 - uid: WGRF.UI.OnMouseHover
   name: OnMouseHover
   href: api/WGRF.UI.OnMouseHover.html
@@ -12727,6 +12936,12 @@ references:
   commentId: F:WGRF.UI.OnMouseHover.type
   fullName: WGRF.UI.OnMouseHover.type
   nameWithType: OnMouseHover.type
+- uid: WGRF.UI.OpenUpdatesPanelTrigger
+  name: OpenUpdatesPanelTrigger
+  href: api/WGRF.UI.OpenUpdatesPanelTrigger.html
+  commentId: T:WGRF.UI.OpenUpdatesPanelTrigger
+  fullName: WGRF.UI.OpenUpdatesPanelTrigger
+  nameWithType: OpenUpdatesPanelTrigger
 - uid: WGRF.UI.SceneFader
   name: SceneFader
   href: api/WGRF.UI.SceneFader.html
@@ -12815,6 +13030,12 @@ references:
   commentId: T:WGRF.UI.ScoreboardLoader
   fullName: WGRF.UI.ScoreboardLoader
   nameWithType: ScoreboardLoader
+- uid: WGRF.UI.ScreenShake
+  name: ScreenShake
+  href: api/WGRF.UI.ScreenShake.html
+  commentId: T:WGRF.UI.ScreenShake
+  fullName: WGRF.UI.ScreenShake
+  nameWithType: ScreenShake
 - uid: WGRF.UI.SliderController
   name: SliderController
   href: api/WGRF.UI.SliderController.html
@@ -13170,6 +13391,22 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.UserHUDHandler.SetAbilityUses
   nameWithType: UserHUDHandler.SetAbilityUses
+- uid: WGRF.UI.UserHUDHandler.SetIsOtherPanelOpen(System.Boolean)
+  name: SetIsOtherPanelOpen(bool)
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetIsOtherPanelOpen_System_Boolean_
+  commentId: M:WGRF.UI.UserHUDHandler.SetIsOtherPanelOpen(System.Boolean)
+  name.vb: SetIsOtherPanelOpen(Boolean)
+  fullName: WGRF.UI.UserHUDHandler.SetIsOtherPanelOpen(bool)
+  fullName.vb: WGRF.UI.UserHUDHandler.SetIsOtherPanelOpen(Boolean)
+  nameWithType: UserHUDHandler.SetIsOtherPanelOpen(bool)
+  nameWithType.vb: UserHUDHandler.SetIsOtherPanelOpen(Boolean)
+- uid: WGRF.UI.UserHUDHandler.SetIsOtherPanelOpen*
+  name: SetIsOtherPanelOpen
+  href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetIsOtherPanelOpen_
+  commentId: Overload:WGRF.UI.UserHUDHandler.SetIsOtherPanelOpen
+  isSpec: "True"
+  fullName: WGRF.UI.UserHUDHandler.SetIsOtherPanelOpen
+  nameWithType: UserHUDHandler.SetIsOtherPanelOpen
 - uid: WGRF.UI.UserHUDHandler.SetPlayerHealth(System.Int32)
   name: SetPlayerHealth(int)
   href: api/WGRF.UI.UserHUDHandler.html#WGRF_UI_UserHUDHandler_SetPlayerHealth_System_Int32_
@@ -13257,3 +13494,99 @@ references:
   isSpec: "True"
   fullName: WGRF.UI.WeaponRepresenter.SetButtonWeaponType
   nameWithType: WeaponRepresenter.SetButtonWeaponType
+- uid: WGRF.WorldGeneration
+  name: WGRF.WorldGeneration
+  href: api/WGRF.WorldGeneration.html
+  commentId: N:WGRF.WorldGeneration
+  fullName: WGRF.WorldGeneration
+  nameWithType: WGRF.WorldGeneration
+- uid: WGRF.WorldGeneration.RoomController
+  name: RoomController
+  href: api/WGRF.WorldGeneration.RoomController.html
+  commentId: T:WGRF.WorldGeneration.RoomController
+  fullName: WGRF.WorldGeneration.RoomController
+  nameWithType: RoomController
+- uid: WGRF.WorldGeneration.RoomController.EndPoint
+  name: EndPoint
+  href: api/WGRF.WorldGeneration.RoomController.html#WGRF_WorldGeneration_RoomController_EndPoint
+  commentId: P:WGRF.WorldGeneration.RoomController.EndPoint
+  fullName: WGRF.WorldGeneration.RoomController.EndPoint
+  nameWithType: RoomController.EndPoint
+- uid: WGRF.WorldGeneration.RoomController.EndPoint*
+  name: EndPoint
+  href: api/WGRF.WorldGeneration.RoomController.html#WGRF_WorldGeneration_RoomController_EndPoint_
+  commentId: Overload:WGRF.WorldGeneration.RoomController.EndPoint
+  isSpec: "True"
+  fullName: WGRF.WorldGeneration.RoomController.EndPoint
+  nameWithType: RoomController.EndPoint
+- uid: WGRF.WorldGeneration.RoomController.InitializeForPlacement
+  name: InitializeForPlacement()
+  href: api/WGRF.WorldGeneration.RoomController.html#WGRF_WorldGeneration_RoomController_InitializeForPlacement
+  commentId: M:WGRF.WorldGeneration.RoomController.InitializeForPlacement
+  fullName: WGRF.WorldGeneration.RoomController.InitializeForPlacement()
+  nameWithType: RoomController.InitializeForPlacement()
+- uid: WGRF.WorldGeneration.RoomController.InitializeForPlacement*
+  name: InitializeForPlacement
+  href: api/WGRF.WorldGeneration.RoomController.html#WGRF_WorldGeneration_RoomController_InitializeForPlacement_
+  commentId: Overload:WGRF.WorldGeneration.RoomController.InitializeForPlacement
+  isSpec: "True"
+  fullName: WGRF.WorldGeneration.RoomController.InitializeForPlacement
+  nameWithType: RoomController.InitializeForPlacement
+- uid: WGRF.WorldGeneration.RoomController.StartPoint
+  name: StartPoint
+  href: api/WGRF.WorldGeneration.RoomController.html#WGRF_WorldGeneration_RoomController_StartPoint
+  commentId: P:WGRF.WorldGeneration.RoomController.StartPoint
+  fullName: WGRF.WorldGeneration.RoomController.StartPoint
+  nameWithType: RoomController.StartPoint
+- uid: WGRF.WorldGeneration.RoomController.StartPoint*
+  name: StartPoint
+  href: api/WGRF.WorldGeneration.RoomController.html#WGRF_WorldGeneration_RoomController_StartPoint_
+  commentId: Overload:WGRF.WorldGeneration.RoomController.StartPoint
+  isSpec: "True"
+  fullName: WGRF.WorldGeneration.RoomController.StartPoint
+  nameWithType: RoomController.StartPoint
+- uid: WGRF.WorldGeneration.RoomGenerator
+  name: RoomGenerator
+  href: api/WGRF.WorldGeneration.RoomGenerator.html
+  commentId: T:WGRF.WorldGeneration.RoomGenerator
+  fullName: WGRF.WorldGeneration.RoomGenerator
+  nameWithType: RoomGenerator
+- uid: WGRF.WorldGeneration.RoomGenerator.PlaceRoom
+  name: PlaceRoom()
+  href: api/WGRF.WorldGeneration.RoomGenerator.html#WGRF_WorldGeneration_RoomGenerator_PlaceRoom
+  commentId: M:WGRF.WorldGeneration.RoomGenerator.PlaceRoom
+  fullName: WGRF.WorldGeneration.RoomGenerator.PlaceRoom()
+  nameWithType: RoomGenerator.PlaceRoom()
+- uid: WGRF.WorldGeneration.RoomGenerator.PlaceRoom*
+  name: PlaceRoom
+  href: api/WGRF.WorldGeneration.RoomGenerator.html#WGRF_WorldGeneration_RoomGenerator_PlaceRoom_
+  commentId: Overload:WGRF.WorldGeneration.RoomGenerator.PlaceRoom
+  isSpec: "True"
+  fullName: WGRF.WorldGeneration.RoomGenerator.PlaceRoom
+  nameWithType: RoomGenerator.PlaceRoom
+- uid: WGRF.WorldGeneration.RoomGenerator.PreAwake
+  name: PreAwake()
+  href: api/WGRF.WorldGeneration.RoomGenerator.html#WGRF_WorldGeneration_RoomGenerator_PreAwake
+  commentId: M:WGRF.WorldGeneration.RoomGenerator.PreAwake
+  fullName: WGRF.WorldGeneration.RoomGenerator.PreAwake()
+  nameWithType: RoomGenerator.PreAwake()
+- uid: WGRF.WorldGeneration.RoomGenerator.PreAwake*
+  name: PreAwake
+  href: api/WGRF.WorldGeneration.RoomGenerator.html#WGRF_WorldGeneration_RoomGenerator_PreAwake_
+  commentId: Overload:WGRF.WorldGeneration.RoomGenerator.PreAwake
+  isSpec: "True"
+  fullName: WGRF.WorldGeneration.RoomGenerator.PreAwake
+  nameWithType: RoomGenerator.PreAwake
+- uid: WGRF.WorldGeneration.RoomGenerator.ResetGenerator
+  name: ResetGenerator()
+  href: api/WGRF.WorldGeneration.RoomGenerator.html#WGRF_WorldGeneration_RoomGenerator_ResetGenerator
+  commentId: M:WGRF.WorldGeneration.RoomGenerator.ResetGenerator
+  fullName: WGRF.WorldGeneration.RoomGenerator.ResetGenerator()
+  nameWithType: RoomGenerator.ResetGenerator()
+- uid: WGRF.WorldGeneration.RoomGenerator.ResetGenerator*
+  name: ResetGenerator
+  href: api/WGRF.WorldGeneration.RoomGenerator.html#WGRF_WorldGeneration_RoomGenerator_ResetGenerator_
+  commentId: Overload:WGRF.WorldGeneration.RoomGenerator.ResetGenerator
+  isSpec: "True"
+  fullName: WGRF.WorldGeneration.RoomGenerator.ResetGenerator
+  nameWithType: RoomGenerator.ResetGenerator

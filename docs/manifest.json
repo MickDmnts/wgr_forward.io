@@ -1315,6 +1315,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.MouseSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.MouseSprite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.Core.MouseSpritePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.Core.MouseSpritePair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.Core.RewardSelector.yml",
       "output": {
         ".html": {
@@ -1805,6 +1825,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.DesktopIconHover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.DesktopIconHover.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.UI.DynamicCrosshair.yml",
       "output": {
         ".html": {
@@ -1835,6 +1865,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ImageFiller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ImageFiller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/WGRF.UI.MainMenuHandler.yml",
       "output": {
         ".html": {
@@ -1849,6 +1889,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.OnMouseHover.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.OpenUpdatesPanelTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.OpenUpdatesPanelTrigger.html"
         }
       },
       "version": ""
@@ -1899,6 +1949,16 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.ScoreboardLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.UI.ScreenShake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.UI.ScreenShake.html"
         }
       },
       "version": ""
@@ -1979,6 +2039,36 @@
       "output": {
         ".html": {
           "relative_path": "api/WGRF.UI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.WorldGeneration.RoomController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.WorldGeneration.RoomController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.WorldGeneration.RoomGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.WorldGeneration.RoomGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WGRF.WorldGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WGRF.WorldGeneration.html"
         }
       },
       "version": ""

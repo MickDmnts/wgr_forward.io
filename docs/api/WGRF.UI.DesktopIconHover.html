@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Struct AudioData
+      <title>Class DesktopIconHover
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Struct AudioData
+      <meta name="title" content="Class DesktopIconHover
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_Core_AudioData.md&amp;value=---%0Auid%3A%20WGRF.Core.AudioData%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_UI_DesktopIconHover.md&amp;value=---%0Auid%3A%20WGRF.UI.DesktopIconHover%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,31 +73,42 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.Core.AudioData">
+        <article data-uid="WGRF.UI.DesktopIconHover">
 
 
 
-  <h1 id="WGRF_Core_AudioData" data-uid="WGRF.Core.AudioData" class="text-break">
-    Struct AudioData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/GameSoundsHandler.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_UI_DesktopIconHover" data-uid="WGRF.UI.DesktopIconHover" class="text-break">
+    Class DesktopIconHover
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/DesktopIconHover.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.Core.html">Core</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.UI.html">UI</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Struct used for GameAudioClip enum and associated AudioClips pairs.</p>
+  <div class="markdown summary"><p>Controls the pointer sprite on enter/exit</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct AudioData</code></pre>
+    <pre><code class="lang-csharp hljs">public class DesktopIconHover : MonoBehaviour</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">DesktopIconHover</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -107,30 +118,28 @@
 
 
 
-  <h2 class="section" id="fields">Fields
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
+  <a id="WGRF_UI_DesktopIconHover_OnPointerEnter_" data-uid="WGRF.UI.DesktopIconHover.OnPointerEnter*"></a>
 
-  <h3 id="WGRF_Core_AudioData_clips" data-uid="WGRF.Core.AudioData.clips">
-  clips
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/GameSoundsHandler.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_UI_DesktopIconHover_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_" data-uid="WGRF.UI.DesktopIconHover.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)">
+  OnPointerEnter(PointerEventData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/DesktopIconHover.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The associated audio clips of the type</p>
+  <div class="markdown level1 summary"><p>Use this callback to detect pointer enter events</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioClip[] clips</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
   </div>
 
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dt><code>eventData</code> <span class="xref">PointerEventData</span></dt>
     <dd></dd>
   </dl>
 
@@ -143,27 +152,31 @@
 
 
 
-  <h3 id="WGRF_Core_AudioData_gameAudioClip" data-uid="WGRF.Core.AudioData.gameAudioClip">
-  gameAudioClip
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/GameSoundsHandler.cs/#L51"><i class="bi bi-code-slash"></i></a>
+
+
+  <a id="WGRF_UI_DesktopIconHover_OnPointerExit_" data-uid="WGRF.UI.DesktopIconHover.OnPointerExit*"></a>
+
+  <h3 id="WGRF_UI_DesktopIconHover_OnPointerExit_UnityEngine_EventSystems_PointerEventData_" data-uid="WGRF.UI.DesktopIconHover.OnPointerExit(UnityEngine.EventSystems.PointerEventData)">
+  OnPointerExit(PointerEventData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/DesktopIconHover.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The audio type</p>
+  <div class="markdown level1 summary"><p>Use this callback to detect pointer exit events</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameAudioClip gameAudioClip</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
   </div>
 
-
-
-
-  <h4 class="section">Field Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="WGRF.Core.GameAudioClip.html">GameAudioClip</a></dt>
+    <dt><code>eventData</code> <span class="xref">PointerEventData</span></dt>
     <dd></dd>
   </dl>
+
+
+
 
 
 
@@ -177,7 +190,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/GameSoundsHandler.cs/#L46" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/UI/DesktopIconHover.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
         

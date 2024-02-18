@@ -79,7 +79,7 @@
 
   <h1 id="WGRF_Core_BulletHandler" data-uid="WGRF.Core.BulletHandler" class="text-break">
     Class BulletHandler
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/BulletHandler.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/BulletHandler.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -87,11 +87,12 @@
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>The bullet handler of the game</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BulletHandler : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class BulletHandler : CoreBehaviour</code></pre>
   </div>
 
 
@@ -105,12 +106,47 @@
       <div><span class="xref">Component</span></div>
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></div>
       <div><span class="xref">BulletHandler</span></div>
     </dd>
   </dl>
 
 
 
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Hub">CoreBehaviour.Hub</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Controller">CoreBehaviour.Controller</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_ID">CoreBehaviour.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetID_System_String_">CoreBehaviour.SetID(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_SetController_WGRF_Core_Controller_">CoreBehaviour.SetController(Controller)</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_Awake">CoreBehaviour.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostAwake">CoreBehaviour.PostAwake()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_OnDestroy">CoreBehaviour.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PreDestroy">CoreBehaviour.PreDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostDestroy">CoreBehaviour.PostDestroy()</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -125,7 +161,7 @@
 
   <h3 id="WGRF_Core_BulletHandler_GetBullet" data-uid="WGRF.Core.BulletHandler.GetBullet">
   GetBullet()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/BulletHandler.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/BulletHandler.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Call to get a Bullet Gameobject reference based on the passed type.</p>
@@ -153,11 +189,39 @@
 
 
 
+  <a id="WGRF_Core_BulletHandler_PreAwake_" data-uid="WGRF.Core.BulletHandler.PreAwake*"></a>
+
+  <h3 id="WGRF_Core_BulletHandler_PreAwake" data-uid="WGRF.Core.BulletHandler.PreAwake">
+  PreAwake()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/BulletHandler.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
+Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.Awake().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void PreAwake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/BulletHandler.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/Core/BulletHandler.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
         

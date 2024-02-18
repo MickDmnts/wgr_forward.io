@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ThrowableEntity
+      <title>Class RoomGenerator
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ThrowableEntity
+      <meta name="title" content="Class RoomGenerator
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_BattleSystem_ThrowableEntity.md&amp;value=---%0Auid%3A%20WGRF.BattleSystem.ThrowableEntity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/MickDmnts/WakeGrindRewind_Forward/new/master/apiSpec/new?filename=WGRF_WorldGeneration_RoomGenerator.md&amp;value=---%0Auid%3A%20WGRF.WorldGeneration.RoomGenerator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -73,26 +73,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="WGRF.BattleSystem.ThrowableEntity">
+        <article data-uid="WGRF.WorldGeneration.RoomGenerator">
 
 
 
-  <h1 id="WGRF_BattleSystem_ThrowableEntity" data-uid="WGRF.BattleSystem.ThrowableEntity" class="text-break">
-    Class ThrowableEntity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerSpecific/ThrowableEntity.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h1 id="WGRF_WorldGeneration_RoomGenerator" data-uid="WGRF.WorldGeneration.RoomGenerator" class="text-break">
+    Class RoomGenerator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/RoomGenerator.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.BattleSystem.html">BattleSystem</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="WGRF.html">WGRF</a>.<a class="xref" href="WGRF.WorldGeneration.html">WorldGeneration</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>This component represents makes the attache gameobject a throwable</p>
+  <div class="markdown summary"><p><em>Future feature</em>
+The room generator of the game</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ThrowableEntity : CoreBehaviour, IThrowable</code></pre>
+    <pre><code class="lang-csharp hljs">public class RoomGenerator : CoreBehaviour</code></pre>
   </div>
 
 
@@ -107,16 +108,10 @@
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
       <div><a class="xref" href="WGRF.Core.CoreBehaviour.html">CoreBehaviour</a></div>
-      <div><span class="xref">ThrowableEntity</span></div>
+      <div><span class="xref">RoomGenerator</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="WGRF.BattleSystem.IThrowable.html">IThrowable</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist derived">
@@ -147,6 +142,9 @@
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_OnDestroy">CoreBehaviour.OnDestroy()</a>
     </div>
     <div>
+      <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PreDestroy">CoreBehaviour.PreDestroy()</a>
+    </div>
+    <div>
       <a class="xref" href="WGRF.Core.CoreBehaviour.html#WGRF_Core_CoreBehaviour_PostDestroy">CoreBehaviour.PostDestroy()</a>
     </div>
   </dd></dl>
@@ -160,52 +158,19 @@
 </h2>
 
 
-  <a id="WGRF_BattleSystem_ThrowableEntity_GetThrowSpeed_" data-uid="WGRF.BattleSystem.ThrowableEntity.GetThrowSpeed*"></a>
+  <a id="WGRF_WorldGeneration_RoomGenerator_PlaceRoom_" data-uid="WGRF.WorldGeneration.RoomGenerator.PlaceRoom*"></a>
 
-  <h3 id="WGRF_BattleSystem_ThrowableEntity_GetThrowSpeed" data-uid="WGRF.BattleSystem.ThrowableEntity.GetThrowSpeed">
-  GetThrowSpeed()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerSpecific/ThrowableEntity.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_WorldGeneration_RoomGenerator_PlaceRoom" data-uid="WGRF.WorldGeneration.RoomGenerator.PlaceRoom">
+  PlaceRoom()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/RoomGenerator.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Call to get THIS throwables throw speed.</p>
+  <div class="markdown level1 summary"><p>Instantiates, initializes and places the next room</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float GetThrowSpeed()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_BattleSystem_ThrowableEntity_InitiateThrow_" data-uid="WGRF.BattleSystem.ThrowableEntity.InitiateThrow*"></a>
-
-  <h3 id="WGRF_BattleSystem_ThrowableEntity_InitiateThrow" data-uid="WGRF.BattleSystem.ThrowableEntity.InitiateThrow">
-  InitiateThrow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerSpecific/ThrowableEntity.cs/#L59"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to start the throwing sequence by setting the wasThrown to true.</p>
-<p>Sets throwTimer to throwForSeconds</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void InitiateThrow()</code></pre>
+    <pre><code class="lang-csharp hljs">public void PlaceRoom()</code></pre>
   </div>
 
 
@@ -220,11 +185,11 @@
 
 
 
-  <a id="WGRF_BattleSystem_ThrowableEntity_PreAwake_" data-uid="WGRF.BattleSystem.ThrowableEntity.PreAwake*"></a>
+  <a id="WGRF_WorldGeneration_RoomGenerator_PreAwake_" data-uid="WGRF.WorldGeneration.RoomGenerator.PreAwake*"></a>
 
-  <h3 id="WGRF_BattleSystem_ThrowableEntity_PreAwake" data-uid="WGRF.BattleSystem.ThrowableEntity.PreAwake">
+  <h3 id="WGRF_WorldGeneration_RoomGenerator_PreAwake" data-uid="WGRF.WorldGeneration.RoomGenerator.PreAwake">
   PreAwake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerSpecific/ThrowableEntity.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/RoomGenerator.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Awake and before the registration of this script to its assigned controller.
@@ -248,47 +213,19 @@ Warning: A function that should be used from all the child classes instead of th
 
 
 
-  <a id="WGRF_BattleSystem_ThrowableEntity_PreDestroy_" data-uid="WGRF.BattleSystem.ThrowableEntity.PreDestroy*"></a>
+  <a id="WGRF_WorldGeneration_RoomGenerator_ResetGenerator_" data-uid="WGRF.WorldGeneration.RoomGenerator.ResetGenerator*"></a>
 
-  <h3 id="WGRF_BattleSystem_ThrowableEntity_PreDestroy" data-uid="WGRF.BattleSystem.ThrowableEntity.PreDestroy">
-  PreDestroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerSpecific/ThrowableEntity.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <h3 id="WGRF_WorldGeneration_RoomGenerator_ResetGenerator" data-uid="WGRF.WorldGeneration.RoomGenerator.ResetGenerator">
+  ResetGenerator()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/RoomGenerator.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Called on Destroy and before this script is cleared from its assigned controller.
-Warning: A function that should be used from all the child classes instead of the standard MonoBehaviour.OnDestroy().</p>
+  <div class="markdown level1 summary"><p>Resets the room generator</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void PreDestroy()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="WGRF_BattleSystem_ThrowableEntity_ResetSpeedAndRotation_" data-uid="WGRF.BattleSystem.ThrowableEntity.ResetSpeedAndRotation*"></a>
-
-  <h3 id="WGRF_BattleSystem_ThrowableEntity_ResetSpeedAndRotation" data-uid="WGRF.BattleSystem.ThrowableEntity.ResetSpeedAndRotation">
-  ResetSpeedAndRotation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerSpecific/ThrowableEntity.cs/#L179"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Call to set the rotation speed to 5, and the throwSpeedCache to throwSpeed;</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetSpeedAndRotation()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ResetGenerator()</code></pre>
   </div>
 
 
@@ -307,7 +244,7 @@ Warning: A function that should be used from all the child classes instead of th
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/Gameplay/WeaponSystem/PlayerSpecific/ThrowableEntity.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/MickDmnts/WakeGrindRewind_Forward/blob/master/Assets/_Scripts/mad/_Core/Managers/RoomGenerator.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
         
